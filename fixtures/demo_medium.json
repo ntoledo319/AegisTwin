@@ -1,0 +1,3179 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-06T19:07:00.075300",
+    "generator": "AegisTwin Synthetic Data Generator",
+    "version": "1.0.0",
+    "is_synthetic": true,
+    "warning": "This is entirely fictional data for demonstration purposes only."
+  },
+  "contacts": [
+    {
+      "id": "ebc433a6",
+      "first_name": "Riley",
+      "last_name": "Rodriguez",
+      "email": "riley.rodriguez@demo-org.test",
+      "phone": "+1-555-554-3349",
+      "created_at": "2025-01-23T19:07:00.062338"
+    },
+    {
+      "id": "e5fd9784",
+      "first_name": "Quinn",
+      "last_name": "Garcia",
+      "email": "quinn.garcia@testmail.invalid",
+      "phone": "+1-555-339-1237",
+      "created_at": "2025-08-07T19:07:00.062399"
+    },
+    {
+      "id": "41eda766",
+      "first_name": "Parker",
+      "last_name": "Clark",
+      "email": "parker.clark@fictional.test",
+      "phone": "+1-555-466-7965",
+      "created_at": "2025-12-07T19:07:00.062440"
+    },
+    {
+      "id": "2c145ef2",
+      "first_name": "Riley",
+      "last_name": "Johnson",
+      "email": "riley.johnson@notreal.example",
+      "phone": "+1-555-342-8142",
+      "created_at": "2025-01-11T19:07:00.062479"
+    },
+    {
+      "id": "feec8519",
+      "first_name": "Drew",
+      "last_name": "Johnson",
+      "email": "drew_johnson@sample-inc.example",
+      "phone": "+1-555-763-5135",
+      "created_at": "2025-08-21T19:07:00.062513"
+    },
+    {
+      "id": "c4970224",
+      "first_name": "Jamie",
+      "last_name": "Smith",
+      "email": "jamie_smith@fictional.test",
+      "phone": "+1-555-621-7680",
+      "created_at": "2025-06-02T19:07:00.062546"
+    },
+    {
+      "id": "dece1b99",
+      "first_name": "Hayden",
+      "last_name": "Jones",
+      "email": "haydenj@notreal.example",
+      "phone": "+1-555-381-9301",
+      "created_at": "2025-05-10T19:07:00.062578"
+    },
+    {
+      "id": "28199184",
+      "first_name": "Blake",
+      "last_name": "Jones",
+      "email": "blake_jones@example.com",
+      "phone": "+1-555-905-1652",
+      "created_at": "2025-11-28T19:07:00.062609"
+    },
+    {
+      "id": "281bc559",
+      "first_name": "Sage",
+      "last_name": "Jackson",
+      "email": "sagej@fictional.test",
+      "phone": "+1-555-618-7551",
+      "created_at": "2025-06-27T19:07:00.062641"
+    },
+    {
+      "id": "56d8b0ba",
+      "first_name": "Charlie",
+      "last_name": "Lee",
+      "email": "charlie_lee@example.com",
+      "phone": "+1-555-890-3913",
+      "created_at": "2025-08-09T19:07:00.062672"
+    },
+    {
+      "id": "31c216d8",
+      "first_name": "Parker",
+      "last_name": "Lee",
+      "email": "parker_lee@fictional.test",
+      "phone": "+1-555-576-7147",
+      "created_at": "2025-10-10T19:07:00.062704"
+    },
+    {
+      "id": "75293ce5",
+      "first_name": "Casey",
+      "last_name": "Martinez",
+      "email": "caseym@sample-inc.example",
+      "phone": "+1-555-702-7133",
+      "created_at": "2025-04-18T19:07:00.062737"
+    },
+    {
+      "id": "097bc088",
+      "first_name": "Alex",
+      "last_name": "Jones",
+      "email": "alexj@acme-corp.test",
+      "phone": "+1-555-344-1825",
+      "created_at": "2025-10-07T19:07:00.062778"
+    },
+    {
+      "id": "7648c01d",
+      "first_name": "Hayden",
+      "last_name": "Davis",
+      "email": "hayden_davis@testmail.invalid",
+      "phone": "+1-555-328-7919",
+      "created_at": "2025-12-23T19:07:00.062850"
+    },
+    {
+      "id": "57c1c052",
+      "first_name": "Skyler",
+      "last_name": "Thomas",
+      "email": "skylert@demo-org.test",
+      "phone": "+1-555-465-5801",
+      "created_at": "2025-05-11T19:07:00.062917"
+    },
+    {
+      "id": "8f717dd9",
+      "first_name": "Charlie",
+      "last_name": "Taylor",
+      "email": "charlie.taylor@demo-org.test",
+      "phone": "+1-555-696-4072",
+      "created_at": "2025-02-07T19:07:00.062960"
+    },
+    {
+      "id": "81e2d1b8",
+      "first_name": "Jamie",
+      "last_name": "Robinson",
+      "email": "jamie.robinson@sample-inc.example",
+      "phone": "+1-555-504-6433",
+      "created_at": "2025-10-06T19:07:00.062996"
+    },
+    {
+      "id": "5bfb4e6e",
+      "first_name": "Reese",
+      "last_name": "Smith",
+      "email": "reeses@fictional.test",
+      "phone": "+1-555-509-1935",
+      "created_at": "2025-10-19T19:07:00.063028"
+    },
+    {
+      "id": "7f35cc2f",
+      "first_name": "Blake",
+      "last_name": "White",
+      "email": "blakew@testmail.invalid",
+      "phone": "+1-555-388-6046",
+      "created_at": "2025-08-19T19:07:00.063059"
+    },
+    {
+      "id": "54ae3ae1",
+      "first_name": "Dakota",
+      "last_name": "Jones",
+      "email": "dakota_jones@example.com",
+      "phone": "+1-555-217-6593",
+      "created_at": "2025-05-14T19:07:00.063089"
+    }
+  ],
+  "messages": [
+    {
+      "id": "07c71f47",
+      "sender_id": "ebc433a6",
+      "sender_name": "Riley Rodriguez",
+      "recipient_id": "281bc559",
+      "recipient_name": "Sage Jackson",
+      "content": "Great progress on follow-up! Keep up the good work.",
+      "timestamp": "2025-12-07T23:07:00.063099",
+      "thread_id": "0899935f",
+      "is_read": false
+    },
+    {
+      "id": "94e33ca1",
+      "sender_id": "8f717dd9",
+      "sender_name": "Charlie Taylor",
+      "recipient_id": "41eda766",
+      "recipient_name": "Parker Clark",
+      "content": "Could you review the feedback request when you get a chance? Thanks!",
+      "timestamp": "2025-12-08T02:07:00.063099",
+      "thread_id": "ccc3a2a5",
+      "is_read": true
+    },
+    {
+      "id": "fa6da62b",
+      "sender_id": "8f717dd9",
+      "sender_name": "Charlie Taylor",
+      "recipient_id": "7f35cc2f",
+      "recipient_name": "Blake White",
+      "content": "Could you review the document review when you get a chance? Thanks!",
+      "timestamp": "2025-12-08T15:07:00.063099",
+      "thread_id": "e2e61b67",
+      "is_read": true
+    },
+    {
+      "id": "82f2760c",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "8f717dd9",
+      "recipient_name": "Charlie Taylor",
+      "content": "Great progress on quarterly review! Keep up the good work.",
+      "timestamp": "2025-12-09T11:07:00.063099",
+      "thread_id": "d11d7b25",
+      "is_read": false
+    },
+    {
+      "id": "0226a04d",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Great progress on planning session! Keep up the good work.",
+      "timestamp": "2025-12-09T22:07:00.063099",
+      "thread_id": "6215137e",
+      "is_read": false
+    },
+    {
+      "id": "a165663b",
+      "sender_id": "7f35cc2f",
+      "sender_name": "Blake White",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Could you review the follow-up when you get a chance? Thanks!",
+      "timestamp": "2025-12-10T09:07:00.063099",
+      "thread_id": "75b99d66",
+      "is_read": true
+    },
+    {
+      "id": "d243faa6",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "Let's discuss the action items in our next sync. Sound good?",
+      "timestamp": "2025-12-10T14:07:00.063099",
+      "thread_id": "c8ba88f3",
+      "is_read": true
+    },
+    {
+      "id": "b9cec30c",
+      "sender_id": "e5fd9784",
+      "sender_name": "Quinn Garcia",
+      "recipient_id": "81e2d1b8",
+      "recipient_name": "Jamie Robinson",
+      "content": "Quick update on feedback request: everything is on track for the deadline.",
+      "timestamp": "2025-12-10T19:07:00.063099",
+      "thread_id": "3585d785",
+      "is_read": false
+    },
+    {
+      "id": "564c51ae",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "FYI - I've completed the document review. See attached for details.",
+      "timestamp": "2025-12-10T21:07:00.063099",
+      "thread_id": "f889aa92",
+      "is_read": true
+    },
+    {
+      "id": "fb53f4ec",
+      "sender_id": "56d8b0ba",
+      "sender_name": "Charlie Lee",
+      "recipient_id": "41eda766",
+      "recipient_name": "Parker Clark",
+      "content": "Quick update on meeting schedule: everything is on track for the deadline.",
+      "timestamp": "2025-12-10T23:07:00.063099",
+      "thread_id": "8e073226",
+      "is_read": true
+    },
+    {
+      "id": "cdbb9625",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "56d8b0ba",
+      "recipient_name": "Charlie Lee",
+      "content": "Thanks for the update on weekly summary. I'll review and get back to you.",
+      "timestamp": "2025-12-11T00:07:00.063099",
+      "thread_id": "152c0354",
+      "is_read": true
+    },
+    {
+      "id": "054e243c",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "FYI - I've completed the feedback request. See attached for details.",
+      "timestamp": "2025-12-11T02:07:00.063099",
+      "thread_id": "3b5ad76d",
+      "is_read": false
+    },
+    {
+      "id": "d2ac4d4b",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "7648c01d",
+      "recipient_name": "Hayden Davis",
+      "content": "Could you review the team sync when you get a chance? Thanks!",
+      "timestamp": "2025-12-11T09:07:00.063099",
+      "thread_id": "538d58d1",
+      "is_read": true
+    },
+    {
+      "id": "bf4ab8ae",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "81e2d1b8",
+      "recipient_name": "Jamie Robinson",
+      "content": "Could you review the announcement when you get a chance? Thanks!",
+      "timestamp": "2025-12-12T03:07:00.063099",
+      "thread_id": "be2584f7",
+      "is_read": true
+    },
+    {
+      "id": "e740b4ba",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Thanks for the update on follow-up. I'll review and get back to you.",
+      "timestamp": "2025-12-12T06:07:00.063099",
+      "thread_id": "f5bfe148",
+      "is_read": false
+    },
+    {
+      "id": "2a2c7fa0",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Let's discuss the follow-up in our next sync. Sound good?",
+      "timestamp": "2025-12-12T06:07:00.063099",
+      "thread_id": "4a7d5e09",
+      "is_read": true
+    },
+    {
+      "id": "95a1ec62",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "81e2d1b8",
+      "recipient_name": "Jamie Robinson",
+      "content": "Hi Jamie, just wanted to follow up on the planning session. Let me know your thoughts.",
+      "timestamp": "2025-12-12T22:07:00.063099",
+      "thread_id": "4c927b3c",
+      "is_read": true
+    },
+    {
+      "id": "bfc42ec9",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "41eda766",
+      "recipient_name": "Parker Clark",
+      "content": "Quick update on action items: everything is on track for the deadline.",
+      "timestamp": "2025-12-13T09:07:00.063099",
+      "thread_id": "7c9029c8",
+      "is_read": true
+    },
+    {
+      "id": "1a8760fc",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Hi Parker, just wanted to follow up on the feedback request. Let me know your thoughts.",
+      "timestamp": "2025-12-13T12:07:00.063099",
+      "thread_id": "a1f021d9",
+      "is_read": true
+    },
+    {
+      "id": "fae2ee98",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Thanks for the update on quarterly review. I'll review and get back to you.",
+      "timestamp": "2025-12-13T14:07:00.063099",
+      "thread_id": "e33a3a6a",
+      "is_read": false
+    },
+    {
+      "id": "acf732cd",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "feec8519",
+      "recipient_name": "Drew Johnson",
+      "content": "Great progress on planning session! Keep up the good work.",
+      "timestamp": "2025-12-13T19:07:00.063099",
+      "thread_id": "68636fdc",
+      "is_read": true
+    },
+    {
+      "id": "7ba9c300",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Hi Reese, just wanted to follow up on the status report. Let me know your thoughts.",
+      "timestamp": "2025-12-13T21:07:00.063099",
+      "thread_id": "db3d27ec",
+      "is_read": true
+    },
+    {
+      "id": "a9e24303",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "7f35cc2f",
+      "recipient_name": "Blake White",
+      "content": "Reminder: document review is scheduled for tomorrow at 9:00.",
+      "timestamp": "2025-12-14T00:07:00.063099",
+      "thread_id": "dce2eed3",
+      "is_read": true
+    },
+    {
+      "id": "d2f21df9",
+      "sender_id": "81e2d1b8",
+      "sender_name": "Jamie Robinson",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Quick update on follow-up: everything is on track for the deadline.",
+      "timestamp": "2025-12-14T10:07:00.063099",
+      "thread_id": "7902e211",
+      "is_read": true
+    },
+    {
+      "id": "b12446c1",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "FYI - I've completed the team sync. See attached for details.",
+      "timestamp": "2025-12-14T14:07:00.063099",
+      "thread_id": "a8befa71",
+      "is_read": false
+    },
+    {
+      "id": "19326333",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "c4970224",
+      "recipient_name": "Jamie Smith",
+      "content": "Could you review the follow-up when you get a chance? Thanks!",
+      "timestamp": "2025-12-14T15:07:00.063099",
+      "thread_id": "40d76d20",
+      "is_read": true
+    },
+    {
+      "id": "e53994b2",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "7648c01d",
+      "recipient_name": "Hayden Davis",
+      "content": "Reminder: project update is scheduled for tomorrow at 15:45.",
+      "timestamp": "2025-12-15T01:07:00.063099",
+      "thread_id": "f9cd7fb8",
+      "is_read": true
+    },
+    {
+      "id": "05fe0959",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Great progress on document review! Keep up the good work.",
+      "timestamp": "2025-12-15T07:07:00.063099",
+      "thread_id": "dd071f8f",
+      "is_read": true
+    },
+    {
+      "id": "ed17ebcc",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "57c1c052",
+      "recipient_name": "Skyler Thomas",
+      "content": "FYI - I've completed the status report. See attached for details.",
+      "timestamp": "2025-12-15T09:07:00.063099",
+      "thread_id": "592f3f3c",
+      "is_read": false
+    },
+    {
+      "id": "593cd038",
+      "sender_id": "feec8519",
+      "sender_name": "Drew Johnson",
+      "recipient_id": "75293ce5",
+      "recipient_name": "Casey Martinez",
+      "content": "FYI - I've completed the meeting schedule. See attached for details.",
+      "timestamp": "2025-12-15T16:07:00.063099",
+      "thread_id": "96619c61",
+      "is_read": true
+    },
+    {
+      "id": "d4c9ab57",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Thanks for the update on meeting schedule. I'll review and get back to you.",
+      "timestamp": "2025-12-15T19:07:00.063099",
+      "thread_id": "afd1105b",
+      "is_read": true
+    },
+    {
+      "id": "55bf8d78",
+      "sender_id": "7f35cc2f",
+      "sender_name": "Blake White",
+      "recipient_id": "57c1c052",
+      "recipient_name": "Skyler Thomas",
+      "content": "FYI - I've completed the status report. See attached for details.",
+      "timestamp": "2025-12-15T21:07:00.063099",
+      "thread_id": "7f393458",
+      "is_read": true
+    },
+    {
+      "id": "159cd8a5",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Could you review the action items when you get a chance? Thanks!",
+      "timestamp": "2025-12-15T21:07:00.063099",
+      "thread_id": "6e7442fd",
+      "is_read": true
+    },
+    {
+      "id": "a10708d0",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "Quick update on weekly summary: everything is on track for the deadline.",
+      "timestamp": "2025-12-16T23:07:00.063099",
+      "thread_id": "b9bbbe7f",
+      "is_read": false
+    },
+    {
+      "id": "d9b6de5b",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Reminder: meeting schedule is scheduled for tomorrow at 13:45.",
+      "timestamp": "2025-12-17T14:07:00.063099",
+      "thread_id": "4a7d5e09",
+      "is_read": true
+    },
+    {
+      "id": "236896f7",
+      "sender_id": "ebc433a6",
+      "sender_name": "Riley Rodriguez",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Thanks for the update on follow-up. I'll review and get back to you.",
+      "timestamp": "2025-12-17T20:07:00.063099",
+      "thread_id": "a9f08342",
+      "is_read": true
+    },
+    {
+      "id": "ae73919a",
+      "sender_id": "28199184",
+      "sender_name": "Blake Jones",
+      "recipient_id": "81e2d1b8",
+      "recipient_name": "Jamie Robinson",
+      "content": "Thanks for the update on meeting schedule. I'll review and get back to you.",
+      "timestamp": "2025-12-18T05:07:00.063099",
+      "thread_id": "ddd123df",
+      "is_read": true
+    },
+    {
+      "id": "114607d5",
+      "sender_id": "7f35cc2f",
+      "sender_name": "Blake White",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "FYI - I've completed the quarterly review. See attached for details.",
+      "timestamp": "2025-12-18T09:07:00.063099",
+      "thread_id": "54e24ce1",
+      "is_read": true
+    },
+    {
+      "id": "d2661d31",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Great progress on follow-up! Keep up the good work.",
+      "timestamp": "2025-12-18T22:07:00.063099",
+      "thread_id": "20ae4739",
+      "is_read": true
+    },
+    {
+      "id": "90705080",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "75293ce5",
+      "recipient_name": "Casey Martinez",
+      "content": "Could you review the document review when you get a chance? Thanks!",
+      "timestamp": "2025-12-19T02:07:00.063099",
+      "thread_id": "3f44edcd",
+      "is_read": false
+    },
+    {
+      "id": "f900d2ea",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "Could you review the status report when you get a chance? Thanks!",
+      "timestamp": "2025-12-19T23:07:00.063099",
+      "thread_id": "1b32d8c0",
+      "is_read": false
+    },
+    {
+      "id": "278bd7d5",
+      "sender_id": "5bfb4e6e",
+      "sender_name": "Reese Smith",
+      "recipient_id": "75293ce5",
+      "recipient_name": "Casey Martinez",
+      "content": "Hi Casey, just wanted to follow up on the project update. Let me know your thoughts.",
+      "timestamp": "2025-12-20T05:07:00.063099",
+      "thread_id": "df4389a5",
+      "is_read": true
+    },
+    {
+      "id": "929a3362",
+      "sender_id": "31c216d8",
+      "sender_name": "Parker Lee",
+      "recipient_id": "feec8519",
+      "recipient_name": "Drew Johnson",
+      "content": "Quick update on meeting schedule: everything is on track for the deadline.",
+      "timestamp": "2025-12-20T07:07:00.063099",
+      "thread_id": "4d7e12ef",
+      "is_read": true
+    },
+    {
+      "id": "06fd22be",
+      "sender_id": "2c145ef2",
+      "sender_name": "Riley Johnson",
+      "recipient_id": "7f35cc2f",
+      "recipient_name": "Blake White",
+      "content": "Quick update on document review: everything is on track for the deadline.",
+      "timestamp": "2025-12-20T07:07:00.063099",
+      "thread_id": "d6803c2d",
+      "is_read": true
+    },
+    {
+      "id": "12b22e07",
+      "sender_id": "ebc433a6",
+      "sender_name": "Riley Rodriguez",
+      "recipient_id": "097bc088",
+      "recipient_name": "Alex Jones",
+      "content": "Thanks for the update on feedback request. I'll review and get back to you.",
+      "timestamp": "2025-12-20T18:07:00.063099",
+      "thread_id": "d18e33e1",
+      "is_read": true
+    },
+    {
+      "id": "c674562d",
+      "sender_id": "28199184",
+      "sender_name": "Blake Jones",
+      "recipient_id": "8f717dd9",
+      "recipient_name": "Charlie Taylor",
+      "content": "Quick update on project update: everything is on track for the deadline.",
+      "timestamp": "2025-12-20T18:07:00.063099",
+      "thread_id": "190d8419",
+      "is_read": false
+    },
+    {
+      "id": "416e354c",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "Great progress on document review! Keep up the good work.",
+      "timestamp": "2025-12-21T00:07:00.063099",
+      "thread_id": "1ef6731e",
+      "is_read": false
+    },
+    {
+      "id": "15d16ca9",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "8f717dd9",
+      "recipient_name": "Charlie Taylor",
+      "content": "Great progress on team sync! Keep up the good work.",
+      "timestamp": "2025-12-21T07:07:00.063099",
+      "thread_id": "52cedf87",
+      "is_read": true
+    },
+    {
+      "id": "4519e9fd",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Quick update on planning session: everything is on track for the deadline.",
+      "timestamp": "2025-12-21T23:07:00.063099",
+      "thread_id": "6215137e",
+      "is_read": false
+    },
+    {
+      "id": "5e6a1051",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "Quick update on follow-up: everything is on track for the deadline.",
+      "timestamp": "2025-12-22T05:07:00.063099",
+      "thread_id": "1d1e989e",
+      "is_read": true
+    },
+    {
+      "id": "9bff3225",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Reminder: team sync is scheduled for tomorrow at 14:15.",
+      "timestamp": "2025-12-22T05:07:00.063099",
+      "thread_id": "e1b10c46",
+      "is_read": true
+    },
+    {
+      "id": "ad18682c",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "Hi Dakota, just wanted to follow up on the action items. Let me know your thoughts.",
+      "timestamp": "2025-12-22T07:07:00.063099",
+      "thread_id": "2787db22",
+      "is_read": true
+    },
+    {
+      "id": "195d0e5d",
+      "sender_id": "31c216d8",
+      "sender_name": "Parker Lee",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Hi Riley, just wanted to follow up on the project update. Let me know your thoughts.",
+      "timestamp": "2025-12-22T08:07:00.063099",
+      "thread_id": "80115eb3",
+      "is_read": true
+    },
+    {
+      "id": "105c5e43",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "56d8b0ba",
+      "recipient_name": "Charlie Lee",
+      "content": "Hi Charlie, just wanted to follow up on the announcement. Let me know your thoughts.",
+      "timestamp": "2025-12-22T15:07:00.063099",
+      "thread_id": "09bc4d78",
+      "is_read": false
+    },
+    {
+      "id": "41e76cdf",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Hi Riley, just wanted to follow up on the quarterly review. Let me know your thoughts.",
+      "timestamp": "2025-12-23T07:07:00.063099",
+      "thread_id": "b173e8f4",
+      "is_read": true
+    },
+    {
+      "id": "0fd02df5",
+      "sender_id": "5bfb4e6e",
+      "sender_name": "Reese Smith",
+      "recipient_id": "57c1c052",
+      "recipient_name": "Skyler Thomas",
+      "content": "Let's discuss the action items in our next sync. Sound good?",
+      "timestamp": "2025-12-23T07:07:00.063099",
+      "thread_id": "4fd839c9",
+      "is_read": true
+    },
+    {
+      "id": "a7e3a8f1",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "Thanks for the update on quarterly review. I'll review and get back to you.",
+      "timestamp": "2025-12-23T08:07:00.063099",
+      "thread_id": "986f46ae",
+      "is_read": true
+    },
+    {
+      "id": "b0049559",
+      "sender_id": "e5fd9784",
+      "sender_name": "Quinn Garcia",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Let's discuss the project update in our next sync. Sound good?",
+      "timestamp": "2025-12-23T13:07:00.063099",
+      "thread_id": "ee9db2c2",
+      "is_read": true
+    },
+    {
+      "id": "93d0c695",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Let's discuss the weekly summary in our next sync. Sound good?",
+      "timestamp": "2025-12-23T18:07:00.063099",
+      "thread_id": "20ae4739",
+      "is_read": true
+    },
+    {
+      "id": "854f5676",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "Thanks for the update on project update. I'll review and get back to you.",
+      "timestamp": "2025-12-23T20:07:00.063099",
+      "thread_id": "a29d4879",
+      "is_read": false
+    },
+    {
+      "id": "518015cd",
+      "sender_id": "8f717dd9",
+      "sender_name": "Charlie Taylor",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Reminder: document review is scheduled for tomorrow at 10:00.",
+      "timestamp": "2025-12-23T21:07:00.063099",
+      "thread_id": "3109dcf5",
+      "is_read": true
+    },
+    {
+      "id": "d5e37629",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Quick update on action items: everything is on track for the deadline.",
+      "timestamp": "2025-12-24T04:07:00.063099",
+      "thread_id": "11c73d2a",
+      "is_read": true
+    },
+    {
+      "id": "29bca177",
+      "sender_id": "e5fd9784",
+      "sender_name": "Quinn Garcia",
+      "recipient_id": "57c1c052",
+      "recipient_name": "Skyler Thomas",
+      "content": "Reminder: team sync is scheduled for tomorrow at 12:00.",
+      "timestamp": "2025-12-24T07:07:00.063099",
+      "thread_id": "e195a353",
+      "is_read": true
+    },
+    {
+      "id": "ce16d87e",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "FYI - I've completed the follow-up. See attached for details.",
+      "timestamp": "2025-12-24T17:07:00.063099",
+      "thread_id": "a8befa71",
+      "is_read": true
+    },
+    {
+      "id": "d0adb21c",
+      "sender_id": "81e2d1b8",
+      "sender_name": "Jamie Robinson",
+      "recipient_id": "097bc088",
+      "recipient_name": "Alex Jones",
+      "content": "Reminder: status report is scheduled for tomorrow at 12:00.",
+      "timestamp": "2025-12-25T07:07:00.063099",
+      "thread_id": "83963258",
+      "is_read": false
+    },
+    {
+      "id": "675047ac",
+      "sender_id": "feec8519",
+      "sender_name": "Drew Johnson",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Great progress on follow-up! Keep up the good work.",
+      "timestamp": "2025-12-25T14:07:00.063099",
+      "thread_id": "ed990695",
+      "is_read": true
+    },
+    {
+      "id": "7e1c89c7",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Thanks for the update on action items. I'll review and get back to you.",
+      "timestamp": "2025-12-25T19:07:00.063099",
+      "thread_id": "e6780de3",
+      "is_read": true
+    },
+    {
+      "id": "d364f29c",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Hi Parker, just wanted to follow up on the weekly summary. Let me know your thoughts.",
+      "timestamp": "2025-12-25T21:07:00.063099",
+      "thread_id": "204feb2a",
+      "is_read": false
+    },
+    {
+      "id": "802859c5",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Let's discuss the meeting schedule in our next sync. Sound good?",
+      "timestamp": "2025-12-26T02:07:00.063099",
+      "thread_id": "205ae600",
+      "is_read": true
+    },
+    {
+      "id": "cb9a8d20",
+      "sender_id": "2c145ef2",
+      "sender_name": "Riley Johnson",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "Let's discuss the project update in our next sync. Sound good?",
+      "timestamp": "2025-12-26T16:07:00.063099",
+      "thread_id": "7f72a49e",
+      "is_read": true
+    },
+    {
+      "id": "5095fc22",
+      "sender_id": "ebc433a6",
+      "sender_name": "Riley Rodriguez",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Thanks for the update on planning session. I'll review and get back to you.",
+      "timestamp": "2025-12-26T17:07:00.063099",
+      "thread_id": "86721195",
+      "is_read": false
+    },
+    {
+      "id": "95528ed8",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "75293ce5",
+      "recipient_name": "Casey Martinez",
+      "content": "Great progress on announcement! Keep up the good work.",
+      "timestamp": "2025-12-27T07:07:00.063099",
+      "thread_id": "51111740",
+      "is_read": true
+    },
+    {
+      "id": "9ed3a3d0",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Reminder: follow-up is scheduled for tomorrow at 15:15.",
+      "timestamp": "2025-12-27T10:07:00.063099",
+      "thread_id": "5fc19660",
+      "is_read": true
+    },
+    {
+      "id": "8cbe0619",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "31c216d8",
+      "recipient_name": "Parker Lee",
+      "content": "Hi Parker, just wanted to follow up on the project update. Let me know your thoughts.",
+      "timestamp": "2025-12-28T08:07:00.063099",
+      "thread_id": "d7d69cc0",
+      "is_read": false
+    },
+    {
+      "id": "51b9af21",
+      "sender_id": "31c216d8",
+      "sender_name": "Parker Lee",
+      "recipient_id": "7f35cc2f",
+      "recipient_name": "Blake White",
+      "content": "Hi Blake, just wanted to follow up on the quarterly review. Let me know your thoughts.",
+      "timestamp": "2025-12-28T15:07:00.063099",
+      "thread_id": "d0fe2e1e",
+      "is_read": true
+    },
+    {
+      "id": "cd6f942e",
+      "sender_id": "54ae3ae1",
+      "sender_name": "Dakota Jones",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "FYI - I've completed the action items. See attached for details.",
+      "timestamp": "2025-12-28T16:07:00.063099",
+      "thread_id": "d1ea3ab6",
+      "is_read": true
+    },
+    {
+      "id": "45d61fcf",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Reminder: action items is scheduled for tomorrow at 11:00.",
+      "timestamp": "2025-12-28T17:07:00.063099",
+      "thread_id": "5ce50af5",
+      "is_read": false
+    },
+    {
+      "id": "3ea2952e",
+      "sender_id": "feec8519",
+      "sender_name": "Drew Johnson",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Could you review the team sync when you get a chance? Thanks!",
+      "timestamp": "2025-12-28T22:07:00.063099",
+      "thread_id": "fd654904",
+      "is_read": true
+    },
+    {
+      "id": "009ec9f5",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Great progress on weekly summary! Keep up the good work.",
+      "timestamp": "2025-12-29T04:07:00.063099",
+      "thread_id": "d84d7a8e",
+      "is_read": true
+    },
+    {
+      "id": "36b5218e",
+      "sender_id": "7648c01d",
+      "sender_name": "Hayden Davis",
+      "recipient_id": "feec8519",
+      "recipient_name": "Drew Johnson",
+      "content": "Great progress on project update! Keep up the good work.",
+      "timestamp": "2025-12-29T10:07:00.063099",
+      "thread_id": "68636fdc",
+      "is_read": true
+    },
+    {
+      "id": "0692f8be",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "7f35cc2f",
+      "recipient_name": "Blake White",
+      "content": "Great progress on project update! Keep up the good work.",
+      "timestamp": "2025-12-29T13:07:00.063099",
+      "thread_id": "bba21c18",
+      "is_read": true
+    },
+    {
+      "id": "3f8b4073",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "75293ce5",
+      "recipient_name": "Casey Martinez",
+      "content": "Thanks for the update on document review. I'll review and get back to you.",
+      "timestamp": "2025-12-30T00:07:00.063099",
+      "thread_id": "6e04af8c",
+      "is_read": true
+    },
+    {
+      "id": "5106c2d1",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "Could you review the meeting schedule when you get a chance? Thanks!",
+      "timestamp": "2025-12-30T02:07:00.063099",
+      "thread_id": "9ac05ad4",
+      "is_read": true
+    },
+    {
+      "id": "9895256b",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "Let's discuss the weekly summary in our next sync. Sound good?",
+      "timestamp": "2025-12-30T06:07:00.063099",
+      "thread_id": "3b5ad76d",
+      "is_read": true
+    },
+    {
+      "id": "3b30e35b",
+      "sender_id": "41eda766",
+      "sender_name": "Parker Clark",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "FYI - I've completed the follow-up. See attached for details.",
+      "timestamp": "2025-12-30T08:07:00.063099",
+      "thread_id": "b9bc37fc",
+      "is_read": true
+    },
+    {
+      "id": "13a852fd",
+      "sender_id": "feec8519",
+      "sender_name": "Drew Johnson",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "FYI - I've completed the project update. See attached for details.",
+      "timestamp": "2025-12-30T17:07:00.063099",
+      "thread_id": "07667eb2",
+      "is_read": true
+    },
+    {
+      "id": "949726e4",
+      "sender_id": "81e2d1b8",
+      "sender_name": "Jamie Robinson",
+      "recipient_id": "54ae3ae1",
+      "recipient_name": "Dakota Jones",
+      "content": "Reminder: feedback request is scheduled for tomorrow at 10:30.",
+      "timestamp": "2025-12-30T19:07:00.063099",
+      "thread_id": "6d6f1091",
+      "is_read": true
+    },
+    {
+      "id": "f8727227",
+      "sender_id": "7f35cc2f",
+      "sender_name": "Blake White",
+      "recipient_id": "281bc559",
+      "recipient_name": "Sage Jackson",
+      "content": "Let's discuss the status report in our next sync. Sound good?",
+      "timestamp": "2025-12-31T04:07:00.063099",
+      "thread_id": "8aff5256",
+      "is_read": true
+    },
+    {
+      "id": "64379a95",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "Let's discuss the team sync in our next sync. Sound good?",
+      "timestamp": "2025-12-31T04:07:00.063099",
+      "thread_id": "ff5f1768",
+      "is_read": true
+    },
+    {
+      "id": "ac09b84c",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "dece1b99",
+      "recipient_name": "Hayden Jones",
+      "content": "Hi Hayden, just wanted to follow up on the meeting schedule. Let me know your thoughts.",
+      "timestamp": "2026-01-01T22:07:00.063099",
+      "thread_id": "f79b815c",
+      "is_read": false
+    },
+    {
+      "id": "8deb443b",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Quick update on document review: everything is on track for the deadline.",
+      "timestamp": "2026-01-02T12:07:00.063099",
+      "thread_id": "205ae600",
+      "is_read": false
+    },
+    {
+      "id": "fa1911c9",
+      "sender_id": "097bc088",
+      "sender_name": "Alex Jones",
+      "recipient_id": "e5fd9784",
+      "recipient_name": "Quinn Garcia",
+      "content": "Hi Quinn, just wanted to follow up on the planning session. Let me know your thoughts.",
+      "timestamp": "2026-01-02T14:07:00.063099",
+      "thread_id": "38af1ba3",
+      "is_read": true
+    },
+    {
+      "id": "fb1bfebf",
+      "sender_id": "8f717dd9",
+      "sender_name": "Charlie Taylor",
+      "recipient_id": "81e2d1b8",
+      "recipient_name": "Jamie Robinson",
+      "content": "Could you review the status report when you get a chance? Thanks!",
+      "timestamp": "2026-01-02T23:07:00.063099",
+      "thread_id": "b0924180",
+      "is_read": true
+    },
+    {
+      "id": "a59c33d3",
+      "sender_id": "75293ce5",
+      "sender_name": "Casey Martinez",
+      "recipient_id": "5bfb4e6e",
+      "recipient_name": "Reese Smith",
+      "content": "Let's discuss the document review in our next sync. Sound good?",
+      "timestamp": "2026-01-02T23:07:00.063099",
+      "thread_id": "dd071f8f",
+      "is_read": true
+    },
+    {
+      "id": "7a36f0e6",
+      "sender_id": "c4970224",
+      "sender_name": "Jamie Smith",
+      "recipient_id": "097bc088",
+      "recipient_name": "Alex Jones",
+      "content": "Could you review the project update when you get a chance? Thanks!",
+      "timestamp": "2026-01-03T18:07:00.063099",
+      "thread_id": "c1cc38a9",
+      "is_read": false
+    },
+    {
+      "id": "53669e5a",
+      "sender_id": "5bfb4e6e",
+      "sender_name": "Reese Smith",
+      "recipient_id": "56d8b0ba",
+      "recipient_name": "Charlie Lee",
+      "content": "Hi Charlie, just wanted to follow up on the document review. Let me know your thoughts.",
+      "timestamp": "2026-01-04T07:07:00.063099",
+      "thread_id": "9a6007af",
+      "is_read": true
+    },
+    {
+      "id": "434d74a0",
+      "sender_id": "281bc559",
+      "sender_name": "Sage Jackson",
+      "recipient_id": "ebc433a6",
+      "recipient_name": "Riley Rodriguez",
+      "content": "FYI - I've completed the meeting schedule. See attached for details.",
+      "timestamp": "2026-01-04T11:07:00.063099",
+      "thread_id": "e6780de3",
+      "is_read": false
+    },
+    {
+      "id": "714711f7",
+      "sender_id": "31c216d8",
+      "sender_name": "Parker Lee",
+      "recipient_id": "2c145ef2",
+      "recipient_name": "Riley Johnson",
+      "content": "Let's discuss the feedback request in our next sync. Sound good?",
+      "timestamp": "2026-01-05T00:07:00.063099",
+      "thread_id": "564c7421",
+      "is_read": false
+    },
+    {
+      "id": "dbc401b9",
+      "sender_id": "dece1b99",
+      "sender_name": "Hayden Jones",
+      "recipient_id": "28199184",
+      "recipient_name": "Blake Jones",
+      "content": "Quick update on weekly summary: everything is on track for the deadline.",
+      "timestamp": "2026-01-05T00:07:00.063099",
+      "thread_id": "afd1105b",
+      "is_read": true
+    },
+    {
+      "id": "217567b5",
+      "sender_id": "57c1c052",
+      "sender_name": "Skyler Thomas",
+      "recipient_id": "097bc088",
+      "recipient_name": "Alex Jones",
+      "content": "Could you review the announcement when you get a chance? Thanks!",
+      "timestamp": "2026-01-06T10:07:00.063099",
+      "thread_id": "a794754f",
+      "is_read": true
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "2830f3e5",
+      "title": "Planning Session - Follow-Up",
+      "owner_id": "281bc559",
+      "owner_name": "Sage Jackson",
+      "attendees": [
+        {
+          "id": "75293ce5",
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        }
+      ],
+      "start_time": "2025-12-31T12:07:00.069083",
+      "end_time": "2025-12-31T13:07:00.069083",
+      "location": "Teams",
+      "description": "Discussion about follow-up."
+    },
+    {
+      "id": "1d72427c",
+      "title": "Project Review - Status Report",
+      "owner_id": "81e2d1b8",
+      "owner_name": "Jamie Robinson",
+      "attendees": [
+        {
+          "id": "31c216d8",
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "id": "097bc088",
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        }
+      ],
+      "start_time": "2026-01-04T04:07:00.070376",
+      "end_time": "2026-01-04T04:37:00.070376",
+      "location": "Zoom",
+      "description": "Discussion about planning session."
+    },
+    {
+      "id": "64a5f240",
+      "title": "Planning Session - Action Items",
+      "owner_id": "81e2d1b8",
+      "owner_name": "Jamie Robinson",
+      "attendees": [
+        {
+          "id": "dece1b99",
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        }
+      ],
+      "start_time": "2026-01-04T05:07:00.069964",
+      "end_time": "2026-01-04T06:37:00.069964",
+      "location": "Zoom",
+      "description": "Discussion about meeting schedule."
+    },
+    {
+      "id": "fd4a82c1",
+      "title": "1:1 Sync - Planning Session",
+      "owner_id": "41eda766",
+      "owner_name": "Parker Clark",
+      "attendees": [
+        {
+          "id": "2c145ef2",
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        }
+      ],
+      "start_time": "2026-01-04T06:07:00.070492",
+      "end_time": "2026-01-04T08:07:00.070492",
+      "location": "Virtual",
+      "description": "Discussion about action items."
+    },
+    {
+      "id": "816c1be9",
+      "title": "Planning Session - Planning Session",
+      "owner_id": "281bc559",
+      "owner_name": "Sage Jackson",
+      "attendees": [
+        {
+          "id": "31c216d8",
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "id": "75293ce5",
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "id": "28199184",
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "id": "dece1b99",
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        },
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-05T04:07:00.069595",
+      "end_time": "2026-01-05T04:37:00.069595",
+      "location": "Room 101",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "d0ae28da",
+      "title": "Workshop - Quarterly Review",
+      "owner_id": "57c1c052",
+      "owner_name": "Skyler Thomas",
+      "attendees": [
+        {
+          "id": "54ae3ae1",
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "id": "feec8519",
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "start_time": "2026-01-05T06:07:00.070320",
+      "end_time": "2026-01-05T06:37:00.070320",
+      "location": "Conference Room A",
+      "description": "Discussion about follow-up."
+    },
+    {
+      "id": "3eaf19ca",
+      "title": "Project Review - Team Sync",
+      "owner_id": "54ae3ae1",
+      "owner_name": "Dakota Jones",
+      "attendees": [
+        {
+          "id": "28199184",
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-06T05:07:00.069221",
+      "end_time": "2026-01-06T06:37:00.069221",
+      "location": "Room 101",
+      "description": "Discussion about team sync."
+    },
+    {
+      "id": "1d287a5d",
+      "title": "Interview - Follow-Up",
+      "owner_id": "5bfb4e6e",
+      "owner_name": "Reese Smith",
+      "attendees": [
+        {
+          "id": "54ae3ae1",
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "id": "81e2d1b8",
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "id": "28199184",
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "id": "56d8b0ba",
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        }
+      ],
+      "start_time": "2026-01-06T05:07:00.069283",
+      "end_time": "2026-01-06T05:52:00.069283",
+      "location": "Teams",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "0b78ca8a",
+      "title": "Project Review - Project Update",
+      "owner_id": "75293ce5",
+      "owner_name": "Casey Martinez",
+      "attendees": [
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-07T04:07:00.070023",
+      "end_time": "2026-01-07T05:07:00.070023",
+      "location": "Room 101",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "6263305e",
+      "title": "Demo - Planning Session",
+      "owner_id": "e5fd9784",
+      "owner_name": "Quinn Garcia",
+      "attendees": [
+        {
+          "id": "75293ce5",
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "id": "ebc433a6",
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        },
+        {
+          "id": "097bc088",
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-07T05:07:00.070259",
+      "end_time": "2026-01-07T07:07:00.070259",
+      "location": "Room 101",
+      "description": "Discussion about project update."
+    },
+    {
+      "id": "f9e5c004",
+      "title": "Project Review - Planning Session",
+      "owner_id": "2c145ef2",
+      "owner_name": "Riley Johnson",
+      "attendees": [
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "id": "31c216d8",
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "id": "e5fd9784",
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "id": "097bc088",
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "id": "75293ce5",
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        }
+      ],
+      "start_time": "2026-01-08T07:07:00.068720",
+      "end_time": "2026-01-08T09:07:00.068720",
+      "location": "Teams",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "86da3c6a",
+      "title": "Interview - Action Items",
+      "owner_id": "5bfb4e6e",
+      "owner_name": "Reese Smith",
+      "attendees": [
+        {
+          "id": "41eda766",
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-08T12:07:00.069539",
+      "end_time": "2026-01-08T12:52:00.069539",
+      "location": "Virtual",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "0334cfe7",
+      "title": "Training - Quarterly Review",
+      "owner_id": "31c216d8",
+      "owner_name": "Parker Lee",
+      "attendees": [
+        {
+          "id": "dece1b99",
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        },
+        {
+          "id": "e5fd9784",
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "id": "54ae3ae1",
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-09T05:07:00.069653",
+      "end_time": "2026-01-09T06:37:00.069653",
+      "location": "Virtual",
+      "description": "Discussion about status report."
+    },
+    {
+      "id": "0a747aff",
+      "title": "Presentation - Document Review",
+      "owner_id": "e5fd9784",
+      "owner_name": "Quinn Garcia",
+      "attendees": [
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-09T11:07:00.070545",
+      "end_time": "2026-01-09T13:07:00.070545",
+      "location": "Conference Room A",
+      "description": "Discussion about meeting schedule."
+    },
+    {
+      "id": "5688f77e",
+      "title": "Interview - Announcement",
+      "owner_id": "2c145ef2",
+      "owner_name": "Riley Johnson",
+      "attendees": [
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-10T10:07:00.068882",
+      "end_time": "2026-01-10T10:52:00.068882",
+      "location": "Conference Room A",
+      "description": "Discussion about follow-up."
+    },
+    {
+      "id": "ee5c19a6",
+      "title": "Team Meeting - Status Report",
+      "owner_id": "c4970224",
+      "owner_name": "Jamie Smith",
+      "attendees": [
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-12T04:07:00.069719",
+      "end_time": "2026-01-12T06:07:00.069719",
+      "location": "Room 101",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "71d6a299",
+      "title": "Project Review - Document Review",
+      "owner_id": "56d8b0ba",
+      "owner_name": "Charlie Lee",
+      "attendees": [
+        {
+          "id": "e5fd9784",
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "id": "2c145ef2",
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        }
+      ],
+      "start_time": "2026-01-12T12:07:00.069422",
+      "end_time": "2026-01-12T13:07:00.069422",
+      "location": "Teams",
+      "description": "Discussion about action items."
+    },
+    {
+      "id": "c9e66e2d",
+      "title": "Standup - Quarterly Review",
+      "owner_id": "31c216d8",
+      "owner_name": "Parker Lee",
+      "attendees": [
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "id": "feec8519",
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        },
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-13T04:07:00.069024",
+      "end_time": "2026-01-13T04:52:00.069024",
+      "location": "Zoom",
+      "description": "Discussion about project update."
+    },
+    {
+      "id": "cd9d22ae",
+      "title": "Training - Announcement",
+      "owner_id": "57c1c052",
+      "owner_name": "Skyler Thomas",
+      "attendees": [
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "id": "81e2d1b8",
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        },
+        {
+          "id": "75293ce5",
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "id": "2c145ef2",
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        }
+      ],
+      "start_time": "2026-01-13T05:07:00.069152",
+      "end_time": "2026-01-13T06:37:00.069152",
+      "location": "Room 101",
+      "description": "Discussion about status report."
+    },
+    {
+      "id": "8dc173db",
+      "title": "Planning Session - Project Update",
+      "owner_id": "31c216d8",
+      "owner_name": "Parker Lee",
+      "attendees": [
+        {
+          "id": "281bc559",
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-13T05:07:00.069901",
+      "end_time": "2026-01-13T07:07:00.069901",
+      "location": "Zoom",
+      "description": "Discussion about document review."
+    },
+    {
+      "id": "68698f88",
+      "title": "1:1 Sync - Announcement",
+      "owner_id": "097bc088",
+      "owner_name": "Alex Jones",
+      "attendees": [
+        {
+          "id": "28199184",
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        }
+      ],
+      "start_time": "2026-01-13T08:07:00.070141",
+      "end_time": "2026-01-13T10:07:00.070141",
+      "location": "Teams",
+      "description": "Discussion about meeting schedule."
+    },
+    {
+      "id": "0a139c62",
+      "title": "Interview - Document Review",
+      "owner_id": "feec8519",
+      "owner_name": "Drew Johnson",
+      "attendees": [
+        {
+          "id": "41eda766",
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        },
+        {
+          "id": "281bc559",
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        },
+        {
+          "id": "ebc433a6",
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-15T07:07:00.070194",
+      "end_time": "2026-01-15T08:07:00.070194",
+      "location": "Teams",
+      "description": "Discussion about follow-up."
+    },
+    {
+      "id": "3436ba20",
+      "title": "Demo - Team Sync",
+      "owner_id": "57c1c052",
+      "owner_name": "Skyler Thomas",
+      "attendees": [
+        {
+          "id": "ebc433a6",
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        },
+        {
+          "id": "81e2d1b8",
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "id": "31c216d8",
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-15T11:07:00.069479",
+      "end_time": "2026-01-15T13:07:00.069479",
+      "location": "Room 101",
+      "description": "Discussion about meeting schedule."
+    },
+    {
+      "id": "860fa73e",
+      "title": "Demo - Weekly Summary",
+      "owner_id": "28199184",
+      "owner_name": "Blake Jones",
+      "attendees": [
+        {
+          "id": "c4970224",
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-16T07:07:00.070602",
+      "end_time": "2026-01-16T09:07:00.070602",
+      "location": "Zoom",
+      "description": "Discussion about project update."
+    },
+    {
+      "id": "205db370",
+      "title": "Training - Project Update",
+      "owner_id": "57c1c052",
+      "owner_name": "Skyler Thomas",
+      "attendees": [
+        {
+          "id": "ebc433a6",
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-18T06:07:00.068816",
+      "end_time": "2026-01-18T08:07:00.068816",
+      "location": "Zoom",
+      "description": "Discussion about follow-up."
+    },
+    {
+      "id": "0fe1b3cd",
+      "title": "Workshop - Announcement",
+      "owner_id": "28199184",
+      "owner_name": "Blake Jones",
+      "attendees": [
+        {
+          "id": "54ae3ae1",
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "id": "41eda766",
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        },
+        {
+          "id": "2c145ef2",
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        },
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-19T11:07:00.070432",
+      "end_time": "2026-01-19T11:52:00.070432",
+      "location": "Teams",
+      "description": "Discussion about status report."
+    },
+    {
+      "id": "671cec97",
+      "title": "Demo - Meeting Schedule",
+      "owner_id": "feec8519",
+      "owner_name": "Drew Johnson",
+      "attendees": [
+        {
+          "id": "097bc088",
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "id": "41eda766",
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-20T04:07:00.070080",
+      "end_time": "2026-01-20T05:37:00.070080",
+      "location": "Teams",
+      "description": "Discussion about planning session."
+    },
+    {
+      "id": "febc200e",
+      "title": "Presentation - Meeting Schedule",
+      "owner_id": "54ae3ae1",
+      "owner_name": "Dakota Jones",
+      "attendees": [
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        },
+        {
+          "id": "feec8519",
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        },
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "id": "7648c01d",
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-20T06:07:00.069811",
+      "end_time": "2026-01-20T06:37:00.069811",
+      "location": "Zoom",
+      "description": "Discussion about meeting schedule."
+    },
+    {
+      "id": "9cad3545",
+      "title": "Project Review - Weekly Summary",
+      "owner_id": "5bfb4e6e",
+      "owner_name": "Reese Smith",
+      "attendees": [
+        {
+          "id": "57c1c052",
+          "name": "Skyler Thomas",
+          "email": "skylert@demo-org.test"
+        },
+        {
+          "id": "7f35cc2f",
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "id": "54ae3ae1",
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "id": "8f717dd9",
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        }
+      ],
+      "start_time": "2026-01-21T07:07:00.068950",
+      "end_time": "2026-01-21T07:37:00.068950",
+      "location": "Teams",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "e58e9777",
+      "title": "Interview - Team Sync",
+      "owner_id": "75293ce5",
+      "owner_name": "Casey Martinez",
+      "attendees": [
+        {
+          "id": "31c216d8",
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "id": "5bfb4e6e",
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "id": "28199184",
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "id": "41eda766",
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        }
+      ],
+      "start_time": "2026-01-21T12:07:00.069355",
+      "end_time": "2026-01-21T13:07:00.069355",
+      "location": "Conference Room A",
+      "description": "Discussion about team sync."
+    }
+  ],
+  "emails": [
+    {
+      "id": "4b32d9da",
+      "message_id": "<9f482a65@demo-org.test>",
+      "from": {
+        "name": "Jamie Robinson",
+        "email": "jamie.robinson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        },
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nJamie",
+      "timestamp": "2025-12-08T00:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "20f04fb7",
+      "message_id": "<8e04248b@widget-co.example>",
+      "from": {
+        "name": "Riley Rodriguez",
+        "email": "riley.rodriguez@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        }
+      ],
+      "subject": "Re: Meeting Schedule",
+      "body": "Hi team,\n\nJust a quick update on the meeting schedule.\n\nBest,\nRiley",
+      "timestamp": "2025-12-08T22:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "24612d30",
+      "message_id": "<7405ee25@testmail.invalid>",
+      "from": {
+        "name": "Jamie Robinson",
+        "email": "jamie.robinson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nJamie",
+      "timestamp": "2025-12-09T11:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "3f23775f",
+      "message_id": "<f5765a3f@example.com>",
+      "from": {
+        "name": "Jamie Smith",
+        "email": "jamie_smith@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        },
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nJamie",
+      "timestamp": "2025-12-09T20:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "e67e6286",
+      "message_id": "<7b29eae6@acme-corp.test>",
+      "from": {
+        "name": "Jamie Robinson",
+        "email": "jamie.robinson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        }
+      ],
+      "subject": "Re: Status Report",
+      "body": "Hi team,\n\nJust a quick update on the status report.\n\nBest,\nJamie",
+      "timestamp": "2025-12-10T09:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "da0aaaee",
+      "message_id": "<23e18402@sample-inc.example>",
+      "from": {
+        "name": "Jamie Smith",
+        "email": "jamie_smith@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        },
+        {
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nJamie",
+      "timestamp": "2025-12-10T11:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "116b1e82",
+      "message_id": "<e9d63510@notreal.example>",
+      "from": {
+        "name": "Alex Jones",
+        "email": "alexj@acme-corp.test"
+      },
+      "to": [
+        {
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nAlex",
+      "timestamp": "2025-12-10T18:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "5c74a05c",
+      "message_id": "<fa552540@example.com>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nRiley",
+      "timestamp": "2025-12-10T18:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "ae0b5a97",
+      "message_id": "<05605d68@widget-co.example>",
+      "from": {
+        "name": "Charlie Taylor",
+        "email": "charlie.taylor@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Status Report",
+      "body": "Hi team,\n\nJust a quick update on the status report.\n\nBest,\nCharlie",
+      "timestamp": "2025-12-10T22:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "59a27657",
+      "message_id": "<63c3a6c0@widget-co.example>",
+      "from": {
+        "name": "Casey Martinez",
+        "email": "caseym@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nCasey",
+      "timestamp": "2025-12-11T05:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "8af75db5",
+      "message_id": "<b4bfb314@sample-inc.example>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nRiley",
+      "timestamp": "2025-12-12T21:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "01091b65",
+      "message_id": "<8babbbef@fictional.test>",
+      "from": {
+        "name": "Charlie Taylor",
+        "email": "charlie.taylor@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Feedback Request",
+      "body": "Hi team,\n\nJust a quick update on the feedback request.\n\nBest,\nCharlie",
+      "timestamp": "2025-12-13T02:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "906f6da5",
+      "message_id": "<2a17165a@demo-org.test>",
+      "from": {
+        "name": "Dakota Jones",
+        "email": "dakota_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        },
+        {
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        },
+        {
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Action Items",
+      "body": "Hi team,\n\nJust a quick update on the action items.\n\nBest,\nDakota",
+      "timestamp": "2025-12-14T17:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "8240f541",
+      "message_id": "<6d950d0d@demo-org.test>",
+      "from": {
+        "name": "Charlie Taylor",
+        "email": "charlie.taylor@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        },
+        {
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nCharlie",
+      "timestamp": "2025-12-14T21:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "3faa3a72",
+      "message_id": "<f5a746f0@demo-org.test>",
+      "from": {
+        "name": "Dakota Jones",
+        "email": "dakota_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        },
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Announcement",
+      "body": "Hi team,\n\nJust a quick update on the announcement.\n\nBest,\nDakota",
+      "timestamp": "2025-12-15T11:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "d91ad117",
+      "message_id": "<0293f435@demo-org.test>",
+      "from": {
+        "name": "Dakota Jones",
+        "email": "dakota_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Charlie Taylor",
+          "email": "charlie.taylor@demo-org.test"
+        },
+        {
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nDakota",
+      "timestamp": "2025-12-16T14:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "72de0881",
+      "message_id": "<94b2382b@notreal.example>",
+      "from": {
+        "name": "Charlie Lee",
+        "email": "charlie_lee@example.com"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        },
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "subject": "Re: Feedback Request",
+      "body": "Hi team,\n\nJust a quick update on the feedback request.\n\nBest,\nCharlie",
+      "timestamp": "2025-12-18T03:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "d42c3607",
+      "message_id": "<aefb525d@fictional.test>",
+      "from": {
+        "name": "Skyler Thomas",
+        "email": "skylert@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-18T07:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "838785ec",
+      "message_id": "<2913a76f@fictional.test>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nRiley",
+      "timestamp": "2025-12-18T14:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "4e4c9072",
+      "message_id": "<da22decc@acme-corp.test>",
+      "from": {
+        "name": "Sage Jackson",
+        "email": "sagej@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Feedback Request",
+      "body": "Hi team,\n\nJust a quick update on the feedback request.\n\nBest,\nSage",
+      "timestamp": "2025-12-18T18:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "53422be4",
+      "message_id": "<417a7ac7@sample-inc.example>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Meeting Schedule",
+      "body": "Hi team,\n\nJust a quick update on the meeting schedule.\n\nBest,\nRiley",
+      "timestamp": "2025-12-19T07:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "2325ed37",
+      "message_id": "<a176e76f@example.com>",
+      "from": {
+        "name": "Alex Jones",
+        "email": "alexj@acme-corp.test"
+      },
+      "to": [
+        {
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        },
+        {
+          "name": "Skyler Thomas",
+          "email": "skylert@demo-org.test"
+        }
+      ],
+      "subject": "Re: Meeting Schedule",
+      "body": "Hi team,\n\nJust a quick update on the meeting schedule.\n\nBest,\nAlex",
+      "timestamp": "2025-12-19T12:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "2306539e",
+      "message_id": "<56278f22@widget-co.example>",
+      "from": {
+        "name": "Parker Lee",
+        "email": "parker_lee@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        },
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Feedback Request",
+      "body": "Hi team,\n\nJust a quick update on the feedback request.\n\nBest,\nParker",
+      "timestamp": "2025-12-19T14:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "15ecc614",
+      "message_id": "<e6501e24@fictional.test>",
+      "from": {
+        "name": "Drew Johnson",
+        "email": "drew_johnson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nDrew",
+      "timestamp": "2025-12-20T03:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "6638584a",
+      "message_id": "<761bbef9@widget-co.example>",
+      "from": {
+        "name": "Parker Clark",
+        "email": "parker.clark@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nParker",
+      "timestamp": "2025-12-20T07:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "259b4011",
+      "message_id": "<b5bfff1c@fictional.test>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        },
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nRiley",
+      "timestamp": "2025-12-20T11:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "1df5d77b",
+      "message_id": "<f6a6a548@acme-corp.test>",
+      "from": {
+        "name": "Blake Jones",
+        "email": "blake_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nBlake",
+      "timestamp": "2025-12-20T15:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "8b778c60",
+      "message_id": "<513c5644@notreal.example>",
+      "from": {
+        "name": "Jamie Smith",
+        "email": "jamie_smith@fictional.test"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        }
+      ],
+      "subject": "Re: Announcement",
+      "body": "Hi team,\n\nJust a quick update on the announcement.\n\nBest,\nJamie",
+      "timestamp": "2025-12-21T06:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "efcbd7d1",
+      "message_id": "<3c2d7161@example.com>",
+      "from": {
+        "name": "Hayden Jones",
+        "email": "haydenj@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nHayden",
+      "timestamp": "2025-12-21T06:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "427adfb6",
+      "message_id": "<f79be147@sample-inc.example>",
+      "from": {
+        "name": "Blake White",
+        "email": "blakew@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        },
+        {
+          "name": "Skyler Thomas",
+          "email": "skylert@demo-org.test"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nBlake",
+      "timestamp": "2025-12-21T07:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "91e5891d",
+      "message_id": "<c8a230aa@demo-org.test>",
+      "from": {
+        "name": "Dakota Jones",
+        "email": "dakota_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        },
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        }
+      ],
+      "subject": "Re: Meeting Schedule",
+      "body": "Hi team,\n\nJust a quick update on the meeting schedule.\n\nBest,\nDakota",
+      "timestamp": "2025-12-21T11:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "ce3c2944",
+      "message_id": "<69a8b005@example.com>",
+      "from": {
+        "name": "Jamie Robinson",
+        "email": "jamie.robinson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        },
+        {
+          "name": "Riley Johnson",
+          "email": "riley.johnson@notreal.example"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nJamie",
+      "timestamp": "2025-12-22T08:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "4892fc20",
+      "message_id": "<699a60c9@notreal.example>",
+      "from": {
+        "name": "Quinn Garcia",
+        "email": "quinn.garcia@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        },
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Feedback Request",
+      "body": "Hi team,\n\nJust a quick update on the feedback request.\n\nBest,\nQuinn",
+      "timestamp": "2025-12-24T02:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "5fae14ee",
+      "message_id": "<0a382d17@sample-inc.example>",
+      "from": {
+        "name": "Blake Jones",
+        "email": "blake_jones@example.com"
+      },
+      "to": [
+        {
+          "name": "Hayden Jones",
+          "email": "haydenj@notreal.example"
+        }
+      ],
+      "subject": "Re: Meeting Schedule",
+      "body": "Hi team,\n\nJust a quick update on the meeting schedule.\n\nBest,\nBlake",
+      "timestamp": "2025-12-24T06:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "ce65338e",
+      "message_id": "<e509f89e@sample-inc.example>",
+      "from": {
+        "name": "Skyler Thomas",
+        "email": "skylert@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-25T07:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "1d282873",
+      "message_id": "<38dc88fd@widget-co.example>",
+      "from": {
+        "name": "Hayden Davis",
+        "email": "hayden_davis@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "name": "Skyler Thomas",
+          "email": "skylert@demo-org.test"
+        },
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nHayden",
+      "timestamp": "2025-12-27T23:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "e2a05661",
+      "message_id": "<f939171a@demo-org.test>",
+      "from": {
+        "name": "Skyler Thomas",
+        "email": "skylert@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Status Report",
+      "body": "Hi team,\n\nJust a quick update on the status report.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-28T00:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "0cd024bd",
+      "message_id": "<9a966b15@notreal.example>",
+      "from": {
+        "name": "Riley Rodriguez",
+        "email": "riley.rodriguez@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        },
+        {
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        }
+      ],
+      "subject": "Re: Document Review",
+      "body": "Hi team,\n\nJust a quick update on the document review.\n\nBest,\nRiley",
+      "timestamp": "2025-12-28T20:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "3f3034d8",
+      "message_id": "<54b7f39d@example.com>",
+      "from": {
+        "name": "Hayden Jones",
+        "email": "haydenj@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        },
+        {
+          "name": "Dakota Jones",
+          "email": "dakota_jones@example.com"
+        },
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Action Items",
+      "body": "Hi team,\n\nJust a quick update on the action items.\n\nBest,\nHayden",
+      "timestamp": "2025-12-28T23:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "7aa41326",
+      "message_id": "<4499f019@example.com>",
+      "from": {
+        "name": "Skyler Thomas",
+        "email": "skylert@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        }
+      ],
+      "subject": "Re: Document Review",
+      "body": "Hi team,\n\nJust a quick update on the document review.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-30T01:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "1200af1a",
+      "message_id": "<19552b0a@widget-co.example>",
+      "from": {
+        "name": "Blake White",
+        "email": "blakew@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        },
+        {
+          "name": "Riley Rodriguez",
+          "email": "riley.rodriguez@demo-org.test"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nBlake",
+      "timestamp": "2025-12-31T09:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "f3d12e42",
+      "message_id": "<a6ef1b9f@acme-corp.test>",
+      "from": {
+        "name": "Blake White",
+        "email": "blakew@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Jamie Robinson",
+          "email": "jamie.robinson@sample-inc.example"
+        },
+        {
+          "name": "Skyler Thomas",
+          "email": "skylert@demo-org.test"
+        }
+      ],
+      "subject": "Re: Status Report",
+      "body": "Hi team,\n\nJust a quick update on the status report.\n\nBest,\nBlake",
+      "timestamp": "2025-12-31T14:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "72b8da80",
+      "message_id": "<1cd3f8e3@fictional.test>",
+      "from": {
+        "name": "Riley Rodriguez",
+        "email": "riley.rodriguez@demo-org.test"
+      },
+      "to": [
+        {
+          "name": "Quinn Garcia",
+          "email": "quinn.garcia@testmail.invalid"
+        },
+        {
+          "name": "Hayden Davis",
+          "email": "hayden_davis@testmail.invalid"
+        },
+        {
+          "name": "Drew Johnson",
+          "email": "drew_johnson@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nRiley",
+      "timestamp": "2026-01-01T05:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "376346cf",
+      "message_id": "<db4f7468@notreal.example>",
+      "from": {
+        "name": "Drew Johnson",
+        "email": "drew_johnson@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        }
+      ],
+      "subject": "Re: Announcement",
+      "body": "Hi team,\n\nJust a quick update on the announcement.\n\nBest,\nDrew",
+      "timestamp": "2026-01-01T22:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "0ed5365b",
+      "message_id": "<f8e7bd59@example.com>",
+      "from": {
+        "name": "Alex Jones",
+        "email": "alexj@acme-corp.test"
+      },
+      "to": [
+        {
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        },
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        },
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nAlex",
+      "timestamp": "2026-01-02T04:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "283b2253",
+      "message_id": "<42ccd4b4@notreal.example>",
+      "from": {
+        "name": "Quinn Garcia",
+        "email": "quinn.garcia@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Sage Jackson",
+          "email": "sagej@fictional.test"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nQuinn",
+      "timestamp": "2026-01-03T00:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "86839e1e",
+      "message_id": "<b59403cc@demo-org.test>",
+      "from": {
+        "name": "Quinn Garcia",
+        "email": "quinn.garcia@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Alex Jones",
+          "email": "alexj@acme-corp.test"
+        },
+        {
+          "name": "Parker Clark",
+          "email": "parker.clark@fictional.test"
+        },
+        {
+          "name": "Parker Lee",
+          "email": "parker_lee@fictional.test"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nQuinn",
+      "timestamp": "2026-01-03T11:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "e83e9f47",
+      "message_id": "<ffae8456@example.com>",
+      "from": {
+        "name": "Riley Johnson",
+        "email": "riley.johnson@notreal.example"
+      },
+      "to": [
+        {
+          "name": "Blake White",
+          "email": "blakew@testmail.invalid"
+        },
+        {
+          "name": "Reese Smith",
+          "email": "reeses@fictional.test"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nRiley",
+      "timestamp": "2026-01-04T01:07:00.063099",
+      "has_attachments": false
+    },
+    {
+      "id": "fda6a499",
+      "message_id": "<fa7cf95e@notreal.example>",
+      "from": {
+        "name": "Hayden Davis",
+        "email": "hayden_davis@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Charlie Lee",
+          "email": "charlie_lee@example.com"
+        },
+        {
+          "name": "Blake Jones",
+          "email": "blake_jones@example.com"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nHayden",
+      "timestamp": "2026-01-04T16:07:00.063099",
+      "has_attachments": true
+    },
+    {
+      "id": "f1c9896a",
+      "message_id": "<867d84fa@widget-co.example>",
+      "from": {
+        "name": "Quinn Garcia",
+        "email": "quinn.garcia@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Casey Martinez",
+          "email": "caseym@sample-inc.example"
+        },
+        {
+          "name": "Jamie Smith",
+          "email": "jamie_smith@fictional.test"
+        }
+      ],
+      "subject": "Re: Action Items",
+      "body": "Hi team,\n\nJust a quick update on the action items.\n\nBest,\nQuinn",
+      "timestamp": "2026-01-05T00:07:00.063099",
+      "has_attachments": false
+    }
+  ]
+}

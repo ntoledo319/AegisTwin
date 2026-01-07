@@ -1,0 +1,146 @@
+{
+  "events": [
+    {
+      "id": "b8fd9848",
+      "title": "Workshop - Action Items",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-03T04:07:00.054809",
+      "end_time": "2026-01-03T04:52:00.054809",
+      "location": "Conference Room A",
+      "description": "Discussion about status report."
+    },
+    {
+      "id": "143a2c7f",
+      "title": "Workshop - Announcement",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "cb751fb0",
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "id": "e86058df",
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-04T05:07:00.055153",
+      "end_time": "2026-01-04T05:52:00.055153",
+      "location": "Virtual",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "04d84bfc",
+      "title": "Project Review - Follow-Up",
+      "owner_id": "d73cb367",
+      "owner_name": "Cameron Miller",
+      "attendees": [
+        {
+          "id": "10ebc335",
+          "name": "River Rodriguez",
+          "email": "riverr@example.com"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        },
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "870d567b",
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        }
+      ],
+      "start_time": "2026-01-05T05:07:00.054473",
+      "end_time": "2026-01-05T06:07:00.054473",
+      "location": "Room 101",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "d110dd09",
+      "title": "Project Review - Action Items",
+      "owner_id": "e86058df",
+      "owner_name": "Phoenix Anderson",
+      "attendees": [
+        {
+          "id": "d73cb367",
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "start_time": "2026-01-05T12:07:00.054634",
+      "end_time": "2026-01-05T13:37:00.054634",
+      "location": "Virtual",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "b7b50c00",
+      "title": "Demo - Announcement",
+      "owner_id": "cb751fb0",
+      "owner_name": "Reese White",
+      "attendees": [
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "22506a62",
+          "name": "Hayden Anderson",
+          "email": "hayden_anderson@widget-co.example"
+        }
+      ],
+      "start_time": "2026-01-08T08:07:00.054925",
+      "end_time": "2026-01-08T08:52:00.054925",
+      "location": "Virtual",
+      "description": "Discussion about quarterly review."
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-06T19:07:00.057315",
+    "generator": "AegisTwin Synthetic Data Generator",
+    "version": "1.0.0",
+    "is_synthetic": true,
+    "warning": "This is entirely fictional data for demonstration purposes only."
+  }
+}

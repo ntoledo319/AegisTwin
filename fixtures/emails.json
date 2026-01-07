@@ -1,0 +1,113 @@
+{
+  "emails": [
+    {
+      "id": "499f58b4",
+      "message_id": "<f9ee9beb@demo-org.test>",
+      "from": {
+        "name": "Reese White",
+        "email": "reese.white@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nReese",
+      "timestamp": "2025-12-08T00:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "61fd764f",
+      "message_id": "<54e009e6@widget-co.example>",
+      "from": {
+        "name": "Hayden Anderson",
+        "email": "hayden_anderson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nHayden",
+      "timestamp": "2025-12-09T11:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "118551ba",
+      "message_id": "<78283444@example.com>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nRiver",
+      "timestamp": "2025-12-11T12:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "b40602b2",
+      "message_id": "<65b9e14d@acme-corp.test>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Hayden Anderson",
+          "email": "hayden_anderson@widget-co.example"
+        },
+        {
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        },
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nRiver",
+      "timestamp": "2025-12-13T10:07:00.053286",
+      "has_attachments": true
+    },
+    {
+      "id": "03636a6f",
+      "message_id": "<56261ed2@widget-co.example>",
+      "from": {
+        "name": "Morgan Clark",
+        "email": "morgan.clark@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nMorgan",
+      "timestamp": "2025-12-15T07:07:00.053286",
+      "has_attachments": false
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-06T19:07:00.057315",
+    "generator": "AegisTwin Synthetic Data Generator",
+    "version": "1.0.0",
+    "is_synthetic": true,
+    "warning": "This is entirely fictional data for demonstration purposes only."
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-06T19:07:00.057315",
+    "generator": "AegisTwin Synthetic Data Generator",
+    "version": "1.0.0",
+    "is_synthetic": true,
+    "warning": "This is entirely fictional data for demonstration purposes only."
+  },
+  "contacts": [
+    {
+      "id": "3fd1abc4",
+      "first_name": "Avery",
+      "last_name": "Miller",
+      "email": "averym@acme-corp.test",
+      "phone": "+1-555-143-1255",
+      "created_at": "2025-11-19T19:07:00.052897"
+    },
+    {
+      "id": "10ebc335",
+      "first_name": "River",
+      "last_name": "Rodriguez",
+      "email": "riverr@example.com",
+      "phone": "+1-555-314-8295",
+      "created_at": "2025-08-29T19:07:00.052992"
+    },
+    {
+      "id": "22506a62",
+      "first_name": "Hayden",
+      "last_name": "Anderson",
+      "email": "hayden_anderson@widget-co.example",
+      "phone": "+1-555-495-8817",
+      "created_at": "2025-04-05T19:07:00.053038"
+    },
+    {
+      "id": "870d567b",
+      "first_name": "Quinn",
+      "last_name": "Jackson",
+      "email": "quinn.jackson@widget-co.example",
+      "phone": "+1-555-846-3150",
+      "created_at": "2025-04-22T19:07:00.053082"
+    },
+    {
+      "id": "e86058df",
+      "first_name": "Phoenix",
+      "last_name": "Anderson",
+      "email": "phoenix_anderson@testmail.invalid",
+      "phone": "+1-555-576-8591",
+      "created_at": "2025-01-07T19:07:00.053117"
+    },
+    {
+      "id": "168ea760",
+      "first_name": "Skyler",
+      "last_name": "Brown",
+      "email": "skyler_brown@acme-corp.test",
+      "phone": "+1-555-653-9919",
+      "created_at": "2025-08-14T19:07:00.053154"
+    },
+    {
+      "id": "f7b786cc",
+      "first_name": "Skyler",
+      "last_name": "Johnson",
+      "email": "skyler_johnson@testmail.invalid",
+      "phone": "+1-555-438-7262",
+      "created_at": "2025-07-31T19:07:00.053186"
+    },
+    {
+      "id": "d73cb367",
+      "first_name": "Cameron",
+      "last_name": "Miller",
+      "email": "cameron.miller@testmail.invalid",
+      "phone": "+1-555-229-5152",
+      "created_at": "2025-03-03T19:07:00.053216"
+    },
+    {
+      "id": "7de24745",
+      "first_name": "Morgan",
+      "last_name": "Clark",
+      "email": "morgan.clark@sample-inc.example",
+      "phone": "+1-555-523-1658",
+      "created_at": "2025-03-31T19:07:00.053247"
+    },
+    {
+      "id": "cb751fb0",
+      "first_name": "Reese",
+      "last_name": "White",
+      "email": "reese.white@widget-co.example",
+      "phone": "+1-555-119-8525",
+      "created_at": "2025-09-22T19:07:00.053277"
+    }
+  ],
+  "messages": [
+    {
+      "id": "ac983616",
+      "sender_id": "22506a62",
+      "sender_name": "Hayden Anderson",
+      "recipient_id": "10ebc335",
+      "recipient_name": "River Rodriguez",
+      "content": "Quick update on quarterly review: everything is on track for the deadline.",
+      "timestamp": "2025-12-10T01:07:00.053286",
+      "thread_id": "755d62a7",
+      "is_read": true
+    },
+    {
+      "id": "85c51dae",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "168ea760",
+      "recipient_name": "Skyler Brown",
+      "content": "Thanks for the update on meeting schedule. I'll review and get back to you.",
+      "timestamp": "2025-12-10T01:07:00.053286",
+      "thread_id": "2251abf4",
+      "is_read": true
+    },
+    {
+      "id": "d468390d",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "d73cb367",
+      "recipient_name": "Cameron Miller",
+      "content": "Hi Cameron, just wanted to follow up on the status report. Let me know your thoughts.",
+      "timestamp": "2025-12-13T07:07:00.053286",
+      "thread_id": "dab7a6bd",
+      "is_read": true
+    },
+    {
+      "id": "0b073f7d",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "168ea760",
+      "recipient_name": "Skyler Brown",
+      "content": "Let's discuss the weekly summary in our next sync. Sound good?",
+      "timestamp": "2025-12-14T09:07:00.053286",
+      "thread_id": "2251abf4",
+      "is_read": false
+    },
+    {
+      "id": "f9b51b13",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "168ea760",
+      "recipient_name": "Skyler Brown",
+      "content": "FYI - I've completed the weekly summary. See attached for details.",
+      "timestamp": "2025-12-14T21:07:00.053286",
+      "thread_id": "2251abf4",
+      "is_read": true
+    },
+    {
+      "id": "28cb7b08",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "7de24745",
+      "recipient_name": "Morgan Clark",
+      "content": "Let's discuss the weekly summary in our next sync. Sound good?",
+      "timestamp": "2025-12-15T18:07:00.053286",
+      "thread_id": "ce358c8c",
+      "is_read": false
+    },
+    {
+      "id": "f9fed74f",
+      "sender_id": "e86058df",
+      "sender_name": "Phoenix Anderson",
+      "recipient_id": "cb751fb0",
+      "recipient_name": "Reese White",
+      "content": "Reminder: follow-up is scheduled for tomorrow at 16:30.",
+      "timestamp": "2025-12-16T09:07:00.053286",
+      "thread_id": "2f672f53",
+      "is_read": true
+    },
+    {
+      "id": "5fdc67f6",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "cb751fb0",
+      "recipient_name": "Reese White",
+      "content": "Reminder: follow-up is scheduled for tomorrow at 17:00.",
+      "timestamp": "2025-12-18T14:07:00.053286",
+      "thread_id": "58c6475f",
+      "is_read": true
+    },
+    {
+      "id": "54364d65",
+      "sender_id": "10ebc335",
+      "sender_name": "River Rodriguez",
+      "recipient_id": "168ea760",
+      "recipient_name": "Skyler Brown",
+      "content": "Great progress on document review! Keep up the good work.",
+      "timestamp": "2025-12-19T00:07:00.053286",
+      "thread_id": "8949daf4",
+      "is_read": true
+    },
+    {
+      "id": "18c5f588",
+      "sender_id": "870d567b",
+      "sender_name": "Quinn Jackson",
+      "recipient_id": "f7b786cc",
+      "recipient_name": "Skyler Johnson",
+      "content": "Hi Skyler, just wanted to follow up on the announcement. Let me know your thoughts.",
+      "timestamp": "2025-12-20T01:07:00.053286",
+      "thread_id": "ba611aa2",
+      "is_read": true
+    },
+    {
+      "id": "b8fdb471",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "cb751fb0",
+      "recipient_name": "Reese White",
+      "content": "Could you review the document review when you get a chance? Thanks!",
+      "timestamp": "2025-12-21T03:07:00.053286",
+      "thread_id": "58c6475f",
+      "is_read": false
+    },
+    {
+      "id": "f8799827",
+      "sender_id": "870d567b",
+      "sender_name": "Quinn Jackson",
+      "recipient_id": "7de24745",
+      "recipient_name": "Morgan Clark",
+      "content": "Hi Morgan, just wanted to follow up on the announcement. Let me know your thoughts.",
+      "timestamp": "2025-12-22T02:07:00.053286",
+      "thread_id": "1404571b",
+      "is_read": false
+    },
+    {
+      "id": "b684ae08",
+      "sender_id": "870d567b",
+      "sender_name": "Quinn Jackson",
+      "recipient_id": "e86058df",
+      "recipient_name": "Phoenix Anderson",
+      "content": "Quick update on weekly summary: everything is on track for the deadline.",
+      "timestamp": "2025-12-22T08:07:00.053286",
+      "thread_id": "e89094a8",
+      "is_read": true
+    },
+    {
+      "id": "1c1a5682",
+      "sender_id": "cb751fb0",
+      "sender_name": "Reese White",
+      "recipient_id": "d73cb367",
+      "recipient_name": "Cameron Miller",
+      "content": "Thanks for the update on follow-up. I'll review and get back to you.",
+      "timestamp": "2025-12-23T01:07:00.053286",
+      "thread_id": "05adfba3",
+      "is_read": true
+    },
+    {
+      "id": "c91b5678",
+      "sender_id": "cb751fb0",
+      "sender_name": "Reese White",
+      "recipient_id": "10ebc335",
+      "recipient_name": "River Rodriguez",
+      "content": "Could you review the team sync when you get a chance? Thanks!",
+      "timestamp": "2025-12-23T13:07:00.053286",
+      "thread_id": "5c0efc83",
+      "is_read": true
+    },
+    {
+      "id": "53c8c09d",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "22506a62",
+      "recipient_name": "Hayden Anderson",
+      "content": "Hi Hayden, just wanted to follow up on the planning session. Let me know your thoughts.",
+      "timestamp": "2025-12-24T07:07:00.053286",
+      "thread_id": "3a2b35cf",
+      "is_read": true
+    },
+    {
+      "id": "8a71219b",
+      "sender_id": "10ebc335",
+      "sender_name": "River Rodriguez",
+      "recipient_id": "d73cb367",
+      "recipient_name": "Cameron Miller",
+      "content": "Thanks for the update on planning session. I'll review and get back to you.",
+      "timestamp": "2025-12-26T06:07:00.053286",
+      "thread_id": "0d524676",
+      "is_read": true
+    },
+    {
+      "id": "17ee6bf3",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "3fd1abc4",
+      "recipient_name": "Avery Miller",
+      "content": "Hi Avery, just wanted to follow up on the action items. Let me know your thoughts.",
+      "timestamp": "2025-12-26T06:07:00.053286",
+      "thread_id": "99fc451e",
+      "is_read": true
+    },
+    {
+      "id": "4f20cff8",
+      "sender_id": "22506a62",
+      "sender_name": "Hayden Anderson",
+      "recipient_id": "cb751fb0",
+      "recipient_name": "Reese White",
+      "content": "Hi Reese, just wanted to follow up on the weekly summary. Let me know your thoughts.",
+      "timestamp": "2025-12-26T08:07:00.053286",
+      "thread_id": "2dbb40eb",
+      "is_read": true
+    },
+    {
+      "id": "927ce12d",
+      "sender_id": "cb751fb0",
+      "sender_name": "Reese White",
+      "recipient_id": "3fd1abc4",
+      "recipient_name": "Avery Miller",
+      "content": "Reminder: weekly summary is scheduled for tomorrow at 10:00.",
+      "timestamp": "2025-12-27T04:07:00.053286",
+      "thread_id": "e4e19f88",
+      "is_read": true
+    },
+    {
+      "id": "01cf6191",
+      "sender_id": "10ebc335",
+      "sender_name": "River Rodriguez",
+      "recipient_id": "22506a62",
+      "recipient_name": "Hayden Anderson",
+      "content": "Quick update on meeting schedule: everything is on track for the deadline.",
+      "timestamp": "2025-12-27T16:07:00.053286",
+      "thread_id": "fb17140d",
+      "is_read": false
+    },
+    {
+      "id": "8032a953",
+      "sender_id": "870d567b",
+      "sender_name": "Quinn Jackson",
+      "recipient_id": "f7b786cc",
+      "recipient_name": "Skyler Johnson",
+      "content": "Great progress on meeting schedule! Keep up the good work.",
+      "timestamp": "2025-12-28T02:07:00.053286",
+      "thread_id": "ba611aa2",
+      "is_read": false
+    },
+    {
+      "id": "5a1e0c53",
+      "sender_id": "7de24745",
+      "sender_name": "Morgan Clark",
+      "recipient_id": "870d567b",
+      "recipient_name": "Quinn Jackson",
+      "content": "Let's discuss the follow-up in our next sync. Sound good?",
+      "timestamp": "2026-01-02T03:07:00.053286",
+      "thread_id": "da7233f4",
+      "is_read": true
+    },
+    {
+      "id": "94677587",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "10ebc335",
+      "recipient_name": "River Rodriguez",
+      "content": "Let's discuss the weekly summary in our next sync. Sound good?",
+      "timestamp": "2026-01-02T19:07:00.053286",
+      "thread_id": "0c273b47",
+      "is_read": true
+    },
+    {
+      "id": "71ed62bf",
+      "sender_id": "f7b786cc",
+      "sender_name": "Skyler Johnson",
+      "recipient_id": "3fd1abc4",
+      "recipient_name": "Avery Miller",
+      "content": "Quick update on project update: everything is on track for the deadline.",
+      "timestamp": "2026-01-05T23:07:00.053286",
+      "thread_id": "99fc451e",
+      "is_read": true
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "b8fd9848",
+      "title": "Workshop - Action Items",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-03T04:07:00.054809",
+      "end_time": "2026-01-03T04:52:00.054809",
+      "location": "Conference Room A",
+      "description": "Discussion about status report."
+    },
+    {
+      "id": "143a2c7f",
+      "title": "Workshop - Announcement",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "cb751fb0",
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "id": "e86058df",
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-04T05:07:00.055153",
+      "end_time": "2026-01-04T05:52:00.055153",
+      "location": "Virtual",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "04d84bfc",
+      "title": "Project Review - Follow-Up",
+      "owner_id": "d73cb367",
+      "owner_name": "Cameron Miller",
+      "attendees": [
+        {
+          "id": "10ebc335",
+          "name": "River Rodriguez",
+          "email": "riverr@example.com"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        },
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "870d567b",
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        }
+      ],
+      "start_time": "2026-01-05T05:07:00.054473",
+      "end_time": "2026-01-05T06:07:00.054473",
+      "location": "Room 101",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "d110dd09",
+      "title": "Project Review - Action Items",
+      "owner_id": "e86058df",
+      "owner_name": "Phoenix Anderson",
+      "attendees": [
+        {
+          "id": "d73cb367",
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "start_time": "2026-01-05T12:07:00.054634",
+      "end_time": "2026-01-05T13:37:00.054634",
+      "location": "Virtual",
+      "description": "Discussion about weekly summary."
+    },
+    {
+      "id": "b7b50c00",
+      "title": "Demo - Announcement",
+      "owner_id": "cb751fb0",
+      "owner_name": "Reese White",
+      "attendees": [
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "22506a62",
+          "name": "Hayden Anderson",
+          "email": "hayden_anderson@widget-co.example"
+        }
+      ],
+      "start_time": "2026-01-08T08:07:00.054925",
+      "end_time": "2026-01-08T08:52:00.054925",
+      "location": "Virtual",
+      "description": "Discussion about quarterly review."
+    },
+    {
+      "id": "63d44fae",
+      "title": "Interview - Document Review",
+      "owner_id": "22506a62",
+      "owner_name": "Hayden Anderson",
+      "attendees": [
+        {
+          "id": "d73cb367",
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        },
+        {
+          "id": "168ea760",
+          "name": "Skyler Brown",
+          "email": "skyler_brown@acme-corp.test"
+        },
+        {
+          "id": "e86058df",
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "id": "870d567b",
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "start_time": "2026-01-15T09:07:00.054566",
+      "end_time": "2026-01-15T10:07:00.054566",
+      "location": "Virtual",
+      "description": "Discussion about quarterly review."
+    },
+    {
+      "id": "d5c39373",
+      "title": "1:1 Sync - Announcement",
+      "owner_id": "f7b786cc",
+      "owner_name": "Skyler Johnson",
+      "attendees": [
+        {
+          "id": "cb751fb0",
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        }
+      ],
+      "start_time": "2026-01-18T10:07:00.054752",
+      "end_time": "2026-01-18T11:37:00.054752",
+      "location": "Teams",
+      "description": "Discussion about quarterly review."
+    },
+    {
+      "id": "2924230f",
+      "title": "Planning Session - Project Update",
+      "owner_id": "168ea760",
+      "owner_name": "Skyler Brown",
+      "attendees": [
+        {
+          "id": "7de24745",
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "id": "cb751fb0",
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        },
+        {
+          "id": "3fd1abc4",
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "id": "870d567b",
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        },
+        {
+          "id": "d73cb367",
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-19T04:07:00.054866",
+      "end_time": "2026-01-19T04:52:00.054866",
+      "location": "Room 101",
+      "description": "Discussion about document review."
+    },
+    {
+      "id": "84c591f5",
+      "title": "1:1 Sync - Announcement",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "e86058df",
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        }
+      ],
+      "start_time": "2026-01-19T05:07:00.055057",
+      "end_time": "2026-01-19T05:37:00.055057",
+      "location": "Room 101",
+      "description": "Discussion about announcement."
+    },
+    {
+      "id": "1b966f48",
+      "title": "Interview - Follow-Up",
+      "owner_id": "10ebc335",
+      "owner_name": "River Rodriguez",
+      "attendees": [
+        {
+          "id": "f7b786cc",
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        },
+        {
+          "id": "e86058df",
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "id": "168ea760",
+          "name": "Skyler Brown",
+          "email": "skyler_brown@acme-corp.test"
+        }
+      ],
+      "start_time": "2026-01-21T05:07:00.054692",
+      "end_time": "2026-01-21T05:37:00.054692",
+      "location": "Virtual",
+      "description": "Discussion about feedback request."
+    }
+  ],
+  "emails": [
+    {
+      "id": "499f58b4",
+      "message_id": "<f9ee9beb@demo-org.test>",
+      "from": {
+        "name": "Reese White",
+        "email": "reese.white@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nReese",
+      "timestamp": "2025-12-08T00:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "61fd764f",
+      "message_id": "<54e009e6@widget-co.example>",
+      "from": {
+        "name": "Hayden Anderson",
+        "email": "hayden_anderson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nHayden",
+      "timestamp": "2025-12-09T11:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "118551ba",
+      "message_id": "<78283444@example.com>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Quarterly Review",
+      "body": "Hi team,\n\nJust a quick update on the quarterly review.\n\nBest,\nRiver",
+      "timestamp": "2025-12-11T12:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "b40602b2",
+      "message_id": "<65b9e14d@acme-corp.test>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Hayden Anderson",
+          "email": "hayden_anderson@widget-co.example"
+        },
+        {
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        },
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Weekly Summary",
+      "body": "Hi team,\n\nJust a quick update on the weekly summary.\n\nBest,\nRiver",
+      "timestamp": "2025-12-13T10:07:00.053286",
+      "has_attachments": true
+    },
+    {
+      "id": "03636a6f",
+      "message_id": "<56261ed2@widget-co.example>",
+      "from": {
+        "name": "Morgan Clark",
+        "email": "morgan.clark@sample-inc.example"
+      },
+      "to": [
+        {
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nMorgan",
+      "timestamp": "2025-12-15T07:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "654f153a",
+      "message_id": "<6c7c8ece@sample-inc.example>",
+      "from": {
+        "name": "Skyler Johnson",
+        "email": "skyler_johnson@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "River Rodriguez",
+          "email": "riverr@example.com"
+        },
+        {
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        }
+      ],
+      "subject": "Re: Planning Session",
+      "body": "Hi team,\n\nJust a quick update on the planning session.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-17T00:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "2fc2dcec",
+      "message_id": "<b4afd709@fictional.test>",
+      "from": {
+        "name": "Phoenix Anderson",
+        "email": "phoenix_anderson@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "Hayden Anderson",
+          "email": "hayden_anderson@widget-co.example"
+        }
+      ],
+      "subject": "Re: Document Review",
+      "body": "Hi team,\n\nJust a quick update on the document review.\n\nBest,\nPhoenix",
+      "timestamp": "2025-12-22T10:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "79744a87",
+      "message_id": "<9aff3e59@demo-org.test>",
+      "from": {
+        "name": "Hayden Anderson",
+        "email": "hayden_anderson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Skyler Brown",
+          "email": "skyler_brown@acme-corp.test"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nHayden",
+      "timestamp": "2025-12-24T00:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "68eb97dd",
+      "message_id": "<cf809372@demo-org.test>",
+      "from": {
+        "name": "Skyler Johnson",
+        "email": "skyler_johnson@testmail.invalid"
+      },
+      "to": [
+        {
+          "name": "River Rodriguez",
+          "email": "riverr@example.com"
+        },
+        {
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nSkyler",
+      "timestamp": "2025-12-30T01:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "b042c5de",
+      "message_id": "<61f6d361@fictional.test>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Avery Miller",
+          "email": "averym@acme-corp.test"
+        },
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "name": "Quinn Jackson",
+          "email": "quinn.jackson@widget-co.example"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nRiver",
+      "timestamp": "2025-12-30T04:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "9ff3c433",
+      "message_id": "<2a6c5e0d@demo-org.test>",
+      "from": {
+        "name": "Hayden Anderson",
+        "email": "hayden_anderson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Skyler Johnson",
+          "email": "skyler_johnson@testmail.invalid"
+        },
+        {
+          "name": "Reese White",
+          "email": "reese.white@widget-co.example"
+        },
+        {
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Follow-Up",
+      "body": "Hi team,\n\nJust a quick update on the follow-up.\n\nBest,\nHayden",
+      "timestamp": "2025-12-31T02:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "3cfc5773",
+      "message_id": "<3b36f394@testmail.invalid>",
+      "from": {
+        "name": "Reese White",
+        "email": "reese.white@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Document Review",
+      "body": "Hi team,\n\nJust a quick update on the document review.\n\nBest,\nReese",
+      "timestamp": "2026-01-02T05:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "bc49b64c",
+      "message_id": "<dd494c66@fictional.test>",
+      "from": {
+        "name": "River Rodriguez",
+        "email": "riverr@example.com"
+      },
+      "to": [
+        {
+          "name": "Phoenix Anderson",
+          "email": "phoenix_anderson@testmail.invalid"
+        },
+        {
+          "name": "Cameron Miller",
+          "email": "cameron.miller@testmail.invalid"
+        }
+      ],
+      "subject": "Re: Team Sync",
+      "body": "Hi team,\n\nJust a quick update on the team sync.\n\nBest,\nRiver",
+      "timestamp": "2026-01-03T04:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "917d3d92",
+      "message_id": "<6da5ce42@widget-co.example>",
+      "from": {
+        "name": "Quinn Jackson",
+        "email": "quinn.jackson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        }
+      ],
+      "subject": "Re: Project Update",
+      "body": "Hi team,\n\nJust a quick update on the project update.\n\nBest,\nQuinn",
+      "timestamp": "2026-01-03T16:07:00.053286",
+      "has_attachments": false
+    },
+    {
+      "id": "a7574fb4",
+      "message_id": "<f4cdeaf5@acme-corp.test>",
+      "from": {
+        "name": "Quinn Jackson",
+        "email": "quinn.jackson@widget-co.example"
+      },
+      "to": [
+        {
+          "name": "Morgan Clark",
+          "email": "morgan.clark@sample-inc.example"
+        },
+        {
+          "name": "River Rodriguez",
+          "email": "riverr@example.com"
+        }
+      ],
+      "subject": "Re: Action Items",
+      "body": "Hi team,\n\nJust a quick update on the action items.\n\nBest,\nQuinn",
+      "timestamp": "2026-01-05T18:07:00.053286",
+      "has_attachments": false
+    }
+  ]
+}
