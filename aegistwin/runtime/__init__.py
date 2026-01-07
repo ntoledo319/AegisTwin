@@ -7,8 +7,8 @@ Core runtime module providing event-driven agent execution.
 @context_boundary: aegistwin/runtime
 """
 
-from aegistwin.runtime.core import AegisTwinRuntime, EventBus
 from aegistwin.runtime.async_core import AsyncAegisTwinRuntime, AsyncEventBus
+from aegistwin.runtime.core import AegisTwinRuntime, EventBus
 
 __all__ = [
     "AegisTwinRuntime",

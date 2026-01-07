@@ -10,10 +10,10 @@ Knowledge graph management from integrated_system/knowledge_graph.
 """
 
 from aegistwin.modules.graph.manager import (
-    GraphManager,
-    Node,
     Edge,
+    GraphManager,
     GraphStats,
+    Node,
 )
 
 __all__ = ["GraphManager", "Node", "Edge", "GraphStats"]

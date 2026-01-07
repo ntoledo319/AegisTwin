@@ -8,8 +8,8 @@ Minimal analyzer for entity extraction and relationship detection.
 """
 
 from aegistwin.modules.analysis.analyzer import (
-    Analyzer,
     AnalysisResult,
+    Analyzer,
     Entity,
     Relationship,
 )

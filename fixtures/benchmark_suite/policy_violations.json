@@ -1,0 +1,134 @@
+{
+  "benchmark_suite": "policy_violation_tests",
+  "version": "1.0.0",
+  "description": "Test cases for policy enforcement validation",
+  "test_cases": [
+    {
+      "test_id": "policy_001",
+      "name": "Forbidden module access",
+      "policy_id": "deny-forbidden-modules",
+      "actor": "test_agent",
+      "action": "execute",
+      "resource": "system.shell",
+      "expected_allowed": false,
+      "expected_policy_hit": "deny-forbidden-modules"
+    },
+    {
+      "test_id": "policy_002",
+      "name": "PII export attempt",
+      "policy_id": "deny-pii-export",
+      "actor": "data_agent",
+      "action": "export",
+      "resource": "customer_pii",
+      "expected_allowed": false,
+      "expected_policy_hit": "deny-pii-export"
+    },
+    {
+      "test_id": "policy_003",
+      "name": "External network access",
+      "policy_id": "deny-external-network",
+      "actor": "research_agent",
+      "action": "request",
+      "resource": "network.external",
+      "expected_allowed": false,
+      "expected_policy_hit": "deny-external-network"
+    },
+    {
+      "test_id": "policy_004",
+      "name": "Allowed query operation",
+      "policy_id": "allow-query",
+      "actor": "user_agent",
+      "action": "query",
+      "resource": "memory_graph",
+      "expected_allowed": true,
+      "expected_policy_hit": "allow-query"
+    },
+    {
+      "test_id": "policy_005",
+      "name": "Allowed analysis operation",
+      "policy_id": "allow-analysis",
+      "actor": "analytics_agent",
+      "action": "analyze",
+      "resource": "user_data",
+      "expected_allowed": true,
+      "expected_policy_hit": "allow-analysis"
+    },
+    {
+      "test_id": "policy_006",
+      "name": "Custom policy - require approval",
+      "policy_id": "require-approval-finance",
+      "actor": "finance_agent",
+      "action": "transfer",
+      "resource": "bank_account",
+      "expected_allowed": false,
+      "expected_policy_hit": "require-approval-finance",
+      "notes": "Requires human approval workflow"
+    },
+    {
+      "test_id": "policy_007",
+      "name": "Rate limit test",
+      "policy_id": "rate-limit-llm",
+      "actor": "llm_agent",
+      "action": "query_llm",
+      "resource": "openai_api",
+      "expected_allowed": true,
+      "rate_limit": "100_per_minute",
+      "notes": "Should allow first 100, deny after"
+    },
+    {
+      "test_id": "policy_008",
+      "name": "Scope-based access",
+      "policy_id": "scope-readonly",
+      "actor": "readonly_user",
+      "action": "write",
+      "resource": "database",
+      "expected_allowed": false,
+      "actor_scopes": ["read"],
+      "required_scopes": ["write"]
+    },
+    {
+      "test_id": "policy_009",
+      "name": "Time-based access",
+      "policy_id": "business-hours-only",
+      "actor": "scheduled_agent",
+      "action": "run_report",
+      "resource": "analytics",
+      "expected_allowed": "depends_on_time",
+      "allowed_hours": "09:00-17:00",
+      "notes": "Should only allow during business hours"
+    },
+    {
+      "test_id": "policy_010",
+      "name": "Wildcard resource match",
+      "policy_id": "deny-all-system",
+      "actor": "untrusted_agent",
+      "action": "any",
+      "resource": "system.*",
+      "expected_allowed": false,
+      "notes": "Wildcard should match all system.* resources"
+    }
+  ],
+  "metadata": {
+    "total_tests": 10,
+    "deny_tests": 6,
+    "allow_tests": 2,
+    "conditional_tests": 2,
+    "coverage_areas": [
+      "forbidden_modules",
+      "pii_protection",
+      "network_isolation",
+      "query_operations",
+      "analysis_operations",
+      "approval_workflows",
+      "rate_limiting",
+      "scope_enforcement",
+      "time_based_access",
+      "wildcard_matching"
+    ]
+  },
+  "validation_criteria": {
+    "pass_threshold": 0.9,
+    "critical_must_pass": ["policy_001", "policy_002", "policy_003"],
+    "regression_baseline": "All tests should maintain historical pass rate"
+  }
+}

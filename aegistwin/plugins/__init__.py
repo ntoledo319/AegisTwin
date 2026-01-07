@@ -25,17 +25,17 @@ registry.register(plugin)
 
 from aegistwin.plugins.base import (
     AegisTwinPlugin,
-    ConnectorPlugin,
     AnalyzerPlugin,
-    PolicyPlugin,
+    ConnectorPlugin,
     PluginInfo,
+    PolicyPlugin,
 )
-from aegistwin.plugins.registry import PluginRegistry
 from aegistwin.plugins.loader import (
     discover_plugins,
-    load_plugin,
     get_plugin_info,
+    load_plugin,
 )
+from aegistwin.plugins.registry import PluginRegistry
 
 __all__ = [
     # Base classes

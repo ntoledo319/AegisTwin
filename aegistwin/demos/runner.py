@@ -12,35 +12,32 @@ Executes the 3 buyer demos and generates run artifacts.
 
 import json
 import time
-from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any
 
-from aegistwin.runtime.core import AegisTwinRuntime
-from aegistwin.governance.policy import PolicyEngine, Policy, PolicyEffect
 from aegistwin.events.schema import (
-    IngestRequested,
-    IngestCompleted,
-    DataNormalized,
     AnalysisCompleted,
+    AuditLogged,
+    DataNormalized,
     GraphUpdated,
+    IngestCompleted,
+    IngestRequested,
     MemoryUpdated,
     QueryRequested,
     QueryResponded,
-    AuditLogged,
-    EventType,
 )
+from aegistwin.runtime.core import AegisTwinRuntime
 
 
-def load_synthetic_data() -> Dict[str, Any]:
+def load_synthetic_data() -> dict[str, Any]:
     """Load synthetic demo data from fixtures."""
     fixtures_dir = Path(__file__).parent.parent.parent / "fixtures"
     demo_file = fixtures_dir / "demo_small.json"
-    
+
     if demo_file.exists():
         with open(demo_file) as f:
             return json.load(f)
-    
+
     # Fallback: generate minimal synthetic data inline
     return {
         "metadata": {"is_synthetic": True},
@@ -55,31 +52,31 @@ def load_synthetic_data() -> Dict[str, Any]:
     }
 
 
-def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
+def demo_pipeline(runtime: AegisTwinRuntime | None = None) -> dict[str, Any]:
     """
     Demo A: Managed Pipeline
-    
+
     Demonstrates the full pipeline:
     Synthetic events -> normalize -> analyze -> graph update -> memory update -> query -> response
-    
+
     Returns:
         Dictionary with run results and artifacts
     """
     print("\n" + "=" * 60)
     print("DEMO A: Managed Pipeline")
     print("=" * 60)
-    
+
     if runtime is None:
         runtime = AegisTwinRuntime()
-    
+
     # Start run
     run_id = runtime.start_run()
     print(f"Started run: {run_id}")
-    
+
     # Load synthetic data
     data = load_synthetic_data()
     print(f"Loaded {len(data.get('messages', []))} synthetic messages")
-    
+
     # Step 1: Ingest
     print("\n[1/6] Ingesting data...")
     ingest_event = IngestRequested(
@@ -89,7 +86,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         payload={"records": data.get("messages", [])},
     )
     runtime.event_bus.publish(ingest_event)
-    
+
     completed_event = IngestCompleted(
         run_id=run_id,
         parent_event_id=ingest_event.event_id,
@@ -100,7 +97,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(completed_event)
     print(f"      Ingested {completed_event.record_count} records")
-    
+
     # Step 2: Normalize
     print("[2/6] Normalizing data...")
     normalized = DataNormalized(
@@ -116,7 +113,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(normalized)
     print(f"      Normalized {len(normalized.normalized_records)} records")
-    
+
     # Step 3: Analyze
     print("[3/6] Running analysis...")
     analysis = AnalysisCompleted(
@@ -138,7 +135,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(analysis)
     print(f"      Found {len(analysis.entities_extracted)} entities, {len(analysis.relationships_found)} relationships")
-    
+
     # Step 4: Update Graph
     print("[4/6] Updating knowledge graph...")
     graph_update = GraphUpdated(
@@ -151,7 +148,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(graph_update)
     print(f"      Added {graph_update.nodes_added} nodes, {graph_update.edges_added} edges")
-    
+
     # Step 5: Update Memory
     print("[5/6] Updating memory systems...")
     memory_update = MemoryUpdated(
@@ -164,7 +161,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(memory_update)
     print(f"      Added {memory_update.entries_added} episodic memories")
-    
+
     # Step 6: Query
     print("[6/6] Executing sample query...")
     query = QueryRequested(
@@ -174,7 +171,7 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         query_type="search",
     )
     runtime.event_bus.publish(query)
-    
+
     response = QueryResponded(
         run_id=run_id,
         parent_event_id=query.event_id,
@@ -189,90 +186,90 @@ def demo_pipeline(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
     )
     runtime.event_bus.publish(response)
     print(f"      Query response confidence: {response.confidence}")
-    
+
     # End run
     summary = runtime.end_run()
-    
+
     print("\n" + "-" * 40)
-    print(f"✅ Pipeline demo complete!")
+    print("✅ Pipeline demo complete!")
     print(f"   Run ID: {run_id}")
     print(f"   Events: {summary['event_count']}")
     print(f"   Artifacts: runs/{run_id}/")
-    
+
     return {"run_id": run_id, "demo": "pipeline", **summary}
 
 
-def demo_replay(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
+def demo_replay(runtime: AegisTwinRuntime | None = None) -> dict[str, Any]:
     """
     Demo B: Deterministic Replay + Trace
-    
+
     Demonstrates:
     Run pipeline -> record run-id -> replay -> emit trace JSON showing decisions + payload hashes
-    
+
     Returns:
         Dictionary with replay results
     """
     print("\n" + "=" * 60)
     print("DEMO B: Deterministic Replay + Trace")
     print("=" * 60)
-    
+
     if runtime is None:
         runtime = AegisTwinRuntime()
-    
+
     # First, run a pipeline to get a run to replay
     print("\n[1/3] Running initial pipeline to create trace...")
     initial_result = demo_pipeline(runtime)
     original_run_id = initial_result["run_id"]
-    
+
     # Now replay it
     print(f"\n[2/3] Replaying run: {original_run_id}...")
     time.sleep(0.5)  # Brief pause for effect
-    
+
     replay_result = runtime.replay(original_run_id)
-    
-    print(f"\n[3/3] Verifying determinism...")
+
+    print("\n[3/3] Verifying determinism...")
     replay_info = replay_result.get("replay_results", {})
-    
+
     print("\n" + "-" * 40)
-    print(f"✅ Replay demo complete!")
+    print("✅ Replay demo complete!")
     print(f"   Original Run: {original_run_id}")
     print(f"   Replay Run: {replay_result['run_id']}")
     print(f"   Events Replayed: {replay_info.get('events_replayed', 0)}")
     print(f"   Events Matched: {replay_info.get('events_matched', 0)}")
     print(f"   Deterministic: {replay_info.get('deterministic', False)}")
-    
+
     # Load and display trace snippet
     trace_path = Path("runs") / original_run_id / "trace.json"
     if trace_path.exists():
         with open(trace_path) as f:
             trace = json.load(f)
-        print(f"\n   Trace Preview (first 3 events):")
+        print("\n   Trace Preview (first 3 events):")
         for event in trace[:3]:
             print(f"     - {event['event_type']}: hash={event.get('payload_hash', 'N/A')[:8]}...")
-    
+
     return {"run_id": replay_result["run_id"], "demo": "replay", "original_run_id": original_run_id, **replay_result}
 
 
-def demo_policy(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
+def demo_policy(runtime: AegisTwinRuntime | None = None) -> dict[str, Any]:
     """
     Demo C: Policy Gate
-    
+
     Demonstrates:
     Attempt forbidden module -> deny -> audit record -> clean error output
-    
+
     Returns:
         Dictionary with policy demo results
     """
     print("\n" + "=" * 60)
     print("DEMO C: Policy Gate")
     print("=" * 60)
-    
+
     if runtime is None:
         runtime = AegisTwinRuntime()
-    
+
     run_id = runtime.start_run()
     print(f"Started run: {run_id}")
-    
+
     # Show current policies
     print("\n[1/4] Current policies:")
     policies = runtime.policy_engine.list_policies()
@@ -280,19 +277,19 @@ def demo_policy(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         effect_icon = "✓" if p["effect"] == "allow" else "✗"
         print(f"      {effect_icon} {p['id']}: {p['action']} on {p['resource']}")
     print(f"      ... and {len(policies) - 5} more")
-    
+
     # Test 1: Allowed action
     print("\n[2/4] Testing allowed action (ingest from 'email')...")
     allowed, reason = runtime.policy_engine.check("ingest", "email", "demo_user")
     print(f"      Result: {'✓ ALLOWED' if allowed else '✗ DENIED'}")
     print(f"      Reason: {reason}")
-    
+
     # Test 2: Denied action - forbidden module
     print("\n[3/4] Testing forbidden module (system.shell)...")
     allowed, reason = runtime.policy_engine.check("execute", "system.shell", "demo_user")
     print(f"      Result: {'✓ ALLOWED' if allowed else '✗ DENIED'}")
     print(f"      Reason: {reason}")
-    
+
     # Log the denial to audit
     audit_event = AuditLogged(
         run_id=run_id,
@@ -304,13 +301,13 @@ def demo_policy(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         reason=reason,
     )
     runtime.event_bus.publish(audit_event)
-    
+
     # Test 3: Denied action - PII export
     print("\n[4/4] Testing PII export (export on user_pii)...")
     allowed, reason = runtime.policy_engine.check("export", "user_pii", "demo_user")
     print(f"      Result: {'✓ ALLOWED' if allowed else '✗ DENIED'}")
     print(f"      Reason: {reason}")
-    
+
     # Log this denial too
     audit_event2 = AuditLogged(
         run_id=run_id,
@@ -322,9 +319,9 @@ def demo_policy(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         reason=reason,
     )
     runtime.event_bus.publish(audit_event2)
-    
+
     summary = runtime.end_run()
-    
+
     # Show audit log
     audit_path = Path("runs") / run_id / "audit.json"
     if audit_path.exists():
@@ -333,24 +330,24 @@ def demo_policy(runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
         print(f"\n   Audit Log ({len(audits)} entries):")
         for audit in audits:
             print(f"     - {audit['action']} on {audit['resource']}: {audit['outcome']}")
-    
+
     print("\n" + "-" * 40)
-    print(f"✅ Policy demo complete!")
+    print("✅ Policy demo complete!")
     print(f"   Run ID: {run_id}")
-    print(f"   Policies evaluated: 3")
-    print(f"   Denials logged: 2")
-    
+    print("   Policies evaluated: 3")
+    print("   Denials logged: 2")
+
     return {"run_id": run_id, "demo": "policy", **summary}
 
 
-def run_demo(demo_name: str, runtime: Optional[AegisTwinRuntime] = None) -> Dict[str, Any]:
+def run_demo(demo_name: str, runtime: AegisTwinRuntime | None = None) -> dict[str, Any]:
     """
     Run a specific demo by name.
-    
+
     Args:
         demo_name: One of 'pipeline', 'replay', 'policy'
         runtime: Optional runtime instance to use
-        
+
     Returns:
         Demo results
     """
@@ -359,17 +356,17 @@ def run_demo(demo_name: str, runtime: Optional[AegisTwinRuntime] = None) -> Dict
         "replay": demo_replay,
         "policy": demo_policy,
     }
-    
+
     if demo_name not in demos:
         raise ValueError(f"Unknown demo: {demo_name}. Available: {list(demos.keys())}")
-    
+
     return demos[demo_name](runtime)
 
 
-def run_all_demos() -> Dict[str, Any]:
+def run_all_demos() -> dict[str, Any]:
     """
     Run all 3 buyer demos in sequence.
-    
+
     Returns:
         Dictionary with all demo results
     """
@@ -381,23 +378,23 @@ def run_all_demos() -> Dict[str, Any]:
     print("  B) Deterministic replay for debugging")
     print("  C) Policy gates with audit logging")
     print("\n" + "=" * 60)
-    
+
     results = {}
-    
+
     # Demo A
     results["pipeline"] = demo_pipeline()
-    
+
     # Demo B
     results["replay"] = demo_replay()
-    
+
     # Demo C
     results["policy"] = demo_policy()
-    
+
     print("\n" + "=" * 60)
     print("ALL DEMOS COMPLETE")
     print("=" * 60)
     print("\nRun artifacts saved to:")
     for name, result in results.items():
         print(f"  - runs/{result['run_id']}/ ({name})")
-    
+
     return results

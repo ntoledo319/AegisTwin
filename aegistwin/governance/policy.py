@@ -21,10 +21,10 @@ policies:
 # HUMAN-VALIDATED [pending]
 """
 
-from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional, Tuple
-from enum import Enum
 import fnmatch
+from dataclasses import dataclass
+from enum import Enum
+from typing import Any
 
 
 class PolicyEffect(str, Enum):
@@ -38,7 +38,7 @@ class PolicyEffect(str, Enum):
 class Policy:
     """
     A single policy rule.
-    
+
     Attributes:
         id: Unique identifier for the policy
         action: Action pattern to match (supports wildcards)
@@ -55,7 +55,7 @@ class Policy:
     actor: str = "*"
     reason: str = ""
     priority: int = 0
-    
+
     def matches(self, action: str, resource: str, actor: str = "*") -> bool:
         """Check if this policy matches the given action/resource/actor."""
         action_match = fnmatch.fnmatch(action, self.action)
@@ -67,19 +67,19 @@ class Policy:
 class PolicyEngine:
     """
     Engine for evaluating policies and enforcing access control.
-    
+
     Policies are evaluated in priority order. The first matching policy
     determines the outcome. If no policy matches, the default is to allow.
-    
+
     Supports optional OPA evaluator for enterprise policy-as-code.
-    
+
     ## Non-Negotiables
     - All policy denials are logged
     - Forbidden modules are never allowed regardless of policy
-    
+
     @ai_prompt: Initialize with default policies, then add custom ones.
     """
-    
+
     # Modules that are NEVER allowed (hardcoded security)
     FORBIDDEN_MODULES = [
         "system.shell",
@@ -87,24 +87,24 @@ class PolicyEngine:
         "network.external",
         "data.export_pii",
     ]
-    
+
     def __init__(self):
-        self._policies: List[Policy] = []
-        self._opa_evaluator: Optional[Any] = None
+        self._policies: list[Policy] = []
+        self._opa_evaluator: Any | None = None
         self._load_default_policies()
-    
+
     def set_opa_evaluator(self, evaluator: Any) -> None:
         """
         Set an OPA evaluator for policy-as-code support.
-        
+
         When set, OPA is used as the primary policy engine,
         with built-in policies as fallback.
-        
+
         Args:
             evaluator: OPAEvaluator instance
         """
         self._opa_evaluator = evaluator
-    
+
     def _load_default_policies(self) -> None:
         """Load default security policies."""
         defaults = [
@@ -163,47 +163,47 @@ class PolicyEngine:
                 priority=100,
             ),
         ]
-        
+
         for policy in defaults:
             self.add_policy(policy)
-    
+
     def add_policy(self, policy: Policy) -> None:
         """Add a policy to the engine."""
         self._policies.append(policy)
         # Keep sorted by priority (descending)
         self._policies.sort(key=lambda p: p.priority, reverse=True)
-    
+
     def remove_policy(self, policy_id: str) -> bool:
         """Remove a policy by ID."""
         original_len = len(self._policies)
         self._policies = [p for p in self._policies if p.id != policy_id]
         return len(self._policies) < original_len
-    
-    def check(self, action: str, resource: str, actor: str = "system") -> Tuple[bool, str]:
+
+    def check(self, action: str, resource: str, actor: str = "system") -> tuple[bool, str]:
         """
         Check if an action is allowed.
-        
+
         Args:
             action: The action being performed
             resource: The resource being accessed
             actor: Who is performing the action
-            
+
         Returns:
             Tuple of (allowed, reason)
         """
         # Check hardcoded forbidden list first
         if resource in self.FORBIDDEN_MODULES:
             return False, f"Module '{resource}' is forbidden"
-        
+
         # Try OPA evaluator if available
         if self._opa_evaluator is not None:
             try:
                 allowed, reason = self._opa_evaluator.check(action, resource, actor)
                 return allowed, reason
-            except Exception as e:
+            except Exception:
                 # Fall back to built-in policies on OPA error
                 pass
-        
+
         # Evaluate policies in priority order
         for policy in self._policies:
             if policy.matches(action, resource, actor):
@@ -214,18 +214,18 @@ class PolicyEngine:
                 elif policy.effect == PolicyEffect.REQUIRE_APPROVAL:
                     # For now, treat as deny (approval workflow not implemented)
                     return False, f"Requires approval: {policy.reason}"
-        
+
         # Default: allow if no policy matches
         return True, "No matching policy - default allow"
-    
-    def get_denying_policy_id(self, action: str, resource: str) -> Optional[str]:
+
+    def get_denying_policy_id(self, action: str, resource: str) -> str | None:
         """Get the ID of the policy that would deny an action."""
         for policy in self._policies:
             if policy.matches(action, resource) and policy.effect == PolicyEffect.DENY:
                 return policy.id
         return None
-    
-    def list_policies(self) -> List[Dict[str, Any]]:
+
+    def list_policies(self) -> list[dict[str, Any]]:
         """List all policies."""
         return [
             {

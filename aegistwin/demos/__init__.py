@@ -19,6 +19,6 @@ Attempt forbidden module -> deny -> audit record -> clean error output
 # HUMAN-VALIDATED [pending]
 """
 
-from aegistwin.demos.runner import run_demo, run_all_demos
+from aegistwin.demos.runner import run_all_demos, run_demo
 
 __all__ = ["run_demo", "run_all_demos"]

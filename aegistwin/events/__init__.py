@@ -9,18 +9,18 @@ All inter-module communication uses these typed events.
 """
 
 from aegistwin.events.schema import (
-    BaseEvent,
-    IngestRequested,
-    IngestCompleted,
-    DataNormalized,
     AnalysisCompleted,
+    AuditLogged,
+    BaseEvent,
+    DataNormalized,
     GraphUpdated,
+    IngestCompleted,
+    IngestRequested,
     MemoryUpdated,
     QueryRequested,
     QueryResponded,
-    AuditLogged,
-    ReplayStarted,
     ReplayCompleted,
+    ReplayStarted,
 )
 
 __all__ = [

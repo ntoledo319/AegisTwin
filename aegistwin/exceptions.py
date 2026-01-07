@@ -17,7 +17,7 @@ class AegisTwinError(Exception):
 
 class PolicyDeniedError(AegisTwinError):
     """Raised when an action is denied by policy."""
-    
+
     def __init__(self, action: str, resource: str, reason: str, policy_id: str = None):
         self.action = action
         self.resource = resource
@@ -28,7 +28,7 @@ class PolicyDeniedError(AegisTwinError):
 
 class ReplayError(AegisTwinError):
     """Raised when replay fails or diverges."""
-    
+
     def __init__(self, run_id: str, message: str, divergences: list = None):
         self.run_id = run_id
         self.divergences = divergences or []
@@ -42,7 +42,7 @@ class ConfigurationError(AegisTwinError):
 
 class ConnectorError(AegisTwinError):
     """Raised when a connector operation fails."""
-    
+
     def __init__(self, connector_name: str, message: str):
         self.connector_name = connector_name
         super().__init__(f"Connector '{connector_name}' error: {message}")
@@ -50,7 +50,7 @@ class ConnectorError(AegisTwinError):
 
 class PipelineError(AegisTwinError):
     """Raised when pipeline processing fails."""
-    
+
     def __init__(self, stage: str, message: str):
         self.stage = stage
         super().__init__(f"Pipeline error at {stage}: {message}")

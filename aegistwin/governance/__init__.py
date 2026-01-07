@@ -7,6 +7,6 @@ Provides policy enforcement, audit logging, and access control.
 @context_boundary: aegistwin/governance
 """
 
-from aegistwin.governance.policy import PolicyEngine, Policy
+from aegistwin.governance.policy import Policy, PolicyEngine
 
 __all__ = ["PolicyEngine", "Policy"]

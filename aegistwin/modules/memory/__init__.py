@@ -1,21 +1,37 @@
 """
 AegisTwin Memory Module
 
-Memory systems from advanced-data-analysis-twin/digital_twin/memory.
+Provides episodic, semantic, and procedural memory capabilities
+with vector search support.
 
-Provides episodic, semantic, and procedural memory capabilities.
-
-@ai_prompt: Use MemorySystem for long-term storage and retrieval.
+@ai_prompt: Use SemanticMemory for natural language queries, MemoryStore for structured storage.
 @context_boundary: aegistwin/modules/memory
-
-# ORIGINAL_INTENT: Wrap advanced-data-analysis-twin/digital_twin/memory
 """
 
 from aegistwin.modules.memory.store import (
-    MemoryStore,
     MemoryEntry,
-    MemoryType,
     MemoryStats,
+    MemoryStore,
+    MemoryType,
 )
 
-__all__ = ["MemoryStore", "MemoryEntry", "MemoryType", "MemoryStats"]
+# Optional vector store imports (require sentence-transformers)
+try:
+    from aegistwin.modules.memory.semantic import MemoryFragment, SemanticMemory
+    from aegistwin.modules.memory.vector_store import SearchResult, VectorEntry, VectorStore
+    HAS_VECTOR_STORE = True
+except ImportError:
+    HAS_VECTOR_STORE = False
+
+__all__ = [
+    "MemoryStore",
+    "MemoryEntry",
+    "MemoryType",
+    "MemoryStats",
+    "VectorStore",
+    "VectorEntry",
+    "SearchResult",
+    "SemanticMemory",
+    "MemoryFragment",
+    "HAS_VECTOR_STORE",
+]

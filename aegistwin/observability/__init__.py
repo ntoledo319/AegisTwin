@@ -21,20 +21,20 @@ with tracer.start_as_current_span("my-operation"):
 # AI-GENERATED 2026-01-07
 """
 
-from aegistwin.observability.tracing import (
-    init_tracing,
-    get_tracer,
-    trace_event,
-    shutdown_tracing,
-    TracingConfig,
-)
 from aegistwin.observability.metrics import (
-    init_metrics,
-    get_meter,
-    record_event,
-    record_policy_check,
-    record_latency,
     MetricsRegistry,
+    get_meter,
+    init_metrics,
+    record_event,
+    record_latency,
+    record_policy_check,
+)
+from aegistwin.observability.tracing import (
+    TracingConfig,
+    get_tracer,
+    init_tracing,
+    shutdown_tracing,
+    trace_event,
 )
 
 __all__ = [

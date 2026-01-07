@@ -23,9 +23,9 @@ from aegistwin.modules.llm.base import (
     LLMResponse,
 )
 from aegistwin.modules.llm.providers import (
+    AnthropicProvider,
     MockProvider,
     OpenAIProvider,
-    AnthropicProvider,
     get_provider,
 )
 

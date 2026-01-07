@@ -136,6 +136,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Auto-provisioning for dashboards and datasources
 - `observability/README.md` documentation
 
+#### Phase 11: Enterprise Security
+- New `aegistwin/security/` module
+- JWT authentication with configurable expiry
+- Role-Based Access Control (RBAC) system  
+- AES-256-GCM encryption at rest
+- Security middleware with rate limiting
+- Redis-backed scalable event bus
+- PostgreSQL storage backend
+
+#### Phase 12: Enterprise Dashboard
+- React + TypeScript admin dashboard
+- Real-time event timeline with WebSocket
+- Policy rule editor with CRUD operations
+- System health monitoring
+- Audit log viewer with filtering
+- Run management and detail views
+
+#### Phase 13: Agent Evaluation Framework
+- New `aegistwin/evaluation/` package
+- `EvaluationHarness` for systematic agent testing
+- `BenchmarkSuite` with built-in test suites (safety, policy, replay, performance)
+- `MetricsCollector` for evaluation metrics
+- `ReportGenerator` for Markdown/JSON reports
+
+#### Phase 14: Semantic Memory
+- `VectorStore` with sentence-transformer embeddings
+- Cosine similarity search
+- `SemanticMemory` high-level interface
+- Memory consolidation and importance scoring
+- Persistence support
+
+#### Phase 15: Framework Integrations
+- LangChain integration (`AegisTwinCallbackHandler`)
+- CrewAI integration (`AegisTwinCrewObserver`)
+- AutoGen integration (`AegisTwinAutoGenMonitor`)
+- Policy enforcement across all frameworks
+
+#### Phase 16: TypeScript SDK
+- Full type-safe client (`@aegistwin/sdk`)
+- WebSocket event streaming
+- All API endpoints covered
+- npm package ready for publishing
+
+#### Phase 17: Compliance Documentation
+- SOC2 compliance mapping
+- HIPAA considerations guide
+- GDPR compliance documentation
+
 ### Changed
 - `pyproject.toml` now includes `httpx` as core dependency
 - `pyproject.toml` adds `[observability]` optional dependencies

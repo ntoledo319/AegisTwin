@@ -25,32 +25,32 @@ twin.run_demo()
 # HUMAN-VALIDATED 2026-01-06
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __author__ = "AegisTwin Team"
 __license__ = "MIT"
 
-from aegistwin.runtime.core import AegisTwinRuntime
-from aegistwin.governance.policy import PolicyEngine
 from aegistwin.config import Config
-from aegistwin.exceptions import (
-    AegisTwinError,
-    PolicyDeniedError,
-    ReplayError,
-    ConfigurationError,
-)
 from aegistwin.events.schema import (
-    IngestRequested,
-    IngestCompleted,
-    DataNormalized,
     AnalysisCompleted,
+    AuditLogged,
+    DataNormalized,
     GraphUpdated,
+    IngestCompleted,
+    IngestRequested,
     MemoryUpdated,
     QueryRequested,
     QueryResponded,
-    AuditLogged,
-    ReplayStarted,
     ReplayCompleted,
+    ReplayStarted,
 )
+from aegistwin.exceptions import (
+    AegisTwinError,
+    ConfigurationError,
+    PolicyDeniedError,
+    ReplayError,
+)
+from aegistwin.governance.policy import PolicyEngine
+from aegistwin.runtime.core import AegisTwinRuntime
 
 __all__ = [
     # Core
@@ -59,6 +59,12 @@ __all__ = [
     "EventBus",
     "AsyncEventBus",
     "PolicyEngine",
+    "Config",
+    # Exceptions
+    "AegisTwinError",
+    "ConfigurationError",
+    "PolicyDeniedError",
+    "ReplayError",
     # Events
     "IngestRequested",
     "IngestCompleted",
@@ -77,64 +83,64 @@ __all__ = [
 class AegisTwin:
     """
     Main entry point for AegisTwin functionality.
-    
+
     Provides a simplified interface for common operations including
     running demos, processing data, and querying the memory graph.
-    
+
     @ai_prompt: Use this class for high-level operations. For fine-grained
     control, use AegisTwinRuntime directly.
     """
-    
+
     def __init__(self, config_path: str = None):
         """
         Initialize AegisTwin with optional configuration.
-        
+
         Args:
             config_path: Path to YAML configuration file. If None, uses defaults.
         """
         self._runtime = None
         self._config_path = config_path
-    
+
     @property
     def runtime(self) -> AegisTwinRuntime:
         """Lazy-load the runtime."""
         if self._runtime is None:
             self._runtime = AegisTwinRuntime(config_path=self._config_path)
         return self._runtime
-    
+
     def run_demo(self, demo_name: str = "pipeline") -> dict:
         """
         Run a demonstration scenario.
-        
+
         Args:
             demo_name: One of 'pipeline', 'replay', or 'policy'
-            
+
         Returns:
             Dictionary containing demo results and artifacts
         """
         from aegistwin.demos import run_demo
         return run_demo(demo_name, self.runtime)
-    
+
     def ingest(self, data: dict, source: str = "manual") -> str:
         """
         Ingest data into the system.
-        
+
         Args:
             data: Data to ingest
             source: Source identifier
-            
+
         Returns:
             Run ID for tracking
         """
         return self.runtime.ingest(data, source)
-    
+
     def query(self, query: str) -> dict:
         """
         Query the memory graph.
-        
+
         Args:
             query: Natural language query
-            
+
         Returns:
             Query response with results
         """

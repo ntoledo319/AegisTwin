@@ -11,16 +11,15 @@ Concrete implementations for various LLM providers.
 
 import os
 import time
-from typing import Any, Dict, Iterator, Optional
+from collections.abc import Iterator
 
 import httpx
 
 from aegistwin.modules.llm.base import (
-    LLMProvider,
-    LLMRequest,
-    LLMResponse,
-    LLMError,
     AuthenticationError,
+    LLMError,
+    LLMProvider,
+    LLMResponse,
     RateLimitError,
 )
 
@@ -28,45 +27,45 @@ from aegistwin.modules.llm.base import (
 class MockProvider(LLMProvider):
     """
     Mock LLM provider for testing.
-    
+
     Returns deterministic responses without making API calls.
     """
-    
+
     name = "mock"
     default_model = "mock-v1"
-    
+
     def __init__(self, response_prefix: str = "Mock response to:"):
         """
         Initialize mock provider.
-        
+
         Args:
             response_prefix: Prefix for mock responses
         """
         self.response_prefix = response_prefix
         self._call_count = 0
-    
+
     def complete(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
     ) -> LLMResponse:
         """Generate a mock completion."""
         self._call_count += 1
-        
+
         # Simulate latency
         latency = 50 + (len(prompt) * 0.5)
-        
+
         # Generate deterministic response
         response_text = f"{self.response_prefix} {prompt[:100]}"
         if len(prompt) > 100:
             response_text += "..."
-        
+
         # Add some variety based on call count
         response_text += f"\n\n[Mock call #{self._call_count}]"
-        
+
         return LLMResponse(
             content=response_text,
             model=model or self.default_model,
@@ -76,18 +75,18 @@ class MockProvider(LLMProvider):
             latency_ms=latency,
             finish_reason="stop",
         )
-    
+
     def stream(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
     ) -> Iterator[str]:
         """Stream a mock completion word by word."""
         response = self.complete(prompt, model, max_tokens, temperature, **kwargs)
-        
+
         for word in response.content.split():
             yield word + " "
             time.sleep(0.01)  # Simulate streaming delay
@@ -96,39 +95,39 @@ class MockProvider(LLMProvider):
 class OpenAIProvider(LLMProvider):
     """
     OpenAI API provider.
-    
+
     Uses httpx for API calls (no SDK dependency).
     Requires OPENAI_API_KEY environment variable.
     """
-    
+
     name = "openai"
     default_model = "gpt-4o-mini"
     base_url = "https://api.openai.com/v1"
-    
-    def __init__(self, api_key: Optional[str] = None):
+
+    def __init__(self, api_key: str | None = None):
         """
         Initialize OpenAI provider.
-        
+
         Args:
             api_key: OpenAI API key (defaults to OPENAI_API_KEY env var)
         """
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-    
+
     def is_available(self) -> bool:
         """Check if API key is configured."""
         return bool(self.api_key)
-    
-    def _get_headers(self) -> Dict[str, str]:
+
+    def _get_headers(self) -> dict[str, str]:
         """Get request headers."""
         return {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-    
+
     def complete(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
@@ -139,20 +138,20 @@ class OpenAIProvider(LLMProvider):
                 "OpenAI API key not configured",
                 provider=self.name
             )
-        
+
         start_time = time.perf_counter()
-        
+
         payload = {
             "model": model or self.default_model,
             "messages": [{"role": "user", "content": prompt}],
             "max_tokens": max_tokens,
             "temperature": temperature,
         }
-        
+
         # Add optional parameters
         if "stop" in kwargs:
             payload["stop"] = kwargs["stop"]
-        
+
         try:
             with httpx.Client() as client:
                 response = client.post(
@@ -161,35 +160,35 @@ class OpenAIProvider(LLMProvider):
                     json=payload,
                     timeout=60.0,
                 )
-                
+
                 if response.status_code == 429:
                     raise RateLimitError(
                         "Rate limit exceeded",
                         provider=self.name,
                         status_code=429,
                     )
-                
+
                 if response.status_code == 401:
                     raise AuthenticationError(
                         "Invalid API key",
                         provider=self.name,
                         status_code=401,
                     )
-                
+
                 response.raise_for_status()
                 data = response.json()
-                
+
         except httpx.HTTPError as e:
             raise LLMError(
                 f"HTTP error: {str(e)}",
                 provider=self.name,
-            )
-        
+            ) from e
+
         latency_ms = (time.perf_counter() - start_time) * 1000
-        
+
         choice = data["choices"][0]
         usage = data.get("usage", {})
-        
+
         return LLMResponse(
             content=choice["message"]["content"],
             model=data["model"],
@@ -200,11 +199,11 @@ class OpenAIProvider(LLMProvider):
             finish_reason=choice.get("finish_reason", "stop"),
             raw_response=data,
         )
-    
+
     def stream(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
@@ -215,7 +214,7 @@ class OpenAIProvider(LLMProvider):
                 "OpenAI API key not configured",
                 provider=self.name
             )
-        
+
         payload = {
             "model": model or self.default_model,
             "messages": [{"role": "user", "content": prompt}],
@@ -223,7 +222,7 @@ class OpenAIProvider(LLMProvider):
             "temperature": temperature,
             "stream": True,
         }
-        
+
         with httpx.Client() as client:
             with client.stream(
                 "POST",
@@ -233,13 +232,13 @@ class OpenAIProvider(LLMProvider):
                 timeout=60.0,
             ) as response:
                 response.raise_for_status()
-                
+
                 for line in response.iter_lines():
                     if line.startswith("data: "):
                         data = line[6:]
                         if data == "[DONE]":
                             break
-                        
+
                         import json
                         chunk = json.loads(data)
                         delta = chunk["choices"][0].get("delta", {})
@@ -251,40 +250,40 @@ class OpenAIProvider(LLMProvider):
 class AnthropicProvider(LLMProvider):
     """
     Anthropic Claude API provider.
-    
+
     Uses httpx for API calls (no SDK dependency).
     Requires ANTHROPIC_API_KEY environment variable.
     """
-    
+
     name = "anthropic"
     default_model = "claude-3-haiku-20240307"
     base_url = "https://api.anthropic.com/v1"
-    
-    def __init__(self, api_key: Optional[str] = None):
+
+    def __init__(self, api_key: str | None = None):
         """
         Initialize Anthropic provider.
-        
+
         Args:
             api_key: Anthropic API key (defaults to ANTHROPIC_API_KEY env var)
         """
         self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
-    
+
     def is_available(self) -> bool:
         """Check if API key is configured."""
         return bool(self.api_key)
-    
-    def _get_headers(self) -> Dict[str, str]:
+
+    def _get_headers(self) -> dict[str, str]:
         """Get request headers."""
         return {
             "x-api-key": self.api_key,
             "anthropic-version": "2023-06-01",
             "Content-Type": "application/json",
         }
-    
+
     def complete(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
@@ -295,16 +294,16 @@ class AnthropicProvider(LLMProvider):
                 "Anthropic API key not configured",
                 provider=self.name
             )
-        
+
         start_time = time.perf_counter()
-        
+
         payload = {
             "model": model or self.default_model,
             "messages": [{"role": "user", "content": prompt}],
             "max_tokens": max_tokens,
             "temperature": temperature,
         }
-        
+
         try:
             with httpx.Client() as client:
                 response = client.post(
@@ -313,35 +312,35 @@ class AnthropicProvider(LLMProvider):
                     json=payload,
                     timeout=60.0,
                 )
-                
+
                 if response.status_code == 429:
                     raise RateLimitError(
                         "Rate limit exceeded",
                         provider=self.name,
                         status_code=429,
                     )
-                
+
                 if response.status_code == 401:
                     raise AuthenticationError(
                         "Invalid API key",
                         provider=self.name,
                         status_code=401,
                     )
-                
+
                 response.raise_for_status()
                 data = response.json()
-                
+
         except httpx.HTTPError as e:
             raise LLMError(
                 f"HTTP error: {str(e)}",
                 provider=self.name,
-            )
-        
+            ) from e
+
         latency_ms = (time.perf_counter() - start_time) * 1000
-        
+
         content = data["content"][0]["text"]
         usage = data.get("usage", {})
-        
+
         return LLMResponse(
             content=content,
             model=data["model"],
@@ -352,11 +351,11 @@ class AnthropicProvider(LLMProvider):
             finish_reason=data.get("stop_reason", "stop"),
             raw_response=data,
         )
-    
+
     def stream(
         self,
         prompt: str,
-        model: Optional[str] = None,
+        model: str | None = None,
         max_tokens: int = 1000,
         temperature: float = 0.7,
         **kwargs
@@ -367,7 +366,7 @@ class AnthropicProvider(LLMProvider):
                 "Anthropic API key not configured",
                 provider=self.name
             )
-        
+
         payload = {
             "model": model or self.default_model,
             "messages": [{"role": "user", "content": prompt}],
@@ -375,7 +374,7 @@ class AnthropicProvider(LLMProvider):
             "temperature": temperature,
             "stream": True,
         }
-        
+
         with httpx.Client() as client:
             with client.stream(
                 "POST",
@@ -385,7 +384,7 @@ class AnthropicProvider(LLMProvider):
                 timeout=60.0,
             ) as response:
                 response.raise_for_status()
-                
+
                 for line in response.iter_lines():
                     if line.startswith("data: "):
                         import json
@@ -395,7 +394,7 @@ class AnthropicProvider(LLMProvider):
 
 
 # Provider registry
-_PROVIDERS: Dict[str, type] = {
+_PROVIDERS: dict[str, type] = {
     "mock": MockProvider,
     "openai": OpenAIProvider,
     "anthropic": AnthropicProvider,
@@ -405,14 +404,14 @@ _PROVIDERS: Dict[str, type] = {
 def get_provider(name: str = "mock", **kwargs) -> LLMProvider:
     """
     Get an LLM provider by name.
-    
+
     Args:
         name: Provider name (mock, openai, anthropic)
         **kwargs: Provider-specific initialization arguments
-        
+
     Returns:
         LLMProvider instance
-        
+
     Raises:
         ValueError: If provider name is unknown
     """
@@ -421,14 +420,14 @@ def get_provider(name: str = "mock", **kwargs) -> LLMProvider:
             f"Unknown provider: {name}. "
             f"Available: {list(_PROVIDERS.keys())}"
         )
-    
+
     return _PROVIDERS[name](**kwargs)
 
 
 def register_provider(name: str, provider_class: type) -> None:
     """
     Register a custom LLM provider.
-    
+
     Args:
         name: Provider name
         provider_class: LLMProvider subclass

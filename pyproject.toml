@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aegistwin"
-version = "0.1.0"
+version = "0.2.0"
 description = "Event-driven agent runtime + governance + deterministic replay + local memory graph"
 readme = "README.md"
 license = {text = "MIT"}
@@ -49,10 +49,20 @@ dev = [
     "mypy>=1.0.0",
     "httpx>=0.24.0",
 ]
-full = [
-    "networkx>=3.0",
-    "numpy>=1.24.0",
-    "sentence-transformers>=2.2.0",
+production = [
+    "redis>=5.0.0",
+    "asyncpg>=0.29.0",
+    "PyJWT>=2.8.0",
+    "cryptography>=41.0.0",
+    "slowapi>=0.1.9",
+]
+connectors = [
+    "google-auth-oauthlib>=1.1.0",
+    "google-api-python-client>=2.100.0",
+    "slack-sdk>=3.23.0",
+]
+integrations = [
+    "langchain-core>=0.1.0",
 ]
 observability = [
     "opentelemetry-api>=1.20.0",
@@ -60,6 +70,12 @@ observability = [
     "opentelemetry-exporter-otlp>=1.20.0",
     "opentelemetry-instrumentation-fastapi>=0.41b0",
     "opentelemetry-exporter-prometheus>=0.41b0",
+]
+full = [
+    "aegistwin[production,connectors,integrations,observability]",
+    "networkx>=3.0",
+    "numpy>=1.24.0",
+    "sentence-transformers>=2.2.0",
 ]
 
 [project.scripts]

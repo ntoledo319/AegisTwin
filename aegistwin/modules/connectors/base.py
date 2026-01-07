@@ -10,39 +10,39 @@ Provides the base class for all connectors and a registry for managing them.
 """
 
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List, Optional, Type
+from typing import Any
 
 
 class BaseConnector(ABC):
     """
     Abstract base class for data source connectors.
-    
+
     Subclass this to create connectors for specific data sources
     like email, calendar, messages, etc.
     """
-    
+
     name: str = "base"
-    supported_types: List[str] = []
-    
-    def __init__(self, config: Optional[Dict[str, Any]] = None):
+    supported_types: list[str] = []
+
+    def __init__(self, config: dict[str, Any] | None = None):
         self.config = config or {}
-    
+
     @abstractmethod
     def connect(self) -> bool:
         """Establish connection to the data source."""
         pass
-    
+
     @abstractmethod
-    def fetch(self, **kwargs) -> List[Dict[str, Any]]:
+    def fetch(self, **kwargs) -> list[dict[str, Any]]:
         """Fetch data from the source."""
         pass
-    
+
     @abstractmethod
     def disconnect(self) -> None:
         """Close connection to the data source."""
         pass
-    
-    def validate(self, data: Dict[str, Any]) -> bool:
+
+    def validate(self, data: dict[str, Any]) -> bool:
         """Validate fetched data. Override for custom validation."""
         return True
 
@@ -50,29 +50,29 @@ class BaseConnector(ABC):
 class ConnectorRegistry:
     """
     Registry for managing connector instances.
-    
+
     Provides a central place to register and retrieve connectors by name.
     """
-    
-    _connectors: Dict[str, Type[BaseConnector]] = {}
-    _instances: Dict[str, BaseConnector] = {}
-    
+
+    _connectors: dict[str, type[BaseConnector]] = {}
+    _instances: dict[str, BaseConnector] = {}
+
     @classmethod
-    def register(cls, connector_class: Type[BaseConnector]) -> Type[BaseConnector]:
+    def register(cls, connector_class: type[BaseConnector]) -> type[BaseConnector]:
         """Register a connector class."""
         cls._connectors[connector_class.name] = connector_class
         return connector_class
-    
+
     @classmethod
-    def get(cls, name: str, config: Optional[Dict[str, Any]] = None) -> BaseConnector:
+    def get(cls, name: str, config: dict[str, Any] | None = None) -> BaseConnector:
         """Get or create a connector instance."""
         if name not in cls._instances:
             if name not in cls._connectors:
                 raise ValueError(f"Unknown connector: {name}")
             cls._instances[name] = cls._connectors[name](config)
         return cls._instances[name]
-    
+
     @classmethod
-    def list_connectors(cls) -> List[str]:
+    def list_connectors(cls) -> list[str]:
         """List all registered connector names."""
         return list(cls._connectors.keys())

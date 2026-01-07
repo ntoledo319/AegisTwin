@@ -102,3 +102,10 @@ results/
 htmlcov/
 coverage.xml
 .coverage
+
+# Development archives
+.archive/
+
+# Node modules (dashboard/SDK)
+node_modules/
+dist/

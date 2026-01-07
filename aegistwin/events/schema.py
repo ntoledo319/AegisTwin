@@ -21,11 +21,11 @@ QueryResponded <- QueryRequested <- MemoryUpdated <- GraphUpdated
 # HUMAN-VALIDATED [pending]
 """
 
-from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional
-from enum import Enum
 import hashlib
 import uuid
+from datetime import datetime
+from enum import Enum
+from typing import Any
 
 from pydantic import BaseModel, Field, computed_field
 
@@ -51,10 +51,10 @@ class EventType(str, Enum):
 class BaseEvent(BaseModel):
     """
     Base class for all AegisTwin events.
-    
+
     Provides common fields for event identification, timing, and tracing.
     All events are immutable after creation.
-    
+
     Attributes:
         event_id: Unique identifier for this event instance
         event_type: Type of event from EventType enum
@@ -63,16 +63,16 @@ class BaseEvent(BaseModel):
         parent_event_id: ID of the event that triggered this one
         metadata: Additional context data
     """
-    
+
     event_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     event_type: EventType
     timestamp: datetime = Field(default_factory=datetime.utcnow)
     run_id: str = Field(default_factory=lambda: str(uuid.uuid4())[:8])
-    parent_event_id: Optional[str] = None
-    metadata: Dict[str, Any] = Field(default_factory=dict)
-    
+    parent_event_id: str | None = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
     model_config = {"frozen": True}
-    
+
     @computed_field
     @property
     def payload_hash(self) -> str:
@@ -81,8 +81,8 @@ class BaseEvent(BaseModel):
         data = self.model_dump(exclude={"event_id", "timestamp", "payload_hash"})
         serialized = str(sorted(data.items()))
         return hashlib.sha256(serialized.encode()).hexdigest()[:16]
-    
-    def to_trace_dict(self) -> Dict[str, Any]:
+
+    def to_trace_dict(self) -> dict[str, Any]:
         """Convert event to trace-friendly dictionary."""
         return {
             "event_id": self.event_id,
@@ -97,7 +97,7 @@ class BaseEvent(BaseModel):
 class IngestRequested(BaseEvent):
     """
     Event emitted when data ingestion is requested.
-    
+
     Attributes:
         source: Source of the data (e.g., 'email', 'calendar', 'messages')
         data_type: Type of data being ingested
@@ -107,14 +107,14 @@ class IngestRequested(BaseEvent):
     event_type: EventType = EventType.INGEST_REQUESTED
     source: str
     data_type: str
-    payload: Dict[str, Any]
-    connector_id: Optional[str] = None
+    payload: dict[str, Any]
+    connector_id: str | None = None
 
 
 class IngestCompleted(BaseEvent):
     """
     Event emitted when data ingestion completes successfully.
-    
+
     Attributes:
         source: Source of the ingested data
         record_count: Number of records ingested
@@ -131,7 +131,7 @@ class IngestCompleted(BaseEvent):
 class DataNormalized(BaseEvent):
     """
     Event emitted when ingested data has been normalized.
-    
+
     Attributes:
         source: Original data source
         normalized_records: List of normalized data records
@@ -140,15 +140,15 @@ class DataNormalized(BaseEvent):
     """
     event_type: EventType = EventType.DATA_NORMALIZED
     source: str
-    normalized_records: List[Dict[str, Any]]
+    normalized_records: list[dict[str, Any]]
     schema_version: str = "1.0.0"
-    transformations_applied: List[str] = Field(default_factory=list)
+    transformations_applied: list[str] = Field(default_factory=list)
 
 
 class AnalysisCompleted(BaseEvent):
     """
     Event emitted when analysis of normalized data completes.
-    
+
     Attributes:
         analysis_type: Type of analysis performed
         results: Analysis results
@@ -158,16 +158,16 @@ class AnalysisCompleted(BaseEvent):
     """
     event_type: EventType = EventType.ANALYSIS_COMPLETED
     analysis_type: str
-    results: Dict[str, Any]
+    results: dict[str, Any]
     confidence: float = 1.0
-    entities_extracted: List[Dict[str, Any]] = Field(default_factory=list)
-    relationships_found: List[Dict[str, Any]] = Field(default_factory=list)
+    entities_extracted: list[dict[str, Any]] = Field(default_factory=list)
+    relationships_found: list[dict[str, Any]] = Field(default_factory=list)
 
 
 class GraphUpdated(BaseEvent):
     """
     Event emitted when the knowledge graph is updated.
-    
+
     Attributes:
         nodes_added: Number of nodes added
         edges_added: Number of edges added
@@ -184,7 +184,7 @@ class GraphUpdated(BaseEvent):
 class MemoryUpdated(BaseEvent):
     """
     Event emitted when memory systems are updated.
-    
+
     Attributes:
         memory_type: Type of memory updated (episodic, semantic, procedural)
         entries_added: Number of memory entries added
@@ -195,13 +195,13 @@ class MemoryUpdated(BaseEvent):
     memory_type: str
     entries_added: int = 0
     entries_consolidated: int = 0
-    memory_state_hash: Optional[str] = None
+    memory_state_hash: str | None = None
 
 
 class QueryRequested(BaseEvent):
     """
     Event emitted when a query is submitted.
-    
+
     Attributes:
         query_text: The natural language query
         query_type: Type of query (search, inference, aggregation)
@@ -211,14 +211,14 @@ class QueryRequested(BaseEvent):
     event_type: EventType = EventType.QUERY_REQUESTED
     query_text: str
     query_type: str = "search"
-    context: Dict[str, Any] = Field(default_factory=dict)
-    requester_id: Optional[str] = None
+    context: dict[str, Any] = Field(default_factory=dict)
+    requester_id: str | None = None
 
 
 class QueryResponded(BaseEvent):
     """
     Event emitted when a query response is ready.
-    
+
     Attributes:
         query_request_id: ID of the original QueryRequested event
         response: The query response
@@ -228,8 +228,8 @@ class QueryResponded(BaseEvent):
     """
     event_type: EventType = EventType.QUERY_RESPONDED
     query_request_id: str
-    response: Dict[str, Any]
-    sources: List[str] = Field(default_factory=list)
+    response: dict[str, Any]
+    sources: list[str] = Field(default_factory=list)
     confidence: float = 1.0
     latency_ms: float = 0.0
 
@@ -237,7 +237,7 @@ class QueryResponded(BaseEvent):
 class AuditLogged(BaseEvent):
     """
     Event emitted for audit logging purposes.
-    
+
     Attributes:
         action: The action being audited
         actor: Who performed the action
@@ -251,14 +251,14 @@ class AuditLogged(BaseEvent):
     actor: str
     resource: str
     outcome: str
-    policy_id: Optional[str] = None
-    reason: Optional[str] = None
+    policy_id: str | None = None
+    reason: str | None = None
 
 
 class ReplayStarted(BaseEvent):
     """
     Event emitted when a replay session begins.
-    
+
     Attributes:
         original_run_id: ID of the run being replayed
         replay_mode: Mode of replay (verify, debug, compare)
@@ -273,7 +273,7 @@ class ReplayStarted(BaseEvent):
 class ReplayCompleted(BaseEvent):
     """
     Event emitted when a replay session completes.
-    
+
     Attributes:
         original_run_id: ID of the run that was replayed
         events_replayed: Number of events replayed
@@ -286,13 +286,13 @@ class ReplayCompleted(BaseEvent):
     events_replayed: int = 0
     events_matched: int = 0
     events_diverged: int = 0
-    divergence_details: List[Dict[str, Any]] = Field(default_factory=list)
+    divergence_details: list[dict[str, Any]] = Field(default_factory=list)
 
 
 class PolicyDenied(BaseEvent):
     """
     Event emitted when a policy denies an action.
-    
+
     Attributes:
         action: The action that was denied
         policy_id: ID of the denying policy
@@ -303,13 +303,13 @@ class PolicyDenied(BaseEvent):
     action: str
     policy_id: str
     reason: str
-    suggested_action: Optional[str] = None
+    suggested_action: str | None = None
 
 
 class LLMRequestEvent(BaseEvent):
     """
     Event emitted when an LLM request is made.
-    
+
     Attributes:
         provider: LLM provider name (openai, anthropic, mock)
         model: Model identifier
@@ -328,7 +328,7 @@ class LLMRequestEvent(BaseEvent):
 class LLMResponseEvent(BaseEvent):
     """
     Event emitted when an LLM response is received.
-    
+
     Attributes:
         provider: LLM provider name
         model: Model used
@@ -345,4 +345,4 @@ class LLMResponseEvent(BaseEvent):
     output_tokens: int = 0
     latency_ms: float = 0.0
     finish_reason: str = "stop"
-    request_event_id: Optional[str] = None
+    request_event_id: str | None = None
