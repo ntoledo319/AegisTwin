@@ -1,0 +1,57 @@
+{
+  "person": "Cindy Leighton",
+  "type": "individual",
+  "total_messages": 27,
+  "first_message": "2019-04-13 15:21:05",
+  "last_message": "2023-04-16 15:24:29",
+  "duration_days": 1464,
+  "days_since_last": 948,
+  "your_messages": 10,
+  "their_messages": 17,
+  "balance": 37.03703703703704,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 2,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2019-04-13",
+      "end_date": "2020-04-13",
+      "duration_days": 366,
+      "message_count": 8,
+      "daily_avg": 0.02185792349726776,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-04-13",
+      "end_date": "2021-04-14",
+      "duration_days": 366,
+      "message_count": 3,
+      "daily_avg": 0.00819672131147541,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-04-14",
+      "end_date": "2022-04-15",
+      "duration_days": 366,
+      "message_count": 8,
+      "daily_avg": 0.02185792349726776,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-04-15",
+      "end_date": "2023-04-16",
+      "duration_days": 366,
+      "message_count": 8,
+      "daily_avg": 0.02185792349726776,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

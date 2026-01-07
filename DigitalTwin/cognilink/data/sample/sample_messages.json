@@ -1,0 +1,189 @@
+{
+  "messages": [
+    {
+      "id": "msg1",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "Hey, are we still meeting for coffee tomorrow?",
+      "timestamp": "2023-09-10T09:15:00Z",
+      "platform": "whatsapp"
+    },
+    {
+      "id": "msg2",
+      "sender": "+15559876543",
+      "sender_name": "Jane",
+      "content": "Yes, 10am at the usual place works for me!",
+      "timestamp": "2023-09-10T09:20:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15551234567"
+    },
+    {
+      "id": "msg3",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "Perfect. I'll bring those documents we discussed.",
+      "timestamp": "2023-09-10T09:22:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15559876543"
+    },
+    {
+      "id": "msg4",
+      "sender": "+15559876543",
+      "sender_name": "Jane",
+      "content": "Great! Also, have you had a chance to review the project proposal?",
+      "timestamp": "2023-09-10T09:25:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15551234567"
+    },
+    {
+      "id": "msg5",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "Yes, I reviewed it yesterday. I have some feedback and suggestions for the budget section.",
+      "timestamp": "2023-09-10T09:30:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15559876543"
+    },
+    {
+      "id": "msg6",
+      "sender": "+15559876543",
+      "sender_name": "Jane",
+      "content": "That's exactly what I wanted to discuss. The client is asking for more details on the cost breakdown.",
+      "timestamp": "2023-09-10T09:32:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15551234567"
+    },
+    {
+      "id": "msg7",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "I'll prepare a more detailed breakdown for our meeting then.",
+      "timestamp": "2023-09-10T09:35:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15559876543"
+    },
+    {
+      "id": "msg8",
+      "sender": "+15559876543",
+      "sender_name": "Jane",
+      "content": "Perfect! See you tomorrow.",
+      "timestamp": "2023-09-10T09:36:00Z",
+      "platform": "whatsapp",
+      "recipient": "+15551234567"
+    },
+    {
+      "id": "msg9",
+      "sender": "michael@example.com",
+      "sender_name": "Michael",
+      "content": "Team, the client presentation is scheduled for Thursday at 2pm. Please prepare your sections by Wednesday.",
+      "timestamp": "2023-09-11T14:00:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["john@example.com", "jane@example.com", "sarah@example.com"]
+    },
+    {
+      "id": "msg10",
+      "sender": "john@example.com",
+      "sender_name": "John",
+      "content": "I'll have the technical overview ready by tomorrow afternoon.",
+      "timestamp": "2023-09-11T14:05:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["michael@example.com", "jane@example.com", "sarah@example.com"]
+    },
+    {
+      "id": "msg11",
+      "sender": "jane@example.com",
+      "sender_name": "Jane",
+      "content": "My budget section is almost complete. I just need to incorporate John's feedback from our coffee meeting.",
+      "timestamp": "2023-09-11T14:10:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["michael@example.com", "john@example.com", "sarah@example.com"]
+    },
+    {
+      "id": "msg12",
+      "sender": "sarah@example.com",
+      "sender_name": "Sarah",
+      "content": "I'll handle the timeline and resource allocation slides. Should we meet tomorrow to review everything together?",
+      "timestamp": "2023-09-11T14:15:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["michael@example.com", "john@example.com", "jane@example.com"]
+    },
+    {
+      "id": "msg13",
+      "sender": "michael@example.com",
+      "sender_name": "Michael",
+      "content": "Good idea, Sarah. Let's meet tomorrow at 3pm to review all sections.",
+      "timestamp": "2023-09-11T14:20:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["john@example.com", "jane@example.com", "sarah@example.com"]
+    },
+    {
+      "id": "msg14",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "Hey Sarah, do you have the latest user research results for the presentation?",
+      "timestamp": "2023-09-12T10:00:00Z",
+      "platform": "sms",
+      "recipient": "+15557890123"
+    },
+    {
+      "id": "msg15",
+      "sender": "+15557890123",
+      "sender_name": "Sarah",
+      "content": "Yes, I'll email them to you in an hour. Just finalizing the analysis.",
+      "timestamp": "2023-09-12T10:05:00Z",
+      "platform": "sms",
+      "recipient": "+15551234567"
+    },
+    {
+      "id": "msg16",
+      "sender": "+15551234567",
+      "sender_name": "John",
+      "content": "Thanks! That will be perfect timing for our 3pm review meeting.",
+      "timestamp": "2023-09-12T10:07:00Z",
+      "platform": "sms",
+      "recipient": "+15557890123"
+    },
+    {
+      "id": "msg17",
+      "sender": "jane@example.com",
+      "sender_name": "Jane",
+      "content": "John, can you meet 30 minutes before the team review to go over the budget section?",
+      "timestamp": "2023-09-12T11:30:00Z",
+      "platform": "telegram",
+      "recipient": "john@example.com"
+    },
+    {
+      "id": "msg18",
+      "sender": "john@example.com",
+      "sender_name": "John",
+      "content": "Sure, 2:30pm works for me. I'll bring the detailed cost breakdown we discussed.",
+      "timestamp": "2023-09-12T11:35:00Z",
+      "platform": "telegram",
+      "recipient": "jane@example.com"
+    },
+    {
+      "id": "msg19",
+      "sender": "jane@example.com",
+      "sender_name": "Jane",
+      "content": "Perfect. Let's meet in the small conference room.",
+      "timestamp": "2023-09-12T11:37:00Z",
+      "platform": "telegram",
+      "recipient": "john@example.com"
+    },
+    {
+      "id": "msg20",
+      "sender": "michael@example.com",
+      "sender_name": "Michael",
+      "content": "Team, the client just called. They're very impressed with our proposal and want to move forward! Great job everyone!",
+      "timestamp": "2023-09-14T16:00:00Z",
+      "platform": "slack",
+      "conversation_id": "team-project",
+      "recipients": ["john@example.com", "jane@example.com", "sarah@example.com"]
+    }
+  ]
+}

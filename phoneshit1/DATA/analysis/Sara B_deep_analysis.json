@@ -1,0 +1,41 @@
+{
+  "person": "Sara B",
+  "type": "individual",
+  "total_messages": 18,
+  "first_message": "2022-06-21 18:43:43",
+  "last_message": "2022-07-25 17:19:50",
+  "duration_days": 33,
+  "days_since_last": 1213,
+  "your_messages": 9,
+  "their_messages": 9,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-06-21",
+      "end_date": "2022-07-08",
+      "duration_days": 16,
+      "message_count": 10,
+      "daily_avg": 0.625,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-08",
+      "end_date": "2022-07-25",
+      "duration_days": 16,
+      "message_count": 8,
+      "daily_avg": 0.5,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

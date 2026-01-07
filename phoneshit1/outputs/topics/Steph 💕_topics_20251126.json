@@ -1,0 +1,259 @@
+{
+  "contact": "Steph \ud83d\udc95",
+  "topic_extraction": {
+    "contact": "Steph \ud83d\udc95",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 3,
+        "label": "Topic: sorry",
+        "keywords": [
+          "sorry",
+          "shit",
+          "idk",
+          "fucking",
+          "fuck",
+          "here",
+          "tell"
+        ],
+        "relevance_score": 5148.1,
+        "prevalence": 0.105
+      },
+      {
+        "topic_id": 8,
+        "label": "Topic: good",
+        "keywords": [
+          "good",
+          "re",
+          "go",
+          "ve",
+          "need",
+          "said",
+          "doing"
+        ],
+        "relevance_score": 5402.43,
+        "prevalence": 0.103
+      },
+      {
+        "topic_id": 4,
+        "label": "Topic: if",
+        "keywords": [
+          "if",
+          "don",
+          "know",
+          "wanna",
+          "make",
+          "want",
+          "even"
+        ],
+        "relevance_score": 6515.78,
+        "prevalence": 0.102
+      },
+      {
+        "topic_id": 1,
+        "label": "Emotions & Feelings",
+        "keywords": [
+          "got",
+          "people",
+          "well",
+          "feel",
+          "better",
+          "only",
+          "as"
+        ],
+        "relevance_score": 5297.57,
+        "prevalence": 0.101
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: ll",
+        "keywords": [
+          "ll",
+          "going",
+          "let",
+          "over",
+          "text",
+          "back",
+          "then"
+        ],
+        "relevance_score": 5352.51,
+        "prevalence": 0.101
+      },
+      {
+        "topic_id": 5,
+        "label": "Topic: time",
+        "keywords": [
+          "time",
+          "day",
+          "one",
+          "night",
+          "week",
+          "last",
+          "nice"
+        ],
+        "relevance_score": 5359.95,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 6,
+        "label": "Work & Career",
+        "keywords": [
+          "out",
+          "there",
+          "work",
+          "still",
+          "ll",
+          "call",
+          "way"
+        ],
+        "relevance_score": 5014.66,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 9,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "love",
+          "right",
+          "think",
+          "things",
+          "thank",
+          "now",
+          "lot"
+        ],
+        "relevance_score": 5258.15,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 10,
+        "label": "Topic: get",
+        "keywords": [
+          "get",
+          "today",
+          "as",
+          "off",
+          "talk",
+          "if",
+          "free"
+        ],
+        "relevance_score": 4985.54,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: want",
+        "keywords": [
+          "want",
+          "oh",
+          "now",
+          "mean",
+          "see",
+          "maybe",
+          "getting"
+        ],
+        "relevance_score": 4140.31,
+        "prevalence": 0.091
+      }
+    ],
+    "analysis_summary": "Primary themes: Topic: sorry, Topic: good, Topic: if",
+    "generated_at": "2025-11-26T03:26:16.066012"
+  },
+  "topic_evolution": {
+    "contact": "Steph \ud83d\udc95",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2019-02 to 2020-10",
+        "top_keywords": [
+          "know",
+          "there",
+          "want",
+          "good",
+          "sorry",
+          "here",
+          "love",
+          "think",
+          "time",
+          "make"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 2,
+        "period": "2020-10 to 2022-03",
+        "top_keywords": [
+          "know",
+          "time",
+          "there",
+          "good",
+          "work",
+          "want",
+          "going",
+          "shit",
+          "wanna",
+          "sorry"
+        ],
+        "theme": "Work & Career"
+      },
+      {
+        "phase": 3,
+        "period": "2022-03 to 2023-12",
+        "top_keywords": [
+          "good",
+          "know",
+          "work",
+          "love",
+          "think",
+          "sorry",
+          "shit",
+          "want",
+          "right",
+          "going"
+        ],
+        "theme": "Work & Career"
+      },
+      {
+        "phase": 4,
+        "period": "2023-12 to 2024-11",
+        "top_keywords": [
+          "good",
+          "know",
+          "want",
+          "work",
+          "love",
+          "here",
+          "there",
+          "sorry",
+          "shit",
+          "need"
+        ],
+        "theme": "Work & Career"
+      }
+    ],
+    "evolution_summary": "Evolved from Relationships & Dating to Work & Career",
+    "generated_at": "2025-11-26T03:26:16.446213"
+  },
+  "conflict_topics": {
+    "contact": "Steph \ud83d\udc95",
+    "conflict_detected": true,
+    "conflict_message_count": 194,
+    "conflict_message_percentage": 0.9,
+    "common_conflict_topics": [
+      "made",
+      "know",
+      "because",
+      "love",
+      "said",
+      "things",
+      "didn",
+      "friend",
+      "want",
+      "there"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Social circle and friendships cause tension",
+    "generated_at": "2025-11-26T03:26:16.550531"
+  },
+  "generated_at": "2025-11-26T03:26:16.551547"
+}

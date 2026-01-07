@@ -1,0 +1,57 @@
+{
+  "person": "Jake C",
+  "type": "individual",
+  "total_messages": 265,
+  "first_message": "2020-12-30 17:26:11",
+  "last_message": "2021-12-14 19:15:52",
+  "duration_days": 349,
+  "days_since_last": 1436,
+  "your_messages": 145,
+  "their_messages": 120,
+  "balance": 54.71698113207547,
+  "emotional_keywords": {
+    "love": 12,
+    "conflict": 6,
+    "breakup": 1,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 0,
+    "sadness": 6
+  },
+  "phases": [
+    {
+      "start_date": "2020-12-30",
+      "end_date": "2021-03-27",
+      "duration_days": 87,
+      "message_count": 14,
+      "daily_avg": 0.16091954022988506,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-03-27",
+      "end_date": "2021-06-23",
+      "duration_days": 87,
+      "message_count": 68,
+      "daily_avg": 0.7816091954022989,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-06-23",
+      "end_date": "2021-09-18",
+      "duration_days": 87,
+      "message_count": 116,
+      "daily_avg": 1.3333333333333333,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-09-18",
+      "end_date": "2021-12-14",
+      "duration_days": 87,
+      "message_count": 67,
+      "daily_avg": 0.7701149425287356,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Marisa & Andrew C",
+  "type": "group",
+  "total_messages": 5,
+  "first_message": "2023-02-10 16:35:14",
+  "last_message": "2023-02-10 18:41:19",
+  "duration_days": 0,
+  "days_since_last": 1013,
+  "your_messages": 2,
+  "their_messages": 3,
+  "balance": 40.0,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-02-10",
+      "end_date": "2023-02-10",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-02-10",
+      "end_date": "2023-02-10",
+      "duration_days": 1,
+      "message_count": 3,
+      "daily_avg": 3.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

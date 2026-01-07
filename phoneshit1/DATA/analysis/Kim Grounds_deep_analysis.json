@@ -1,0 +1,49 @@
+{
+  "person": "Kim Grounds",
+  "type": "individual",
+  "total_messages": 55,
+  "first_message": "2024-03-01 09:46:20",
+  "last_message": "2024-06-04 15:44:35",
+  "duration_days": 95,
+  "days_since_last": 533,
+  "your_messages": 30,
+  "their_messages": 25,
+  "balance": 54.54545454545454,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2024-03-01",
+      "end_date": "2024-04-02",
+      "duration_days": 31,
+      "message_count": 3,
+      "daily_avg": 0.0967741935483871,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-02",
+      "end_date": "2024-05-03",
+      "duration_days": 31,
+      "message_count": 7,
+      "daily_avg": 0.22580645161290322,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-05-03",
+      "end_date": "2024-06-04",
+      "duration_days": 31,
+      "message_count": 45,
+      "daily_avg": 1.4516129032258065,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

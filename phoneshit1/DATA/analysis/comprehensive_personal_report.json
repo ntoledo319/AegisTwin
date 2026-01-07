@@ -1,0 +1,237 @@
+{
+  "report_date": "2025-11-23 05:03:48.075745",
+  "analysis_period": {
+    "start_date": "2017-12-23 13:57:33",
+    "end_date": "2025-11-20 01:46:08",
+    "total_days": 2888,
+    "total_years": 7.91
+  },
+  "communication_overview": {
+    "total_messages": 900983,
+    "total_contacts": 1152,
+    "messages_per_day_avg": 312.0,
+    "active_contacts_last_30_days": 148
+  },
+  "top_relationships": [
+    {
+      "name": "Lily",
+      "messages": 360346,
+      "duration_days": 2490
+    },
+    {
+      "name": "Marisa",
+      "messages": 89076,
+      "duration_days": 1209
+    },
+    {
+      "name": "Ian L",
+      "messages": 58930,
+      "duration_days": 2885
+    },
+    {
+      "name": "Max",
+      "messages": 46685,
+      "duration_days": 1113
+    },
+    {
+      "name": "Potato",
+      "messages": 41890,
+      "duration_days": 923
+    },
+    {
+      "name": "Julia Rain Grounds",
+      "messages": 32100,
+      "duration_days": 923
+    },
+    {
+      "name": "Gabby",
+      "messages": 28291,
+      "duration_days": 1944
+    },
+    {
+      "name": "Steph \ud83d\udc95",
+      "messages": 21647,
+      "duration_days": 2086
+    },
+    {
+      "name": "hoes and homos",
+      "messages": 18650,
+      "duration_days": 331
+    },
+    {
+      "name": "Mom",
+      "messages": 16271,
+      "duration_days": 2549
+    },
+    {
+      "name": "Chloe Lopez",
+      "messages": 13477,
+      "duration_days": 2185
+    },
+    {
+      "name": "Isabel De Leon",
+      "messages": 8342,
+      "duration_days": 2106
+    },
+    {
+      "name": "Cros",
+      "messages": 8338,
+      "duration_days": 1427
+    },
+    {
+      "name": "The mental deranged poets society",
+      "messages": 6601,
+      "duration_days": 497
+    },
+    {
+      "name": "Mom & Dad",
+      "messages": 5965,
+      "duration_days": 2300
+    },
+    {
+      "name": "Gratitudeversity",
+      "messages": 5930,
+      "duration_days": 80
+    },
+    {
+      "name": "Jessica",
+      "messages": 4606,
+      "duration_days": 146
+    },
+    {
+      "name": "Mia Talamelli",
+      "messages": 4390,
+      "duration_days": 1510
+    },
+    {
+      "name": "One-Shot-Squad",
+      "messages": 4239,
+      "duration_days": 581
+    },
+    {
+      "name": "Hamel Erika",
+      "messages": 4164,
+      "duration_days": 1158
+    }
+  ],
+  "intelligence_profile": {
+    "verbal_intelligence": 52.6,
+    "emotional_intelligence": 14.1,
+    "social_intelligence": 83.0,
+    "communication_effectiveness": 97.9,
+    "personality": {
+      "openness": 11.1,
+      "conscientiousness": 7.1,
+      "extraversion": 100,
+      "agreeableness": 9.7,
+      "neuroticism": 2.8
+    },
+    "composite_intelligence": 61.9,
+    "strengths": [
+      "Extraversion",
+      "Communication Effectiveness",
+      "Social Intelligence"
+    ],
+    "growth_areas": [
+      "Openness",
+      "Agreeableness",
+      "Conscientiousness"
+    ]
+  },
+  "current_life_state": {
+    "briefing_date": "2025-11-20",
+    "briefing_date_formatted": "November 20, 2025",
+    "relationships": {
+      "romantic": {
+        "partner": "Lily",
+        "status": "ENDED - No contact in over 6 months",
+        "days_since_contact": 397,
+        "health_assessment": "Relationship appears to have ended"
+      },
+      "close_friends": {
+        "total": 9,
+        "active": 5,
+        "inactive": 4,
+        "active_list": [
+          "Ian L",
+          "Potato",
+          "Gabby",
+          "Mom",
+          "Chloe Lopez"
+        ]
+      }
+    },
+    "social_activity": {
+      "recent_messages_30d": 12254,
+      "recent_contacts_30d": 161,
+      "avg_messages_per_day": 408.5,
+      "trend_vs_historical": 30.9,
+      "assessment": "Highly active social period"
+    },
+    "mental_health": {
+      "late_night_messaging_pct": 19.3,
+      "sleep_assessment": "Normal sleep patterns",
+      "overall_sentiment": 0.067,
+      "mood_assessment": "Neutral to slightly positive mood",
+      "emotional_intelligence": 14.1,
+      "ei_assessment": "Limited emotional expression in messages - may benefit from developing emotional vocabulary"
+    },
+    "communication": {
+      "effectiveness_score": 97.9,
+      "social_intelligence": 83.0,
+      "verbal_intelligence": 52.6,
+      "personality": {
+        "openness": 11.1,
+        "conscientiousness": 7.1,
+        "extraversion": 100,
+        "agreeableness": 9.7,
+        "neuroticism": 2.8
+      }
+    },
+    "wellbeing": {
+      "composite_score": 77.6,
+      "relationship_health": 70,
+      "social_health": 100,
+      "emotional_health": 56.7,
+      "communication_health": 97.9,
+      "overall_assessment": "Strong overall wellbeing"
+    },
+    "concerns": [
+      "Primary romantic relationship appears to have ended or is inactive",
+      "Limited emotional expression and vocabulary"
+    ],
+    "priorities": [
+      "Focus on rebuilding or developing romantic relationships",
+      "Develop emotional intelligence and expression"
+    ],
+    "strengths": [
+      "Excellent communication effectiveness",
+      "Strong social intelligence and network",
+      "High extraversion - socially energized and engaged",
+      "Maintaining diverse social connections",
+      "Generally positive communication tone"
+    ]
+  },
+  "messaging_patterns": {
+    "yearly_volume": {
+      "2017": 285,
+      "2018": 79916,
+      "2019": 151306,
+      "2020": 140382,
+      "2021": 96516,
+      "2022": 109382,
+      "2023": 130878,
+      "2024": 95349,
+      "2025": 96969
+    },
+    "peak_hours": {
+      "23": 71310,
+      "22": 67455,
+      "0": 64561,
+      "20": 63604,
+      "21": 63223
+    },
+    "most_active_year": 2019,
+    "peak_year_messages": 151306
+  }
+}

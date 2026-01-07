@@ -1,0 +1,57 @@
+{
+  "person": "Lori W",
+  "type": "individual",
+  "total_messages": 317,
+  "first_message": "2023-01-12 11:47:48",
+  "last_message": "2025-07-17 14:48:27",
+  "duration_days": 917,
+  "days_since_last": 125,
+  "your_messages": 138,
+  "their_messages": 179,
+  "balance": 43.53312302839117,
+  "emotional_keywords": {
+    "love": 7,
+    "conflict": 1,
+    "breakup": 1,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 0,
+    "sadness": 5
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-12",
+      "end_date": "2023-08-29",
+      "duration_days": 229,
+      "message_count": 193,
+      "daily_avg": 0.8427947598253275,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-29",
+      "end_date": "2024-04-15",
+      "duration_days": 229,
+      "message_count": 107,
+      "daily_avg": 0.4672489082969432,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-15",
+      "end_date": "2024-11-30",
+      "duration_days": 229,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-11-30",
+      "end_date": "2025-07-17",
+      "duration_days": 229,
+      "message_count": 17,
+      "daily_avg": 0.07423580786026202,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

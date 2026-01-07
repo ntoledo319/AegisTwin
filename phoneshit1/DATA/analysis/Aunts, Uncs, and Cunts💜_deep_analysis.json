@@ -1,0 +1,57 @@
+{
+  "person": "Aunts, Uncs, and Cunts\ud83d\udc9c",
+  "type": "group",
+  "total_messages": 3960,
+  "first_message": "2025-04-21 17:02:25",
+  "last_message": "2025-10-22 10:19:46",
+  "duration_days": 183,
+  "days_since_last": 28,
+  "your_messages": 549,
+  "their_messages": 3411,
+  "balance": 13.863636363636363,
+  "emotional_keywords": {
+    "love": 1350,
+    "conflict": 45,
+    "breakup": 1,
+    "reconciliation": 2,
+    "intimacy": 22,
+    "support": 5,
+    "excitement": 16,
+    "sadness": 75
+  },
+  "phases": [
+    {
+      "start_date": "2025-04-21",
+      "end_date": "2025-06-06",
+      "duration_days": 45,
+      "message_count": 2537,
+      "daily_avg": 56.37777777777778,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-06-06",
+      "end_date": "2025-07-22",
+      "duration_days": 45,
+      "message_count": 689,
+      "daily_avg": 15.311111111111112,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-07-22",
+      "end_date": "2025-09-06",
+      "duration_days": 45,
+      "message_count": 625,
+      "daily_avg": 13.88888888888889,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-09-06",
+      "end_date": "2025-10-22",
+      "duration_days": 45,
+      "message_count": 109,
+      "daily_avg": 2.422222222222222,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

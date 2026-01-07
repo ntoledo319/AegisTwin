@@ -1,0 +1,199 @@
+# SpiderMind Omega Spam Filtering Rules
+
+# Global settings
+settings:
+  min_content_length: 3
+  max_emoji_ratio: 0.5
+  max_duplicate_threshold: 0.95
+  preserve_emotional_content: true
+
+# Rules for dropping messages
+drop_if:
+  # Content length rules
+  - type: "length_lt"
+    value: 3
+    description: "Drop messages with fewer than 3 characters"
+  
+  # Content type rules
+  - type: "emoji_only"
+    description: "Drop messages containing only emojis"
+  
+  - type: "link_only"
+    description: "Drop messages containing only URLs"
+    exceptions:
+      - contains: ["check", "look", "see", "view"]
+      - context: "response_to_question"
+  
+  - type: "reaction_only"
+    description: "Drop messages that are just reactions"
+  
+  - type: "media_without_caption"
+    description: "Drop media messages without captions"
+    exceptions:
+      - context: "response_to_question"
+      - context: "conversation_start"
+  
+  # Exact match rules
+  - type: "exact"
+    values: 
+      - "ok"
+      - "kk"
+      - "👍"
+      - "lol"
+      - "LOL"
+      - "lmao"
+      - "K"
+      - "Ok"
+      - "👌"
+      - "haha"
+      - "Haha"
+      - "HAHA"
+      - "hmm"
+      - "Hmm"
+      - "k"
+      - "yep"
+      - "nope"
+      - "ya"
+      - "nah"
+    description: "Drop common low-information responses"
+    exceptions:
+      - context: "direct_answer_to_question"
+  
+  # Pattern match rules
+  - type: "pattern"
+    regex: "^(haha|lol|lmao|rofl|k+|ok+|yes+|no+|yeah+|nah+)$"
+    description: "Drop extended versions of common low-information responses"
+    case_insensitive: true
+  
+  # Duplicate detection
+  - type: "forward_dup"
+    description: "Drop messages with same hash as prior in thread"
+    window: 5  # Check last 5 messages
+  
+  - type: "near_duplicate"
+    threshold: 0.9
+    window: 10
+    description: "Drop near-duplicate messages within conversation window"
+  
+  # Automated message detection
+  - type: "automated"
+    patterns:
+      - "This message was deleted"
+      - "You missed a call from"
+      - "Location shared"
+      - "started a video chat"
+      - "changed the group name"
+      - "added .* to the group"
+      - "left the group"
+      - "changed the group photo"
+    description: "Drop automated system messages"
+  
+  # Context-based rules
+  - type: "consecutive_same_sender"
+    max_count: 5
+    time_window_seconds: 10
+    description: "Drop potential spam bursts (many messages in short time)"
+    exceptions:
+      - contains: ["emergency", "help", "urgent", "sorry", "please"]
+
+# Rules for keeping messages despite other rules
+keep_if:
+  # Emotional and personal content
+  - type: "contains"
+    values:
+      - "sorry"
+      - "i was wrong"
+      - "i shouldn"
+      - "i can't"
+      - "i won't"
+      - "let's"
+      - "i'll "
+      - "love you"
+      - "proud of you"
+      - "thank"
+      - "appreciate"
+      - "anxious"
+      - "overwhelmed"
+      - "panic"
+      - "scared"
+      - "afraid"
+    description: "Keep messages with emotional or personal content"
+  
+  # Planning and coordination
+  - type: "contains"
+    values:
+      - "when"
+      - "where"
+      - "meet"
+      - "coffee"
+      - "dinner"
+      - "ride"
+      - "pick you up"
+      - "tomorrow"
+      - "tonight"
+      - "schedule"
+      - "plan"
+    description: "Keep messages related to planning and coordination"
+  
+  # Questions
+  - type: "pattern"
+    regex: "\\?$|^(what|when|where|who|why|how|is|are|can|could|would|will|should|did|do)"
+    description: "Keep questions"
+  
+  # Important life events
+  - type: "contains"
+    values:
+      - "birthday"
+      - "anniversary"
+      - "wedding"
+      - "funeral"
+      - "hospital"
+      - "sick"
+      - "died"
+      - "born"
+      - "graduated"
+      - "job"
+      - "hired"
+      - "fired"
+      - "moving"
+      - "moved"
+    description: "Keep messages about important life events"
+  
+  # Emotional expressions
+  - type: "sentiment_score"
+    threshold: 0.7
+    direction: "any"
+    description: "Keep messages with strong sentiment (positive or negative)"
+  
+  # First message in conversation
+  - type: "position"
+    value: "first"
+    window: "conversation"
+    description: "Keep first message in any conversation"
+  
+  # Messages with high information content
+  - type: "entropy"
+    threshold: 4.0
+    description: "Keep messages with high information content"
+
+# Post-processing rules
+post_processing:
+  # Conversation coherence
+  - type: "conversation_coherence"
+    description: "Restore messages needed for conversation coherence"
+    max_gap: 3  # Maximum number of messages that can be skipped
+  
+  # Question-answer pairs
+  - type: "question_answer_pair"
+    description: "Keep answers to questions even if they would otherwise be filtered"
+    max_distance: 2  # Maximum number of messages between question and answer
+  
+  # Thread initiators
+  - type: "thread_initiator"
+    description: "Keep messages that start new conversation threads"
+  
+  # Temporal significance
+  - type: "temporal_significance"
+    description: "Keep messages from periods with low message frequency"
+    window_days: 30
+    threshold_percentile: 10  # Keep if in bottom 10% of frequency

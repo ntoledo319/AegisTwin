@@ -1,0 +1,57 @@
+{
+  "person": "CJ \ud83d\udc9b & Ian L",
+  "type": "group",
+  "total_messages": 1660,
+  "first_message": "2018-03-07 18:45:53",
+  "last_message": "2022-12-23 13:41:43",
+  "duration_days": 1751,
+  "days_since_last": 1062,
+  "your_messages": 524,
+  "their_messages": 1136,
+  "balance": 31.566265060240962,
+  "emotional_keywords": {
+    "love": 89,
+    "conflict": 19,
+    "breakup": 0,
+    "reconciliation": 3,
+    "intimacy": 11,
+    "support": 3,
+    "excitement": 9,
+    "sadness": 22
+  },
+  "phases": [
+    {
+      "start_date": "2018-03-07",
+      "end_date": "2019-05-19",
+      "duration_days": 437,
+      "message_count": 691,
+      "daily_avg": 1.5812356979405033,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-05-19",
+      "end_date": "2020-07-30",
+      "duration_days": 437,
+      "message_count": 597,
+      "daily_avg": 1.366132723112128,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-07-30",
+      "end_date": "2021-10-11",
+      "duration_days": 437,
+      "message_count": 157,
+      "daily_avg": 0.35926773455377575,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-10-11",
+      "end_date": "2022-12-23",
+      "duration_days": 437,
+      "message_count": 215,
+      "daily_avg": 0.4919908466819222,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

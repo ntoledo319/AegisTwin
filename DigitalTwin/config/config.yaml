@@ -1,0 +1,344 @@
+# SpiderMind Omega Configuration
+
+project:
+  name: "SpiderMind Omega — Personal Digital Twin"
+  version: "1.0.0"
+  timezone: "America/New_York"
+  seed: 42
+  log_level: "INFO"
+
+paths:
+  raw: "data/raw"
+  interim: "data/interim"
+  processed: "data/processed"
+  models: "data/models"
+  logs: "logs"
+  exports: "exports"
+  knowledge_graph: "data/processed/knowledge_graph"
+  embeddings: "data/processed/embeddings"
+  cognitive_models: "data/processed/cognitive_models"
+
+data_sources:
+  text_messages:
+    enabled: true
+    formats:
+      - type: "csv"
+        path: "data/raw/messages_clean.csv"
+        mapping:
+          timestamp: "Message Date"
+          sender: "Sender Name"
+          content: "Text"
+          conversation: "Chat Session"
+      - type: "json"
+        path: "data/raw/messages_complete.json"
+        is_primary: true
+      - type: "html"
+        path: "data/raw/messages_viewer.html"
+  
+  emails:
+    enabled: false
+    formats:
+      - type: "mbox"
+        path: "data/raw/emails.mbox"
+      - type: "eml_directory"
+        path: "data/raw/emails"
+  
+  documents:
+    enabled: false
+    formats:
+      - type: "directory"
+        path: "data/raw/documents"
+        extensions: [".pdf", ".docx", ".txt", ".md"]
+  
+  social_media:
+    enabled: false
+    platforms:
+      twitter:
+        path: "data/raw/twitter_archive"
+      facebook:
+        path: "data/raw/facebook_archive"
+      instagram:
+        path: "data/raw/instagram_archive"
+      linkedin:
+        path: "data/raw/linkedin_archive"
+  
+  calendar:
+    enabled: false
+    formats:
+      - type: "ics"
+        path: "data/raw/calendar.ics"
+      - type: "csv"
+        path: "data/raw/calendar.csv"
+  
+  location:
+    enabled: false
+    formats:
+      - type: "google_takeout"
+        path: "data/raw/location_history.json"
+  
+  photos:
+    enabled: false
+    formats:
+      - type: "directory"
+        path: "data/raw/photos"
+        extensions: [".jpg", ".jpeg", ".png", ".heic"]
+        extract_metadata: true
+        run_recognition: false
+
+preprocessing:
+  text_normalization:
+    lowercase: true
+    remove_urls: false
+    remove_emails: false
+    remove_phone_numbers: false
+    expand_contractions: true
+    fix_unicode: true
+    replace_emojis_with_text: false
+  
+  deduplication:
+    enabled: true
+    methods:
+      - "exact_match"
+      - "near_duplicate"
+    threshold: 0.95
+  
+  spam_filtering:
+    enabled: true
+    rules_file: "config/spam_rules.yaml"
+    min_content_length: 3
+    preserve_keywords:
+      - "sorry"
+      - "love"
+      - "thank"
+      - "appreciate"
+      - "anxious"
+      - "overwhelmed"
+      - "afraid"
+      - "meet"
+  
+  language_detection:
+    enabled: true
+    primary_language: "en"
+    keep_non_primary: true
+
+nlp:
+  models:
+    spacy_model: "en_core_web_trf"
+    sentence_transformer: "all-MiniLM-L6-v2"
+    emotion_model: "j-hartmann/emotion-english-distilroberta-base"
+    stance_model: "cardiffnlp/twitter-roberta-base-stance-climate-change"
+  
+  pipeline:
+    - "tokenization"
+    - "pos_tagging"
+    - "dependency_parsing"
+    - "ner"
+    - "sentiment_analysis"
+    - "emotion_detection"
+    - "topic_modeling"
+    - "semantic_role_labeling"
+    - "coreference_resolution"
+    - "stance_detection"
+    - "moral_foundation_detection"
+  
+  embeddings:
+    method: "sentence_transformers"
+    dimensions: 384
+    batch_size: 64
+    cache_embeddings: true
+  
+  topic_modeling:
+    method: "bertopic"
+    num_topics: 50
+    min_topic_size: 10
+
+cognitive_modeling:
+  personality:
+    models:
+      - "big_five"
+      - "moral_foundations"
+      - "schwartz_values"
+    temporal_analysis: true
+    context_dependent: true
+  
+  values:
+    extraction_method: "hybrid"
+    min_confidence: 0.7
+    temporal_evolution: true
+  
+  belief_system:
+    contradiction_detection: true
+    belief_strength_modeling: true
+    evidence_tracking: true
+  
+  decision_making:
+    model_type: "bayesian_network"
+    factors:
+      - "values"
+      - "emotions"
+      - "social_context"
+      - "past_decisions"
+  
+  communication_style:
+    features:
+      - "formality"
+      - "directness"
+      - "emotionality"
+      - "verbosity"
+      - "humor_usage"
+      - "question_frequency"
+      - "politeness"
+    context_adaptation: true
+
+relationship_modeling:
+  identity:
+    canonical_mapping_file: "config/aliases.yaml"
+    fuzzy_matching: true
+    fuzzy_threshold: 0.85
+  
+  roles:
+    role_definitions_file: "config/roles.yaml"
+    dynamic_role_detection: true
+  
+  metrics:
+    - "communication_frequency"
+    - "response_time"
+    - "conversation_length"
+    - "sentiment_balance"
+    - "topic_diversity"
+    - "question_answer_ratio"
+    - "initiative_taking"
+  
+  network_analysis:
+    centrality_measures: true
+    community_detection: true
+    temporal_evolution: true
+  
+  relationship_dynamics:
+    change_point_detection: true
+    seasonal_patterns: true
+    life_event_correlation: true
+
+knowledge_graph:
+  entity_types:
+    - "person"
+    - "organization"
+    - "location"
+    - "event"
+    - "concept"
+    - "product"
+    - "creative_work"
+  
+  relation_extraction:
+    method: "hybrid"
+    pattern_based: true
+    ml_based: true
+    confidence_threshold: 0.7
+  
+  storage:
+    type: "neo4j"
+    in_memory: true
+    persist: true
+  
+  enrichment:
+    entity_linking: false
+    external_knowledge_bases: []
+
+memory_simulation:
+  episodic:
+    enabled: true
+    recency_effect: true
+    emotional_salience: true
+    retrieval_decay: true
+  
+  semantic:
+    enabled: true
+    concept_network: true
+    associative_strength: true
+  
+  retrieval:
+    method: "hybrid"
+    vector_search: true
+    graph_traversal: true
+    top_k: 50
+
+temporal_analysis:
+  granularities:
+    - "day"
+    - "week"
+    - "month"
+    - "quarter"
+    - "year"
+    - "custom_eras"
+  
+  era_detection:
+    method: "change_point"
+    min_era_length_days: 30
+    custom_eras_file: "config/eras.yaml"
+  
+  evolution_tracking:
+    topics: true
+    sentiment: true
+    relationships: true
+    values: true
+    communication_style: true
+
+output:
+  formats:
+    - "knowledge_graph"
+    - "interactive_dashboard"
+    - "narrative_report"
+    - "api"
+  
+  narrative:
+    structure:
+      - "executive_summary"
+      - "personality_profile"
+      - "relationship_analysis"
+      - "communication_patterns"
+      - "value_system"
+      - "temporal_evolution"
+      - "cognitive_framework"
+    output_file: "data/processed/master_narrative.md"
+  
+  dashboard:
+    enabled: true
+    port: 8050
+    components:
+      - "relationship_network"
+      - "temporal_evolution"
+      - "topic_distribution"
+      - "personality_radar"
+      - "communication_patterns"
+      - "value_system"
+  
+  api:
+    enabled: true
+    port: 8000
+    authentication: true
+    endpoints:
+      - "query"
+      - "simulate_response"
+      - "relationship_info"
+      - "topic_analysis"
+      - "temporal_query"
+
+security:
+  encryption:
+    enabled: true
+    method: "AES-256"
+    key_file: ".keys/encryption.key"
+  
+  anonymization:
+    enabled: false
+    methods:
+      - "name_replacement"
+      - "date_fuzzing"
+      - "location_generalization"
+
+performance:
+  multiprocessing: true
+  max_workers: 8
+  batch_size: 1000
+  memory_limit_gb: 16
+  use_gpu: false

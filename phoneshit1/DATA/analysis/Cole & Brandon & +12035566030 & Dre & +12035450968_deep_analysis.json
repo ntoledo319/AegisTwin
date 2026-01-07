@@ -1,0 +1,49 @@
+{
+  "person": "Cole & Brandon & +12035566030 & Dre & +12035450968",
+  "type": "group",
+  "total_messages": 278,
+  "first_message": "2023-02-15 09:23:46",
+  "last_message": "2023-07-26 14:40:52",
+  "duration_days": 161,
+  "days_since_last": 847,
+  "your_messages": 38,
+  "their_messages": 240,
+  "balance": 13.66906474820144,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 2,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 5
+  },
+  "phases": [
+    {
+      "start_date": "2023-02-15",
+      "end_date": "2023-04-10",
+      "duration_days": 53,
+      "message_count": 276,
+      "daily_avg": 5.2075471698113205,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-04-10",
+      "end_date": "2023-06-02",
+      "duration_days": 53,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-06-02",
+      "end_date": "2023-07-26",
+      "duration_days": 53,
+      "message_count": 2,
+      "daily_avg": 0.03773584905660377,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

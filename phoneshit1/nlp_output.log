@@ -1,0 +1,146 @@
+Loading data for NLP and sentiment analysis...
+
+================================================================================
+NLP &amp; SENTIMENT ANALYSIS
+================================================================================
+
+Analyzing 865,109 messages with text content...
+Using sample of 50,000 messages for detailed analysis...
+
+1. OVERALL SENTIMENT ANALYSIS
+--------------------------------------------------------------------------------
+Analyzing sentiment (this may take a moment)...
+  Processed 0/50,000 messages...
+  Processed 10,000/50,000 messages...
+  Processed 20,000/50,000 messages...
+  Processed 30,000/50,000 messages...
+  Processed 40,000/50,000 messages...
+
+Overall average sentiment: 0.067
+  Positive messages: 12,079 (24.2%)
+  Neutral messages: 32,444 (64.9%)
+  Negative messages: 5,477 (11.0%)
+
+Sentiment by message type:
+  Outgoing (your messages): 0.050
+  Incoming (received messages): 0.081
+
+2. SENTIMENT TRENDS OVER TIME
+--------------------------------------------------------------------------------
+
+Monthly sentiment trends (showing significant periods):
+
+3. SENTIMENT BY RELATIONSHIP
+--------------------------------------------------------------------------------
+
+Most positive relationships:
+  Natalia (young and restless): 0.197 (32 messages analyzed)
+  Ellie Haney: 0.190 (58 messages analyzed)
+  Jessica & becca: 0.179 (17 messages analyzed)
+  jimmi m: 0.166 (42 messages analyzed)
+  Potato & Thot Daughter: 0.150 (25 messages analyzed)
+  Gratitudeversity: 0.149 (350 messages analyzed)
+  Jessica: 0.124 (259 messages analyzed)
+  sean: 0.122 (16 messages analyzed)
+  Thot Daughter: 0.096 (234 messages analyzed)
+  Ian L: 0.061 (3237 messages analyzed)
+
+Most negative relationships:
+  Potato & Thot Daughter: 0.150 (25 messages analyzed)
+  Gratitudeversity: 0.149 (350 messages analyzed)
+  Jessica: 0.124 (259 messages analyzed)
+  sean: 0.122 (16 messages analyzed)
+  Thot Daughter: 0.096 (234 messages analyzed)
+  Ian L: 0.061 (3237 messages analyzed)
+  becca: 0.060 (27 messages analyzed)
+  Potato: 0.056 (2371 messages analyzed)
+  Mom: 0.055 (894 messages analyzed)
+  Gabby: 0.047 (1566 messages analyzed)
+
+4. LINGUISTIC PATTERNS
+--------------------------------------------------------------------------------
+
+Average message length:
+  Your messages: 36.1 characters
+  Received messages: 34.4 characters
+
+Vocabulary analysis (from sample)...
+  Total words in sample: 339,608
+  Unique words: 31,418
+  Vocabulary richness: 0.093
+
+Most common words (excluding very short words):
+  that: 3,059 times
+  have: 2,372 times
+  just: 2,023 times
+  this: 1,987 times
+  with: 1,977 times
+  like: 1,824 times
+  what: 1,696 times
+  love: 1,638 times
+  your: 1,453 times
+  know: 1,083 times
+  loved: 1,062 times
+  good: 1,044 times
+  about: 991 times
+  when: 969 times
+
+5. EMOJI USAGE ANALYSIS
+--------------------------------------------------------------------------------
+
+Messages with emojis: 995 (2.0%)
+Total emojis used: 1,555
+Unique emojis: 367
+
+Most used emojis:
+  ⭐️: 158 times
+  ❤️: 138 times
+  😂: 53 times
+  つ: 48 times
+  ◕: 48 times
+  ♀️: 41 times
+  🏻: 33 times
+  🌟: 29 times
+  💕: 28 times
+  😂😂😂: 26 times
+  😂😂😂😂: 25 times
+  ❣️: 23 times
+  🏼: 22 times
+  😭: 21 times
+  ❤️❤️❤️: 21 times
+  😘: 20 times
+  👍: 19 times
+  🙏: 19 times
+  ❤️❤️❤️❤️: 17 times
+  ✨: 16 times
+
+6. COMMUNICATION PATTERNS
+--------------------------------------------------------------------------------
+
+Question frequency:
+  Your messages: 25,294 questions (6.3%)
+  Received messages: 45,155 questions (9.7%)
+
+Exclamation mark usage (enthusiasm):
+  Your messages: 7,692 (1.9%)
+  Received messages: 14,014 (3.0%)
+
+7. RESPONSE TIME PATTERNS
+--------------------------------------------------------------------------------
+Analyzing response times...
+
+Average response times (within 24 hours):
+  Your response time: 0.5 minutes (median)
+  Their response time: 0.8 minutes (median)
+
+Response time distribution (your responses):
+  < 5 minutes: 19,294 (79.9%)
+  5-30 minutes: 2,584 (10.7%)
+  30-60 minutes: 632 (2.6%)
+  1-6 hours: 1,148 (4.8%)
+  > 6 hours: 502 (2.1%)
+
+================================================================================
+NLP and sentiment analysis complete!
+Results saved to nlp_sentiment_analysis.json
+================================================================================

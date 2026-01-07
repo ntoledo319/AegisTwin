@@ -1,0 +1,57 @@
+{
+  "person": "Elizabeth Moncure AA CT",
+  "type": "individual",
+  "total_messages": 14,
+  "first_message": "2022-12-11 10:53:54",
+  "last_message": "2024-05-16 09:24:54",
+  "duration_days": 521,
+  "days_since_last": 552,
+  "your_messages": 6,
+  "their_messages": 8,
+  "balance": 42.857142857142854,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2022-12-11",
+      "end_date": "2023-04-20",
+      "duration_days": 130,
+      "message_count": 2,
+      "daily_avg": 0.015384615384615385,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-04-20",
+      "end_date": "2023-08-29",
+      "duration_days": 130,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-29",
+      "end_date": "2024-01-06",
+      "duration_days": 130,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-06",
+      "end_date": "2024-05-16",
+      "duration_days": 130,
+      "message_count": 12,
+      "daily_avg": 0.09230769230769231,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

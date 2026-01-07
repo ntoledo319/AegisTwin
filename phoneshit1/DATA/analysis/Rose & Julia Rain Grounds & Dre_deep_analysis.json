@@ -1,0 +1,41 @@
+{
+  "person": "Rose & Julia Rain Grounds & Dre",
+  "type": "group",
+  "total_messages": 60,
+  "first_message": "2023-03-23 14:25:32",
+  "last_message": "2023-04-23 11:18:35",
+  "duration_days": 30,
+  "days_since_last": 941,
+  "your_messages": 8,
+  "their_messages": 52,
+  "balance": 13.333333333333334,
+  "emotional_keywords": {
+    "love": 6,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 2,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-03-23",
+      "end_date": "2023-04-08",
+      "duration_days": 15,
+      "message_count": 44,
+      "daily_avg": 2.933333333333333,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-04-08",
+      "end_date": "2023-04-23",
+      "duration_days": 15,
+      "message_count": 16,
+      "daily_avg": 1.0666666666666667,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

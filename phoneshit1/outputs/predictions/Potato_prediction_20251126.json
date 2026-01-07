@@ -1,0 +1,106 @@
+{
+  "contact": "Potato",
+  "breakup_risk_assessment": {
+    "contact": "Potato",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "assessment": "Minor concerns, generally healthy",
+    "warning_signs": [
+      "high_conflict_level"
+    ],
+    "positive_indicators": [
+      "increasing_communication",
+      "low_conflict_keywords",
+      "recent_active_contact"
+    ],
+    "features_analyzed": {
+      "freq_trend": 16.040869565217392,
+      "current_freq": 53.35217391304348,
+      "peak_freq": 69.09130434782608,
+      "freq_decline_pct": 22.780190044679372,
+      "balance": 47.471950346144666,
+      "balance_shift": 5.509931245225367,
+      "love_ratio": 28.169014084507044,
+      "conflict_ratio": 12.65218429219384,
+      "breakup_ratio": 0.787777512532824,
+      "reconciliation_ratio": 0.7161613750298401,
+      "days_since_last": 0,
+      "freq_volatility": 0.5368863910183718,
+      "breakup_recon_ratio": 0.965222732457808
+    },
+    "generated_at": "2025-11-26T03:14:18.270288"
+  },
+  "trajectory_forecast": {
+    "contact": "Potato",
+    "current_frequency": 53.35,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 494.48,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 1384.75,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 2720.16,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 15,
+    "trend_direction": "increasing",
+    "generated_at": "2025-11-26T03:14:18.515883"
+  },
+  "historical_comparison": {
+    "contact": "Potato",
+    "current_risk_score": 15,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "Steph \ud83d\udc95",
+        "similarity_score": 0.69,
+        "ended_after_days": 2086,
+        "final_breakup_count": 25,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "Adriana",
+        "similarity_score": 0.55,
+        "ended_after_days": 2419,
+        "final_breakup_count": 2,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "One-Shot-Squad",
+        "similarity_score": 0.54,
+        "ended_after_days": 581,
+        "final_breakup_count": 1,
+        "key_differences": [
+          "Current has better communication trend",
+          "Much more breakup discussion"
+        ]
+      }
+    ],
+    "pattern_analysis": "MODERATE similarity to Steph \ud83d\udc95 - some similar patterns",
+    "generated_at": "2025-11-26T03:15:00.950546"
+  },
+  "recommendations": [
+    "Relationship appears healthy - maintain current engagement"
+  ],
+  "generated_at": "2025-11-26T03:15:00.950713"
+}

@@ -1,0 +1,57 @@
+{
+  "person": "Max & Pauly Boss",
+  "type": "group",
+  "total_messages": 23,
+  "first_message": "2023-09-25 13:15:54",
+  "last_message": "2024-09-30 13:53:43",
+  "duration_days": 371,
+  "days_since_last": 415,
+  "your_messages": 4,
+  "their_messages": 19,
+  "balance": 17.391304347826086,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-09-25",
+      "end_date": "2023-12-27",
+      "duration_days": 92,
+      "message_count": 15,
+      "daily_avg": 0.16304347826086957,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-12-27",
+      "end_date": "2024-03-29",
+      "duration_days": 92,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-03-29",
+      "end_date": "2024-06-29",
+      "duration_days": 92,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-06-29",
+      "end_date": "2024-09-30",
+      "duration_days": 92,
+      "message_count": 8,
+      "daily_avg": 0.08695652173913043,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

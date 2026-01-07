@@ -1,0 +1,57 @@
+{
+  "person": "Tom",
+  "type": "individual",
+  "total_messages": 126,
+  "first_message": "2022-05-15 15:58:34",
+  "last_message": "2023-01-10 13:39:11",
+  "duration_days": 239,
+  "days_since_last": 1044,
+  "your_messages": 62,
+  "their_messages": 64,
+  "balance": 49.2063492063492,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-05-15",
+      "end_date": "2022-07-14",
+      "duration_days": 59,
+      "message_count": 14,
+      "daily_avg": 0.23728813559322035,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-14",
+      "end_date": "2022-09-12",
+      "duration_days": 59,
+      "message_count": 48,
+      "daily_avg": 0.8135593220338984,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-09-12",
+      "end_date": "2022-11-11",
+      "duration_days": 59,
+      "message_count": 43,
+      "daily_avg": 0.7288135593220338,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-11-11",
+      "end_date": "2023-01-10",
+      "duration_days": 59,
+      "message_count": 21,
+      "daily_avg": 0.3559322033898305,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

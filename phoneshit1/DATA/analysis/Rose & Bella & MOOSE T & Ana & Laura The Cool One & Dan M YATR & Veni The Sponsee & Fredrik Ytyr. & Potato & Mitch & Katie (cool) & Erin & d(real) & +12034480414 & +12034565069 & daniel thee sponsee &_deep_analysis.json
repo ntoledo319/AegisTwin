@@ -1,0 +1,41 @@
+{
+  "person": "Rose & Bella & MOOSE T & Ana & Laura The Cool One & Dan M YATR & Veni The Sponsee & Fredrik Ytyr. & Potato & Mitch & Katie (cool) & Erin & d(real) & +12034480414 & +12034565069 & daniel thee sponsee & +14752253563 & Grace b & Troy & johnny o & +12039475184",
+  "type": "group",
+  "total_messages": 40,
+  "first_message": "2024-09-17 17:32:01",
+  "last_message": "2024-09-21 22:54:09",
+  "duration_days": 4,
+  "days_since_last": 424,
+  "your_messages": 0,
+  "their_messages": 40,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 20,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-09-17",
+      "end_date": "2024-09-19",
+      "duration_days": 2,
+      "message_count": 29,
+      "daily_avg": 14.5,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-09-19",
+      "end_date": "2024-09-21",
+      "duration_days": 2,
+      "message_count": 11,
+      "daily_avg": 5.5,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

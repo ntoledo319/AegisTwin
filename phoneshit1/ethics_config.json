@@ -1,0 +1,10 @@
+{
+  "min_total_messages_for_analysis": 50,
+  "max_recent_days_full_detail": 365,
+  "one_sided_threshold_pct": 85.0,
+  "high_breakup_keyword_threshold": 100,
+  "high_conflict_keyword_threshold": 200,
+  "limited_detail_risk_threshold": 40,
+  "block_detail_risk_threshold": 75
+}
+

@@ -1,0 +1,57 @@
+{
+  "person": "Barrett",
+  "type": "individual",
+  "total_messages": 246,
+  "first_message": "2023-03-11 12:04:00",
+  "last_message": "2024-12-16 17:22:10",
+  "duration_days": 646,
+  "days_since_last": 338,
+  "your_messages": 167,
+  "their_messages": 79,
+  "balance": 67.88617886178862,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 7
+  },
+  "phases": [
+    {
+      "start_date": "2023-03-11",
+      "end_date": "2023-08-20",
+      "duration_days": 161,
+      "message_count": 52,
+      "daily_avg": 0.32298136645962733,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-20",
+      "end_date": "2024-01-28",
+      "duration_days": 161,
+      "message_count": 92,
+      "daily_avg": 0.5714285714285714,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-28",
+      "end_date": "2024-07-08",
+      "duration_days": 161,
+      "message_count": 27,
+      "daily_avg": 0.16770186335403728,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-07-08",
+      "end_date": "2024-12-16",
+      "duration_days": 161,
+      "message_count": 75,
+      "daily_avg": 0.4658385093167702,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

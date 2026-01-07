@@ -1,0 +1,57 @@
+{
+  "person": "Alastair Bruce",
+  "type": "individual",
+  "total_messages": 308,
+  "first_message": "2022-06-27 18:13:35",
+  "last_message": "2025-09-07 14:26:04",
+  "duration_days": 1167,
+  "days_since_last": 73,
+  "your_messages": 141,
+  "their_messages": 167,
+  "balance": 45.77922077922078,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 5,
+    "breakup": 1,
+    "reconciliation": 1,
+    "intimacy": 5,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2022-06-27",
+      "end_date": "2023-04-15",
+      "duration_days": 291,
+      "message_count": 49,
+      "daily_avg": 0.16838487972508592,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-04-15",
+      "end_date": "2024-02-01",
+      "duration_days": 291,
+      "message_count": 74,
+      "daily_avg": 0.2542955326460481,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-02-01",
+      "end_date": "2024-11-19",
+      "duration_days": 291,
+      "message_count": 80,
+      "daily_avg": 0.27491408934707906,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-11-19",
+      "end_date": "2025-09-07",
+      "duration_days": 291,
+      "message_count": 105,
+      "daily_avg": 0.36082474226804123,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

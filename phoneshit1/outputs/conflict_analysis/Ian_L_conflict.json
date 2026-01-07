@@ -1,0 +1,156 @@
+{
+  "contact": "Ian L",
+  "analysis_date": "2025-11-26T03:09:14.995130",
+  "total_messages": 58930,
+  "time_span_days": 2885,
+  "conflict_profile": "MODERATE-HIGH CONFLICT",
+  "statistics": {
+    "total_conflicts": 656,
+    "avg_duration_days": 0.4,
+    "max_duration_days": 20,
+    "avg_severity": 0.41,
+    "max_severity": 0.94,
+    "conflict_frequency_days": 4.4,
+    "total_conflict_days": 235
+  },
+  "top_conflicts": [
+    {
+      "start": "2018-10-27 20:39:45",
+      "end": "2018-10-28 21:43:29",
+      "duration_days": 1,
+      "severity": 0.9375,
+      "message_count": 16
+    },
+    {
+      "start": "2021-03-06 17:28:08",
+      "end": "2021-03-07 16:17:11",
+      "duration_days": 0,
+      "severity": 0.9375,
+      "message_count": 16
+    },
+    {
+      "start": "2018-08-20 22:23:10",
+      "end": "2018-08-20 22:40:22",
+      "duration_days": 0,
+      "severity": 0.8947368421052632,
+      "message_count": 19
+    },
+    {
+      "start": "2025-01-08 20:28:38",
+      "end": "2025-01-22 11:32:01",
+      "duration_days": 13,
+      "severity": 0.8636363636363636,
+      "message_count": 22
+    },
+    {
+      "start": "2021-12-30 17:17:26",
+      "end": "2021-12-31 10:56:58",
+      "duration_days": 0,
+      "severity": 0.85,
+      "message_count": 20
+    },
+    {
+      "start": "2018-09-30 15:39:18",
+      "end": "2018-09-30 18:22:18",
+      "duration_days": 0,
+      "severity": 0.8333333333333334,
+      "message_count": 18
+    },
+    {
+      "start": "2019-02-22 00:24:15",
+      "end": "2019-02-22 12:13:37",
+      "duration_days": 0,
+      "severity": 0.8,
+      "message_count": 25
+    },
+    {
+      "start": "2019-02-22 13:21:18",
+      "end": "2019-02-22 15:33:35",
+      "duration_days": 0,
+      "severity": 0.8,
+      "message_count": 25
+    },
+    {
+      "start": "2020-01-10 22:31:48",
+      "end": "2020-01-11 18:02:49",
+      "duration_days": 0,
+      "severity": 0.8,
+      "message_count": 15
+    },
+    {
+      "start": "2025-09-27 20:28:58",
+      "end": "2025-10-18 15:27:42",
+      "duration_days": 20,
+      "severity": 0.8,
+      "message_count": 20
+    }
+  ],
+  "triggers": [
+    {
+      "topic": "jealousy",
+      "frequency": 31,
+      "severity": "high"
+    },
+    {
+      "topic": "trust",
+      "frequency": 14,
+      "severity": "high"
+    },
+    {
+      "topic": "plans",
+      "frequency": 13,
+      "severity": "high"
+    },
+    {
+      "topic": "respect",
+      "frequency": 11,
+      "severity": "high"
+    },
+    {
+      "topic": "family",
+      "frequency": 9,
+      "severity": "high"
+    },
+    {
+      "topic": "commitment",
+      "frequency": 6,
+      "severity": "high"
+    },
+    {
+      "topic": "money",
+      "frequency": 5,
+      "severity": "moderate"
+    },
+    {
+      "topic": "boundaries",
+      "frequency": 3,
+      "severity": "moderate"
+    },
+    {
+      "topic": "time",
+      "frequency": 2,
+      "severity": "moderate"
+    }
+  ],
+  "resolution_patterns": {
+    "primary_strategy": "understanding",
+    "resolution_breakdown": {
+      "compromise": 3,
+      "understanding": 5,
+      "reconciliation": 3,
+      "apology": 2
+    },
+    "effectiveness": "moderate"
+  },
+  "conflict_maturity": {
+    "early_avg_severity": 0.3,
+    "late_avg_severity": 0.51,
+    "trend": "WORSENING",
+    "assessment": "Conflict patterns are worsening"
+  },
+  "recommendations": [
+    "High conflict frequency suggests fundamental compatibility issues",
+    "Primary conflict trigger is jealousy - address this proactively",
+    "CRITICAL: Conflicts are escalating - consider relationship evaluation"
+  ]
+}

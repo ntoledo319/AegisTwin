@@ -1,0 +1,41 @@
+{
+  "person": "Ian\u2019s 21st \ud83c\udf77",
+  "type": "group",
+  "total_messages": 73,
+  "first_message": "2018-12-09 10:25:54",
+  "last_message": "2018-12-21 16:34:25",
+  "duration_days": 12,
+  "days_since_last": 2525,
+  "your_messages": 19,
+  "their_messages": 54,
+  "balance": 26.027397260273972,
+  "emotional_keywords": {
+    "love": 23,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2018-12-09",
+      "end_date": "2018-12-15",
+      "duration_days": 6,
+      "message_count": 5,
+      "daily_avg": 0.8333333333333334,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2018-12-15",
+      "end_date": "2018-12-21",
+      "duration_days": 6,
+      "message_count": 68,
+      "daily_avg": 11.333333333333334,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

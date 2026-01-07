@@ -1,0 +1,49 @@
+{
+  "person": "Cathy",
+  "type": "individual",
+  "total_messages": 12,
+  "first_message": "2023-09-05 22:59:03",
+  "last_message": "2024-01-03 19:31:57",
+  "duration_days": 119,
+  "days_since_last": 686,
+  "your_messages": 5,
+  "their_messages": 7,
+  "balance": 41.66666666666667,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-09-05",
+      "end_date": "2023-10-15",
+      "duration_days": 39,
+      "message_count": 11,
+      "daily_avg": 0.28205128205128205,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-10-15",
+      "end_date": "2023-11-24",
+      "duration_days": 39,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-11-24",
+      "end_date": "2024-01-03",
+      "duration_days": 39,
+      "message_count": 1,
+      "daily_avg": 0.02564102564102564,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

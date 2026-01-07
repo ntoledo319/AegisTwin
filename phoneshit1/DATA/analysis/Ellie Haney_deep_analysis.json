@@ -1,0 +1,57 @@
+{
+  "person": "Ellie Haney",
+  "type": "individual",
+  "total_messages": 1010,
+  "first_message": "2024-09-21 20:13:27",
+  "last_message": "2025-11-19 16:01:19",
+  "duration_days": 423,
+  "days_since_last": 0,
+  "your_messages": 447,
+  "their_messages": 563,
+  "balance": 44.257425742574256,
+  "emotional_keywords": {
+    "love": 201,
+    "conflict": 14,
+    "breakup": 0,
+    "reconciliation": 3,
+    "intimacy": 3,
+    "support": 12,
+    "excitement": 33,
+    "sadness": 26
+  },
+  "phases": [
+    {
+      "start_date": "2024-09-21",
+      "end_date": "2025-01-05",
+      "duration_days": 105,
+      "message_count": 729,
+      "daily_avg": 6.942857142857143,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-01-05",
+      "end_date": "2025-04-21",
+      "duration_days": 105,
+      "message_count": 50,
+      "daily_avg": 0.47619047619047616,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-04-21",
+      "end_date": "2025-08-05",
+      "duration_days": 105,
+      "message_count": 105,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-08-05",
+      "end_date": "2025-11-19",
+      "duration_days": 105,
+      "message_count": 126,
+      "daily_avg": 1.2,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

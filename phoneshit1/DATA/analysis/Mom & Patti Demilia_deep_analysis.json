@@ -1,0 +1,57 @@
+{
+  "person": "Mom & Patti Demilia",
+  "type": "group",
+  "total_messages": 33,
+  "first_message": "2019-06-22 08:23:58",
+  "last_message": "2020-06-11 13:49:41",
+  "duration_days": 355,
+  "days_since_last": 1987,
+  "your_messages": 7,
+  "their_messages": 26,
+  "balance": 21.21212121212121,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2019-06-22",
+      "end_date": "2019-09-19",
+      "duration_days": 88,
+      "message_count": 3,
+      "daily_avg": 0.03409090909090909,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-09-19",
+      "end_date": "2019-12-16",
+      "duration_days": 88,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-12-16",
+      "end_date": "2020-03-14",
+      "duration_days": 88,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-03-14",
+      "end_date": "2020-06-11",
+      "duration_days": 88,
+      "message_count": 30,
+      "daily_avg": 0.3409090909090909,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

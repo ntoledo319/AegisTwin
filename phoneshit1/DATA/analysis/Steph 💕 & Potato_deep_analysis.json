@@ -1,0 +1,41 @@
+{
+  "person": "Steph \ud83d\udc95 & Potato",
+  "type": "group",
+  "total_messages": 177,
+  "first_message": "2024-04-06 12:53:44",
+  "last_message": "2024-04-20 21:46:01",
+  "duration_days": 14,
+  "days_since_last": 578,
+  "your_messages": 33,
+  "their_messages": 144,
+  "balance": 18.64406779661017,
+  "emotional_keywords": {
+    "love": 18,
+    "conflict": 7,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-06",
+      "end_date": "2024-04-13",
+      "duration_days": 7,
+      "message_count": 138,
+      "daily_avg": 19.714285714285715,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-04-13",
+      "end_date": "2024-04-20",
+      "duration_days": 7,
+      "message_count": 39,
+      "daily_avg": 5.571428571428571,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

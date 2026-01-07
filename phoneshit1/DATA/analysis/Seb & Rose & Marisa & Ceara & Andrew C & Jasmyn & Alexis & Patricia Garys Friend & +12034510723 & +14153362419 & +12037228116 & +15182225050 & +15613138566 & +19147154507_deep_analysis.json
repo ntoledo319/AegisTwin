@@ -1,0 +1,41 @@
+{
+  "person": "Seb & Rose & Marisa & Ceara & Andrew C & Jasmyn & Alexis & Patricia Garys Friend & +12034510723 & +14153362419 & +12037228116 & +15182225050 & +15613138566 & +19147154507",
+  "type": "group",
+  "total_messages": 9,
+  "first_message": "2022-06-23 17:42:32",
+  "last_message": "2022-06-23 21:33:55",
+  "duration_days": 0,
+  "days_since_last": 1245,
+  "your_messages": 0,
+  "their_messages": 9,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-06-23",
+      "end_date": "2022-06-23",
+      "duration_days": 1,
+      "message_count": 6,
+      "daily_avg": 6.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2022-06-23",
+      "end_date": "2022-06-23",
+      "duration_days": 1,
+      "message_count": 3,
+      "daily_avg": 3.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,49 @@
+{
+  "person": "theys, gays, & shannan\ud83c\udf4b",
+  "type": "group",
+  "total_messages": 40,
+  "first_message": "2024-11-18 19:08:10",
+  "last_message": "2025-02-22 13:32:09",
+  "duration_days": 95,
+  "days_since_last": 270,
+  "your_messages": 12,
+  "their_messages": 28,
+  "balance": 30.0,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-11-18",
+      "end_date": "2024-12-20",
+      "duration_days": 31,
+      "message_count": 17,
+      "daily_avg": 0.5483870967741935,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-12-20",
+      "end_date": "2025-01-21",
+      "duration_days": 31,
+      "message_count": 19,
+      "daily_avg": 0.6129032258064516,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-01-21",
+      "end_date": "2025-02-22",
+      "duration_days": 31,
+      "message_count": 4,
+      "daily_avg": 0.12903225806451613,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

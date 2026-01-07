@@ -1,0 +1,57 @@
+{
+  "person": "Bella",
+  "type": "individual",
+  "total_messages": 362,
+  "first_message": "2022-10-08 01:17:42",
+  "last_message": "2025-11-19 14:47:04",
+  "duration_days": 1138,
+  "days_since_last": 0,
+  "your_messages": 184,
+  "their_messages": 178,
+  "balance": 50.82872928176796,
+  "emotional_keywords": {
+    "love": 27,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 1,
+    "sadness": 7
+  },
+  "phases": [
+    {
+      "start_date": "2022-10-08",
+      "end_date": "2023-07-19",
+      "duration_days": 284,
+      "message_count": 37,
+      "daily_avg": 0.13028169014084506,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-19",
+      "end_date": "2024-04-29",
+      "duration_days": 284,
+      "message_count": 190,
+      "daily_avg": 0.6690140845070423,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-29",
+      "end_date": "2025-02-07",
+      "duration_days": 284,
+      "message_count": 109,
+      "daily_avg": 0.38380281690140844,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-02-07",
+      "end_date": "2025-11-19",
+      "duration_days": 284,
+      "message_count": 26,
+      "daily_avg": 0.09154929577464789,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

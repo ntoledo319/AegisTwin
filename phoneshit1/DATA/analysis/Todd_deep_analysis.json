@@ -1,0 +1,41 @@
+{
+  "person": "Todd",
+  "type": "individual",
+  "total_messages": 7,
+  "first_message": "2022-08-23 11:25:55",
+  "last_message": "2022-08-29 15:22:09",
+  "duration_days": 6,
+  "days_since_last": 1178,
+  "your_messages": 3,
+  "their_messages": 4,
+  "balance": 42.857142857142854,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-08-23",
+      "end_date": "2022-08-26",
+      "duration_days": 3,
+      "message_count": 3,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-08-26",
+      "end_date": "2022-08-29",
+      "duration_days": 3,
+      "message_count": 4,
+      "daily_avg": 1.3333333333333333,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

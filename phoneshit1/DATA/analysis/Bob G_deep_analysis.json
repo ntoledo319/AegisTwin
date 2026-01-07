@@ -1,0 +1,57 @@
+{
+  "person": "Bob G",
+  "type": "individual",
+  "total_messages": 45,
+  "first_message": "2019-04-03 15:12:16",
+  "last_message": "2020-03-02 17:13:01",
+  "duration_days": 334,
+  "days_since_last": 2088,
+  "your_messages": 18,
+  "their_messages": 27,
+  "balance": 40.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2019-04-03",
+      "end_date": "2019-06-26",
+      "duration_days": 83,
+      "message_count": 22,
+      "daily_avg": 0.26506024096385544,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-06-26",
+      "end_date": "2019-09-17",
+      "duration_days": 83,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-09-17",
+      "end_date": "2019-12-10",
+      "duration_days": 83,
+      "message_count": 9,
+      "daily_avg": 0.10843373493975904,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-12-10",
+      "end_date": "2020-03-02",
+      "duration_days": 83,
+      "message_count": 14,
+      "daily_avg": 0.1686746987951807,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Nikki\u2019s bullies. ",
+  "type": "group",
+  "total_messages": 23,
+  "first_message": "2024-04-29 20:03:19",
+  "last_message": "2024-04-29 22:39:43",
+  "duration_days": 0,
+  "days_since_last": 569,
+  "your_messages": 2,
+  "their_messages": 21,
+  "balance": 8.695652173913043,
+  "emotional_keywords": {
+    "love": 12,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 3,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-29",
+      "end_date": "2024-04-29",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-04-29",
+      "end_date": "2024-04-29",
+      "duration_days": 1,
+      "message_count": 19,
+      "daily_avg": 19.0,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

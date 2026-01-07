@@ -1,0 +1,49 @@
+{
+  "person": "Cole & Isabel De Leon & Thigo Silvia & Mike",
+  "type": "group",
+  "total_messages": 461,
+  "first_message": "2020-02-18 14:56:34",
+  "last_message": "2020-06-07 11:05:25",
+  "duration_days": 109,
+  "days_since_last": 1991,
+  "your_messages": 58,
+  "their_messages": 403,
+  "balance": 12.58134490238612,
+  "emotional_keywords": {
+    "love": 17,
+    "conflict": 4,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 13
+  },
+  "phases": [
+    {
+      "start_date": "2020-02-18",
+      "end_date": "2020-03-26",
+      "duration_days": 36,
+      "message_count": 54,
+      "daily_avg": 1.5,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-03-26",
+      "end_date": "2020-05-01",
+      "duration_days": 36,
+      "message_count": 261,
+      "daily_avg": 7.25,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2020-05-01",
+      "end_date": "2020-06-07",
+      "duration_days": 36,
+      "message_count": 146,
+      "daily_avg": 4.055555555555555,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

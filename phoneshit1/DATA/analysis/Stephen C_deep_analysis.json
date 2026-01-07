@@ -1,0 +1,49 @@
+{
+  "person": "Stephen C",
+  "type": "individual",
+  "total_messages": 8,
+  "first_message": "2023-06-22 20:56:44",
+  "last_message": "2023-09-07 19:51:13",
+  "duration_days": 76,
+  "days_since_last": 804,
+  "your_messages": 2,
+  "their_messages": 6,
+  "balance": 25.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2023-06-22",
+      "end_date": "2023-07-18",
+      "duration_days": 25,
+      "message_count": 2,
+      "daily_avg": 0.08,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-18",
+      "end_date": "2023-08-13",
+      "duration_days": 25,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-13",
+      "end_date": "2023-09-07",
+      "duration_days": 25,
+      "message_count": 6,
+      "daily_avg": 0.24,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

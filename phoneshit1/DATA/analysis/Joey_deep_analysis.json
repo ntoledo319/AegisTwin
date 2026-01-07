@@ -1,0 +1,49 @@
+{
+  "person": "Joey",
+  "type": "individual",
+  "total_messages": 11,
+  "first_message": "2022-08-01 15:08:26",
+  "last_message": "2022-12-25 11:30:50",
+  "duration_days": 145,
+  "days_since_last": 1060,
+  "your_messages": 5,
+  "their_messages": 6,
+  "balance": 45.45454545454545,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2022-08-01",
+      "end_date": "2022-09-19",
+      "duration_days": 48,
+      "message_count": 6,
+      "daily_avg": 0.125,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-09-19",
+      "end_date": "2022-11-06",
+      "duration_days": 48,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-11-06",
+      "end_date": "2022-12-25",
+      "duration_days": 48,
+      "message_count": 5,
+      "daily_avg": 0.10416666666666667,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

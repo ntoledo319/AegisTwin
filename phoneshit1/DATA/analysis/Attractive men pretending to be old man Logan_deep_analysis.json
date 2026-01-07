@@ -1,0 +1,41 @@
+{
+  "person": "Attractive men pretending to be old man Logan",
+  "type": "group",
+  "total_messages": 121,
+  "first_message": "2025-03-28 20:34:02",
+  "last_message": "2025-05-11 22:24:49",
+  "duration_days": 44,
+  "days_since_last": 192,
+  "your_messages": 29,
+  "their_messages": 92,
+  "balance": 23.96694214876033,
+  "emotional_keywords": {
+    "love": 6,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2025-03-28",
+      "end_date": "2025-04-19",
+      "duration_days": 22,
+      "message_count": 101,
+      "daily_avg": 4.590909090909091,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-04-19",
+      "end_date": "2025-05-11",
+      "duration_days": 22,
+      "message_count": 20,
+      "daily_avg": 0.9090909090909091,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,49 @@
+{
+  "person": "Ori is the best ",
+  "type": "group",
+  "total_messages": 351,
+  "first_message": "2025-03-26 14:58:15",
+  "last_message": "2025-06-12 13:16:43",
+  "duration_days": 77,
+  "days_since_last": 160,
+  "your_messages": 88,
+  "their_messages": 263,
+  "balance": 25.071225071225072,
+  "emotional_keywords": {
+    "love": 100,
+    "conflict": 14,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 7,
+    "support": 1,
+    "excitement": 6,
+    "sadness": 15
+  },
+  "phases": [
+    {
+      "start_date": "2025-03-26",
+      "end_date": "2025-04-21",
+      "duration_days": 25,
+      "message_count": 146,
+      "daily_avg": 5.84,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-04-21",
+      "end_date": "2025-05-17",
+      "duration_days": 25,
+      "message_count": 194,
+      "daily_avg": 7.76,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-05-17",
+      "end_date": "2025-06-12",
+      "duration_days": 25,
+      "message_count": 11,
+      "daily_avg": 0.44,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

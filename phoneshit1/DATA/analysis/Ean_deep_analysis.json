@@ -1,0 +1,57 @@
+{
+  "person": "Ean",
+  "type": "individual",
+  "total_messages": 540,
+  "first_message": "2022-12-04 20:49:48",
+  "last_message": "2025-03-27 20:41:07",
+  "duration_days": 843,
+  "days_since_last": 237,
+  "your_messages": 210,
+  "their_messages": 330,
+  "balance": 38.88888888888889,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2022-12-04",
+      "end_date": "2023-07-03",
+      "duration_days": 210,
+      "message_count": 18,
+      "daily_avg": 0.08571428571428572,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-03",
+      "end_date": "2024-01-30",
+      "duration_days": 210,
+      "message_count": 205,
+      "daily_avg": 0.9761904761904762,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-30",
+      "end_date": "2024-08-28",
+      "duration_days": 210,
+      "message_count": 278,
+      "daily_avg": 1.3238095238095238,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-28",
+      "end_date": "2025-03-27",
+      "duration_days": 210,
+      "message_count": 39,
+      "daily_avg": 0.18571428571428572,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

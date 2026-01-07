@@ -1,0 +1,49 @@
+{
+  "person": "Natalia (young and restless)",
+  "type": "individual",
+  "total_messages": 521,
+  "first_message": "2025-06-06 22:21:55",
+  "last_message": "2025-11-19 23:29:17",
+  "duration_days": 166,
+  "days_since_last": 0,
+  "your_messages": 246,
+  "their_messages": 275,
+  "balance": 47.216890595009595,
+  "emotional_keywords": {
+    "love": 166,
+    "conflict": 12,
+    "breakup": 0,
+    "reconciliation": 3,
+    "intimacy": 2,
+    "support": 7,
+    "excitement": 8,
+    "sadness": 17
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-06",
+      "end_date": "2025-08-01",
+      "duration_days": 55,
+      "message_count": 121,
+      "daily_avg": 2.2,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-08-01",
+      "end_date": "2025-09-25",
+      "duration_days": 55,
+      "message_count": 214,
+      "daily_avg": 3.890909090909091,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-09-25",
+      "end_date": "2025-11-19",
+      "duration_days": 55,
+      "message_count": 186,
+      "daily_avg": 3.381818181818182,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

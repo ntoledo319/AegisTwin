@@ -1,0 +1,41 @@
+{
+  "person": "Autum RS",
+  "type": "individual",
+  "total_messages": 51,
+  "first_message": "2021-06-23 22:16:10",
+  "last_message": "2021-06-28 22:48:26",
+  "duration_days": 5,
+  "days_since_last": 1605,
+  "your_messages": 27,
+  "their_messages": 24,
+  "balance": 52.94117647058824,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-06-23",
+      "end_date": "2021-06-26",
+      "duration_days": 2,
+      "message_count": 10,
+      "daily_avg": 5.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2021-06-26",
+      "end_date": "2021-06-28",
+      "duration_days": 2,
+      "message_count": 41,
+      "daily_avg": 20.5,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

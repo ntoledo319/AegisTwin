@@ -1,0 +1,41 @@
+{
+  "person": "Lola mars-s",
+  "type": "individual",
+  "total_messages": 7,
+  "first_message": "2025-01-10 21:53:16",
+  "last_message": "2025-02-22 23:29:00",
+  "duration_days": 43,
+  "days_since_last": 270,
+  "your_messages": 4,
+  "their_messages": 3,
+  "balance": 57.14285714285714,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-01-10",
+      "end_date": "2025-02-01",
+      "duration_days": 21,
+      "message_count": 3,
+      "daily_avg": 0.14285714285714285,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-22",
+      "duration_days": 21,
+      "message_count": 4,
+      "daily_avg": 0.19047619047619047,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

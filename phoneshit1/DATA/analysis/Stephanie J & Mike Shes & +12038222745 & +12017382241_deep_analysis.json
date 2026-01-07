@@ -1,0 +1,41 @@
+{
+  "person": "Stephanie J & Mike Shes & +12038222745 & +12017382241",
+  "type": "group",
+  "total_messages": 6,
+  "first_message": "2023-07-07 14:01:15",
+  "last_message": "2023-07-07 16:23:32",
+  "duration_days": 0,
+  "days_since_last": 866,
+  "your_messages": 1,
+  "their_messages": 5,
+  "balance": 16.666666666666664,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-07-07",
+      "end_date": "2023-07-07",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-07",
+      "end_date": "2023-07-07",
+      "duration_days": 1,
+      "message_count": 5,
+      "daily_avg": 5.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

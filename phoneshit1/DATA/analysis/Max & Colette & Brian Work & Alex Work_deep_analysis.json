@@ -1,0 +1,41 @@
+{
+  "person": "Max & Colette & Brian Work & Alex Work",
+  "type": "group",
+  "total_messages": 14,
+  "first_message": "2023-07-06 14:49:53",
+  "last_message": "2023-08-15 16:33:14",
+  "duration_days": 40,
+  "days_since_last": 827,
+  "your_messages": 2,
+  "their_messages": 12,
+  "balance": 14.285714285714285,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-07-06",
+      "end_date": "2023-07-26",
+      "duration_days": 20,
+      "message_count": 9,
+      "daily_avg": 0.45,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-26",
+      "end_date": "2023-08-15",
+      "duration_days": 20,
+      "message_count": 5,
+      "daily_avg": 0.25,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

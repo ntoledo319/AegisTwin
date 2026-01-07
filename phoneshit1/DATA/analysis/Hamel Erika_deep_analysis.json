@@ -1,0 +1,57 @@
+{
+  "person": "Hamel Erika",
+  "type": "individual",
+  "total_messages": 4164,
+  "first_message": "2018-04-26 15:23:54",
+  "last_message": "2021-06-28 08:21:22",
+  "duration_days": 1158,
+  "days_since_last": 1605,
+  "your_messages": 2534,
+  "their_messages": 1630,
+  "balance": 60.854947166186356,
+  "emotional_keywords": {
+    "love": 106,
+    "conflict": 57,
+    "breakup": 18,
+    "reconciliation": 2,
+    "intimacy": 60,
+    "support": 7,
+    "excitement": 25,
+    "sadness": 60
+  },
+  "phases": [
+    {
+      "start_date": "2018-04-26",
+      "end_date": "2019-02-10",
+      "duration_days": 289,
+      "message_count": 4163,
+      "daily_avg": 14.40484429065744,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2019-02-10",
+      "end_date": "2019-11-26",
+      "duration_days": 289,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-11-26",
+      "end_date": "2020-09-11",
+      "duration_days": 289,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-09-11",
+      "end_date": "2021-06-28",
+      "duration_days": 289,
+      "message_count": 1,
+      "daily_avg": 0.0034602076124567475,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

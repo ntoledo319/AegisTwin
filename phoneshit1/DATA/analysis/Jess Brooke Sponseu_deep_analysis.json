@@ -1,0 +1,41 @@
+{
+  "person": "Jess Brooke Sponseu",
+  "type": "individual",
+  "total_messages": 8,
+  "first_message": "2023-02-16 21:22:07",
+  "last_message": "2023-02-20 12:37:49",
+  "duration_days": 3,
+  "days_since_last": 1003,
+  "your_messages": 3,
+  "their_messages": 5,
+  "balance": 37.5,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-02-16",
+      "end_date": "2023-02-18",
+      "duration_days": 1,
+      "message_count": 6,
+      "daily_avg": 6.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-02-18",
+      "end_date": "2023-02-20",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

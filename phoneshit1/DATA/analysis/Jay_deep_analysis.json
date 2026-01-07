@@ -1,0 +1,57 @@
+{
+  "person": "Jay",
+  "type": "individual",
+  "total_messages": 29,
+  "first_message": "2021-10-20 21:44:50",
+  "last_message": "2022-09-12 15:42:42",
+  "duration_days": 326,
+  "days_since_last": 1164,
+  "your_messages": 13,
+  "their_messages": 16,
+  "balance": 44.827586206896555,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-10-20",
+      "end_date": "2022-01-10",
+      "duration_days": 81,
+      "message_count": 14,
+      "daily_avg": 0.1728395061728395,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-01-10",
+      "end_date": "2022-04-02",
+      "duration_days": 81,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-04-02",
+      "end_date": "2022-06-22",
+      "duration_days": 81,
+      "message_count": 12,
+      "daily_avg": 0.14814814814814814,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-06-22",
+      "end_date": "2022-09-12",
+      "duration_days": 81,
+      "message_count": 3,
+      "daily_avg": 0.037037037037037035,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

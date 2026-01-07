@@ -1,0 +1,41 @@
+{
+  "person": "Katie (cool)",
+  "type": "individual",
+  "total_messages": 14,
+  "first_message": "2024-04-22 19:28:05",
+  "last_message": "2024-05-10 17:17:29",
+  "duration_days": 17,
+  "days_since_last": 558,
+  "your_messages": 9,
+  "their_messages": 5,
+  "balance": 64.28571428571429,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-22",
+      "end_date": "2024-05-01",
+      "duration_days": 8,
+      "message_count": 13,
+      "daily_avg": 1.625,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-10",
+      "duration_days": 8,
+      "message_count": 1,
+      "daily_avg": 0.125,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

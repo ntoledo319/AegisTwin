@@ -1,0 +1,41 @@
+{
+  "person": "Potato & Thot Daughter & Ellie Haney",
+  "type": "group",
+  "total_messages": 8,
+  "first_message": "2025-06-03 12:03:13",
+  "last_message": "2025-06-03 22:16:02",
+  "duration_days": 0,
+  "days_since_last": 169,
+  "your_messages": 1,
+  "their_messages": 7,
+  "balance": 12.5,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-03",
+      "end_date": "2025-06-03",
+      "duration_days": 1,
+      "message_count": 7,
+      "daily_avg": 7.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-06-03",
+      "end_date": "2025-06-03",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

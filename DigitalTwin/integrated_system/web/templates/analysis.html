@@ -1,0 +1,664 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+    .analysis-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .analysis-types-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .analysis-type-card {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        box-shadow: var(--shadow-light);
+        border: 1px solid var(--border-color);
+        transition: var(--transition-medium);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .analysis-type-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--primary-color), #4fc3f7);
+        transform: translateX(-100%);
+        transition: transform var(--transition-medium);
+    }
+    
+    .analysis-type-card:hover::before {
+        transform: translateX(0);
+    }
+    
+    .analysis-type-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-medium);
+        border-color: var(--primary-color);
+    }
+    
+    .analysis-type-card.selected {
+        border-color: var(--primary-color);
+        background: rgba(52, 152, 219, 0.05);
+    }
+    
+    .analysis-type-card.selected::before {
+        transform: translateX(0);
+    }
+    
+    .analysis-type-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .analysis-type-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--primary-color), #4fc3f7);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    
+    .analysis-type-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin: 0;
+    }
+    
+    .analysis-type-description {
+        color: var(--medium-gray);
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+    
+    .analysis-requirements {
+        font-size: 0.875rem;
+        color: var(--medium-gray);
+        background: var(--light-gray);
+        padding: 0.75rem;
+        border-radius: var(--border-radius-small);
+        margin-top: 1rem;
+    }
+    
+    .analysis-form {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        box-shadow: var(--shadow-light);
+        border: 1px solid var(--border-color);
+        margin-bottom: 2rem;
+        display: none;
+    }
+    
+    .analysis-form.show {
+        display: block;
+        animation: fadeInUp 0.3s ease;
+    }
+    
+    .dataset-selector {
+        margin-bottom: 2rem;
+    }
+    
+    .dataset-card {
+        background: var(--light-gray);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: var(--transition-fast);
+    }
+    
+    .dataset-card:hover {
+        border-color: var(--primary-color);
+        background: rgba(52, 152, 219, 0.05);
+    }
+    
+    .dataset-card.selected {
+        border-color: var(--primary-color);
+        background: rgba(52, 152, 219, 0.1);
+    }
+    
+    .dataset-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .dataset-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: var(--primary-color);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.875rem;
+    }
+    
+    .dataset-name {
+        font-weight: 500;
+        color: var(--secondary-color);
+    }
+    
+    .dataset-meta {
+        font-size: 0.875rem;
+        color: var(--medium-gray);
+    }
+    
+    .analysis-options {
+        margin-bottom: 2rem;
+    }
+    
+    .option-group {
+        margin-bottom: 1.5rem;
+    }
+    
+    .option-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: var(--secondary-color);
+    }
+    
+    .option-group .form-control,
+    .option-group .form-select {
+        width: 100%;
+        padding: 0.875rem;
+        border: 2px solid var(--border-color);
+        border-radius: var(--border-radius-small);
+        transition: var(--transition-fast);
+    }
+    
+    .option-group .form-control:focus,
+    .option-group .form-select:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    }
+    
+    .analyses-history {
+        background: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-light);
+        border: 1px solid var(--border-color);
+    }
+    
+    .analysis-item {
+        padding: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .analysis-item:last-child {
+        border-bottom: none;
+    }
+    
+    .analysis-item-info {
+        flex: 1;
+    }
+    
+    .analysis-item-title {
+        font-weight: 500;
+        color: var(--secondary-color);
+        margin-bottom: 0.25rem;
+    }
+    
+    .analysis-item-meta {
+        font-size: 0.875rem;
+        color: var(--medium-gray);
+    }
+    
+    .analysis-status {
+        padding: 0.375rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .analysis-status.completed {
+        background: rgba(46, 204, 113, 0.1);
+        color: var(--success-color);
+    }
+    
+    .analysis-status.running {
+        background: rgba(52, 152, 219, 0.1);
+        color: var(--primary-color);
+    }
+    
+    .analysis-status.failed {
+        background: rgba(231, 76, 60, 0.1);
+        color: var(--accent-color);
+    }
+    
+    .analysis-actions {
+        display: flex;
+        gap: 0.5rem;
+        margin-left: 1rem;
+    }
+    
+    .analysis-action-btn {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid var(--border-color);
+        background: white;
+        color: var(--medium-gray);
+        cursor: pointer;
+        transition: var(--transition-fast);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .analysis-action-btn:hover {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+    
+    @media (max-width: 768px) {
+        .analysis-types-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .analysis-item {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .analysis-actions {
+            align-self: stretch;
+            justify-content: center;
+            margin-left: 0;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block header_actions %}
+<div class="header-actions">
+    <button class="btn btn-outline" onclick="refreshAnalyses()">
+        <i class="fas fa-sync-alt"></i> Refresh
+    </button>
+    <button class="btn btn-primary" onclick="showAnalysisForm()">
+        <i class="fas fa-plus"></i> New Analysis
+    </button>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="analysis-header">
+    <div>
+        <h3>Analysis Types</h3>
+        <p>Choose an analysis type to extract insights from your data</p>
+    </div>
+</div>
+
+<div class="analysis-types-grid" id="analysisTypesGrid">
+    {% if analysis_types %}
+        {% for type in analysis_types %}
+        <div class="analysis-type-card" data-type="{{ type.type }}" onclick="selectAnalysisType('{{ type.type }}')">
+            <div class="analysis-type-header">
+                <div class="analysis-type-icon">
+                    {% if type.type == 'communication' %}
+                        <i class="fas fa-comments"></i>
+                    {% elif type.type == 'personality' %}
+                        <i class="fas fa-user-circle"></i>
+                    {% elif type.type == 'temporal' %}
+                        <i class="fas fa-clock"></i>
+                    {% elif type.type == 'network' %}
+                        <i class="fas fa-project-diagram"></i>
+                    {% elif type.type == 'nlp' %}
+                        <i class="fas fa-language"></i>
+                    {% elif type.type == 'comprehensive' %}
+                        <i class="fas fa-brain"></i>
+                    {% else %}
+                        <i class="fas fa-chart-bar"></i>
+                    {% endif %}
+                </div>
+                <h4 class="analysis-type-title">{{ type.name }}</h4>
+            </div>
+            <p class="analysis-type-description">
+                {{ type.description or 'Advanced analysis to extract meaningful insights from your data.' }}
+            </p>
+            <div class="analysis-requirements">
+                <strong>Requirements:</strong> 
+                {% if type.type == 'communication' %}
+                    Message or email data
+                {% elif type.type == 'personality' %}
+                    Communication data with personal messages
+                {% elif type.type == 'temporal' %}
+                    Timestamped data
+                {% elif type.type == 'network' %}
+                    Communication or social data
+                {% elif type.type == 'nlp' %}
+                    Text-based data
+                {% elif type.type == 'comprehensive' %}
+                    Any imported data
+                {% else %}
+                    Imported data
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="text-center p-4">
+            <i class="fas fa-chart-bar fa-3x text-muted mb-3"></i>
+            <p>No analysis types available. Please check system configuration.</p>
+        </div>
+    {% endif %}
+</div>
+
+<form class="analysis-form" id="analysisForm">
+    <h4>Configure Analysis</h4>
+    <p>Select your data and configure analysis parameters</p>
+    
+    <div class="dataset-selector">
+        <h5>Select Dataset</h5>
+        <div id="datasetList">
+            <div class="dataset-card" data-dataset="demo">
+                <div class="dataset-header">
+                    <div class="dataset-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="dataset-name">Demo Dataset</div>
+                </div>
+                <div class="dataset-meta">Sample data • 1,250 messages • 15.2 MB</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="analysis-options">
+        <h5>Analysis Options</h5>
+        
+        <div class="option-group">
+            <label>Analysis Depth</label>
+            <select class="form-select" name="depth">
+                <option value="basic">Basic - Quick overview</option>
+                <option value="standard" selected>Standard - Comprehensive analysis</option>
+                <option value="detailed">Detailed - Deep dive with all features</option>
+            </select>
+        </div>
+        
+        <div class="option-group">
+            <label>Include Visualizations</label>
+            <select class="form-select" name="visualizations">
+                <option value="true" selected>Yes - Generate charts and graphs</option>
+                <option value="false">No - Text results only</option>
+            </select>
+        </div>
+        
+        <div class="option-group">
+            <label>Analysis Name (Optional)</label>
+            <input type="text" class="form-control" name="name" placeholder="Enter a name for this analysis...">
+        </div>
+    </div>
+    
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-play"></i> Start Analysis
+        </button>
+        <button type="button" class="btn btn-outline" onclick="hideAnalysisForm()">
+            <i class="fas fa-times"></i> Cancel
+        </button>
+    </div>
+</form>
+
+<div class="analyses-history">
+    <div class="card-header">
+        <h3 class="card-title">
+            <i class="fas fa-history"></i>
+            Analysis History
+        </h3>
+    </div>
+    
+    <div id="analysisHistory">
+        {% if analyses and analyses|length > 0 %}
+            {% for analysis in analyses %}
+            <div class="analysis-item">
+                <div class="analysis-item-info">
+                    <div class="analysis-item-title">{{ analysis.name or analysis.type|title }} Analysis</div>
+                    <div class="analysis-item-meta">
+                        {{ analysis.created_at or 'Recently' }} • {{ analysis.dataset or 'Unknown dataset' }}
+                    </div>
+                </div>
+                <div class="analysis-status {{ analysis.status or 'completed' }}">
+                    {{ analysis.status or 'completed' }}
+                </div>
+                <div class="analysis-actions">
+                    <button class="analysis-action-btn" onclick="viewAnalysis('{{ analysis.id }}')" title="View Results">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                    <button class="analysis-action-btn" onclick="downloadAnalysis('{{ analysis.id }}')" title="Download">
+                        <i class="fas fa-download"></i>
+                    </button>
+                    <button class="analysis-action-btn" onclick="deleteAnalysis('{{ analysis.id }}')" title="Delete">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="analysis-item">
+                <div class="analysis-item-info">
+                    <div class="analysis-item-title">No analyses yet</div>
+                    <div class="analysis-item-meta">Start by selecting an analysis type above and running your first analysis</div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let selectedAnalysisType = null;
+let selectedDataset = null;
+
+function selectAnalysisType(type) {
+    // Remove selection from all cards
+    document.querySelectorAll('.analysis-type-card').forEach(card => {
+        card.classList.remove('selected');
+    });
+    
+    // Select clicked card
+    document.querySelector(`[data-type="${type}"]`).classList.add('selected');
+    selectedAnalysisType = type;
+    
+    // Show analysis form
+    showAnalysisForm();
+}
+
+function showAnalysisForm() {
+    const form = document.getElementById('analysisForm');
+    form.classList.add('show');
+    form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function hideAnalysisForm() {
+    const form = document.getElementById('analysisForm');
+    form.classList.remove('show');
+    
+    // Clear selections
+    selectedAnalysisType = null;
+    selectedDataset = null;
+    
+    document.querySelectorAll('.analysis-type-card').forEach(card => {
+        card.classList.remove('selected');
+    });
+    
+    document.querySelectorAll('.dataset-card').forEach(card => {
+        card.classList.remove('selected');
+    });
+}
+
+function selectDataset(dataset) {
+    // Remove selection from all dataset cards
+    document.querySelectorAll('.dataset-card').forEach(card => {
+        card.classList.remove('selected');
+    });
+    
+    // Select clicked dataset
+    document.querySelector(`[data-dataset="${dataset}"]`).classList.add('selected');
+    selectedDataset = dataset;
+}
+
+// Add click handlers to dataset cards
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.dataset-card').forEach(card => {
+        card.addEventListener('click', function() {
+            const dataset = this.getAttribute('data-dataset');
+            selectDataset(dataset);
+        });
+    });
+});
+
+// Handle analysis form submission
+document.getElementById('analysisForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    if (!selectedAnalysisType) {
+        showNotification('Please select an analysis type', 'warning');
+        return;
+    }
+    
+    if (!selectedDataset) {
+        showNotification('Please select a dataset', 'warning');
+        return;
+    }
+    
+    const formData = new FormData(this);
+    const data = {
+        type: selectedAnalysisType,
+        dataset: selectedDataset,
+        options: {
+            depth: formData.get('depth'),
+            visualizations: formData.get('visualizations') === 'true',
+            name: formData.get('name') || `${selectedAnalysisType} Analysis`
+        }
+    };
+    
+    const submitBtn = this.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<div class="loading"></div> Starting Analysis...';
+    submitBtn.disabled = true;
+    
+    try {
+        const response = await fetch('/api/v1/analysis/run', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok && result.id) {
+            showNotification('Analysis started successfully!', 'success');
+            hideAnalysisForm();
+            
+            // Redirect to analysis result page
+            setTimeout(() => {
+                window.location.href = `/analysis/${result.id}`;
+            }, 1500);
+        } else {
+            throw new Error(result.error || 'Failed to start analysis');
+        }
+        
+    } catch (error) {
+        console.error('Analysis error:', error);
+        showNotification(`Failed to start analysis: ${error.message}`, 'error');
+    } finally {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+    }
+});
+
+function viewAnalysis(analysisId) {
+    window.open(`/analysis/${analysisId}`, '_blank');
+}
+
+function downloadAnalysis(analysisId) {
+    const link = document.createElement('a');
+    link.href = `/api/v1/analysis/${analysisId}/download`;
+    link.download = `analysis-${analysisId}.json`;
+    link.click();
+    
+    showNotification('Analysis download started', 'info');
+}
+
+function deleteAnalysis(analysisId) {
+    if (confirm('Are you sure you want to delete this analysis? This action cannot be undone.')) {
+        fetch(`/api/v1/analysis/${analysisId}`, { method: 'DELETE' })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showNotification('Analysis deleted successfully', 'success');
+                    setTimeout(() => window.location.reload(), 1500);
+                } else {
+                    showNotification('Failed to delete analysis', 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Delete error:', error);
+                showNotification('Error deleting analysis', 'error');
+            });
+    }
+}
+
+function refreshAnalyses() {
+    showNotification('Refreshing analyses...', 'info');
+    setTimeout(() => {
+        window.location.reload();
+    }, 1000);
+}
+
+// Auto-refresh running analyses every 30 seconds
+setInterval(async function() {
+    const runningAnalyses = document.querySelectorAll('.analysis-status.running');
+    if (runningAnalyses.length > 0) {
+        try {
+            const response = await fetch('/api/v1/analysis/status');
+            if (response.ok) {
+                const statuses = await response.json();
+                // Update status badges
+                statuses.forEach(status => {
+                    const element = document.querySelector(`[data-analysis-id="${status.id}"] .analysis-status`);
+                    if (element && status.status !== 'running') {
+                        window.location.reload();
+                    }
+                });
+            }
+        } catch (error) {
+            console.warn('Failed to refresh analysis status:', error);
+        }
+    }
+}, 30000);
+</script>
+{% endblock %}

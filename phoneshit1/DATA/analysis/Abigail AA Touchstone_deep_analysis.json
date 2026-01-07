@@ -1,0 +1,41 @@
+{
+  "person": "Abigail AA Touchstone",
+  "type": "individual",
+  "total_messages": 5,
+  "first_message": "2022-06-21 19:09:37",
+  "last_message": "2022-07-17 00:01:16",
+  "duration_days": 25,
+  "days_since_last": 1222,
+  "your_messages": 3,
+  "their_messages": 2,
+  "balance": 60.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-06-21",
+      "end_date": "2022-07-04",
+      "duration_days": 12,
+      "message_count": 3,
+      "daily_avg": 0.25,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-04",
+      "end_date": "2022-07-17",
+      "duration_days": 12,
+      "message_count": 2,
+      "daily_avg": 0.16666666666666666,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

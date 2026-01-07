@@ -1,0 +1,156 @@
+{
+  "contact": "Potato",
+  "analysis_date": "2025-11-26T03:18:49.512849",
+  "total_messages": 41890,
+  "time_span_days": 923,
+  "conflict_profile": "MODERATE-HIGH CONFLICT",
+  "statistics": {
+    "total_conflicts": 346,
+    "avg_duration_days": 0.2,
+    "max_duration_days": 76,
+    "avg_severity": 0.41,
+    "max_severity": 1.64,
+    "conflict_frequency_days": 2.7,
+    "total_conflict_days": 86
+  },
+  "top_conflicts": [
+    {
+      "start": "2025-08-05 16:11:39",
+      "end": "2025-08-06 02:20:55",
+      "duration_days": 0,
+      "severity": 1.6363636363636365,
+      "message_count": 33
+    },
+    {
+      "start": "2025-09-16 03:11:53",
+      "end": "2025-09-16 18:50:58",
+      "duration_days": 0,
+      "severity": 1.125,
+      "message_count": 16
+    },
+    {
+      "start": "2025-09-02 23:21:01",
+      "end": "2025-09-03 10:47:30",
+      "duration_days": 0,
+      "severity": 1.1,
+      "message_count": 20
+    },
+    {
+      "start": "2025-05-26 23:42:21",
+      "end": "2025-05-27 23:24:44",
+      "duration_days": 0,
+      "severity": 1.0606060606060606,
+      "message_count": 33
+    },
+    {
+      "start": "2025-01-09 20:01:08",
+      "end": "2025-01-09 21:53:35",
+      "duration_days": 0,
+      "severity": 1.0,
+      "message_count": 18
+    },
+    {
+      "start": "2025-04-12 03:37:07",
+      "end": "2025-04-12 04:10:23",
+      "duration_days": 0,
+      "severity": 1.0,
+      "message_count": 42
+    },
+    {
+      "start": "2024-08-05 00:08:59",
+      "end": "2024-08-05 00:36:52",
+      "duration_days": 0,
+      "severity": 0.9411764705882353,
+      "message_count": 17
+    },
+    {
+      "start": "2025-03-17 00:02:26",
+      "end": "2025-03-17 01:37:13",
+      "duration_days": 0,
+      "severity": 0.8947368421052632,
+      "message_count": 19
+    },
+    {
+      "start": "2025-11-03 22:57:27",
+      "end": "2025-11-03 23:27:14",
+      "duration_days": 0,
+      "severity": 0.8048780487804879,
+      "message_count": 41
+    },
+    {
+      "start": "2025-04-16 13:39:03",
+      "end": "2025-04-16 14:38:36",
+      "duration_days": 0,
+      "severity": 0.8,
+      "message_count": 15
+    }
+  ],
+  "triggers": [
+    {
+      "topic": "jealousy",
+      "frequency": 51,
+      "severity": "high"
+    },
+    {
+      "topic": "trust",
+      "frequency": 29,
+      "severity": "high"
+    },
+    {
+      "topic": "respect",
+      "frequency": 29,
+      "severity": "high"
+    },
+    {
+      "topic": "boundaries",
+      "frequency": 9,
+      "severity": "high"
+    },
+    {
+      "topic": "commitment",
+      "frequency": 8,
+      "severity": "high"
+    },
+    {
+      "topic": "communication",
+      "frequency": 6,
+      "severity": "high"
+    },
+    {
+      "topic": "family",
+      "frequency": 6,
+      "severity": "high"
+    },
+    {
+      "topic": "time",
+      "frequency": 4,
+      "severity": "moderate"
+    },
+    {
+      "topic": "plans",
+      "frequency": 4,
+      "severity": "moderate"
+    }
+  ],
+  "resolution_patterns": {
+    "primary_strategy": "compromise",
+    "resolution_breakdown": {
+      "understanding": 3,
+      "compromise": 20,
+      "apology": 9,
+      "reconciliation": 1
+    },
+    "effectiveness": "moderate"
+  },
+  "conflict_maturity": {
+    "early_avg_severity": 0.29,
+    "late_avg_severity": 0.54,
+    "trend": "WORSENING",
+    "assessment": "Conflict patterns are worsening"
+  },
+  "recommendations": [
+    "High conflict frequency suggests fundamental compatibility issues",
+    "Primary conflict trigger is jealousy - address this proactively",
+    "CRITICAL: Conflicts are escalating - consider relationship evaluation"
+  ]
+}

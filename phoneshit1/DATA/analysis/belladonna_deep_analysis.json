@@ -1,0 +1,49 @@
+{
+  "person": "belladonna",
+  "type": "individual",
+  "total_messages": 3502,
+  "first_message": "2025-04-01 21:21:01",
+  "last_message": "2025-06-27 15:21:40",
+  "duration_days": 86,
+  "days_since_last": 145,
+  "your_messages": 1554,
+  "their_messages": 1948,
+  "balance": 44.37464306110794,
+  "emotional_keywords": {
+    "love": 388,
+    "conflict": 64,
+    "breakup": 1,
+    "reconciliation": 1,
+    "intimacy": 29,
+    "support": 7,
+    "excitement": 18,
+    "sadness": 47
+  },
+  "phases": [
+    {
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30",
+      "duration_days": 28,
+      "message_count": 598,
+      "daily_avg": 21.357142857142858,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-04-30",
+      "end_date": "2025-05-29",
+      "duration_days": 28,
+      "message_count": 2499,
+      "daily_avg": 89.25,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-05-29",
+      "end_date": "2025-06-27",
+      "duration_days": 28,
+      "message_count": 405,
+      "daily_avg": 14.464285714285714,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

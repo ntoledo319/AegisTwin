@@ -1,0 +1,57 @@
+{
+  "person": "Veni The Sponsee",
+  "type": "individual",
+  "total_messages": 1599,
+  "first_message": "2023-03-09 20:42:52",
+  "last_message": "2024-11-22 20:17:19",
+  "duration_days": 623,
+  "days_since_last": 362,
+  "your_messages": 686,
+  "their_messages": 913,
+  "balance": 42.90181363352095,
+  "emotional_keywords": {
+    "love": 117,
+    "conflict": 15,
+    "breakup": 0,
+    "reconciliation": 23,
+    "intimacy": 3,
+    "support": 0,
+    "excitement": 6,
+    "sadness": 16
+  },
+  "phases": [
+    {
+      "start_date": "2023-03-09",
+      "end_date": "2023-08-12",
+      "duration_days": 155,
+      "message_count": 451,
+      "daily_avg": 2.9096774193548387,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-08-12",
+      "end_date": "2024-01-15",
+      "duration_days": 155,
+      "message_count": 266,
+      "daily_avg": 1.7161290322580645,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-15",
+      "end_date": "2024-06-19",
+      "duration_days": 155,
+      "message_count": 611,
+      "daily_avg": 3.9419354838709677,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-06-19",
+      "end_date": "2024-11-22",
+      "duration_days": 155,
+      "message_count": 271,
+      "daily_avg": 1.7483870967741935,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

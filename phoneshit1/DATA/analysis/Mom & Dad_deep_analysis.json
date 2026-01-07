@@ -1,0 +1,57 @@
+{
+  "person": "Mom & Dad",
+  "type": "group",
+  "total_messages": 5965,
+  "first_message": "2018-11-30 15:22:08",
+  "last_message": "2025-03-19 15:03:28",
+  "duration_days": 2300,
+  "days_since_last": 245,
+  "your_messages": 2505,
+  "their_messages": 3460,
+  "balance": 41.994970662196145,
+  "emotional_keywords": {
+    "love": 121,
+    "conflict": 45,
+    "breakup": 1,
+    "reconciliation": 10,
+    "intimacy": 14,
+    "support": 11,
+    "excitement": 12,
+    "sadness": 105
+  },
+  "phases": [
+    {
+      "start_date": "2018-11-30",
+      "end_date": "2020-06-27",
+      "duration_days": 575,
+      "message_count": 2013,
+      "daily_avg": 3.5008695652173913,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2020-06-27",
+      "end_date": "2022-01-24",
+      "duration_days": 575,
+      "message_count": 2773,
+      "daily_avg": 4.822608695652174,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2022-01-24",
+      "end_date": "2023-08-22",
+      "duration_days": 575,
+      "message_count": 388,
+      "daily_avg": 0.6747826086956522,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-22",
+      "end_date": "2025-03-19",
+      "duration_days": 575,
+      "message_count": 791,
+      "daily_avg": 1.3756521739130434,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

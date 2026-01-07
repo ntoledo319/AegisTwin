@@ -1,0 +1,41 @@
+{
+  "person": "Cry",
+  "type": "individual",
+  "total_messages": 2,
+  "first_message": "2021-12-07 17:11:35",
+  "last_message": "2021-12-07 17:13:56",
+  "duration_days": 0,
+  "days_since_last": 1443,
+  "your_messages": 1,
+  "their_messages": 1,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-12-07",
+      "end_date": "2021-12-07",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-12-07",
+      "end_date": "2021-12-07",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

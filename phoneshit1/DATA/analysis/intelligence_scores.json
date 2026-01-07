@@ -1,0 +1,32 @@
+{
+  "verbal_intelligence": 52.6,
+  "emotional_intelligence": 59.1,
+  "social_intelligence": 83.0,
+  "communication_effectiveness": 97.9,
+  "personality": {
+    "openness": 11.1,
+    "conscientiousness": 7.1,
+    "extraversion": 100,
+    "agreeableness": 9.7,
+    "neuroticism": 2.8
+  },
+  "composite_intelligence": 61.9,
+  "strengths": [
+    "Extraversion",
+    "Communication Effectiveness",
+    "Social Intelligence"
+  ],
+  "growth_areas": [
+    "Openness",
+    "Agreeableness",
+    "Conscientiousness"
+  ],
+  "ei_components": {
+    "emotional_expression": 25.8,
+    "empathy_indicators": 39.9,
+    "emotional_regulation": 77.5,
+    "social_awareness": 83.0,
+    "relationship_management": 97.9
+  },
+  "ei_methodology": "version_2.0_corrected"
+}

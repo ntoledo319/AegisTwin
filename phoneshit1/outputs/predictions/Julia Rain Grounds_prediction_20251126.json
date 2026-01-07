@@ -1,0 +1,110 @@
+{
+  "contact": "Julia Rain Grounds",
+  "breakup_risk_assessment": {
+    "contact": "Julia Rain Grounds",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "assessment": "Relationship at severe risk",
+    "warning_signs": [
+      "severe_frequency_decline",
+      "declining_communication_trend",
+      "high_conflict_level",
+      "extended_communication_gap",
+      "unstable_communication_patterns"
+    ],
+    "positive_indicators": [
+      "low_conflict_keywords"
+    ],
+    "features_analyzed": {
+      "freq_trend": -6.802608695652175,
+      "current_freq": 0.29130434782608694,
+      "peak_freq": 69.48695652173913,
+      "freq_decline_pct": 99.58077837567264,
+      "balance": 52.37694704049844,
+      "balance_shift": 6.554517133956388,
+      "love_ratio": 52.86604361370716,
+      "conflict_ratio": 13.426791277258568,
+      "breakup_ratio": 0.34267912772585674,
+      "reconciliation_ratio": 2.2118380062305296,
+      "days_since_last": 188,
+      "freq_volatility": 0.7866076012394336,
+      "breakup_recon_ratio": 0.14822800161703276
+    },
+    "generated_at": "2025-11-26T03:18:49.607680"
+  },
+  "trajectory_forecast": {
+    "contact": "Julia Rain Grounds",
+    "current_frequency": 0.29,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 100,
+    "trend_direction": "declining",
+    "generated_at": "2025-11-26T03:18:49.770058"
+  },
+  "historical_comparison": {
+    "contact": "Julia Rain Grounds",
+    "current_risk_score": 100,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "Julia Rain Grounds",
+        "similarity_score": 1.0,
+        "ended_after_days": 923,
+        "final_breakup_count": 11,
+        "key_differences": []
+      },
+      {
+        "historical_relationship": "Cole & Steph \ud83d\udc95 & Anadi & Christy",
+        "similarity_score": 0.85,
+        "ended_after_days": 22,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Much more breakup discussion"
+        ]
+      },
+      {
+        "historical_relationship": "Yacht Cock ",
+        "similarity_score": 0.8,
+        "ended_after_days": 52,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Current has better communication trend",
+          "Much more breakup discussion"
+        ]
+      }
+    ],
+    "pattern_analysis": "STRONG similarity to Julia Rain Grounds - pay attention to how that ended",
+    "generated_at": "2025-11-26T03:19:23.287276"
+  },
+  "recommendations": [
+    "URGENT: This relationship needs immediate attention",
+    "Consider having an honest conversation about the relationship status",
+    "Increase communication frequency - reach out more often",
+    "Re-establish contact soon or this relationship may end permanently",
+    "Reverse the declining trend by increasing engagement quality"
+  ],
+  "generated_at": "2025-11-26T03:19:23.287443"
+}

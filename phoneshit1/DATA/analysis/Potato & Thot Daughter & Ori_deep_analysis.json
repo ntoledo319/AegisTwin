@@ -1,0 +1,49 @@
+{
+  "person": "Potato & Thot Daughter & Ori",
+  "type": "group",
+  "total_messages": 13,
+  "first_message": "2024-12-15 18:27:13",
+  "last_message": "2025-04-25 18:58:15",
+  "duration_days": 131,
+  "days_since_last": 208,
+  "your_messages": 3,
+  "their_messages": 10,
+  "balance": 23.076923076923077,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-12-15",
+      "end_date": "2025-01-28",
+      "duration_days": 43,
+      "message_count": 7,
+      "daily_avg": 0.16279069767441862,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-01-28",
+      "end_date": "2025-03-13",
+      "duration_days": 43,
+      "message_count": 3,
+      "daily_avg": 0.06976744186046512,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-03-13",
+      "end_date": "2025-04-25",
+      "duration_days": 43,
+      "message_count": 3,
+      "daily_avg": 0.06976744186046512,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

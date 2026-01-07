@@ -1,0 +1,57 @@
+{
+  "person": "Mike Shes",
+  "type": "individual",
+  "total_messages": 133,
+  "first_message": "2022-12-23 15:41:17",
+  "last_message": "2024-03-15 20:37:54",
+  "duration_days": 448,
+  "days_since_last": 614,
+  "your_messages": 53,
+  "their_messages": 80,
+  "balance": 39.849624060150376,
+  "emotional_keywords": {
+    "love": 9,
+    "conflict": 5,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2022-12-23",
+      "end_date": "2023-04-14",
+      "duration_days": 112,
+      "message_count": 105,
+      "daily_avg": 0.9375,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-04-14",
+      "end_date": "2023-08-04",
+      "duration_days": 112,
+      "message_count": 14,
+      "daily_avg": 0.125,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-04",
+      "end_date": "2023-11-24",
+      "duration_days": 112,
+      "message_count": 7,
+      "daily_avg": 0.0625,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-11-24",
+      "end_date": "2024-03-15",
+      "duration_days": 112,
+      "message_count": 7,
+      "daily_avg": 0.0625,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

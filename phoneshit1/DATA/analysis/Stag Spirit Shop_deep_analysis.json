@@ -1,0 +1,49 @@
+{
+  "person": "Stag Spirit Shop",
+  "type": "group",
+  "total_messages": 85,
+  "first_message": "2019-10-20 13:32:26",
+  "last_message": "2020-02-11 18:47:04",
+  "duration_days": 114,
+  "days_since_last": 2108,
+  "your_messages": 7,
+  "their_messages": 78,
+  "balance": 8.235294117647058,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2019-10-20",
+      "end_date": "2019-11-27",
+      "duration_days": 38,
+      "message_count": 38,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-11-27",
+      "end_date": "2020-01-04",
+      "duration_days": 38,
+      "message_count": 20,
+      "daily_avg": 0.5263157894736842,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-01-04",
+      "end_date": "2020-02-11",
+      "duration_days": 38,
+      "message_count": 27,
+      "daily_avg": 0.7105263157894737,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

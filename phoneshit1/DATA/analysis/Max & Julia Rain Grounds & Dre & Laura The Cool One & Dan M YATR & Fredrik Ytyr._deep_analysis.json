@@ -1,0 +1,49 @@
+{
+  "person": "Max & Julia Rain Grounds & Dre & Laura The Cool One & Dan M YATR & Fredrik Ytyr.",
+  "type": "group",
+  "total_messages": 258,
+  "first_message": "2023-05-23 22:50:05",
+  "last_message": "2023-07-29 16:00:17",
+  "duration_days": 66,
+  "days_since_last": 844,
+  "your_messages": 30,
+  "their_messages": 228,
+  "balance": 11.627906976744185,
+  "emotional_keywords": {
+    "love": 65,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 12
+  },
+  "phases": [
+    {
+      "start_date": "2023-05-23",
+      "end_date": "2023-06-15",
+      "duration_days": 22,
+      "message_count": 225,
+      "daily_avg": 10.227272727272727,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2023-06-15",
+      "end_date": "2023-07-07",
+      "duration_days": 22,
+      "message_count": 26,
+      "daily_avg": 1.1818181818181819,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-07",
+      "end_date": "2023-07-29",
+      "duration_days": 22,
+      "message_count": 7,
+      "daily_avg": 0.3181818181818182,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

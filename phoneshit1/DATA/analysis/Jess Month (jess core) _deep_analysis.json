@@ -1,0 +1,41 @@
+{
+  "person": "Jess Month (jess core) ",
+  "type": "group",
+  "total_messages": 67,
+  "first_message": "2025-09-01 00:10:52",
+  "last_message": "2025-09-05 01:50:52",
+  "duration_days": 4,
+  "days_since_last": 75,
+  "your_messages": 15,
+  "their_messages": 52,
+  "balance": 22.388059701492537,
+  "emotional_keywords": {
+    "love": 42,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-03",
+      "duration_days": 2,
+      "message_count": 64,
+      "daily_avg": 32.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-09-03",
+      "end_date": "2025-09-05",
+      "duration_days": 2,
+      "message_count": 3,
+      "daily_avg": 1.5,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

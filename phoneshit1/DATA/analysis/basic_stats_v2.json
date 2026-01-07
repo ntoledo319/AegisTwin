@@ -1,0 +1,47 @@
+{
+  "total_messages": 900983,
+  "date_range": {
+    "start": "2017-12-23 13:57:33",
+    "end": "2025-11-20 01:46:08"
+  },
+  "unique_chat_sessions": 1151,
+  "outgoing_messages": 417052,
+  "incoming_messages": 483931,
+  "messages_by_year": {
+    "2017": 285,
+    "2018": 79916,
+    "2019": 151306,
+    "2020": 140382,
+    "2021": 96516,
+    "2022": 109382,
+    "2023": 130878,
+    "2024": 95349,
+    "2025": 96969
+  },
+  "top_20_contacts": {
+    "Lily": 360346,
+    "Marisa": 89076,
+    "Ian L": 58930,
+    "Max": 46685,
+    "Potato": 41890,
+    "Julia Rain Grounds": 32100,
+    "Gabby": 28291,
+    "Steph \ud83d\udc95": 21647,
+    "hoes and homos": 18650,
+    "Mom": 16271,
+    "Chloe Lopez": 13477,
+    "Isabel De Leon": 8342,
+    "Cros": 8338,
+    "The mental deranged poets society": 6601,
+    "Mom & Dad": 5965,
+    "Gratitudeversity": 5930,
+    "Jessica": 4606,
+    "Mia Talamelli": 4390,
+    "One-Shot-Squad": 4239,
+    "Hamel Erika": 4164
+  },
+  "avg_message_length": {
+    "outgoing": 34.83387443292443,
+    "incoming": 33.1763743178263
+  }
+}

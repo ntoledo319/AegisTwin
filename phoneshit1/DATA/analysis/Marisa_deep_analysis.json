@@ -1,0 +1,57 @@
+{
+  "person": "Marisa",
+  "type": "individual",
+  "total_messages": 89076,
+  "first_message": "2022-03-19 18:21:57",
+  "last_message": "2025-07-11 18:02:51",
+  "duration_days": 1209,
+  "days_since_last": 131,
+  "your_messages": 45222,
+  "their_messages": 43854,
+  "balance": 50.767883605011455,
+  "emotional_keywords": {
+    "love": 8098,
+    "conflict": 1337,
+    "breakup": 36,
+    "reconciliation": 90,
+    "intimacy": 941,
+    "support": 82,
+    "excitement": 538,
+    "sadness": 920
+  },
+  "phases": [
+    {
+      "start_date": "2022-03-19",
+      "end_date": "2023-01-16",
+      "duration_days": 302,
+      "message_count": 30252,
+      "daily_avg": 100.17218543046357,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2023-01-16",
+      "end_date": "2023-11-14",
+      "duration_days": 302,
+      "message_count": 49671,
+      "daily_avg": 164.47350993377484,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2023-11-14",
+      "end_date": "2024-09-12",
+      "duration_days": 302,
+      "message_count": 3206,
+      "daily_avg": 10.6158940397351,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-09-12",
+      "end_date": "2025-07-11",
+      "duration_days": 302,
+      "message_count": 5947,
+      "daily_avg": 19.692052980132452,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

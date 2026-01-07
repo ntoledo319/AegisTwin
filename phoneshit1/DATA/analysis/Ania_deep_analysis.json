@@ -1,0 +1,57 @@
+{
+  "person": "Ania",
+  "type": "individual",
+  "total_messages": 387,
+  "first_message": "2018-04-02 15:49:00",
+  "last_message": "2021-03-14 19:12:48",
+  "duration_days": 1077,
+  "days_since_last": 1711,
+  "your_messages": 222,
+  "their_messages": 165,
+  "balance": 57.36434108527132,
+  "emotional_keywords": {
+    "love": 27,
+    "conflict": 5,
+    "breakup": 4,
+    "reconciliation": 4,
+    "intimacy": 0,
+    "support": 2,
+    "excitement": 2,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2018-04-02",
+      "end_date": "2018-12-27",
+      "duration_days": 269,
+      "message_count": 264,
+      "daily_avg": 0.9814126394052045,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2018-12-27",
+      "end_date": "2019-09-23",
+      "duration_days": 269,
+      "message_count": 19,
+      "daily_avg": 0.07063197026022305,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-09-23",
+      "end_date": "2020-06-18",
+      "duration_days": 269,
+      "message_count": 2,
+      "daily_avg": 0.007434944237918215,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-06-18",
+      "end_date": "2021-03-14",
+      "duration_days": 269,
+      "message_count": 102,
+      "daily_avg": 0.379182156133829,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,57 @@
+{
+  "person": "Sarah L",
+  "type": "individual",
+  "total_messages": 188,
+  "first_message": "2021-05-27 21:12:41",
+  "last_message": "2025-09-13 15:37:20",
+  "duration_days": 1569,
+  "days_since_last": 67,
+  "your_messages": 81,
+  "their_messages": 107,
+  "balance": 43.08510638297872,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 4,
+    "breakup": 1,
+    "reconciliation": 2,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 3,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2021-05-27",
+      "end_date": "2022-06-24",
+      "duration_days": 392,
+      "message_count": 184,
+      "daily_avg": 0.46938775510204084,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-06-24",
+      "end_date": "2023-07-21",
+      "duration_days": 392,
+      "message_count": 2,
+      "daily_avg": 0.00510204081632653,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-21",
+      "end_date": "2024-08-17",
+      "duration_days": 392,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-17",
+      "end_date": "2025-09-13",
+      "duration_days": 392,
+      "message_count": 2,
+      "daily_avg": 0.00510204081632653,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

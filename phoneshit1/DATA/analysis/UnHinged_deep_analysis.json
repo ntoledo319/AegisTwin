@@ -1,0 +1,57 @@
+{
+  "person": "UnHinged",
+  "type": "group",
+  "total_messages": 1179,
+  "first_message": "2024-09-30 23:12:20",
+  "last_message": "2025-08-23 17:13:38",
+  "duration_days": 326,
+  "days_since_last": 88,
+  "your_messages": 324,
+  "their_messages": 855,
+  "balance": 27.480916030534353,
+  "emotional_keywords": {
+    "love": 171,
+    "conflict": 29,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 14,
+    "support": 11,
+    "excitement": 10,
+    "sadness": 38
+  },
+  "phases": [
+    {
+      "start_date": "2024-09-30",
+      "end_date": "2024-12-21",
+      "duration_days": 81,
+      "message_count": 951,
+      "daily_avg": 11.74074074074074,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-12-21",
+      "end_date": "2025-03-13",
+      "duration_days": 81,
+      "message_count": 53,
+      "daily_avg": 0.654320987654321,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-03-13",
+      "end_date": "2025-06-03",
+      "duration_days": 81,
+      "message_count": 107,
+      "daily_avg": 1.3209876543209877,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-06-03",
+      "end_date": "2025-08-23",
+      "duration_days": 81,
+      "message_count": 68,
+      "daily_avg": 0.8395061728395061,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

@@ -1,0 +1,57 @@
+{
+  "person": "Sam H",
+  "type": "individual",
+  "total_messages": 168,
+  "first_message": "2023-07-20 21:55:56",
+  "last_message": "2024-09-17 18:44:30",
+  "duration_days": 424,
+  "days_since_last": 428,
+  "your_messages": 78,
+  "their_messages": 90,
+  "balance": 46.42857142857143,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 0,
+    "breakup": 2,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2023-07-20",
+      "end_date": "2023-11-04",
+      "duration_days": 106,
+      "message_count": 55,
+      "daily_avg": 0.5188679245283019,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-11-04",
+      "end_date": "2024-02-18",
+      "duration_days": 106,
+      "message_count": 74,
+      "daily_avg": 0.6981132075471698,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-02-18",
+      "end_date": "2024-06-03",
+      "duration_days": 106,
+      "message_count": 32,
+      "daily_avg": 0.3018867924528302,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-06-03",
+      "end_date": "2024-09-17",
+      "duration_days": 106,
+      "message_count": 7,
+      "daily_avg": 0.0660377358490566,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

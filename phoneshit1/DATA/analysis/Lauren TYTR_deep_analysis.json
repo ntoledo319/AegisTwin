@@ -1,0 +1,49 @@
+{
+  "person": "Lauren TYTR",
+  "type": "individual",
+  "total_messages": 72,
+  "first_message": "2022-11-14 11:34:48",
+  "last_message": "2023-03-30 17:10:15",
+  "duration_days": 136,
+  "days_since_last": 965,
+  "your_messages": 30,
+  "their_messages": 42,
+  "balance": 41.66666666666667,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2022-11-14",
+      "end_date": "2022-12-29",
+      "duration_days": 45,
+      "message_count": 24,
+      "daily_avg": 0.5333333333333333,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-29",
+      "end_date": "2023-02-13",
+      "duration_days": 45,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-02-13",
+      "end_date": "2023-03-30",
+      "duration_days": 45,
+      "message_count": 48,
+      "daily_avg": 1.0666666666666667,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

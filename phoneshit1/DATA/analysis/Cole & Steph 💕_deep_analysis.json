@@ -1,0 +1,57 @@
+{
+  "person": "Cole & Steph \ud83d\udc95",
+  "type": "group",
+  "total_messages": 357,
+  "first_message": "2020-06-18 11:55:50",
+  "last_message": "2023-12-26 17:08:53",
+  "duration_days": 1286,
+  "days_since_last": 694,
+  "your_messages": 127,
+  "their_messages": 230,
+  "balance": 35.57422969187675,
+  "emotional_keywords": {
+    "love": 11,
+    "conflict": 4,
+    "breakup": 2,
+    "reconciliation": 0,
+    "intimacy": 6,
+    "support": 0,
+    "excitement": 3,
+    "sadness": 5
+  },
+  "phases": [
+    {
+      "start_date": "2020-06-18",
+      "end_date": "2021-05-06",
+      "duration_days": 321,
+      "message_count": 116,
+      "daily_avg": 0.3613707165109034,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-05-06",
+      "end_date": "2022-03-23",
+      "duration_days": 321,
+      "message_count": 6,
+      "daily_avg": 0.018691588785046728,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-03-23",
+      "end_date": "2023-02-08",
+      "duration_days": 321,
+      "message_count": 165,
+      "daily_avg": 0.514018691588785,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-02-08",
+      "end_date": "2023-12-26",
+      "duration_days": 321,
+      "message_count": 70,
+      "daily_avg": 0.21806853582554517,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

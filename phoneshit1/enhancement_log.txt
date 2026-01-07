@@ -1,0 +1,1422 @@
+🚀 Starting LLM-powered report enhancement...
+📚 Loading contact database and relationship categories...
+📊 Found 353 individual reports to enhance
+
+[1/353] Enhancing: +34692689804
+❌ Error enhancing +34692689804: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance +34692689804
+
+[2/353] Enhancing: +821059380478
+❌ Error enhancing +821059380478: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance +821059380478
+
+[3/353] Enhancing: +821059410478
+❌ Error enhancing +821059410478: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance +821059410478
+
+[4/353] Enhancing: 10885d
+❌ Error enhancing 10885d: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 10885d
+
+[5/353] Enhancing: 2 Perverts y una Tia
+❌ Error enhancing 2 Perverts y una Tia: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 2 Perverts y una Tia
+
+[6/353] Enhancing: 25448(filtered)
+❌ Error enhancing 25448(filtered): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 25448(filtered)
+
+[7/353] Enhancing: 270423
+❌ Error enhancing 270423: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 270423
+
+[8/353] Enhancing: 51804(filtered)
+❌ Error enhancing 51804(filtered): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 51804(filtered)
+
+[9/353] Enhancing: 62701(filtered)
+❌ Error enhancing 62701(filtered): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 62701(filtered)
+
+[10/353] Enhancing: 668366
+❌ Error enhancing 668366: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 668366
+
+[11/353] Enhancing: 697795
+❌ Error enhancing 697795: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 697795
+
+[12/353] Enhancing: 710830
+❌ Error enhancing 710830: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 710830
+
+[13/353] Enhancing: 72737(smsfp)
+❌ Error enhancing 72737(smsfp): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 72737(smsfp)
+
+[14/353] Enhancing: 8445641510
+❌ Error enhancing 8445641510: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 8445641510
+
+[15/353] Enhancing: 86185
+❌ Error enhancing 86185: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 86185
+
+[16/353] Enhancing: 91625(smsfp)
+❌ Error enhancing 91625(smsfp): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 91625(smsfp)
+
+[17/353] Enhancing: 94893
+❌ Error enhancing 94893: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 94893
+
+[18/353] Enhancing: 9d4461
+❌ Error enhancing 9d4461: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance 9d4461
+
+[19/353] Enhancing: AA open house
+❌ Error enhancing AA open house: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance AA open house
+
+[20/353] Enhancing: AJ TBS
+❌ Error enhancing AJ TBS: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance AJ TBS
+
+[21/353] Enhancing: Abigail AA Touchstone
+❌ Error enhancing Abigail AA Touchstone: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Abigail AA Touchstone
+
+[22/353] Enhancing: Adriana
+❌ Error enhancing Adriana: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Adriana
+
+[23/353] Enhancing: Aidyn Toledo
+❌ Error enhancing Aidyn Toledo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Aidyn Toledo
+
+[24/353] Enhancing: Alan
+❌ Error enhancing Alan: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alan
+
+[25/353] Enhancing: Alana
+❌ Error enhancing Alana: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alana
+
+[26/353] Enhancing: Alastair Bruce
+❌ Error enhancing Alastair Bruce: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alastair Bruce
+
+[27/353] Enhancing: Alej
+❌ Error enhancing Alej: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alej
+
+[28/353] Enhancing: Alex Work
+❌ Error enhancing Alex Work: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alex Work
+
+[29/353] Enhancing: Alex
+❌ Error enhancing Alex: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alex
+
+[30/353] Enhancing: Alexa
+❌ Error enhancing Alexa: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alexa
+
+[31/353] Enhancing: Alexis Maresca
+❌ Error enhancing Alexis Maresca: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alexis Maresca
+
+[32/353] Enhancing: Alexis
+❌ Error enhancing Alexis: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alexis
+
+[33/353] Enhancing: Alfredo
+❌ Error enhancing Alfredo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alfredo
+
+[34/353] Enhancing: Ali Haidar
+❌ Error enhancing Ali Haidar: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ali Haidar
+
+[35/353] Enhancing: Alisha
+❌ Error enhancing Alisha: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Alisha
+
+[36/353] Enhancing: Amanda Boss Person
+❌ Error enhancing Amanda Boss Person: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Amanda Boss Person
+
+[37/353] Enhancing: An Hewit
+❌ Error enhancing An Hewit: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance An Hewit
+
+[38/353] Enhancing: Ana
+❌ Error enhancing Ana: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ana
+
+[39/353] Enhancing: Anadi
+❌ Error enhancing Anadi: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Anadi
+
+[40/353] Enhancing: Andrea
+❌ Error enhancing Andrea: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Andrea
+
+[41/353] Enhancing: Andrew C
+❌ Error enhancing Andrew C: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Andrew C
+
+[42/353] Enhancing: Andrew
+❌ Error enhancing Andrew: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Andrew
+
+[43/353] Enhancing: Andy Bybee
+❌ Error enhancing Andy Bybee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Andy Bybee
+
+[44/353] Enhancing: Ania
+❌ Error enhancing Ania: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ania
+
+[45/353] Enhancing: Anna Jani
+❌ Error enhancing Anna Jani: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Anna Jani
+
+[46/353] Enhancing: Annie
+❌ Error enhancing Annie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Annie
+
+[47/353] Enhancing: Anthony Stb
+❌ Error enhancing Anthony Stb: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Anthony Stb
+
+[48/353] Enhancing: Apple
+❌ Error enhancing Apple: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Apple
+
+[49/353] Enhancing: Armando
+❌ Error enhancing Armando: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Armando
+
+[50/353] Enhancing: Asher
+❌ Error enhancing Asher: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Asher
+
+[51/353] Enhancing: Attractive men pretending to be old man Logan
+❌ Error enhancing Attractive men pretending to be old man Logan: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Attractive men pretending to be old man Logan
+
+[52/353] Enhancing: Aunt Anne
+❌ Error enhancing Aunt Anne: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Aunt Anne
+
+[53/353] Enhancing: Aunt Eric Cell
+❌ Error enhancing Aunt Eric Cell: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Aunt Eric Cell
+
+[54/353] Enhancing: Autum RS
+❌ Error enhancing Autum RS: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Autum RS
+
+[55/353] Enhancing: Ava Grounds
+❌ Error enhancing Ava Grounds: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ava Grounds
+
+[56/353] Enhancing: Avery Restrepo
+❌ Error enhancing Avery Restrepo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Avery Restrepo
+
+[57/353] Enhancing: Barbara T
+❌ Error enhancing Barbara T: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Barbara T
+
+[58/353] Enhancing: Barrett
+❌ Error enhancing Barrett: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Barrett
+
+[59/353] Enhancing: Bella
+❌ Error enhancing Bella: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Bella
+
+[60/353] Enhancing: Ben E
+❌ Error enhancing Ben E: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ben E
+
+[61/353] Enhancing: Bill Gerber
+❌ Error enhancing Bill Gerber: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Bill Gerber
+
+[62/353] Enhancing: Bob G
+❌ Error enhancing Bob G: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Bob G
+
+[63/353] Enhancing: Brailey
+❌ Error enhancing Brailey: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Brailey
+
+[64/353] Enhancing: Brain C
+❌ Error enhancing Brain C: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Brain C
+
+[65/353] Enhancing: Brandon
+❌ Error enhancing Brandon: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Brandon
+
+[66/353] Enhancing: Brian Work
+❌ Error enhancing Brian Work: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Brian Work
+
+[67/353] Enhancing: Britney Everywhere
+❌ Error enhancing Britney Everywhere: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Britney Everywhere
+
+[68/353] Enhancing: Brooke
+❌ Error enhancing Brooke: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Brooke
+
+[69/353] Enhancing: BrookeG
+❌ Error enhancing BrookeG: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance BrookeG
+
+[70/353] Enhancing: BryanZ😱
+❌ Error enhancing BryanZ😱: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance BryanZ😱
+
+[71/353] Enhancing: Bubba E
+❌ Error enhancing Bubba E: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Bubba E
+
+[72/353] Enhancing: CJ 💛
+❌ Error enhancing CJ 💛: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance CJ 💛
+
+[73/353] Enhancing: Cait
+❌ Error enhancing Cait: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Cait
+
+[74/353] Enhancing: Camille Perry
+❌ Error enhancing Camille Perry: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Camille Perry
+
+[75/353] Enhancing: Caroline Dillon
+❌ Error enhancing Caroline Dillon: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Caroline Dillon
+
+[76/353] Enhancing: Cathy
+❌ Error enhancing Cathy: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Cathy
+
+[77/353] Enhancing: Ceara
+❌ Error enhancing Ceara: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ceara
+
+[78/353] Enhancing: Chloe Lopez
+❌ Error enhancing Chloe Lopez: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Chloe Lopez
+
+[79/353] Enhancing: Christan P
+❌ Error enhancing Christan P: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Christan P
+
+[80/353] Enhancing: Christan Tytr
+❌ Error enhancing Christan Tytr: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Christan Tytr
+
+[81/353] Enhancing: Christina Hair
+❌ Error enhancing Christina Hair: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Christina Hair
+
+[82/353] Enhancing: Christy
+❌ Error enhancing Christy: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Christy
+
+[83/353] Enhancing: Cindy Leighton
+❌ Error enhancing Cindy Leighton: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Cindy Leighton
+
+[84/353] Enhancing: Coalition of Disobedience
+❌ Error enhancing Coalition of Disobedience: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Coalition of Disobedience
+
+[85/353] Enhancing: Cole
+❌ Error enhancing Cole: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Cole
+
+[86/353] Enhancing: Colette
+❌ Error enhancing Colette: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Colette
+
+[87/353] Enhancing: Connie
+❌ Error enhancing Connie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Connie
+
+[88/353] Enhancing: Connor
+❌ Error enhancing Connor: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Connor
+
+[89/353] Enhancing: Cros
+❌ Error enhancing Cros: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Cros
+
+[90/353] Enhancing: DEBORAH ABATE
+❌ Error enhancing DEBORAH ABATE: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance DEBORAH ABATE
+
+[91/353] Enhancing: DOWNTOWN Audriana
+❌ Error enhancing DOWNTOWN Audriana: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance DOWNTOWN Audriana
+
+[92/353] Enhancing: Dad
+❌ Error enhancing Dad: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dad
+
+[93/353] Enhancing: Dan M YATR
+❌ Error enhancing Dan M YATR: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dan M YATR
+
+[94/353] Enhancing: Danielle Reprieve
+❌ Error enhancing Danielle Reprieve: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Danielle Reprieve
+
+[95/353] Enhancing: Danielle
+❌ Error enhancing Danielle: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Danielle
+
+[96/353] Enhancing: Danna
+❌ Error enhancing Danna: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Danna
+
+[97/353] Enhancing: David M
+❌ Error enhancing David M: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance David M
+
+[98/353] Enhancing: David Tate
+❌ Error enhancing David Tate: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance David Tate
+
+[99/353] Enhancing: Dawn Rodgers
+❌ Error enhancing Dawn Rodgers: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dawn Rodgers
+
+[100/353] Enhancing: Dean Martel
+❌ Error enhancing Dean Martel: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dean Martel
+
+[101/353] Enhancing: Delusions of Grandeur
+❌ Error enhancing Delusions of Grandeur: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Delusions of Grandeur
+
+[102/353] Enhancing: Denise
+❌ Error enhancing Denise: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Denise
+
+[103/353] Enhancing: Dermott Greene
+❌ Error enhancing Dermott Greene: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dermott Greene
+
+[104/353] Enhancing: Dr L
+❌ Error enhancing Dr L: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dr L
+
+[105/353] Enhancing: Dre
+❌ Error enhancing Dre: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Dre
+
+[106/353] Enhancing: Ean
+❌ Error enhancing Ean: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ean
+
+[107/353] Enhancing: Ellie Haney
+❌ Error enhancing Ellie Haney: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ellie Haney
+
+[108/353] Enhancing: Emily Pappas Pappas
+❌ Error enhancing Emily Pappas Pappas: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Emily Pappas Pappas
+
+[109/353] Enhancing: Erik
+❌ Error enhancing Erik: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Erik
+
+[110/353] Enhancing: Erin
+❌ Error enhancing Erin: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Erin
+
+[111/353] Enhancing: Ethan Toledo
+❌ Error enhancing Ethan Toledo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ethan Toledo
+
+[112/353] Enhancing: Eva H
+❌ Error enhancing Eva H: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Eva H
+
+[113/353] Enhancing: Frank Likys Brother
+❌ Error enhancing Frank Likys Brother: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Frank Likys Brother
+
+[114/353] Enhancing: Fredrik Ytyr.
+❌ Error enhancing Fredrik Ytyr.: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Fredrik Ytyr.
+
+[115/353] Enhancing: GABRIELLE WADE
+❌ Error enhancing GABRIELLE WADE: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance GABRIELLE WADE
+
+[116/353] Enhancing: Gabby
+❌ Error enhancing Gabby: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Gabby
+
+[117/353] Enhancing: Gamon
+❌ Error enhancing Gamon: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Gamon
+
+[118/353] Enhancing: Garett
+❌ Error enhancing Garett: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Garett
+
+[119/353] Enhancing: Garrison Bybee
+❌ Error enhancing Garrison Bybee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Garrison Bybee
+
+[120/353] Enhancing: Gary
+❌ Error enhancing Gary: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Gary
+
+[121/353] Enhancing: Geneva C
+❌ Error enhancing Geneva C: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Geneva C
+
+[122/353] Enhancing: Gianna
+❌ Error enhancing Gianna: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Gianna
+
+[123/353] Enhancing: Grace Mullane
+❌ Error enhancing Grace Mullane: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Grace Mullane
+
+[124/353] Enhancing: Grace
+❌ Error enhancing Grace: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Grace
+
+[125/353] Enhancing: Grandma T Cell
+❌ Error enhancing Grandma T Cell: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Grandma T Cell
+
+[126/353] Enhancing: Gratitudeversity
+❌ Error enhancing Gratitudeversity: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Gratitudeversity
+
+[127/353] Enhancing: Grittytude
+❌ Error enhancing Grittytude: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Grittytude
+
+[128/353] Enhancing: Guy From Train
+❌ Error enhancing Guy From Train: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Guy From Train
+
+[129/353] Enhancing: Hamel Erika
+❌ Error enhancing Hamel Erika: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Hamel Erika
+
+[130/353] Enhancing: Hannah Tattoo
+❌ Error enhancing Hannah Tattoo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Hannah Tattoo
+
+[131/353] Enhancing: Hannah
+❌ Error enhancing Hannah: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Hannah
+
+[132/353] Enhancing: Harry Gsr
+❌ Error enhancing Harry Gsr: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Harry Gsr
+
+[133/353] Enhancing: Hinge Jen
+❌ Error enhancing Hinge Jen: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Hinge Jen
+
+[134/353] Enhancing: Honorary white boiz
+❌ Error enhancing Honorary white boiz: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Honorary white boiz
+
+[135/353] Enhancing: I own the place
+❌ Error enhancing I own the place: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance I own the place
+
+[136/353] Enhancing: Ian L
+❌ Error enhancing Ian L: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ian L
+
+[137/353] Enhancing: Ian Vroom
+❌ Error enhancing Ian Vroom: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ian Vroom
+
+[138/353] Enhancing: Ian’s 21st 🍷
+❌ Error enhancing Ian’s 21st 🍷: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ian’s 21st 🍷
+
+[139/353] Enhancing: Isa Diaz
+❌ Error enhancing Isa Diaz: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Isa Diaz
+
+[140/353] Enhancing: Isaac S
+❌ Error enhancing Isaac S: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Isaac S
+
+[141/353] Enhancing: Isabel De Leon
+❌ Error enhancing Isabel De Leon: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Isabel De Leon
+
+[142/353] Enhancing: Isaih
+❌ Error enhancing Isaih: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Isaih
+
+[143/353] Enhancing: Issabella Frango
+❌ Error enhancing Issabella Frango: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Issabella Frango
+
+[144/353] Enhancing: Issac 2
+❌ Error enhancing Issac 2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Issac 2
+
+[145/353] Enhancing: I’ve created a very small podium for Bella to bully nikki on.
+❌ Error enhancing I’ve created a very small podium for Bella to bully nikki on.: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance I’ve created a very small podium for Bella to bully nikki on.
+
+[146/353] Enhancing: J Leighton
+❌ Error enhancing J Leighton: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance J Leighton
+
+[147/353] Enhancing: JESS MONTH #16
+❌ Error enhancing JESS MONTH #16: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance JESS MONTH #16
+
+[148/353] Enhancing: Jackals Inc
+❌ Error enhancing Jackals Inc: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jackals Inc
+
+[149/353] Enhancing: Jackles Inc
+❌ Error enhancing Jackles Inc: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jackles Inc
+
+[150/353] Enhancing: Jake C
+❌ Error enhancing Jake C: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jake C
+
+[151/353] Enhancing: James L
+❌ Error enhancing James L: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance James L
+
+[152/353] Enhancing: James
+❌ Error enhancing James: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance James
+
+[153/353] Enhancing: Jane Lott
+❌ Error enhancing Jane Lott: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jane Lott
+
+[154/353] Enhancing: Jasmin Colin's Husband
+❌ Error enhancing Jasmin Colin's Husband: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jasmin Colin's Husband
+
+[155/353] Enhancing: Jax Sonoftwo
+❌ Error enhancing Jax Sonoftwo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jax Sonoftwo
+
+[156/353] Enhancing: Jay John 20_2
+⚠️  Could not find contact info for Jay John 20_2
+❌ Failed to enhance Jay John 20_2
+
+[157/353] Enhancing: Jay
+❌ Error enhancing Jay: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jay
+
+[158/353] Enhancing: Jess H
+❌ Error enhancing Jess H: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jess H
+
+[159/353] Enhancing: Jess Month (jess core) 
+❌ Error enhancing Jess Month (jess core) : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jess Month (jess core) 
+
+[160/353] Enhancing: Jess Wi
+❌ Error enhancing Jess Wi: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jess Wi
+
+[161/353] Enhancing: Jessica
+❌ Error enhancing Jessica: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jessica
+
+[162/353] Enhancing: Jill Ryan
+❌ Error enhancing Jill Ryan: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jill Ryan
+
+[163/353] Enhancing: Joey
+❌ Error enhancing Joey: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Joey
+
+[164/353] Enhancing: John B
+❌ Error enhancing John B: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance John B
+
+[165/353] Enhancing: JohnnyO 🦸‍♂️ Lore
+❌ Error enhancing JohnnyO 🦸‍♂️ Lore: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance JohnnyO 🦸‍♂️ Lore
+
+[166/353] Enhancing: Jon 4d
+❌ Error enhancing Jon 4d: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jon 4d
+
+[167/353] Enhancing: Jose Shu
+❌ Error enhancing Jose Shu: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Jose Shu
+
+[168/353] Enhancing: Julia Rain Grounds
+❌ Error enhancing Julia Rain Grounds: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Julia Rain Grounds
+
+[169/353] Enhancing: Julia-G Spinster
+❌ Error enhancing Julia-G Spinster: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Julia-G Spinster
+
+[170/353] Enhancing: Just a Girl ~litteraly~
+❌ Error enhancing Just a Girl ~litteraly~: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Just a Girl ~litteraly~
+
+[171/353] Enhancing: K
+❌ Error enhancing K: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance K
+
+[172/353] Enhancing: Karen
+❌ Error enhancing Karen: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Karen
+
+[173/353] Enhancing: Kat G
+❌ Error enhancing Kat G: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Kat G
+
+[174/353] Enhancing: Katia Tavarez
+❌ Error enhancing Katia Tavarez: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Katia Tavarez
+
+[175/353] Enhancing: Katie (cool)
+❌ Error enhancing Katie (cool): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Katie (cool)
+
+[176/353] Enhancing: Katie S
+❌ Error enhancing Katie S: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Katie S
+
+[177/353] Enhancing: Kaylie
+❌ Error enhancing Kaylie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Kaylie
+
+[178/353] Enhancing: Kelly Norman
+❌ Error enhancing Kelly Norman: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Kelly Norman
+
+[179/353] Enhancing: Kim Grounds
+❌ Error enhancing Kim Grounds: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Kim Grounds
+
+[180/353] Enhancing: Lauren A
+❌ Error enhancing Lauren A: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lauren A
+
+[181/353] Enhancing: Lauren TYTR
+❌ Error enhancing Lauren TYTR: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lauren TYTR
+
+[182/353] Enhancing: Lauren
+❌ Error enhancing Lauren: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lauren
+
+[183/353] Enhancing: Lily
+❌ Error enhancing Lily: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lily
+
+[184/353] Enhancing: Lindsey
+❌ Error enhancing Lindsey: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lindsey
+
+[185/353] Enhancing: Logan Miller
+❌ Error enhancing Logan Miller: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Logan Miller
+
+[186/353] Enhancing: Lola mars-s
+❌ Error enhancing Lola mars-s: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lola mars-s
+
+[187/353] Enhancing: Lori W
+❌ Error enhancing Lori W: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Lori W
+
+[188/353] Enhancing: M
+❌ Error enhancing M: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance M
+
+[189/353] Enhancing: MOOSE T
+❌ Error enhancing MOOSE T: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance MOOSE T
+
+[190/353] Enhancing: Mac
+❌ Error enhancing Mac: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mac
+
+[191/353] Enhancing: Maddie
+❌ Error enhancing Maddie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Maddie
+
+[192/353] Enhancing: Marcus
+❌ Error enhancing Marcus: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Marcus
+
+[193/353] Enhancing: Margret Lr
+❌ Error enhancing Margret Lr: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Margret Lr
+
+[194/353] Enhancing: Marisa
+❌ Error enhancing Marisa: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Marisa
+
+[195/353] Enhancing: Mark Cell
+❌ Error enhancing Mark Cell: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mark Cell
+
+[196/353] Enhancing: Mary Kate
+❌ Error enhancing Mary Kate: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mary Kate
+
+[197/353] Enhancing: Matt I
+❌ Error enhancing Matt I: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Matt I
+
+[198/353] Enhancing: Matt Tytrd
+❌ Error enhancing Matt Tytrd: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Matt Tytrd
+
+[199/353] Enhancing: Matthew D
+❌ Error enhancing Matthew D: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Matthew D
+
+[200/353] Enhancing: Max
+❌ Error enhancing Max: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Max
+
+[201/353] Enhancing: Melyssa
+❌ Error enhancing Melyssa: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Melyssa
+
+[202/353] Enhancing: Mew
+❌ Error enhancing Mew: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mew
+
+[203/353] Enhancing: Mia Talamelli
+❌ Error enhancing Mia Talamelli: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mia Talamelli
+
+[204/353] Enhancing: Michael Kenny
+❌ Error enhancing Michael Kenny: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Michael Kenny
+
+[205/353] Enhancing: Michelle Asm
+❌ Error enhancing Michelle Asm: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Michelle Asm
+
+[206/353] Enhancing: Michelle P
+❌ Error enhancing Michelle P: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Michelle P
+
+[207/353] Enhancing: Mike G
+❌ Error enhancing Mike G: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mike G
+
+[208/353] Enhancing: Mike Shes
+❌ Error enhancing Mike Shes: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mike Shes
+
+[209/353] Enhancing: Mike
+❌ Error enhancing Mike: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mike
+
+[210/353] Enhancing: Mikey
+❌ Error enhancing Mikey: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mikey
+
+[211/353] Enhancing: Mitch
+❌ Error enhancing Mitch: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mitch
+
+[212/353] Enhancing: Mom
+❌ Error enhancing Mom: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Mom
+
+[213/353] Enhancing: Nat
+❌ Error enhancing Nat: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nat
+
+[214/353] Enhancing: Nathan
+❌ Error enhancing Nathan: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nathan
+
+[215/353] Enhancing: New Years Dinner ☕️
+❌ Error enhancing New Years Dinner ☕️: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance New Years Dinner ☕️
+
+[216/353] Enhancing: Nick Toledo
+❌ Error enhancing Nick Toledo: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nick Toledo
+
+[217/353] Enhancing: Nicks small birthday get together 
+❌ Error enhancing Nicks small birthday get together : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nicks small birthday get together 
+
+[218/353] Enhancing: Nik
+❌ Error enhancing Nik: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nik
+
+[219/353] Enhancing: Nikki
+❌ Error enhancing Nikki: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nikki
+
+[220/353] Enhancing: Nora
+❌ Error enhancing Nora: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Nora
+
+[221/353] Enhancing: Oliva
+❌ Error enhancing Oliva: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Oliva
+
+[222/353] Enhancing: Oliver sponsee
+❌ Error enhancing Oliver sponsee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Oliver sponsee
+
+[223/353] Enhancing: Omari
+❌ Error enhancing Omari: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Omari
+
+[224/353] Enhancing: Ori is the best 
+❌ Error enhancing Ori is the best : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ori is the best 
+
+[225/353] Enhancing: Ori talking ppl out of money 
+❌ Error enhancing Ori talking ppl out of money : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ori talking ppl out of money 
+
+[226/353] Enhancing: Ori
+❌ Error enhancing Ori: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ori
+
+[227/353] Enhancing: PJ
+❌ Error enhancing PJ: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance PJ
+
+[228/353] Enhancing: Papa John
+❌ Error enhancing Papa John: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Papa John
+
+[229/353] Enhancing: Patricia Garys Friend
+❌ Error enhancing Patricia Garys Friend: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Patricia Garys Friend
+
+[230/353] Enhancing: Patti Demilia
+❌ Error enhancing Patti Demilia: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Patti Demilia
+
+[231/353] Enhancing: Pauly Boss
+❌ Error enhancing Pauly Boss: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Pauly Boss
+
+[232/353] Enhancing: Peter
+❌ Error enhancing Peter: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Peter
+
+[233/353] Enhancing: Phil Maxson
+❌ Error enhancing Phil Maxson: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Phil Maxson
+
+[234/353] Enhancing: Philip
+❌ Error enhancing Philip: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Philip
+
+[235/353] Enhancing: Phillip sponsee
+❌ Error enhancing Phillip sponsee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Phillip sponsee
+
+[236/353] Enhancing: Politics Aaron
+❌ Error enhancing Politics Aaron: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Politics Aaron
+
+[237/353] Enhancing: Potato
+❌ Error enhancing Potato: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Potato
+
+[238/353] Enhancing: Priscilla
+❌ Error enhancing Priscilla: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Priscilla
+
+[239/353] Enhancing: Rabid Little Pixie
+❌ Error enhancing Rabid Little Pixie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rabid Little Pixie
+
+[240/353] Enhancing: Rachel P
+❌ Error enhancing Rachel P: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rachel P
+
+[241/353] Enhancing: Rebeca
+❌ Error enhancing Rebeca: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rebeca
+
+[242/353] Enhancing: Renny
+❌ Error enhancing Renny: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Renny
+
+[243/353] Enhancing: Rian
+❌ Error enhancing Rian: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rian
+
+[244/353] Enhancing: Rich El Gato
+❌ Error enhancing Rich El Gato: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rich El Gato
+
+[245/353] Enhancing: Riley
+❌ Error enhancing Riley: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Riley
+
+[246/353] Enhancing: Rob
+❌ Error enhancing Rob: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rob
+
+[247/353] Enhancing: Ron Anon K
+❌ Error enhancing Ron Anon K: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ron Anon K
+
+[248/353] Enhancing: Ron
+❌ Error enhancing Ron: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ron
+
+[249/353] Enhancing: Rose
+❌ Error enhancing Rose: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Rose
+
+[250/353] Enhancing: Ryan AA
+❌ Error enhancing Ryan AA: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ryan AA
+
+[251/353] Enhancing: Ryan B
+❌ Error enhancing Ryan B: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Ryan B
+
+[252/353] Enhancing: Sam H
+❌ Error enhancing Sam H: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sam H
+
+[253/353] Enhancing: Sam Mahler
+❌ Error enhancing Sam Mahler: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sam Mahler
+
+[254/353] Enhancing: Sara B
+❌ Error enhancing Sara B: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sara B
+
+[255/353] Enhancing: Sarah L
+❌ Error enhancing Sarah L: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sarah L
+
+[256/353] Enhancing: Sarah Pow
+❌ Error enhancing Sarah Pow: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sarah Pow
+
+[257/353] Enhancing: Sarah Swanson
+❌ Error enhancing Sarah Swanson: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sarah Swanson
+
+[258/353] Enhancing: Sean Reilly
+❌ Error enhancing Sean Reilly: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sean Reilly
+
+[259/353] Enhancing: Seb
+❌ Error enhancing Seb: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Seb
+
+[260/353] Enhancing: Shana M
+❌ Error enhancing Shana M: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Shana M
+
+[261/353] Enhancing: Shannan’s bday
+❌ Error enhancing Shannan’s bday: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Shannan’s bday
+
+[262/353] Enhancing: Shan’s pushing 30
+❌ Error enhancing Shan’s pushing 30: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Shan’s pushing 30
+
+[263/353] Enhancing: Sky Family
+❌ Error enhancing Sky Family: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sky Family
+
+[264/353] Enhancing: Skylar
+❌ Error enhancing Skylar: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Skylar
+
+[265/353] Enhancing: Sloan Wayne
+❌ Error enhancing Sloan Wayne: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Sloan Wayne
+
+[266/353] Enhancing: Space Adventures 2_ the Spaceaning
+⚠️  Could not find contact info for Space Adventures 2_ the Spaceaning
+❌ Failed to enhance Space Adventures 2_ the Spaceaning
+
+[267/353] Enhancing: Stacey Lechler
+❌ Error enhancing Stacey Lechler: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Stacey Lechler
+
+[268/353] Enhancing: Stag Spirit Shop
+❌ Error enhancing Stag Spirit Shop: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Stag Spirit Shop
+
+[269/353] Enhancing: Steph 💕
+❌ Error enhancing Steph 💕: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Steph 💕
+
+[270/353] Enhancing: Stephanie J
+❌ Error enhancing Stephanie J: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Stephanie J
+
+[271/353] Enhancing: Stephen C
+❌ Error enhancing Stephen C: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Stephen C
+
+[272/353] Enhancing: Stephen Work
+❌ Error enhancing Stephen Work: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Stephen Work
+
+[273/353] Enhancing: Summer
+❌ Error enhancing Summer: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Summer
+
+[274/353] Enhancing: Terminally Burt
+❌ Error enhancing Terminally Burt: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Terminally Burt
+
+[275/353] Enhancing: The Unction™️
+❌ Error enhancing The Unction™️: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance The Unction™️
+
+[276/353] Enhancing: The mental deranged poets society
+❌ Error enhancing The mental deranged poets society: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance The mental deranged poets society
+
+[277/353] Enhancing: Thigo Silvia
+❌ Error enhancing Thigo Silvia: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Thigo Silvia
+
+[278/353] Enhancing: Thot Daughter
+❌ Error enhancing Thot Daughter: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Thot Daughter
+
+[279/353] Enhancing: Todd
+❌ Error enhancing Todd: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Todd
+
+[280/353] Enhancing: Tom
+❌ Error enhancing Tom: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Tom
+
+[281/353] Enhancing: Trevor
+❌ Error enhancing Trevor: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Trevor
+
+[282/353] Enhancing: Tristan GAA
+❌ Error enhancing Tristan GAA: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Tristan GAA
+
+[283/353] Enhancing: Troy
+❌ Error enhancing Troy: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Troy
+
+[284/353] Enhancing: Tyler k
+❌ Error enhancing Tyler k: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Tyler k
+
+[285/353] Enhancing: UnHinged
+❌ Error enhancing UnHinged: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance UnHinged
+
+[286/353] Enhancing: Uncle Tony
+❌ Error enhancing Uncle Tony: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Uncle Tony
+
+[287/353] Enhancing: Veni The Sponsee
+❌ Error enhancing Veni The Sponsee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Veni The Sponsee
+
+[288/353] Enhancing: Wicked 🤘
+❌ Error enhancing Wicked 🤘: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Wicked 🤘
+
+[289/353] Enhancing: Will T
+❌ Error enhancing Will T: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Will T
+
+[290/353] Enhancing: Wolfganf
+❌ Error enhancing Wolfganf: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Wolfganf
+
+[291/353] Enhancing: X
+❌ Error enhancing X: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance X
+
+[292/353] Enhancing: Xmas Sushi 
+❌ Error enhancing Xmas Sushi : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Xmas Sushi 
+
+[293/353] Enhancing: Yacht Cock 
+❌ Error enhancing Yacht Cock : "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Yacht Cock 
+
+[294/353] Enhancing: Yale Study
+❌ Error enhancing Yale Study: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance Yale Study
+
+[295/353] Enhancing: adien max house
+❌ Error enhancing adien max house: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance adien max house
+
+[296/353] Enhancing: alli
+❌ Error enhancing alli: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance alli
+
+[297/353] Enhancing: ant
+❌ Error enhancing ant: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance ant
+
+[298/353] Enhancing: autism party
+❌ Error enhancing autism party: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance autism party
+
+[299/353] Enhancing: becca
+❌ Error enhancing becca: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance becca
+
+[300/353] Enhancing: bella 342
+❌ Error enhancing bella 342: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance bella 342
+
+[301/353] Enhancing: belladonna
+❌ Error enhancing belladonna: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance belladonna
+
+[302/353] Enhancing: ben rjs
+❌ Error enhancing ben rjs: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance ben rjs
+
+[303/353] Enhancing: cass
+❌ Error enhancing cass: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance cass
+
+[304/353] Enhancing: christine
+❌ Error enhancing christine: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance christine
+
+[305/353] Enhancing: courtney
+❌ Error enhancing courtney: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance courtney
+
+[306/353] Enhancing: d(real)
+❌ Error enhancing d(real): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance d(real)
+
+[307/353] Enhancing: d
+❌ Error enhancing d: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance d
+
+[308/353] Enhancing: daneila
+❌ Error enhancing daneila: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance daneila
+
+[309/353] Enhancing: daniel thee sponsee
+❌ Error enhancing daniel thee sponsee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance daniel thee sponsee
+
+[310/353] Enhancing: drew
+❌ Error enhancing drew: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance drew
+
+[311/353] Enhancing: e07887
+❌ Error enhancing e07887: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance e07887
+
+[312/353] Enhancing: ella-b
+❌ Error enhancing ella-b: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance ella-b
+
+[313/353] Enhancing: evil
+❌ Error enhancing evil: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance evil
+
+[314/353] Enhancing: gabe cohen
+❌ Error enhancing gabe cohen: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance gabe cohen
+
+[315/353] Enhancing: garyjohnston@optonline.net
+❌ Error enhancing garyjohnston@optonline.net: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance garyjohnston@optonline.net
+
+[316/353] Enhancing: gratitude not attitude
+❌ Error enhancing gratitude not attitude: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance gratitude not attitude
+
+[317/353] Enhancing: greg
+❌ Error enhancing greg: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance greg
+
+[318/353] Enhancing: jack
+❌ Error enhancing jack: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance jack
+
+[319/353] Enhancing: jimmi m
+❌ Error enhancing jimmi m: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance jimmi m
+
+[320/353] Enhancing: joe brewster
+❌ Error enhancing joe brewster: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance joe brewster
+
+[321/353] Enhancing: johnny o
+❌ Error enhancing johnny o: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance johnny o
+
+[322/353] Enhancing: konrad
+❌ Error enhancing konrad: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance konrad
+
+[323/353] Enhancing: lauren (cool)
+❌ Error enhancing lauren (cool): "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance lauren (cool)
+
+[324/353] Enhancing: levi the sponsee
+❌ Error enhancing levi the sponsee: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance levi the sponsee
+
+[325/353] Enhancing: malady
+❌ Error enhancing malady: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance malady
+
+[326/353] Enhancing: max
+❌ Error enhancing max: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance max
+
+[327/353] Enhancing: meeting my mother…
+❌ Error enhancing meeting my mother…: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance meeting my mother…
+
+[328/353] Enhancing: mike Tytr
+❌ Error enhancing mike Tytr: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance mike Tytr
+
+[329/353] Enhancing: mike b
+❌ Error enhancing mike b: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance mike b
+
+[330/353] Enhancing: mike-cool
+❌ Error enhancing mike-cool: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance mike-cool
+
+[331/353] Enhancing: miles
+❌ Error enhancing miles: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance miles
+
+[332/353] Enhancing: new pj
+❌ Error enhancing new pj: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance new pj
+
+[333/353] Enhancing: nick
+❌ Error enhancing nick: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance nick
+
+[334/353] Enhancing: old toast
+❌ Error enhancing old toast: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance old toast
+
+[335/353] Enhancing: pete g -sundays
+❌ Error enhancing pete g -sundays: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance pete g -sundays
+
+[336/353] Enhancing: philip m aa ypaa
+❌ Error enhancing philip m aa ypaa: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance philip m aa ypaa
+
+[337/353] Enhancing: quinn
+❌ Error enhancing quinn: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance quinn
+
+[338/353] Enhancing: raccoon pounderer.
+❌ Error enhancing raccoon pounderer.: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance raccoon pounderer.
+
+[339/353] Enhancing: richard- the cool one
+❌ Error enhancing richard- the cool one: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance richard- the cool one
+
+[340/353] Enhancing: rob tanis evon
+❌ Error enhancing rob tanis evon: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance rob tanis evon
+
+[341/353] Enhancing: ryan foss
+❌ Error enhancing ryan foss: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance ryan foss
+
+[342/353] Enhancing: sarah naaaaaaa
+❌ Error enhancing sarah naaaaaaa: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance sarah naaaaaaa
+
+[343/353] Enhancing: sean
+❌ Error enhancing sean: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance sean
+
+[344/353] Enhancing: sophie-newport
+❌ Error enhancing sophie-newport: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance sophie-newport
+
+[345/353] Enhancing: sophie
+❌ Error enhancing sophie: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance sophie
+
+[346/353] Enhancing: spyvspyvsspy
+❌ Error enhancing spyvspyvsspy: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance spyvspyvsspy
+
+[347/353] Enhancing: stos stos
+❌ Error enhancing stos stos: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance stos stos
+
+[348/353] Enhancing: the fray
+❌ Error enhancing the fray: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance the fray
+
+[349/353] Enhancing: toast Oreta
+❌ Error enhancing toast Oreta: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance toast Oreta
+
+[350/353] Enhancing: tyler ds
+❌ Error enhancing tyler ds: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance tyler ds
+
+[351/353] Enhancing: v
+❌ Error enhancing v: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance v
+
+[352/353] Enhancing: why didn’t anyone add drew?
+❌ Error enhancing why didn’t anyone add drew?: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance why didn’t anyone add drew?
+
+[353/353] Enhancing: will y&r
+❌ Error enhancing will y&r: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+❌ Failed to enhance will y&r
+
+============================================================
+✅ Enhancement Complete!
+   Enhanced: 0
+   Failed: 353
+   Total: 353
+============================================================

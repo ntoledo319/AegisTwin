@@ -1,0 +1,41 @@
+{
+  "person": "lauren (cool)",
+  "type": "individual",
+  "total_messages": 55,
+  "first_message": "2024-08-31 21:33:19",
+  "last_message": "2024-09-27 19:49:17",
+  "duration_days": 26,
+  "days_since_last": 418,
+  "your_messages": 29,
+  "their_messages": 26,
+  "balance": 52.72727272727272,
+  "emotional_keywords": {
+    "love": 16,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-31",
+      "end_date": "2024-09-14",
+      "duration_days": 13,
+      "message_count": 45,
+      "daily_avg": 3.4615384615384617,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-27",
+      "duration_days": 13,
+      "message_count": 10,
+      "daily_avg": 0.7692307692307693,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

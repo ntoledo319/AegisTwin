@@ -1,0 +1,47 @@
+# CogniLink Connectors Configuration
+
+# Email connector configuration
+email:
+  # Maximum number of emails to process (0 for unlimited)
+  max_emails: 0
+  
+  # Timeout for API connections (in seconds)
+  timeout: 30
+  
+  # Filter settings
+  filters:
+    # Minimum date to include (ISO format, empty for no filter)
+    min_date: ""
+    
+    # Maximum date to include (ISO format, empty for no filter)
+    max_date: ""
+    
+    # Domains to exclude (list of domain names)
+    exclude_domains:
+      - "spam.example.com"
+      - "newsletter.example.com"
+    
+    # Minimum content length to include (in characters, 0 for no filter)
+    min_content_length: 10
+
+# Message connector configuration
+message:
+  # Maximum number of messages to process (0 for unlimited)
+  max_messages: 0
+  
+  # Timeout for API connections (in seconds)
+  timeout: 30
+  
+  # Filter settings
+  filters:
+    # Minimum date to include (ISO format, empty for no filter)
+    min_date: ""
+    
+    # Maximum date to include (ISO format, empty for no filter)
+    max_date: ""
+    
+    # Platforms to include (empty for all)
+    include_platforms: []
+    
+    # Minimum content length to include (in characters, 0 for no filter)
+    min_content_length: 5

@@ -1,0 +1,57 @@
+{
+  "person": "Michelle Asm",
+  "type": "individual",
+  "total_messages": 39,
+  "first_message": "2023-01-13 12:22:37",
+  "last_message": "2023-09-05 21:18:17",
+  "duration_days": 235,
+  "days_since_last": 806,
+  "your_messages": 19,
+  "their_messages": 20,
+  "balance": 48.717948717948715,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-13",
+      "end_date": "2023-03-13",
+      "duration_days": 58,
+      "message_count": 36,
+      "daily_avg": 0.6206896551724138,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-03-13",
+      "end_date": "2023-05-11",
+      "duration_days": 58,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-05-11",
+      "end_date": "2023-07-09",
+      "duration_days": 58,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-09",
+      "end_date": "2023-09-05",
+      "duration_days": 58,
+      "message_count": 3,
+      "daily_avg": 0.05172413793103448,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,259 @@
+{
+  "contact": "Gabby",
+  "topic_extraction": {
+    "contact": "Gabby",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 4,
+        "label": "Emotions & Feelings",
+        "keywords": [
+          "know",
+          "if",
+          "sorry",
+          "feel",
+          "let",
+          "something",
+          "doing"
+        ],
+        "relevance_score": 7200.21,
+        "prevalence": 0.111
+      },
+      {
+        "topic_id": 3,
+        "label": "Social Plans",
+        "keywords": [
+          "get",
+          "out",
+          "day",
+          "tomorrow",
+          "better",
+          "sure",
+          "after"
+        ],
+        "relevance_score": 6630.02,
+        "prevalence": 0.104
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: think",
+        "keywords": [
+          "think",
+          "going",
+          "see",
+          "may",
+          "loved",
+          "nick",
+          "back"
+        ],
+        "relevance_score": 5947.55,
+        "prevalence": 0.103
+      },
+      {
+        "topic_id": 8,
+        "label": "Topic: one",
+        "keywords": [
+          "one",
+          "go",
+          "there",
+          "thing",
+          "getting",
+          "weird",
+          "wait"
+        ],
+        "relevance_score": 6182.39,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: shit",
+        "keywords": [
+          "shit",
+          "make",
+          "ve",
+          "maybe",
+          "lot",
+          "than",
+          "tell"
+        ],
+        "relevance_score": 6233.97,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 6,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "want",
+          "also",
+          "love",
+          "don",
+          "bad",
+          "said",
+          "wanna"
+        ],
+        "relevance_score": 6789.65,
+        "prevalence": 0.098
+      },
+      {
+        "topic_id": 9,
+        "label": "Work & Career",
+        "keywords": [
+          "then",
+          "here",
+          "things",
+          "work",
+          "night",
+          "as",
+          "life"
+        ],
+        "relevance_score": 6008.92,
+        "prevalence": 0.098
+      },
+      {
+        "topic_id": 1,
+        "label": "Emotions & Feelings",
+        "keywords": [
+          "need",
+          "oh",
+          "mean",
+          "today",
+          "actually",
+          "fuck",
+          "help"
+        ],
+        "relevance_score": 5321.89,
+        "prevalence": 0.097
+      },
+      {
+        "topic_id": 5,
+        "label": "Family",
+        "keywords": [
+          "now",
+          "got",
+          "right",
+          "new",
+          "thats",
+          "off",
+          "right now"
+        ],
+        "relevance_score": 5603.35,
+        "prevalence": 0.096
+      },
+      {
+        "topic_id": 10,
+        "label": "Friends & Social",
+        "keywords": [
+          "good",
+          "well",
+          "still",
+          "people",
+          "friend",
+          "someone",
+          "idk"
+        ],
+        "relevance_score": 5715.06,
+        "prevalence": 0.095
+      }
+    ],
+    "analysis_summary": "Primary themes: Emotions & Feelings, Social Plans, Topic: think",
+    "generated_at": "2025-11-26T03:23:39.575588"
+  },
+  "topic_evolution": {
+    "contact": "Gabby",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2020-07 to 2023-07",
+        "top_keywords": [
+          "know",
+          "good",
+          "work",
+          "sorry",
+          "going",
+          "there",
+          "thank",
+          "need",
+          "time",
+          "think"
+        ],
+        "theme": "Work & Career"
+      },
+      {
+        "phase": 2,
+        "period": "2023-07 to 2024-07",
+        "top_keywords": [
+          "know",
+          "think",
+          "good",
+          "want",
+          "there",
+          "need",
+          "time",
+          "shit",
+          "thing",
+          "sorry"
+        ],
+        "theme": "Topic: know"
+      },
+      {
+        "phase": 3,
+        "period": "2024-07 to 2024-11",
+        "top_keywords": [
+          "know",
+          "good",
+          "think",
+          "need",
+          "want",
+          "time",
+          "also",
+          "thing",
+          "well",
+          "there"
+        ],
+        "theme": "Topic: know"
+      },
+      {
+        "phase": 4,
+        "period": "2024-11 to 2025-11",
+        "top_keywords": [
+          "know",
+          "good",
+          "think",
+          "want",
+          "there",
+          "wanna",
+          "time",
+          "here",
+          "need",
+          "also"
+        ],
+        "theme": "Topic: know"
+      }
+    ],
+    "evolution_summary": "Evolved from Work & Career to Topic: know",
+    "generated_at": "2025-11-26T03:23:40.059890"
+  },
+  "conflict_topics": {
+    "contact": "Gabby",
+    "conflict_detected": true,
+    "conflict_message_count": 256,
+    "conflict_message_percentage": 0.9,
+    "common_conflict_topics": [
+      "made",
+      "braf",
+      "patients",
+      "mutant",
+      "brafv",
+      "mcrc",
+      "study",
+      "cetuximab",
+      "phase",
+      "egfr"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Conflicts often center around: made",
+    "generated_at": "2025-11-26T03:23:40.209238"
+  },
+  "generated_at": "2025-11-26T03:23:40.211095"
+}

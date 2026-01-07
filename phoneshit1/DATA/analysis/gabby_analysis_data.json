@@ -1,0 +1,67 @@
+{
+  "basic_stats": {
+    "total_messages": 28291,
+    "gabby_messages": 14463,
+    "user_messages": 13828,
+    "gabby_percentage": 51.1,
+    "user_percentage": 48.9,
+    "first_message": "2020-07-24 20:05:02",
+    "last_message": "2025-11-19 23:42:49",
+    "duration_days": 1944,
+    "duration_years": 5.32,
+    "days_since_last_message": 2,
+    "avg_messages_per_day": 14.6
+  },
+  "conversation_stats": {
+    "total_conversations": 1671,
+    "avg_messages_per_conversation": 16.9,
+    "median_conversation_length": 8,
+    "longest_conversation": 178,
+    "deep_conversations": 450,
+    "deep_conversation_percentage": 26.9
+  },
+  "initiation_patterns": {
+    "gabby_initiates": 855,
+    "user_initiates": 816,
+    "gabby_initiation_percentage": 51.2,
+    "user_initiation_percentage": 48.8
+  },
+  "yearly_breakdown": {
+    "2020": {
+      "total": 256,
+      "user_msgs": 129,
+      "gabby_msgs": 127,
+      "user_pct": 50.4
+    },
+    "2021": {
+      "total": 1718,
+      "user_msgs": 936,
+      "gabby_msgs": 782,
+      "user_pct": 54.5
+    },
+    "2022": {
+      "total": 2870,
+      "user_msgs": 1583,
+      "gabby_msgs": 1287,
+      "user_pct": 55.2
+    },
+    "2023": {
+      "total": 5429,
+      "user_msgs": 2614,
+      "gabby_msgs": 2815,
+      "user_pct": 48.1
+    },
+    "2024": {
+      "total": 12589,
+      "user_msgs": 6194,
+      "gabby_msgs": 6395,
+      "user_pct": 49.2
+    },
+    "2025": {
+      "total": 5429,
+      "user_msgs": 2372,
+      "gabby_msgs": 3057,
+      "user_pct": 43.7
+    }
+  }
+}

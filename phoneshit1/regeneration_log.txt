@@ -1,0 +1,133 @@
+================================================================================
+COMPREHENSIVE REPORT REGENERATION
+================================================================================
+
+This will:
+  1. Regenerate Marisa, Julia, Jessica as romantic relationships
+  2. Update friends category (remove Marisa, Julia)
+  3. Update IQ/EI methodology in all relevant reports
+  4. Regenerate ALL individual reports with corrected categories
+
+================================================================================
+
+================================================================================
+REGENERATING ROMANTIC RELATIONSHIP REPORTS
+================================================================================
+
+[1/3] Regenerating report for: Marisa
+✅ Generated 3,332 word report for Marisa
+   Saved to: individuals/ and romantic/
+
+[2/3] Regenerating report for: Julia Rain Grounds
+✅ Generated 3,135 word report for Julia Rain Grounds
+   Saved to: individuals/ and romantic/
+
+[3/3] Regenerating report for: Jessica
+✅ Generated 2,870 word report for Jessica
+   Saved to: individuals/ and romantic/
+
+✅ Romantic relationship reports regenerated
+
+================================================================================
+UPDATING FRIENDS CATEGORY
+================================================================================
+
+✅ Removed Marisa.md from friends/
+✅ Removed Julia Rain Grounds.md from friends/
+
+✅ Friends category updated
+
+================================================================================
+UPDATING IQ/EI METHODOLOGY IN REPORTS
+================================================================================
+
+Enhanced Methodology Loaded:
+  IQ Scoring Version: 2.0_enhanced
+  EI Scoring Version: 2.0_enhanced
+  IQ Score: 135.9 (CI: 130-142, 95% confidence)
+  EI Score: 14.1 (CI: 10-18, 95% confidence)
+  IQ-EI Gap: 121.8 points
+
+Updating: REPORTS/02_PERSONAL_PROFILE/COMPREHENSIVE_PROFILE.md
+  ✅ Added enhanced methodology section
+Updating: REPORTS/02_PERSONAL_PROFILE/COMPLETE_PERSONAL_ANALYSIS.md
+  ✅ Added enhanced methodology section
+Updating: REPORTS/01_EXECUTIVE_SUMMARY/EXECUTIVE_SUMMARY.md
+  ✅ Added enhanced methodology section
+
+✅ IQ/EI methodology updated in all relevant reports
+
+================================================================================
+REGENERATING ALL INDIVIDUAL REPORTS
+================================================================================
+
+Total individuals to regenerate: 356
+
+Skipping 17 already-correct top reports
+Regenerating 339 reports with corrected categories
+
+[10/339] ✅ 668366: 1,468 words
+[20/339] ✅ AJ TBS: 1,495 words
+[30/339] ✅ Alexa: 1,646 words
+[40/339] ✅ Andrea: 1,488 words
+
+[50/339] Progress checkpoint...
+[50/339] ✅ Asher: 1,488 words
+[60/339] ✅ Ben E: 1,655 words
+[70/339] ✅ BryanZ😱: 1,488 words
+[80/339] ✅ Christina Hair: 1,812 words
+[90/339] ✅ Dad: 1,749 words
+
+[100/339] Progress checkpoint...
+[100/339] ✅ Denise: 1,459 words
+[110/339] ✅ Eva H: 1,547 words
+[120/339] ✅ Grace: 1,570 words
+[130/339] ✅ I own the place: 1,509 words
+[140/339] ✅ JESS MONTH #16: 1,488 words
+
+[150/339] Progress checkpoint...
+[150/339] ❌ Jay John 20_2: Failed
+[160/339] ✅ Jose Shu: 1,578 words
+[170/339] ✅ Kaylie: 1,570 words
+[180/339] ✅ M: 1,570 words
+[190/339] ✅ Matt Tytrd: 1,495 words
+
+[200/339] Progress checkpoint...
+[200/339] ✅ Mikey: 1,498 words
+[210/339] ✅ Oliva: 1,488 words
+[220/339] ✅ Pauly Boss: 1,738 words
+[230/339] ✅ Renny: 1,570 words
+[240/339] ✅ Sam H: 1,652 words
+
+[250/339] Progress checkpoint...
+[250/339] ✅ Shan’s pushing 30: 1,502 words
+[260/339] ✅ Summer: 1,488 words
+[270/339] ✅ Tyler k: 1,464 words
+[280/339] ✅ Yale Study: 1,495 words
+[290/339] ✅ christine: 1,554 words
+
+[300/339] Progress checkpoint...
+[300/339] ✅ gabe cohen: 1,644 words
+[310/339] ✅ levi the sponsee: 1,502 words
+[320/339] ✅ old toast: 1,655 words
+[330/339] ✅ sophie: 1,488 words
+
+================================================================================
+✅ INDIVIDUAL REPORTS REGENERATED
+   Enhanced: 337
+   Failed: 2
+   Total: 339
+================================================================================
+
+================================================================================
+✅ COMPREHENSIVE REGENERATION COMPLETE
+================================================================================
+
+All reports have been updated with:
+  ✓ Correct relationship classifications
+  ✓ Enhanced IQ/EI methodology
+  ✓ Proper romantic relationship context
+  ✓ Updated recommendations based on correct types
+
+Next: Run quality assurance to verify all changes
+

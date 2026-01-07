@@ -1,0 +1,259 @@
+{
+  "contact": "Mom",
+  "topic_extraction": {
+    "contact": "Mom",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 1,
+        "label": "Money & Finance",
+        "keywords": [
+          "one",
+          "now",
+          "right",
+          "account",
+          "put",
+          "send",
+          "need"
+        ],
+        "relevance_score": 6883.87,
+        "prevalence": 0.113
+      },
+      {
+        "topic_id": 6,
+        "label": "Topic: need",
+        "keywords": [
+          "need",
+          "go",
+          "get",
+          "going",
+          "out",
+          "cvs",
+          "stop"
+        ],
+        "relevance_score": 7273.39,
+        "prevalence": 0.111
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: if",
+        "keywords": [
+          "if",
+          "take",
+          "see",
+          "out",
+          "something",
+          "there",
+          "get"
+        ],
+        "relevance_score": 6924.58,
+        "prevalence": 0.104
+      },
+      {
+        "topic_id": 8,
+        "label": "Work & Career",
+        "keywords": [
+          "home",
+          "off",
+          "get",
+          "leave",
+          "car",
+          "morning",
+          "phone"
+        ],
+        "relevance_score": 6149.98,
+        "prevalence": 0.101
+      },
+      {
+        "topic_id": 3,
+        "label": "Work & Career",
+        "keywords": [
+          "time",
+          "help",
+          "work",
+          "today",
+          "love",
+          "coming",
+          "need"
+        ],
+        "relevance_score": 5896.97,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 4,
+        "label": "Social Plans",
+        "keywords": [
+          "got",
+          "ll",
+          "tomorrow",
+          "until",
+          "here",
+          "night",
+          "then"
+        ],
+        "relevance_score": 5879.79,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 5,
+        "label": "Topic: know",
+        "keywords": [
+          "know",
+          "don",
+          "think",
+          "let",
+          "good",
+          "let know",
+          "don know"
+        ],
+        "relevance_score": 5601.78,
+        "prevalence": 0.098
+      },
+      {
+        "topic_id": 10,
+        "label": "Social Plans",
+        "keywords": [
+          "want",
+          "if",
+          "come",
+          "don",
+          "need",
+          "getting",
+          "going"
+        ],
+        "relevance_score": 5759.0,
+        "prevalence": 0.093
+      },
+      {
+        "topic_id": 7,
+        "label": "Food & Dining",
+        "keywords": [
+          "there",
+          "as",
+          "well",
+          "long",
+          "eat",
+          "gas",
+          "minutes"
+        ],
+        "relevance_score": 5296.49,
+        "prevalence": 0.092
+      },
+      {
+        "topic_id": 9,
+        "label": "Topic: make",
+        "keywords": [
+          "make",
+          "sure",
+          "please",
+          "make sure",
+          "clean",
+          "things",
+          "kitchen"
+        ],
+        "relevance_score": 6160.16,
+        "prevalence": 0.087
+      }
+    ],
+    "analysis_summary": "Primary themes: Money & Finance, Topic: need, Topic: if",
+    "generated_at": "2025-11-26T03:31:09.873202"
+  },
+  "topic_evolution": {
+    "contact": "Mom",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2018-11 to 2020-10",
+        "top_keywords": [
+          "need",
+          "home",
+          "going",
+          "know",
+          "there",
+          "want",
+          "take",
+          "here",
+          "time",
+          "tomorrow"
+        ],
+        "theme": "Social Plans"
+      },
+      {
+        "phase": 2,
+        "period": "2020-10 to 2022-08",
+        "top_keywords": [
+          "need",
+          "please",
+          "there",
+          "know",
+          "going",
+          "sure",
+          "make",
+          "want",
+          "take",
+          "time"
+        ],
+        "theme": "Topic: need"
+      },
+      {
+        "phase": 3,
+        "period": "2022-08 to 2023-12",
+        "top_keywords": [
+          "need",
+          "know",
+          "there",
+          "please",
+          "going",
+          "home",
+          "time",
+          "want",
+          "make",
+          "tomorrow"
+        ],
+        "theme": "Social Plans"
+      },
+      {
+        "phase": 4,
+        "period": "2023-12 to 2025-11",
+        "top_keywords": [
+          "need",
+          "know",
+          "please",
+          "there",
+          "make",
+          "home",
+          "going",
+          "sure",
+          "want",
+          "send"
+        ],
+        "theme": "Topic: need"
+      }
+    ],
+    "evolution_summary": "Evolved from Social Plans to Topic: need",
+    "generated_at": "2025-11-26T03:31:10.242217"
+  },
+  "conflict_topics": {
+    "contact": "Mom",
+    "conflict_detected": true,
+    "conflict_message_count": 134,
+    "conflict_message_percentage": 0.82,
+    "common_conflict_topics": [
+      "made",
+      "there",
+      "time",
+      "think",
+      "going",
+      "stewart",
+      "sacco",
+      "know",
+      "sure",
+      "always"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Scheduling and availability are sources of conflict",
+    "generated_at": "2025-11-26T03:31:10.335777"
+  },
+  "generated_at": "2025-11-26T03:31:10.336739"
+}

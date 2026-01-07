@@ -1,0 +1,41 @@
+{
+  "person": "Mike T",
+  "type": "individual",
+  "total_messages": 2,
+  "first_message": "2022-08-15 14:39:08",
+  "last_message": "2022-08-15 14:42:31",
+  "duration_days": 0,
+  "days_since_last": 1192,
+  "your_messages": 1,
+  "their_messages": 1,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-08-15",
+      "end_date": "2022-08-15",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-08-15",
+      "end_date": "2022-08-15",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,49 @@
+{
+  "person": "The Crew \ud83e\udd65\ud83c\udfb8\ud83c\udf99\ud83e\udd8b\ud83d\udcab\ud83c\udfb6",
+  "type": "group",
+  "total_messages": 3876,
+  "first_message": "2022-03-20 17:50:29",
+  "last_message": "2022-06-10 19:35:34",
+  "duration_days": 82,
+  "days_since_last": 1258,
+  "your_messages": 400,
+  "their_messages": 3476,
+  "balance": 10.319917440660474,
+  "emotional_keywords": {
+    "love": 777,
+    "conflict": 34,
+    "breakup": 2,
+    "reconciliation": 9,
+    "intimacy": 34,
+    "support": 19,
+    "excitement": 25,
+    "sadness": 62
+  },
+  "phases": [
+    {
+      "start_date": "2022-03-20",
+      "end_date": "2022-04-17",
+      "duration_days": 27,
+      "message_count": 1416,
+      "daily_avg": 52.44444444444444,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2022-04-17",
+      "end_date": "2022-05-14",
+      "duration_days": 27,
+      "message_count": 2194,
+      "daily_avg": 81.25925925925925,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2022-05-14",
+      "end_date": "2022-06-10",
+      "duration_days": 27,
+      "message_count": 266,
+      "daily_avg": 9.851851851851851,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

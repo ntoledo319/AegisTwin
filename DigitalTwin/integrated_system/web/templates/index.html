@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+    .welcome-section {
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    .welcome-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+
+    .welcome-section p {
+        font-size: 1.2rem;
+        color: #6c757d;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .feature-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #007bff;
+    }
+
+    .feature-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        color: #343a40;
+    }
+
+    .feature-description {
+        color: #6c757d;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: 2rem;
+        background-color: #007bff;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .cta-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-section p {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: white;
+        color: #007bff;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: #f8f9fa;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="welcome-section">
+    <h1>Welcome to Cognitive-Twin</h1>
+    <p>Advanced Data Analysis & Digital Twin System - A sophisticated platform that creates your digital twin, analyzes your data using AI, and provides personalized insights through intelligent conversation.</p>
+</div>
+
+<div class="features-grid">
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-database"></i>
+        </div>
+        <h3 class="feature-title">Data Processing</h3>
+        <p class="feature-description">Import, process, and manage data from various sources including email, messages, calendar, and social media.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-chart-bar"></i>
+        </div>
+        <h3 class="feature-title">Advanced Analysis</h3>
+        <p class="feature-description">Analyze data using advanced techniques including NLP, temporal analysis, network analysis, and cognitive modeling.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-user-circle"></i>
+        </div>
+        <h3 class="feature-title">Digital Twin</h3>
+        <p class="feature-description">Interact with a personalized digital twin that learns from your data and provides insights and recommendations.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-project-diagram"></i>
+        </div>
+        <h3 class="feature-title">Knowledge Graph</h3>
+        <p class="feature-description">Visualize and explore relationships between entities in your data using an interactive knowledge graph.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-brain"></i>
+        </div>
+        <h3 class="feature-title">Cognitive Modeling</h3>
+        <p class="feature-description">Model personality traits, values, decision-making patterns, and memory processes based on your data.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+        <h3 class="feature-title">Insights Generation</h3>
+        <p class="feature-description">Generate actionable insights and recommendations based on comprehensive analysis of your data.</p>
+    </div>
+</div>
+
+<div class="cta-section">
+    <h2>Get Started Today</h2>
+    <p>Begin exploring your data, generating insights, and interacting with your digital twin to unlock the full potential of your information.</p>
+    <a href="/dashboard" class="cta-button">Go to Dashboard</a>
+</div>
+{% endblock %}

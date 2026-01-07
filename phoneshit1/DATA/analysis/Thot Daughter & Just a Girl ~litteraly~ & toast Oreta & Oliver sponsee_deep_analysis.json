@@ -1,0 +1,41 @@
+{
+  "person": "Thot Daughter & Just a Girl ~litteraly~ & toast Oreta & Oliver sponsee",
+  "type": "group",
+  "total_messages": 42,
+  "first_message": "2025-08-26 16:47:44",
+  "last_message": "2025-08-26 20:24:55",
+  "duration_days": 0,
+  "days_since_last": 85,
+  "your_messages": 13,
+  "their_messages": 29,
+  "balance": 30.952380952380953,
+  "emotional_keywords": {
+    "love": 23,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-08-26",
+      "end_date": "2025-08-26",
+      "duration_days": 1,
+      "message_count": 24,
+      "daily_avg": 24.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-08-26",
+      "end_date": "2025-08-26",
+      "duration_days": 1,
+      "message_count": 18,
+      "daily_avg": 18.0,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Marisa & GABRIELLE WADE",
+  "type": "group",
+  "total_messages": 4,
+  "first_message": "2024-10-12 21:35:08",
+  "last_message": "2024-10-12 21:36:37",
+  "duration_days": 0,
+  "days_since_last": 403,
+  "your_messages": 1,
+  "their_messages": 3,
+  "balance": 25.0,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

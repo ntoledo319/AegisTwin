@@ -1,0 +1,57 @@
+{
+  "person": "Dad & Aunt Eric Cell & Mark Cell & Connie & Alisha & Mom & +12037107577",
+  "type": "group",
+  "total_messages": 45,
+  "first_message": "2024-12-21 18:47:47",
+  "last_message": "2025-06-29 17:27:43",
+  "duration_days": 189,
+  "days_since_last": 143,
+  "your_messages": 1,
+  "their_messages": 44,
+  "balance": 2.2222222222222223,
+  "emotional_keywords": {
+    "love": 22,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2024-12-21",
+      "end_date": "2025-02-07",
+      "duration_days": 47,
+      "message_count": 20,
+      "daily_avg": 0.425531914893617,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-02-07",
+      "end_date": "2025-03-26",
+      "duration_days": 47,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-03-26",
+      "end_date": "2025-05-13",
+      "duration_days": 47,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-05-13",
+      "end_date": "2025-06-29",
+      "duration_days": 47,
+      "message_count": 25,
+      "daily_avg": 0.5319148936170213,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

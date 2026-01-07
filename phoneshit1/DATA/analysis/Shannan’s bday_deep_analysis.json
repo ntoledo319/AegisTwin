@@ -1,0 +1,41 @@
+{
+  "person": "Shannan\u2019s bday",
+  "type": "group",
+  "total_messages": 107,
+  "first_message": "2024-08-02 14:54:50",
+  "last_message": "2024-08-13 22:29:51",
+  "duration_days": 11,
+  "days_since_last": 463,
+  "your_messages": 9,
+  "their_messages": 98,
+  "balance": 8.411214953271028,
+  "emotional_keywords": {
+    "love": 14,
+    "conflict": 8,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-02",
+      "end_date": "2024-08-08",
+      "duration_days": 5,
+      "message_count": 39,
+      "daily_avg": 7.8,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-08-08",
+      "end_date": "2024-08-13",
+      "duration_days": 5,
+      "message_count": 68,
+      "daily_avg": 13.6,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

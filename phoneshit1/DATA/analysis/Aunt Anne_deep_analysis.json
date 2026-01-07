@@ -1,0 +1,57 @@
+{
+  "person": "Aunt Anne",
+  "type": "individual",
+  "total_messages": 134,
+  "first_message": "2018-04-13 21:53:42",
+  "last_message": "2025-04-13 11:42:15",
+  "duration_days": 2556,
+  "days_since_last": 220,
+  "your_messages": 49,
+  "their_messages": 85,
+  "balance": 36.56716417910448,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2018-04-13",
+      "end_date": "2020-01-13",
+      "duration_days": 639,
+      "message_count": 60,
+      "daily_avg": 0.09389671361502347,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-01-13",
+      "end_date": "2021-10-13",
+      "duration_days": 639,
+      "message_count": 36,
+      "daily_avg": 0.056338028169014086,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-10-13",
+      "end_date": "2023-07-14",
+      "duration_days": 639,
+      "message_count": 17,
+      "daily_avg": 0.026604068857589983,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-14",
+      "end_date": "2025-04-13",
+      "duration_days": 639,
+      "message_count": 21,
+      "daily_avg": 0.03286384976525822,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,259 @@
+{
+  "contact": "Lily",
+  "topic_extraction": {
+    "contact": "Lily",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 3,
+        "label": "Friends & Social",
+        "keywords": [
+          "time",
+          "something",
+          "said",
+          "out",
+          "look",
+          "other",
+          "everyone"
+        ],
+        "relevance_score": 80959.7,
+        "prevalence": 0.113
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: there",
+        "keywords": [
+          "there",
+          "if",
+          "thing",
+          "mean",
+          "way",
+          "even",
+          "because"
+        ],
+        "relevance_score": 72632.12,
+        "prevalence": 0.109
+      },
+      {
+        "topic_id": 1,
+        "label": "Friends & Social",
+        "keywords": [
+          "need",
+          "make",
+          "people",
+          "going",
+          "oh",
+          "things",
+          "god"
+        ],
+        "relevance_score": 71333.66,
+        "prevalence": 0.106
+      },
+      {
+        "topic_id": 10,
+        "label": "Emotions & Feelings",
+        "keywords": [
+          "know",
+          "want",
+          "sorry",
+          "don",
+          "feel",
+          "bad",
+          "tell"
+        ],
+        "relevance_score": 62689.2,
+        "prevalence": 0.106
+      },
+      {
+        "topic_id": 8,
+        "label": "Topic: one",
+        "keywords": [
+          "one",
+          "get",
+          "go",
+          "first",
+          "getting",
+          "only",
+          "didn"
+        ],
+        "relevance_score": 68933.23,
+        "prevalence": 0.103
+      },
+      {
+        "topic_id": 5,
+        "label": "Topic: thats",
+        "keywords": [
+          "thats",
+          "re",
+          "ve",
+          "never",
+          "sleep",
+          "better",
+          "every"
+        ],
+        "relevance_score": 59636.75,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 9,
+        "label": "Work & Career",
+        "keywords": [
+          "as",
+          "now",
+          "got",
+          "fuck",
+          "out",
+          "see",
+          "right"
+        ],
+        "relevance_score": 60802.66,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 6,
+        "label": "Topic: loved",
+        "keywords": [
+          "loved",
+          "good",
+          "image",
+          "loved image",
+          "miss",
+          "fucking",
+          "wanna"
+        ],
+        "relevance_score": 50497.76,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: also",
+        "keywords": [
+          "also",
+          "shit",
+          "well",
+          "doing",
+          "man",
+          "again",
+          "may"
+        ],
+        "relevance_score": 52533.75,
+        "prevalence": 0.092
+      },
+      {
+        "topic_id": 4,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "love",
+          "love love",
+          "give",
+          "ll",
+          "face",
+          "thank",
+          "hope"
+        ],
+        "relevance_score": 42299.17,
+        "prevalence": 0.071
+      }
+    ],
+    "analysis_summary": "Primary themes: Friends & Social, Topic: there, Friends & Social",
+    "generated_at": "2025-11-26T02:53:27.423271"
+  },
+  "topic_evolution": {
+    "contact": "Lily",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2017-12 to 2019-03",
+        "top_keywords": [
+          "love",
+          "know",
+          "want",
+          "sorry",
+          "good",
+          "miss",
+          "thats",
+          "fuck",
+          "need",
+          "there"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 2,
+        "period": "2019-03 to 2019-12",
+        "top_keywords": [
+          "love",
+          "loved",
+          "image",
+          "want",
+          "good",
+          "sorry",
+          "know",
+          "there",
+          "thats",
+          "fuck"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 3,
+        "period": "2019-12 to 2020-10",
+        "top_keywords": [
+          "love",
+          "sorry",
+          "know",
+          "good",
+          "fuck",
+          "miss",
+          "also",
+          "thats",
+          "loved",
+          "want"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 4,
+        "period": "2020-10 to 2024-10",
+        "top_keywords": [
+          "love",
+          "sorry",
+          "miss",
+          "know",
+          "good",
+          "also",
+          "fuck",
+          "want",
+          "loved",
+          "thats"
+        ],
+        "theme": "Relationships & Dating"
+      }
+    ],
+    "evolution_summary": "Consistent focus on Relationships & Dating throughout relationship",
+    "generated_at": "2025-11-26T02:53:33.726773"
+  },
+  "conflict_topics": {
+    "contact": "Lily",
+    "conflict_detected": true,
+    "conflict_message_count": 4043,
+    "conflict_message_percentage": 1.12,
+    "common_conflict_topics": [
+      "made",
+      "because",
+      "people",
+      "there",
+      "know",
+      "time",
+      "think",
+      "then",
+      "feel",
+      "make"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Scheduling and availability are sources of conflict",
+    "generated_at": "2025-11-26T02:53:34.932000"
+  },
+  "generated_at": "2025-11-26T02:53:34.969526"
+}

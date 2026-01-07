@@ -1,0 +1,57 @@
+{
+  "person": "Michael Kenny & +14134411938 & Max & Laura The Cool One & Renny & +12035200217 & +12033627203",
+  "type": "group",
+  "total_messages": 433,
+  "first_message": "2023-01-09 19:10:41",
+  "last_message": "2023-11-14 12:14:45",
+  "duration_days": 308,
+  "days_since_last": 736,
+  "your_messages": 6,
+  "their_messages": 427,
+  "balance": 1.3856812933025404,
+  "emotional_keywords": {
+    "love": 168,
+    "conflict": 4,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 12,
+    "sadness": 7
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-09",
+      "end_date": "2023-03-27",
+      "duration_days": 77,
+      "message_count": 126,
+      "daily_avg": 1.6363636363636365,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-03-27",
+      "end_date": "2023-06-13",
+      "duration_days": 77,
+      "message_count": 168,
+      "daily_avg": 2.1818181818181817,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-06-13",
+      "end_date": "2023-08-29",
+      "duration_days": 77,
+      "message_count": 50,
+      "daily_avg": 0.6493506493506493,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-29",
+      "end_date": "2023-11-14",
+      "duration_days": 77,
+      "message_count": 89,
+      "daily_avg": 1.155844155844156,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

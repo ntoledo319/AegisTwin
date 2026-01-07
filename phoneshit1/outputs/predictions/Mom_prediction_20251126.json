@@ -1,0 +1,107 @@
+{
+  "contact": "Mom",
+  "breakup_risk_assessment": {
+    "contact": "Mom",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "assessment": "Minor concerns, generally healthy",
+    "warning_signs": [
+      "high_conflict_level"
+    ],
+    "positive_indicators": [
+      "increasing_communication",
+      "low_conflict_keywords",
+      "balanced_investment",
+      "recent_active_contact",
+      "consistent_engagement"
+    ],
+    "features_analyzed": {
+      "freq_trend": 0.06295133437990588,
+      "current_freq": 5.39403453689168,
+      "peak_freq": 8.54945054945055,
+      "freq_decline_pct": 36.90782225486595,
+      "balance": 45.485833691844384,
+      "balance_shift": 4.499631177772315,
+      "love_ratio": 18.499170302993058,
+      "conflict_ratio": 10.386577346198758,
+      "breakup_ratio": 0.5531313379632474,
+      "reconciliation_ratio": 2.151066314301518,
+      "days_since_last": 0,
+      "freq_volatility": 0.20356304845137807,
+      "breakup_recon_ratio": 0.24571969934829674
+    },
+    "generated_at": "2025-11-26T03:29:41.273993"
+  },
+  "trajectory_forecast": {
+    "contact": "Mom",
+    "current_frequency": 5.39,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 6.74,
+          "probability_stable": 0.91,
+          "trend": "stable",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 10.23,
+          "probability_stable": 0.91,
+          "trend": "stable",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 15.47,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 15,
+    "trend_direction": "increasing",
+    "generated_at": "2025-11-26T03:29:41.392533"
+  },
+  "historical_comparison": {
+    "contact": "Mom",
+    "current_risk_score": 15,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "Grandma T Cell & Dad & Aunt Eric Cell & Mark Cell & Connie & Alisha & Mom & +12037107577",
+        "similarity_score": 0.8,
+        "ended_after_days": 759,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Much more breakup discussion"
+        ]
+      },
+      {
+        "historical_relationship": "Stag Spirit Shop",
+        "similarity_score": 0.77,
+        "ended_after_days": 114,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Much more breakup discussion"
+        ]
+      },
+      {
+        "historical_relationship": "Colette",
+        "similarity_score": 0.76,
+        "ended_after_days": 828,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Much more breakup discussion"
+        ]
+      }
+    ],
+    "pattern_analysis": "MODERATE similarity to Grandma T Cell & Dad & Aunt Eric Cell & Mark Cell & Connie & Alisha & Mom & +12037107577 - some similar patterns",
+    "generated_at": "2025-11-26T03:30:11.551623"
+  },
+  "recommendations": [
+    "Relationship appears healthy - maintain current engagement"
+  ],
+  "generated_at": "2025-11-26T03:30:11.551774"
+}

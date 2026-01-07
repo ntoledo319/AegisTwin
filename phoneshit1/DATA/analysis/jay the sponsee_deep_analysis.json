@@ -1,0 +1,41 @@
+{
+  "person": "jay the sponsee",
+  "type": "individual",
+  "total_messages": 5,
+  "first_message": "2025-03-13 20:32:15",
+  "last_message": "2025-03-15 11:46:20",
+  "duration_days": 1,
+  "days_since_last": 249,
+  "your_messages": 1,
+  "their_messages": 4,
+  "balance": 20.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-03-13",
+      "end_date": "2025-03-14",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-03-14",
+      "end_date": "2025-03-15",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

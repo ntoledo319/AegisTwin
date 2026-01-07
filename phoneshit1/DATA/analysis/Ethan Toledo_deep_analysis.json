@@ -1,0 +1,57 @@
+{
+  "person": "Ethan Toledo",
+  "type": "individual",
+  "total_messages": 10,
+  "first_message": "2021-11-21 19:20:03",
+  "last_message": "2024-12-25 18:59:53",
+  "duration_days": 1129,
+  "days_since_last": 329,
+  "your_messages": 6,
+  "their_messages": 4,
+  "balance": 60.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-11-21",
+      "end_date": "2022-08-31",
+      "duration_days": 282,
+      "message_count": 4,
+      "daily_avg": 0.014184397163120567,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-08-31",
+      "end_date": "2023-06-09",
+      "duration_days": 282,
+      "message_count": 2,
+      "daily_avg": 0.0070921985815602835,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-06-09",
+      "end_date": "2024-03-18",
+      "duration_days": 282,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-03-18",
+      "end_date": "2024-12-25",
+      "duration_days": 282,
+      "message_count": 4,
+      "daily_avg": 0.014184397163120567,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

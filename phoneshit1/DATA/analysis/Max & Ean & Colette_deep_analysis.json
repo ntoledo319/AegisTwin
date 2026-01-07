@@ -1,0 +1,49 @@
+{
+  "person": "Max & Ean & Colette",
+  "type": "group",
+  "total_messages": 11,
+  "first_message": "2024-04-19 08:23:18",
+  "last_message": "2024-08-04 18:57:34",
+  "duration_days": 107,
+  "days_since_last": 472,
+  "your_messages": 1,
+  "their_messages": 10,
+  "balance": 9.090909090909092,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-19",
+      "end_date": "2024-05-25",
+      "duration_days": 35,
+      "message_count": 4,
+      "daily_avg": 0.11428571428571428,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-05-25",
+      "end_date": "2024-06-29",
+      "duration_days": 35,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-06-29",
+      "end_date": "2024-08-04",
+      "duration_days": 35,
+      "message_count": 7,
+      "daily_avg": 0.2,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

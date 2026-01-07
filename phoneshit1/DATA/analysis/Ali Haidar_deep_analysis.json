@@ -1,0 +1,57 @@
+{
+  "person": "Ali Haidar",
+  "type": "individual",
+  "total_messages": 82,
+  "first_message": "2019-02-15 12:36:11",
+  "last_message": "2023-01-29 11:00:13",
+  "duration_days": 1443,
+  "days_since_last": 1025,
+  "your_messages": 37,
+  "their_messages": 45,
+  "balance": 45.1219512195122,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2019-02-15",
+      "end_date": "2020-02-11",
+      "duration_days": 360,
+      "message_count": 14,
+      "daily_avg": 0.03888888888888889,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-02-11",
+      "end_date": "2021-02-06",
+      "duration_days": 360,
+      "message_count": 28,
+      "daily_avg": 0.07777777777777778,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-02-06",
+      "end_date": "2022-02-02",
+      "duration_days": 360,
+      "message_count": 21,
+      "daily_avg": 0.058333333333333334,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-02-02",
+      "end_date": "2023-01-29",
+      "duration_days": 360,
+      "message_count": 19,
+      "daily_avg": 0.05277777777777778,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Lily & Maddie & Nick Toledo",
+  "type": "group",
+  "total_messages": 85,
+  "first_message": "2018-03-28 23:03:30",
+  "last_message": "2018-05-11 16:30:50",
+  "duration_days": 43,
+  "days_since_last": 2749,
+  "your_messages": 26,
+  "their_messages": 59,
+  "balance": 30.58823529411765,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 5,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 2,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2018-03-28",
+      "end_date": "2018-04-19",
+      "duration_days": 21,
+      "message_count": 82,
+      "daily_avg": 3.9047619047619047,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2018-04-19",
+      "end_date": "2018-05-11",
+      "duration_days": 21,
+      "message_count": 3,
+      "daily_avg": 0.14285714285714285,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

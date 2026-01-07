@@ -1,0 +1,57 @@
+{
+  "person": "Gabby",
+  "type": "individual",
+  "total_messages": 28291,
+  "first_message": "2020-07-24 20:05:02",
+  "last_message": "2025-11-19 23:42:49",
+  "duration_days": 1944,
+  "days_since_last": 0,
+  "your_messages": 13823,
+  "their_messages": 14468,
+  "balance": 48.86006150365841,
+  "emotional_keywords": {
+    "love": 880,
+    "conflict": 370,
+    "breakup": 30,
+    "reconciliation": 65,
+    "intimacy": 187,
+    "support": 67,
+    "excitement": 136,
+    "sadness": 417
+  },
+  "phases": [
+    {
+      "start_date": "2020-07-24",
+      "end_date": "2021-11-22",
+      "duration_days": 486,
+      "message_count": 1812,
+      "daily_avg": 3.728395061728395,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2021-11-22",
+      "end_date": "2023-03-23",
+      "duration_days": 486,
+      "message_count": 4382,
+      "daily_avg": 9.016460905349794,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-03-23",
+      "end_date": "2024-07-21",
+      "duration_days": 486,
+      "message_count": 9049,
+      "daily_avg": 18.61934156378601,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-07-21",
+      "end_date": "2025-11-19",
+      "duration_days": 486,
+      "message_count": 13048,
+      "daily_avg": 26.847736625514404,
+      "characteristics": "High intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

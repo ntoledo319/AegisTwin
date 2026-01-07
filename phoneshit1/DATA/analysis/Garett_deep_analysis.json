@@ -1,0 +1,57 @@
+{
+  "person": "Garett",
+  "type": "individual",
+  "total_messages": 164,
+  "first_message": "2019-10-06 17:19:35",
+  "last_message": "2024-10-09 15:24:16",
+  "duration_days": 1829,
+  "days_since_last": 406,
+  "your_messages": 92,
+  "their_messages": 72,
+  "balance": 56.09756097560976,
+  "emotional_keywords": {
+    "love": 6,
+    "conflict": 5,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 9
+  },
+  "phases": [
+    {
+      "start_date": "2019-10-06",
+      "end_date": "2021-01-06",
+      "duration_days": 457,
+      "message_count": 40,
+      "daily_avg": 0.087527352297593,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-01-06",
+      "end_date": "2022-04-08",
+      "duration_days": 457,
+      "message_count": 63,
+      "daily_avg": 0.13785557986870897,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-04-08",
+      "end_date": "2023-07-10",
+      "duration_days": 457,
+      "message_count": 9,
+      "daily_avg": 0.019693654266958426,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-10",
+      "end_date": "2024-10-09",
+      "duration_days": 457,
+      "message_count": 52,
+      "daily_avg": 0.1137855579868709,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

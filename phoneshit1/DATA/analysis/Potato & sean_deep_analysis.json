@@ -1,0 +1,41 @@
+{
+  "person": "Potato & sean",
+  "type": "group",
+  "total_messages": 175,
+  "first_message": "2025-07-30 23:44:04",
+  "last_message": "2025-09-09 16:00:41",
+  "duration_days": 40,
+  "days_since_last": 71,
+  "your_messages": 24,
+  "their_messages": 151,
+  "balance": 13.714285714285715,
+  "emotional_keywords": {
+    "love": 8,
+    "conflict": 4,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2025-07-30",
+      "end_date": "2025-08-20",
+      "duration_days": 20,
+      "message_count": 75,
+      "daily_avg": 3.75,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-08-20",
+      "end_date": "2025-09-09",
+      "duration_days": 20,
+      "message_count": 100,
+      "daily_avg": 5.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

@@ -1,0 +1,57 @@
+{
+  "person": "Avery Restrepo",
+  "type": "individual",
+  "total_messages": 22,
+  "first_message": "2020-01-22 12:16:27",
+  "last_message": "2022-08-12 19:18:06",
+  "duration_days": 933,
+  "days_since_last": 1195,
+  "your_messages": 11,
+  "their_messages": 11,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2020-01-22",
+      "end_date": "2020-09-11",
+      "duration_days": 233,
+      "message_count": 1,
+      "daily_avg": 0.004291845493562232,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-09-11",
+      "end_date": "2021-05-03",
+      "duration_days": 233,
+      "message_count": 20,
+      "daily_avg": 0.08583690987124463,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-05-03",
+      "end_date": "2021-12-22",
+      "duration_days": 233,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-12-22",
+      "end_date": "2022-08-12",
+      "duration_days": 233,
+      "message_count": 1,
+      "daily_avg": 0.004291845493562232,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

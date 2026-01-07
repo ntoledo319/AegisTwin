@@ -1,0 +1,57 @@
+{
+  "person": "Anadi",
+  "type": "individual",
+  "total_messages": 85,
+  "first_message": "2019-04-24 15:09:55",
+  "last_message": "2020-10-19 23:48:30",
+  "duration_days": 544,
+  "days_since_last": 1857,
+  "your_messages": 38,
+  "their_messages": 47,
+  "balance": 44.70588235294118,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 2,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2019-04-24",
+      "end_date": "2019-09-07",
+      "duration_days": 136,
+      "message_count": 3,
+      "daily_avg": 0.022058823529411766,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-09-07",
+      "end_date": "2020-01-21",
+      "duration_days": 136,
+      "message_count": 9,
+      "daily_avg": 0.0661764705882353,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-01-21",
+      "end_date": "2020-06-05",
+      "duration_days": 136,
+      "message_count": 2,
+      "daily_avg": 0.014705882352941176,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-06-05",
+      "end_date": "2020-10-19",
+      "duration_days": 136,
+      "message_count": 71,
+      "daily_avg": 0.5220588235294118,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

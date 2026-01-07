@@ -1,0 +1,57 @@
+{
+  "person": "gabe cohen",
+  "type": "individual",
+  "total_messages": 69,
+  "first_message": "2024-08-29 22:16:36",
+  "last_message": "2025-09-27 18:29:48",
+  "duration_days": 393,
+  "days_since_last": 53,
+  "your_messages": 32,
+  "their_messages": 37,
+  "balance": 46.3768115942029,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-29",
+      "end_date": "2024-12-06",
+      "duration_days": 98,
+      "message_count": 4,
+      "daily_avg": 0.04081632653061224,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-12-06",
+      "end_date": "2025-03-14",
+      "duration_days": 98,
+      "message_count": 10,
+      "daily_avg": 0.10204081632653061,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-03-14",
+      "end_date": "2025-06-21",
+      "duration_days": 98,
+      "message_count": 36,
+      "daily_avg": 0.3673469387755102,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-06-21",
+      "end_date": "2025-09-27",
+      "duration_days": 98,
+      "message_count": 19,
+      "daily_avg": 0.19387755102040816,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

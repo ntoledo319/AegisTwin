@@ -1,0 +1,57 @@
+{
+  "person": "Mary Kate",
+  "type": "individual",
+  "total_messages": 70,
+  "first_message": "2023-02-22 17:01:24",
+  "last_message": "2025-06-07 19:36:31",
+  "duration_days": 836,
+  "days_since_last": 165,
+  "your_messages": 31,
+  "their_messages": 39,
+  "balance": 44.285714285714285,
+  "emotional_keywords": {
+    "love": 17,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 1,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2023-02-22",
+      "end_date": "2023-09-19",
+      "duration_days": 209,
+      "message_count": 22,
+      "daily_avg": 0.10526315789473684,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-09-19",
+      "end_date": "2024-04-15",
+      "duration_days": 209,
+      "message_count": 20,
+      "daily_avg": 0.09569377990430622,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-15",
+      "end_date": "2024-11-10",
+      "duration_days": 209,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-11-10",
+      "end_date": "2025-06-07",
+      "duration_days": 209,
+      "message_count": 28,
+      "daily_avg": 0.1339712918660287,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

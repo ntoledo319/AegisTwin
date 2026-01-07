@@ -1,0 +1,103 @@
+{
+  "contact": "Steph \ud83d\udc95",
+  "breakup_risk_assessment": {
+    "contact": "Steph \ud83d\udc95",
+    "risk_score": 40,
+    "risk_level": "MODERATE",
+    "assessment": "Some warning signs present",
+    "warning_signs": [
+      "high_conflict_level",
+      "extended_communication_gap"
+    ],
+    "positive_indicators": [
+      "increasing_communication",
+      "balanced_investment"
+    ],
+    "features_analyzed": {
+      "freq_trend": 2.475047984644913,
+      "current_freq": 12.990403071017274,
+      "peak_freq": 18.52591170825336,
+      "freq_decline_pct": 29.87981765437216,
+      "balance": 51.67921651961011,
+      "balance_shift": 2.9199778229532427,
+      "love_ratio": 39.774564604795124,
+      "conflict_ratio": 14.043516422598973,
+      "breakup_ratio": 1.154894442647942,
+      "reconciliation_ratio": 1.5244606642952834,
+      "days_since_last": 376,
+      "freq_volatility": 0.601997828951219,
+      "breakup_recon_ratio": 0.7109402326765193
+    },
+    "generated_at": "2025-11-26T03:24:42.570711"
+  },
+  "trajectory_forecast": {
+    "contact": "Steph \ud83d\udc95",
+    "current_frequency": 12.99,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 69.79,
+          "probability_stable": 0.85,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 188.6,
+          "probability_stable": 0.85,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 366.8,
+          "probability_stable": 0.85,
+          "trend": "growing",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 40,
+    "trend_direction": "increasing",
+    "generated_at": "2025-11-26T03:24:42.712070"
+  },
+  "historical_comparison": {
+    "contact": "Steph \ud83d\udc95",
+    "current_risk_score": 40,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "Steph \ud83d\udc95",
+        "similarity_score": 1.0,
+        "ended_after_days": 2086,
+        "final_breakup_count": 25,
+        "key_differences": []
+      },
+      {
+        "historical_relationship": "daniel thee sponsee",
+        "similarity_score": 0.59,
+        "ended_after_days": 325,
+        "final_breakup_count": 2,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "Max",
+        "similarity_score": 0.58,
+        "ended_after_days": 1113,
+        "final_breakup_count": 53,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      }
+    ],
+    "pattern_analysis": "STRONG similarity to Steph \ud83d\udc95 - pay attention to how that ended",
+    "generated_at": "2025-11-26T03:25:13.900295"
+  },
+  "recommendations": [
+    "Re-establish contact soon or this relationship may end permanently"
+  ],
+  "generated_at": "2025-11-26T03:25:13.900430"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Melyssa & Jill Ryan & Karen",
+  "type": "group",
+  "total_messages": 12,
+  "first_message": "2021-01-14 11:40:55",
+  "last_message": "2021-01-14 17:06:41",
+  "duration_days": 0,
+  "days_since_last": 1770,
+  "your_messages": 0,
+  "their_messages": 12,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-01-14",
+      "end_date": "2021-01-14",
+      "duration_days": 1,
+      "message_count": 10,
+      "daily_avg": 10.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2021-01-14",
+      "end_date": "2021-01-14",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

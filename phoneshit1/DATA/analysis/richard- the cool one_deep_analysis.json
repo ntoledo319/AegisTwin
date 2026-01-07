@@ -1,0 +1,57 @@
+{
+  "person": "richard- the cool one",
+  "type": "individual",
+  "total_messages": 214,
+  "first_message": "2024-09-28 18:45:12",
+  "last_message": "2025-11-06 22:24:57",
+  "duration_days": 404,
+  "days_since_last": 13,
+  "your_messages": 82,
+  "their_messages": 132,
+  "balance": 38.31775700934579,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2024-09-28",
+      "end_date": "2025-01-07",
+      "duration_days": 101,
+      "message_count": 3,
+      "daily_avg": 0.0297029702970297,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-01-07",
+      "end_date": "2025-04-18",
+      "duration_days": 101,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-04-18",
+      "end_date": "2025-07-28",
+      "duration_days": 101,
+      "message_count": 63,
+      "daily_avg": 0.6237623762376238,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-07-28",
+      "end_date": "2025-11-06",
+      "duration_days": 101,
+      "message_count": 148,
+      "daily_avg": 1.4653465346534653,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

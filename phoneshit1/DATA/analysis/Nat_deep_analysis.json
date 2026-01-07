@@ -1,0 +1,41 @@
+{
+  "person": "Nat",
+  "type": "individual",
+  "total_messages": 25,
+  "first_message": "2018-05-22 22:29:06",
+  "last_message": "2018-06-14 20:03:02",
+  "duration_days": 22,
+  "days_since_last": 2715,
+  "your_messages": 16,
+  "their_messages": 9,
+  "balance": 64.0,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2018-05-22",
+      "end_date": "2018-06-03",
+      "duration_days": 11,
+      "message_count": 20,
+      "daily_avg": 1.8181818181818181,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2018-06-03",
+      "end_date": "2018-06-14",
+      "duration_days": 11,
+      "message_count": 5,
+      "daily_avg": 0.45454545454545453,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

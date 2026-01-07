@@ -1,0 +1,70 @@
+{
+  "overall_attachment_profile": {
+    "primary_attachment_style": "Disorganized-Fearful",
+    "confidence": 0.58,
+    "mixed_style": true,
+    "secondary_style": "Anxious-Preoccupied",
+    "scores": {
+      "Anxious-Preoccupied": 53.8,
+      "Avoidant-Dismissive": 21.1,
+      "Secure": 46.4,
+      "Disorganized-Fearful": 57.6
+    },
+    "relationships_analyzed": 194,
+    "indicators": [
+      "Mixed feelings about closeness",
+      "Inconsistent communication patterns",
+      "May desire intimacy but fear vulnerability",
+      "Unpredictable emotional responses",
+      "Difficulty regulating emotions in relationships"
+    ],
+    "recommendations": [
+      "Professional therapy strongly recommended for attachment work",
+      "Practice emotional regulation techniques",
+      "Work on identifying and communicating your needs",
+      "Build awareness of inconsistent patterns",
+      "Focus on creating safe, predictable relationship dynamics"
+    ],
+    "generated_at": "2025-11-26T03:21:47.269881"
+  },
+  "relationship_specific": {
+    "contact": "Julia Rain Grounds",
+    "your_style_with_them": "Anxious",
+    "their_inferred_style": "Likely Secure (balanced engagement)",
+    "style_scores": {
+      "Anxious": 72.9,
+      "Avoidant": 18.0,
+      "Secure": 54.7,
+      "Disorganized": 59.8
+    },
+    "compatibility": {
+      "score": 80,
+      "assessment": "Good",
+      "description": "Secure partner can provide stability for anxious partner"
+    },
+    "indicators": {
+      "anxious_score": 72.9,
+      "avoidant_score": 18.0,
+      "secure_score": 54.7,
+      "disorganized_score": 59.8,
+      "metrics": {
+        "initiation_rate": 0.583,
+        "avg_response_minutes": 0.6,
+        "reassurance_seeking_per_1000": 12.24,
+        "avg_message_length": 28.7,
+        "emotional_expression_per_1000": 55.43,
+        "daily_message_frequency": 34.8
+      }
+    },
+    "relationship_dynamics": "Your attachment dynamic requires awareness and communication to navigate successfully.",
+    "recommendations": [
+      "Both partners should work on attachment awareness",
+      "Practice clear, honest communication",
+      "Consider couples counseling",
+      "Read about attachment theory together",
+      "Support each other's growth toward security"
+    ],
+    "generated_at": "2025-11-26T03:20:46.220536"
+  },
+  "generated_at": "2025-11-26T03:21:47.269929"
+}

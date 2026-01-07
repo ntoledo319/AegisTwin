@@ -1,0 +1,49 @@
+{
+  "person": "Space Adventures 2: the Spaceaning",
+  "type": "group",
+  "total_messages": 351,
+  "first_message": "2021-01-23 21:45:50",
+  "last_message": "2021-07-04 22:38:46",
+  "duration_days": 162,
+  "days_since_last": 1599,
+  "your_messages": 10,
+  "their_messages": 341,
+  "balance": 2.849002849002849,
+  "emotional_keywords": {
+    "love": 23,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 2,
+    "excitement": 5,
+    "sadness": 6
+  },
+  "phases": [
+    {
+      "start_date": "2021-01-23",
+      "end_date": "2021-03-18",
+      "duration_days": 54,
+      "message_count": 268,
+      "daily_avg": 4.962962962962963,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2021-03-18",
+      "end_date": "2021-05-11",
+      "duration_days": 54,
+      "message_count": 52,
+      "daily_avg": 0.9629629629629629,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-05-11",
+      "end_date": "2021-07-04",
+      "duration_days": 54,
+      "message_count": 31,
+      "daily_avg": 0.5740740740740741,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

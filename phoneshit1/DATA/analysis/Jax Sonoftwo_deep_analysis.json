@@ -1,0 +1,57 @@
+{
+  "person": "Jax Sonoftwo",
+  "type": "individual",
+  "total_messages": 52,
+  "first_message": "2022-04-25 18:17:35",
+  "last_message": "2023-02-14 23:57:59",
+  "duration_days": 295,
+  "days_since_last": 1009,
+  "your_messages": 22,
+  "their_messages": 30,
+  "balance": 42.30769230769231,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2022-04-25",
+      "end_date": "2022-07-08",
+      "duration_days": 73,
+      "message_count": 49,
+      "daily_avg": 0.6712328767123288,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-08",
+      "end_date": "2022-09-20",
+      "duration_days": 73,
+      "message_count": 2,
+      "daily_avg": 0.0273972602739726,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-09-20",
+      "end_date": "2022-12-03",
+      "duration_days": 73,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-03",
+      "end_date": "2023-02-14",
+      "duration_days": 73,
+      "message_count": 1,
+      "daily_avg": 0.0136986301369863,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

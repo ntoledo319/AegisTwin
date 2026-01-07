@@ -1,0 +1,48 @@
+{
+  "verbal_intelligence": 42.8,
+  "emotional_intelligence": 24.3,
+  "social_intelligence": 35.4,
+  "communication_effectiveness": 49.1,
+  "composite_intelligence": 38.9,
+  "strengths": [],
+  "growth_areas": [
+    "Verbal Intelligence",
+    "Emotional Intelligence",
+    "Social Intelligence",
+    "Communication Effectiveness"
+  ],
+  "details": {
+    "verbal": {
+      "total_words": 2805533,
+      "unique_words": 109834,
+      "vocabulary_richness": 0.0391,
+      "avg_word_length": 4.2,
+      "complex_word_ratio": 0.1294,
+      "very_complex_word_ratio": 0.0223
+    },
+    "ei": {
+      "total_words": 2805533,
+      "emotion_counts": {
+        "love": 34399,
+        "conflict": 6708,
+        "breakup": 401,
+        "reconciliation": 1253,
+        "intimacy": 3445,
+        "support": 633,
+        "excitement": 2903,
+        "sadness": 6036
+      },
+      "emotion_per_1000_words": 19.88,
+      "empathy_hits": 3116,
+      "empathy_per_1000_words": 1.11,
+      "you_i_ratio": 0.487,
+      "conflict_per_1000_words": 4.69,
+      "repair_per_1000_words": 0.67
+    },
+    "avg_outgoing_message_length": 34.83,
+    "outgoing_question_rate_pct": 6.06,
+    "outgoing_exclamation_rate_pct": 1.84
+  },
+  "methodology_version": "3.0_structured_heuristic",
+  "methodology_notes": "Scores are derived from transparent linguistic heuristics on outgoing messages; they are relative indicators, not clinical IQ/EQ measurements."
+}

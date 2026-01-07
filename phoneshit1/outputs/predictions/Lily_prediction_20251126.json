@@ -1,0 +1,111 @@
+{
+  "contact": "Lily",
+  "breakup_risk_assessment": {
+    "contact": "Lily",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "assessment": "Relationship at severe risk",
+    "warning_signs": [
+      "severe_frequency_decline",
+      "declining_communication_trend",
+      "high_conflict_level",
+      "extended_communication_gap",
+      "unstable_communication_patterns"
+    ],
+    "positive_indicators": [
+      "low_conflict_keywords",
+      "balanced_investment"
+    ],
+    "features_analyzed": {
+      "freq_trend": -92.18520900321543,
+      "current_freq": 0.00964630225080386,
+      "peak_freq": 260.59324758842445,
+      "freq_decline_pct": 99.99629832992984,
+      "balance": 48.68709518074295,
+      "balance_shift": 1.0001554070554803,
+      "love_ratio": 132.7363145421345,
+      "conflict_ratio": 16.004062761901064,
+      "breakup_ratio": 0.4995199058682488,
+      "reconciliation_ratio": 9.873843472662385,
+      "days_since_last": 397,
+      "freq_volatility": 0.7678007677674904,
+      "breakup_recon_ratio": 0.050082990297310996
+    },
+    "generated_at": "2025-11-26T02:38:07.723997"
+  },
+  "trajectory_forecast": {
+    "contact": "Lily",
+    "current_frequency": 0.01,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 0.0,
+          "probability_stable": 0.1,
+          "trend": "at_risk",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 100,
+    "trend_direction": "declining",
+    "generated_at": "2025-11-26T02:38:08.403188"
+  },
+  "historical_comparison": {
+    "contact": "Lily",
+    "current_risk_score": 100,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "Lily",
+        "similarity_score": 1.0,
+        "ended_after_days": 2490,
+        "final_breakup_count": 180,
+        "key_differences": []
+      },
+      {
+        "historical_relationship": "Marisa",
+        "similarity_score": 0.81,
+        "ended_after_days": 1209,
+        "final_breakup_count": 36,
+        "key_differences": [
+          "Current has worse communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "Cole & Thigo Silvia & Mike & Gabby",
+        "similarity_score": 0.78,
+        "ended_after_days": 1,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Current has worse communication trend",
+          "Much more breakup discussion"
+        ]
+      }
+    ],
+    "pattern_analysis": "STRONG similarity to Lily - pay attention to how that ended",
+    "generated_at": "2025-11-26T02:38:40.034773"
+  },
+  "recommendations": [
+    "URGENT: This relationship needs immediate attention",
+    "Consider having an honest conversation about the relationship status",
+    "Increase communication frequency - reach out more often",
+    "Re-establish contact soon or this relationship may end permanently",
+    "Reverse the declining trend by increasing engagement quality"
+  ],
+  "generated_at": "2025-11-26T02:38:40.034939"
+}

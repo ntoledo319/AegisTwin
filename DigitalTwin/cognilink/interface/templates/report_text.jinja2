@@ -1,0 +1,132 @@
+===============================================================================
+                        {{ title }}
+===============================================================================
+
+Generated: {{ generated_at | format_date }}
+
+Data Sources: {% if analysis_results.data_sources %}{{ analysis_results.data_sources | join(", ") }}{% else %}Multiple communication platforms{% endif %}
+
+===============================================================================
+                          EXECUTIVE SUMMARY
+===============================================================================
+
+This report provides an analysis of your digital communication patterns across
+various platforms. It includes insights about your communication habits, key
+relationships, and common topics of discussion.
+
+{% if analysis_results.patterns and analysis_results.patterns.total_messages %}
+Total Communications: {{ analysis_results.patterns.total_messages | format_number }}
+{% endif %}
+{% if analysis_results.patterns and analysis_results.patterns.active_days %}
+Active Days: {{ analysis_results.patterns.active_days | format_number }}
+{% endif %}
+{% if analysis_results.relationships and analysis_results.relationships.total_contacts %}
+Total Contacts: {{ analysis_results.relationships.total_contacts | format_number }}
+{% endif %}
+{% if analysis_results.topics and analysis_results.topics.unique_topics %}
+Unique Topics: {{ analysis_results.topics.unique_topics | format_number }}
+{% endif %}
+
+{% if analysis_results.patterns %}
+===============================================================================
+                        COMMUNICATION PATTERNS
+===============================================================================
+
+This section analyzes your communication habits and patterns over time.
+
+{% if analysis_results.patterns.peak_activity_time %}
+PEAK ACTIVITY
+----------------------------------------------------------------------------
+Your peak communication time is typically around {{ analysis_results.patterns.peak_activity_time }}.
+{% endif %}
+
+{% if analysis_results.patterns.time_of_day_activity %}
+ACTIVITY BY TIME OF DAY
+----------------------------------------------------------------------------
+{% for hour, count in analysis_results.patterns.time_of_day_activity.items() %}
+{{ "%02d"|format(hour|int) }}:00 - {{ "%02d"|format(hour|int) }}:59: {{ count }} communications
+{% endfor %}
+{% endif %}
+
+{% if analysis_results.patterns.day_of_week_activity %}
+ACTIVITY BY DAY OF WEEK
+----------------------------------------------------------------------------
+{% for day, count in analysis_results.patterns.day_of_week_activity.items() %}
+{{ day }}: {{ count }} communications
+{% endfor %}
+{% endif %}
+
+{% if analysis_results.patterns.response_time_stats %}
+RESPONSE TIME ANALYSIS
+----------------------------------------------------------------------------
+Average response time: {{ analysis_results.patterns.response_time_stats.average }}
+Fastest response time: {{ analysis_results.patterns.response_time_stats.min }}
+Slowest response time: {{ analysis_results.patterns.response_time_stats.max }}
+{% endif %}
+{% endif %}
+
+{% if analysis_results.relationships %}
+===============================================================================
+                          RELATIONSHIP ANALYSIS
+===============================================================================
+
+This section analyzes your key relationships and communication networks.
+
+{% if analysis_results.relationships.top_contacts %}
+KEY RELATIONSHIPS
+----------------------------------------------------------------------------
+{% for contact in analysis_results.relationships.top_contacts[:10] %}
+{{ loop.index }}. {{ contact.name }}
+   Interactions: {{ contact.interaction_count | format_number }}
+   First Contact: {{ contact.first_contact | format_date }}
+   Last Contact: {{ contact.last_contact | format_date }}
+{% if contact.description %}   Description: {{ contact.description }}{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if analysis_results.relationships.relationship_clusters %}
+RELATIONSHIP CLUSTERS
+----------------------------------------------------------------------------
+{% for cluster in analysis_results.relationships.relationship_clusters %}
+{{ cluster.name }} ({{ cluster.size }} contacts)
+   {{ cluster.description }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% if analysis_results.topics %}
+===============================================================================
+                             TOPIC ANALYSIS
+===============================================================================
+
+This section analyzes the topics and themes in your communications.
+
+{% if analysis_results.topics.top_topics %}
+KEY TOPICS
+----------------------------------------------------------------------------
+{% for topic in analysis_results.topics.top_topics[:15] %}
+{{ loop.index }}. {{ topic.name }} (Frequency: {{ topic.frequency }})
+{% endfor %}
+{% endif %}
+
+{% if analysis_results.topics.topic_trends %}
+TOPIC TRENDS
+----------------------------------------------------------------------------
+Topics that have been increasing in your recent communications:
+
+{% for topic in analysis_results.topics.topic_trends.increasing[:5] %}
+- {{ topic.name }} - {{ topic.trend_description }}
+{% endfor %}
+
+Topics that have been decreasing in your recent communications:
+
+{% for topic in analysis_results.topics.topic_trends.decreasing[:5] %}
+- {{ topic.name }} - {{ topic.trend_description }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+===============================================================================
+
+Generated by CogniLink: Personal Digital Communication Analyzer
+{{ generated_at | format_date }}

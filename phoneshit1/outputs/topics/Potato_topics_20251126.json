@@ -1,0 +1,259 @@
+{
+  "contact": "Potato",
+  "topic_extraction": {
+    "contact": "Potato",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 5,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "because",
+          "people",
+          "shit",
+          "love",
+          "things",
+          "say",
+          "don"
+        ],
+        "relevance_score": 12763.55,
+        "prevalence": 0.109
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: get",
+        "keywords": [
+          "get",
+          "out",
+          "mean",
+          "loved",
+          "sorry",
+          "also",
+          "car"
+        ],
+        "relevance_score": 7909.7,
+        "prevalence": 0.104
+      },
+      {
+        "topic_id": 3,
+        "label": "Topic: know",
+        "keywords": [
+          "know",
+          "one",
+          "here",
+          "got",
+          "day",
+          "let",
+          "don"
+        ],
+        "relevance_score": 8694.67,
+        "prevalence": 0.102
+      },
+      {
+        "topic_id": 6,
+        "label": "Topic: re",
+        "keywords": [
+          "re",
+          "good",
+          "then",
+          "ll",
+          "time",
+          "still",
+          "first"
+        ],
+        "relevance_score": 8153.91,
+        "prevalence": 0.101
+      },
+      {
+        "topic_id": 1,
+        "label": "Work & Career",
+        "keywords": [
+          "meeting",
+          "back",
+          "actually",
+          "made",
+          "call",
+          "next",
+          "something"
+        ],
+        "relevance_score": 7991.04,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 9,
+        "label": "Work & Career",
+        "keywords": [
+          "oh",
+          "don",
+          "work",
+          "tell",
+          "max",
+          "thing",
+          "even"
+        ],
+        "relevance_score": 7735.18,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: going",
+        "keywords": [
+          "going",
+          "want",
+          "new",
+          "song",
+          "sure",
+          "make",
+          "mike"
+        ],
+        "relevance_score": 7773.18,
+        "prevalence": 0.097
+      },
+      {
+        "topic_id": 4,
+        "label": "Topic: need",
+        "keywords": [
+          "need",
+          "think",
+          "fuck",
+          "as",
+          "may",
+          "birthday",
+          "fun"
+        ],
+        "relevance_score": 7638.3,
+        "prevalence": 0.097
+      },
+      {
+        "topic_id": 10,
+        "label": "Social Plans",
+        "keywords": [
+          "there",
+          "see",
+          "gonna",
+          "well",
+          "told",
+          "found",
+          "tomorrow"
+        ],
+        "relevance_score": 7365.26,
+        "prevalence": 0.097
+      },
+      {
+        "topic_id": 8,
+        "label": "Topic: now",
+        "keywords": [
+          "now",
+          "go",
+          "right",
+          "off",
+          "doing",
+          "wanna",
+          "before"
+        ],
+        "relevance_score": 7450.2,
+        "prevalence": 0.093
+      }
+    ],
+    "analysis_summary": "Primary themes: Relationships & Dating, Topic: get, Topic: know",
+    "generated_at": "2025-11-26T03:17:24.142718"
+  },
+  "topic_evolution": {
+    "contact": "Potato",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2023-05 to 2024-08",
+        "top_keywords": [
+          "know",
+          "good",
+          "going",
+          "there",
+          "want",
+          "here",
+          "need",
+          "shit",
+          "because",
+          "think"
+        ],
+        "theme": "Topic: know"
+      },
+      {
+        "phase": 2,
+        "period": "2024-08 to 2024-11",
+        "top_keywords": [
+          "know",
+          "good",
+          "there",
+          "think",
+          "here",
+          "want",
+          "going",
+          "time",
+          "love",
+          "need"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 3,
+        "period": "2024-11 to 2025-04",
+        "top_keywords": [
+          "know",
+          "good",
+          "there",
+          "here",
+          "need",
+          "going",
+          "want",
+          "because",
+          "think",
+          "well"
+        ],
+        "theme": "Topic: know"
+      },
+      {
+        "phase": 4,
+        "period": "2025-04 to 2025-11",
+        "top_keywords": [
+          "know",
+          "there",
+          "here",
+          "because",
+          "good",
+          "going",
+          "need",
+          "want",
+          "said",
+          "call"
+        ],
+        "theme": "Topic: know"
+      }
+    ],
+    "evolution_summary": "Consistent focus on Topic: know throughout relationship",
+    "generated_at": "2025-11-26T03:17:25.094104"
+  },
+  "conflict_topics": {
+    "contact": "Potato",
+    "conflict_detected": true,
+    "conflict_message_count": 381,
+    "conflict_message_percentage": 0.91,
+    "common_conflict_topics": [
+      "made",
+      "because",
+      "know",
+      "then",
+      "friend",
+      "there",
+      "thing",
+      "fighting",
+      "last",
+      "didn"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Social circle and friendships cause tension",
+    "generated_at": "2025-11-26T03:17:25.306942"
+  },
+  "generated_at": "2025-11-26T03:17:25.310467"
+}

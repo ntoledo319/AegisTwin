@@ -1,0 +1,41 @@
+{
+  "person": "Yall losing the plot we\u2019re supposed to be helping Chris",
+  "type": "group",
+  "total_messages": 56,
+  "first_message": "2025-06-19 01:08:31",
+  "last_message": "2025-06-22 14:26:56",
+  "duration_days": 3,
+  "days_since_last": 150,
+  "your_messages": 5,
+  "their_messages": 51,
+  "balance": 8.928571428571429,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-19",
+      "end_date": "2025-06-20",
+      "duration_days": 1,
+      "message_count": 52,
+      "daily_avg": 52.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-06-20",
+      "end_date": "2025-06-22",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

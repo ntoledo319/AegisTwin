@@ -1,0 +1,57 @@
+{
+  "person": "Delusions of Grandeur",
+  "type": "group",
+  "total_messages": 79,
+  "first_message": "2023-03-05 13:23:05",
+  "last_message": "2024-06-03 11:57:26",
+  "duration_days": 455,
+  "days_since_last": 534,
+  "your_messages": 26,
+  "their_messages": 53,
+  "balance": 32.91139240506329,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2023-03-05",
+      "end_date": "2023-06-27",
+      "duration_days": 113,
+      "message_count": 78,
+      "daily_avg": 0.6902654867256637,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-06-27",
+      "end_date": "2023-10-19",
+      "duration_days": 113,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-10-19",
+      "end_date": "2024-02-10",
+      "duration_days": 113,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-02-10",
+      "end_date": "2024-06-03",
+      "duration_days": 113,
+      "message_count": 1,
+      "daily_avg": 0.008849557522123894,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

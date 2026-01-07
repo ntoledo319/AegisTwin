@@ -1,0 +1,41 @@
+{
+  "person": "Shan\u2019s pushing 30",
+  "type": "group",
+  "total_messages": 53,
+  "first_message": "2024-07-09 20:07:07",
+  "last_message": "2024-07-31 17:19:46",
+  "duration_days": 21,
+  "days_since_last": 476,
+  "your_messages": 3,
+  "their_messages": 50,
+  "balance": 5.660377358490567,
+  "emotional_keywords": {
+    "love": 37,
+    "conflict": 0,
+    "breakup": 1,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2024-07-09",
+      "end_date": "2024-07-20",
+      "duration_days": 10,
+      "message_count": 16,
+      "daily_avg": 1.6,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-07-20",
+      "end_date": "2024-07-31",
+      "duration_days": 10,
+      "message_count": 37,
+      "daily_avg": 3.7,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

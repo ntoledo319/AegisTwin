@@ -1,0 +1,41 @@
+{
+  "person": "The groupchat without Julia",
+  "type": "group",
+  "total_messages": 36,
+  "first_message": "2023-05-19 17:49:55",
+  "last_message": "2023-05-21 00:59:10",
+  "duration_days": 1,
+  "days_since_last": 914,
+  "your_messages": 4,
+  "their_messages": 32,
+  "balance": 11.11111111111111,
+  "emotional_keywords": {
+    "love": 18,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2023-05-19",
+      "end_date": "2023-05-20",
+      "duration_days": 1,
+      "message_count": 28,
+      "daily_avg": 28.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2023-05-20",
+      "end_date": "2023-05-21",
+      "duration_days": 1,
+      "message_count": 8,
+      "daily_avg": 8.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,49 @@
+{
+  "person": "Gratitudeversity",
+  "type": "group",
+  "total_messages": 5930,
+  "first_message": "2025-08-31 22:16:11",
+  "last_message": "2025-11-20 01:35:22",
+  "duration_days": 80,
+  "days_since_last": 0,
+  "your_messages": 874,
+  "their_messages": 5056,
+  "balance": 14.738617200674536,
+  "emotional_keywords": {
+    "love": 4117,
+    "conflict": 149,
+    "breakup": 7,
+    "reconciliation": 5,
+    "intimacy": 62,
+    "support": 22,
+    "excitement": 130,
+    "sadness": 368
+  },
+  "phases": [
+    {
+      "start_date": "2025-08-31",
+      "end_date": "2025-09-27",
+      "duration_days": 26,
+      "message_count": 1003,
+      "daily_avg": 38.57692307692308,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-09-27",
+      "end_date": "2025-10-24",
+      "duration_days": 26,
+      "message_count": 2033,
+      "daily_avg": 78.1923076923077,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-10-24",
+      "end_date": "2025-11-20",
+      "duration_days": 26,
+      "message_count": 2894,
+      "daily_avg": 111.3076923076923,
+      "characteristics": "High intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

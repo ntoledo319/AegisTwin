@@ -1,0 +1,41 @@
+{
+  "person": "Mom & Dad & Aunt Eric Cell & Mark Cell & Ethan Toledo & Aidyn Toledo",
+  "type": "group",
+  "total_messages": 6,
+  "first_message": "2019-08-12 12:29:10",
+  "last_message": "2019-08-14 18:05:33",
+  "duration_days": 2,
+  "days_since_last": 2289,
+  "your_messages": 0,
+  "their_messages": 6,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2019-08-12",
+      "end_date": "2019-08-13",
+      "duration_days": 1,
+      "message_count": 5,
+      "daily_avg": 5.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2019-08-13",
+      "end_date": "2019-08-14",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

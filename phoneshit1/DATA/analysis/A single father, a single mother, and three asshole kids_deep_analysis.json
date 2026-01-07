@@ -1,0 +1,41 @@
+{
+  "person": "A single father, a single mother, and three asshole kids",
+  "type": "group",
+  "total_messages": 68,
+  "first_message": "2025-08-16 14:07:13",
+  "last_message": "2025-08-17 20:07:43",
+  "duration_days": 1,
+  "days_since_last": 94,
+  "your_messages": 5,
+  "their_messages": 63,
+  "balance": 7.352941176470589,
+  "emotional_keywords": {
+    "love": 17,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-08-16",
+      "end_date": "2025-08-17",
+      "duration_days": 1,
+      "message_count": 67,
+      "daily_avg": 67.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2025-08-17",
+      "end_date": "2025-08-17",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

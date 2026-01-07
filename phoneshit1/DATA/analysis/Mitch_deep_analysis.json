@@ -1,0 +1,57 @@
+{
+  "person": "Mitch",
+  "type": "individual",
+  "total_messages": 120,
+  "first_message": "2023-12-04 18:34:49",
+  "last_message": "2025-05-08 19:36:56",
+  "duration_days": 521,
+  "days_since_last": 195,
+  "your_messages": 70,
+  "their_messages": 50,
+  "balance": 58.333333333333336,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2023-12-04",
+      "end_date": "2024-04-13",
+      "duration_days": 130,
+      "message_count": 4,
+      "daily_avg": 0.03076923076923077,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-13",
+      "end_date": "2024-08-21",
+      "duration_days": 130,
+      "message_count": 56,
+      "daily_avg": 0.4307692307692308,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-21",
+      "end_date": "2024-12-29",
+      "duration_days": 130,
+      "message_count": 40,
+      "daily_avg": 0.3076923076923077,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-12-29",
+      "end_date": "2025-05-08",
+      "duration_days": 130,
+      "message_count": 20,
+      "daily_avg": 0.15384615384615385,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

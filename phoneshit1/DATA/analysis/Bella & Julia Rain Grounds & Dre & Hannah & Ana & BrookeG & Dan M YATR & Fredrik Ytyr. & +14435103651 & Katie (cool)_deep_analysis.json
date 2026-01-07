@@ -1,0 +1,41 @@
+{
+  "person": "Bella & Julia Rain Grounds & Dre & Hannah & Ana & BrookeG & Dan M YATR & Fredrik Ytyr. & +14435103651 & Katie (cool)",
+  "type": "group",
+  "total_messages": 5,
+  "first_message": "2024-01-09 21:10:57",
+  "last_message": "2024-01-21 16:46:02",
+  "duration_days": 11,
+  "days_since_last": 668,
+  "your_messages": 0,
+  "their_messages": 5,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-01-09",
+      "end_date": "2024-01-15",
+      "duration_days": 5,
+      "message_count": 2,
+      "daily_avg": 0.4,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-15",
+      "end_date": "2024-01-21",
+      "duration_days": 5,
+      "message_count": 3,
+      "daily_avg": 0.6,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

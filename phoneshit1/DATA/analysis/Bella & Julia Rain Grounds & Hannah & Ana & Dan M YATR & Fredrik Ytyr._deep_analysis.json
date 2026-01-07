@@ -1,0 +1,41 @@
+{
+  "person": "Bella & Julia Rain Grounds & Hannah & Ana & Dan M YATR & Fredrik Ytyr.",
+  "type": "group",
+  "total_messages": 7,
+  "first_message": "2024-02-03 12:42:21",
+  "last_message": "2024-02-03 18:43:33",
+  "duration_days": 0,
+  "days_since_last": 655,
+  "your_messages": 2,
+  "their_messages": 5,
+  "balance": 28.57142857142857,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-02-03",
+      "end_date": "2024-02-03",
+      "duration_days": 1,
+      "message_count": 6,
+      "daily_avg": 6.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-02-03",
+      "end_date": "2024-02-03",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,39 @@
+{
+  "version": "3.0_structured_heuristic",
+  "description": "Transparent heuristic-based IQ/EI proxy metrics computed from full outgoing message history.",
+  "components": {
+    "verbal_intelligence": {
+      "inputs": [
+        "vocabulary_richness",
+        "average_word_length",
+        "complex_word_ratio"
+      ],
+      "notes": "Higher scores indicate richer and more complex language use in text messages."
+    },
+    "emotional_intelligence": {
+      "inputs": [
+        "emotion_per_1000_words",
+        "empathy_per_1000_words",
+        "you_i_ratio",
+        "conflict_per_1000_words",
+        "repair_per_1000_words"
+      ],
+      "notes": "EI is inferred only from language patterns; real-world EI also depends on non-verbal behavior and context."
+    },
+    "social_intelligence": {
+      "inputs": [
+        "social_awareness_component",
+        "outgoing_question_rate_pct"
+      ]
+    },
+    "communication_effectiveness": {
+      "inputs": [
+        "avg_outgoing_message_length",
+        "outgoing_question_rate_pct",
+        "outgoing_exclamation_rate_pct"
+      ]
+    }
+  },
+  "disclaimer": "These scores are data-driven heuristics from text messages only. They are not substitutes for standardized IQ or clinical EI assessments, but are designed for relative comparison within this dataset.",
+  "derived_from_profile_file": "intelligence_scores_v2.json"
+}

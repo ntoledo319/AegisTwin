@@ -1,0 +1,41 @@
+{
+  "person": "The Unction\u2122\ufe0f",
+  "type": "group",
+  "total_messages": 123,
+  "first_message": "2025-10-28 17:31:57",
+  "last_message": "2025-11-15 22:16:07",
+  "duration_days": 18,
+  "days_since_last": 4,
+  "your_messages": 30,
+  "their_messages": 93,
+  "balance": 24.390243902439025,
+  "emotional_keywords": {
+    "love": 14,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-10-28",
+      "end_date": "2025-11-06",
+      "duration_days": 9,
+      "message_count": 38,
+      "daily_avg": 4.222222222222222,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-11-06",
+      "end_date": "2025-11-15",
+      "duration_days": 9,
+      "message_count": 85,
+      "daily_avg": 9.444444444444445,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

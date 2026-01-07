@@ -1,0 +1,49 @@
+{
+  "person": "Sean Reilly",
+  "type": "individual",
+  "total_messages": 16,
+  "first_message": "2022-11-03 23:14:09",
+  "last_message": "2023-01-09 14:09:33",
+  "duration_days": 66,
+  "days_since_last": 1045,
+  "your_messages": 6,
+  "their_messages": 10,
+  "balance": 37.5,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-11-03",
+      "end_date": "2022-11-26",
+      "duration_days": 22,
+      "message_count": 2,
+      "daily_avg": 0.09090909090909091,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-11-26",
+      "end_date": "2022-12-18",
+      "duration_days": 22,
+      "message_count": 11,
+      "daily_avg": 0.5,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-18",
+      "end_date": "2023-01-09",
+      "duration_days": 22,
+      "message_count": 3,
+      "daily_avg": 0.13636363636363635,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

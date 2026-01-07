@@ -1,0 +1,57 @@
+{
+  "person": "raccoon pounderer.",
+  "type": "individual",
+  "total_messages": 2874,
+  "first_message": "2024-10-02 00:05:27",
+  "last_message": "2025-10-12 18:11:36",
+  "duration_days": 375,
+  "days_since_last": 38,
+  "your_messages": 1177,
+  "their_messages": 1697,
+  "balance": 40.953375086986775,
+  "emotional_keywords": {
+    "love": 274,
+    "conflict": 126,
+    "breakup": 4,
+    "reconciliation": 5,
+    "intimacy": 17,
+    "support": 4,
+    "excitement": 9,
+    "sadness": 107
+  },
+  "phases": [
+    {
+      "start_date": "2024-10-02",
+      "end_date": "2025-01-03",
+      "duration_days": 93,
+      "message_count": 478,
+      "daily_avg": 5.139784946236559,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-01-03",
+      "end_date": "2025-04-07",
+      "duration_days": 93,
+      "message_count": 694,
+      "daily_avg": 7.462365591397849,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-04-07",
+      "end_date": "2025-07-10",
+      "duration_days": 93,
+      "message_count": 1037,
+      "daily_avg": 11.150537634408602,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-07-10",
+      "end_date": "2025-10-12",
+      "duration_days": 93,
+      "message_count": 665,
+      "daily_avg": 7.150537634408602,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "RECENTLY_ACTIVE"
+}

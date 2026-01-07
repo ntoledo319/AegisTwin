@@ -1,0 +1,2065 @@
+[
+  {
+    "date": "2017-12-01 00:00:00",
+    "type": "activity_valley",
+    "description": "Low social activity: 285 messages",
+    "significance": "low"
+  },
+  {
+    "date": "2017-12-23 13:57:33",
+    "type": "relationship_start",
+    "description": "Started messaging Lily",
+    "person": "Lily",
+    "significance": "high"
+  },
+  {
+    "date": "2017-12-23 13:57:33",
+    "type": "romantic_relationship_start",
+    "description": "Lily relationship began (6.8 years, 360K+ messages)",
+    "person": "Lily",
+    "significance": "critical"
+  },
+  {
+    "date": "2017-12-23 13:57:33",
+    "type": "relationship_start",
+    "description": "First contact with Lily",
+    "person": "Lily",
+    "message_count": 360346
+  },
+  {
+    "date": "2017-12-25 21:16:11",
+    "type": "relationship_start",
+    "description": "Started messaging Ian L",
+    "person": "Ian L",
+    "significance": "high"
+  },
+  {
+    "date": "2017-12-25 21:16:11",
+    "type": "relationship_start",
+    "description": "First contact with Ian L",
+    "person": "Ian L",
+    "message_count": 58930
+  },
+  {
+    "date": "2017-12-30 12:38:02",
+    "type": "relationship_start",
+    "description": "Started messaging CJ \ud83d\udc9b",
+    "person": "CJ \ud83d\udc9b",
+    "significance": "medium"
+  },
+  {
+    "date": "2017-12-30 12:38:02",
+    "type": "relationship_start",
+    "description": "First contact with CJ \ud83d\udc9b",
+    "person": "CJ \ud83d\udc9b",
+    "message_count": 1300
+  },
+  {
+    "date": "2018-01-01 00:00:00",
+    "type": "activity_valley",
+    "description": "Low social activity: 299 messages",
+    "significance": "low"
+  },
+  {
+    "date": "2018-01-01 00:00:00",
+    "type": "social_shift",
+    "description": "Major social circle change: +125% contacts",
+    "significance": "high"
+  },
+  {
+    "date": "2018-01-31 14:35:05",
+    "type": "relationship_start",
+    "description": "Started messaging Dr L",
+    "person": "Dr L",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-01-31 14:35:05",
+    "type": "relationship_start",
+    "description": "First contact with Dr L",
+    "person": "Dr L",
+    "message_count": 3324
+  },
+  {
+    "date": "2018-02-01 00:00:00",
+    "type": "activity_valley",
+    "description": "Low social activity: 1,109 messages",
+    "significance": "low"
+  },
+  {
+    "date": "2018-03-07 18:45:53",
+    "type": "relationship_start",
+    "description": "Started messaging CJ \ud83d\udc9b & Ian L",
+    "person": "CJ \ud83d\udc9b & Ian L",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-03-23 16:39:45",
+    "type": "relationship_start",
+    "description": "Started messaging Dad",
+    "person": "Dad",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-03-23 16:39:45",
+    "type": "relationship_start",
+    "description": "First contact with Dad",
+    "person": "Dad",
+    "message_count": 1662
+  },
+  {
+    "date": "2018-03-29 11:25:36",
+    "type": "relationship_start",
+    "description": "Started messaging Mark Cell",
+    "person": "Mark Cell",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "type": "social_shift",
+    "description": "Major social circle change: +411% contacts",
+    "significance": "high"
+  },
+  {
+    "date": "2018-04-02 01:59:10",
+    "type": "relationship_start",
+    "description": "Started messaging Nick Toledo",
+    "person": "Nick Toledo",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-02 15:49:00",
+    "type": "relationship_start",
+    "description": "Started messaging Ania",
+    "person": "Ania",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-11 22:02:29",
+    "type": "relationship_start",
+    "description": "Started messaging Rich El Gato",
+    "person": "Rich El Gato",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-13 09:14:04",
+    "type": "relationship_start",
+    "description": "Started messaging Connie",
+    "person": "Connie",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-13 19:34:03",
+    "type": "relationship_start",
+    "description": "Started messaging Sloan Wayne",
+    "person": "Sloan Wayne",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-13 21:53:42",
+    "type": "relationship_start",
+    "description": "Started messaging Aunt Anne",
+    "person": "Aunt Anne",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-20 12:53:06",
+    "type": "relationship_start",
+    "description": "Started messaging Gamon",
+    "person": "Gamon",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-26 15:23:54",
+    "type": "relationship_start",
+    "description": "Started messaging Hamel Erika",
+    "person": "Hamel Erika",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-04-26 15:23:54",
+    "type": "relationship_start",
+    "description": "First contact with Hamel Erika",
+    "person": "Hamel Erika",
+    "message_count": 4164
+  },
+  {
+    "date": "2018-04-29 13:25:06",
+    "type": "relationship_start",
+    "description": "Started messaging +12038108537",
+    "person": "+12038108537",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-05-10 01:24:59",
+    "type": "relationship_start",
+    "description": "Started messaging Nikki",
+    "person": "Nikki",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-06-01 12:02:42",
+    "type": "relationship_start",
+    "description": "Started messaging Patti Demilia",
+    "person": "Patti Demilia",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-06-01 12:02:42",
+    "type": "relationship_start",
+    "description": "First contact with Patti Demilia",
+    "person": "Patti Demilia",
+    "message_count": 701
+  },
+  {
+    "date": "2018-06-27 11:50:05",
+    "type": "relationship_start",
+    "description": "Started messaging Maddie",
+    "person": "Maddie",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-07-01 08:29:47",
+    "type": "relationship_start",
+    "description": "Started messaging An Hewit",
+    "person": "An Hewit",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-07-01 08:29:47",
+    "type": "relationship_start",
+    "description": "First contact with An Hewit",
+    "person": "An Hewit",
+    "message_count": 2577
+  },
+  {
+    "date": "2018-07-31 01:03:53",
+    "type": "relationship_start",
+    "description": "Started messaging +15042664562",
+    "person": "+15042664562",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-09-15 23:34:51",
+    "type": "relationship_start",
+    "description": "Started messaging Omari",
+    "person": "Omari",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-10-13 20:54:36",
+    "type": "relationship_start",
+    "description": "Started messaging Isaih",
+    "person": "Isaih",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-11-21 12:55:28",
+    "type": "relationship_start",
+    "description": "Started messaging Mom & Gamon",
+    "person": "Mom & Gamon",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-11-25 16:36:48",
+    "type": "relationship_start",
+    "description": "Started messaging Adriana",
+    "person": "Adriana",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-11-25 16:36:48",
+    "type": "relationship_start",
+    "description": "First contact with Adriana",
+    "person": "Adriana",
+    "message_count": 2790
+  },
+  {
+    "date": "2018-11-27 00:50:29",
+    "type": "relationship_start",
+    "description": "Started messaging Mom",
+    "person": "Mom",
+    "significance": "high"
+  },
+  {
+    "date": "2018-11-27 00:50:29",
+    "type": "relationship_start",
+    "description": "First contact with Mom",
+    "person": "Mom",
+    "message_count": 16271
+  },
+  {
+    "date": "2018-11-30 15:22:08",
+    "type": "relationship_start",
+    "description": "Started messaging Mom & Dad",
+    "person": "Mom & Dad",
+    "significance": "medium"
+  },
+  {
+    "date": "2018-12-15 17:14:26",
+    "type": "relationship_start",
+    "description": "Started messaging Mew",
+    "person": "Mew",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-01-01 00:00:00",
+    "type": "social_shift",
+    "description": "Major social circle change: -55% contacts",
+    "significance": "high"
+  },
+  {
+    "date": "2019-02-22 10:02:04",
+    "type": "relationship_start",
+    "description": "Started messaging Steph \ud83d\udc95",
+    "person": "Steph \ud83d\udc95",
+    "significance": "high"
+  },
+  {
+    "date": "2019-02-22 10:02:04",
+    "type": "relationship_start",
+    "description": "First contact with Steph \ud83d\udc95",
+    "person": "Steph \ud83d\udc95",
+    "message_count": 21647
+  },
+  {
+    "date": "2019-02-25 16:37:08",
+    "type": "relationship_start",
+    "description": "Started messaging Dad & Mom",
+    "person": "Dad & Mom",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-02-28 19:26:57",
+    "type": "relationship_start",
+    "description": "Started messaging Cole",
+    "person": "Cole",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-02-28 19:26:57",
+    "type": "relationship_start",
+    "description": "First contact with Cole",
+    "person": "Cole",
+    "message_count": 1379
+  },
+  {
+    "date": "2019-03-01 00:00:00",
+    "type": "activity_peak",
+    "description": "High social activity: 19,704 messages",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-03-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 19,704 messages",
+    "message_count": 19704
+  },
+  {
+    "date": "2019-04-01 00:00:00",
+    "type": "social_shift",
+    "description": "Major social circle change: +68% contacts",
+    "significance": "high"
+  },
+  {
+    "date": "2019-04-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 15,520 messages",
+    "message_count": 15520
+  },
+  {
+    "date": "2019-04-23 17:50:40",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Ali Haidar",
+    "person": "Cole & Ali Haidar",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-08-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 16,800 messages",
+    "message_count": 16800
+  },
+  {
+    "date": "2019-09-13 15:03:17",
+    "type": "relationship_start",
+    "description": "Started messaging Michael Berardini & Nancy Brady & Anastasia Mello & +18605154777 & +15082611335 & +12013641854 & +14018089920 & +17813011017 & +16037596991 & +14014814720 & +15086544572 & +19738864589 & +12039237772 & +19788460035 & +18607185429 & +19734079245",
+    "person": "Michael Berardini & Nancy Brady & Anastasia Mello & +18605154777 & +15082611335 & +12013641854 & +14018089920 & +17813011017 & +16037596991 & +14014814720 & +15086544572 & +19738864589 & +12039237772 & +19788460035 & +18607185429 & +19734079245",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-18 11:59:40",
+    "type": "relationship_start",
+    "description": "Started messaging Melyssa",
+    "person": "Melyssa",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-25 08:14:32",
+    "type": "relationship_start",
+    "description": "Started messaging Sarah Swanson & Jackie Graf",
+    "person": "Sarah Swanson & Jackie Graf",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-27 23:48:41",
+    "type": "relationship_start",
+    "description": "Started messaging Isabel De Leon",
+    "person": "Isabel De Leon",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-27 23:48:41",
+    "type": "relationship_start",
+    "description": "First contact with Isabel De Leon",
+    "person": "Isabel De Leon",
+    "message_count": 8342
+  },
+  {
+    "date": "2019-09-28 01:25:01",
+    "type": "relationship_start",
+    "description": "Started messaging Mike G",
+    "person": "Mike G",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-28 13:20:42",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Isabel De Leon",
+    "person": "Cole & Isabel De Leon",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-09-28 21:51:04",
+    "type": "relationship_start",
+    "description": "Started messaging Thigo Silvia",
+    "person": "Thigo Silvia",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-10-06 17:19:35",
+    "type": "relationship_start",
+    "description": "Started messaging Garett",
+    "person": "Garett",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-10-26 14:18:39",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Thigo Silvia",
+    "person": "Cole & Thigo Silvia",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-11-01 15:10:34",
+    "type": "relationship_start",
+    "description": "Started messaging Chloe Lopez",
+    "person": "Chloe Lopez",
+    "significance": "high"
+  },
+  {
+    "date": "2019-11-01 15:10:34",
+    "type": "relationship_start",
+    "description": "First contact with Chloe Lopez",
+    "person": "Chloe Lopez",
+    "message_count": 13477
+  },
+  {
+    "date": "2019-11-23 22:59:09",
+    "type": "relationship_start",
+    "description": "Started messaging Ron",
+    "person": "Ron",
+    "significance": "medium"
+  },
+  {
+    "date": "2019-12-10 10:50:47",
+    "type": "relationship_start",
+    "description": "Started messaging Karen",
+    "person": "Karen",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-01-07 10:15:04",
+    "type": "relationship_start",
+    "description": "Started messaging Dawn Rodgers",
+    "person": "Dawn Rodgers",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-02-18 14:56:34",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Isabel De Leon & Thigo Silvia & Mike",
+    "person": "Cole & Isabel De Leon & Thigo Silvia & Mike",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-05-11 20:49:38",
+    "type": "relationship_start",
+    "description": "Started messaging Bob G & Ron & +12035052723 & +12032439957 & +19143936526",
+    "person": "Bob G & Ron & +12035052723 & +12032439957 & +19143936526",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-06-18 11:55:50",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Steph \ud83d\udc95",
+    "person": "Cole & Steph \ud83d\udc95",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-07-24 20:05:02",
+    "type": "relationship_start",
+    "description": "Started messaging Gabby",
+    "person": "Gabby",
+    "significance": "high"
+  },
+  {
+    "date": "2020-07-24 20:05:02",
+    "type": "relationship_start",
+    "description": "First contact with Gabby",
+    "person": "Gabby",
+    "message_count": 28291
+  },
+  {
+    "date": "2020-08-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 17,852 messages",
+    "message_count": 17852
+  },
+  {
+    "date": "2020-08-05 15:43:58",
+    "type": "relationship_start",
+    "description": "Started messaging Politics Aaron",
+    "person": "Politics Aaron",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-09-15 15:36:48",
+    "type": "relationship_start",
+    "description": "Started messaging Grace Mullane",
+    "person": "Grace Mullane",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-09-18 14:45:44",
+    "type": "relationship_start",
+    "description": "Started messaging Kelly Norman",
+    "person": "Kelly Norman",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-10-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 15,628 messages",
+    "message_count": 15628
+  },
+  {
+    "date": "2020-10-01 17:30:55",
+    "type": "relationship_start",
+    "description": "Started messaging One-Shot-Squad",
+    "person": "One-Shot-Squad",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-10-06 19:29:17",
+    "type": "relationship_start",
+    "description": "Started messaging Melyssa & Garett & Chloe Lopez",
+    "person": "Melyssa & Garett & Chloe Lopez",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-11-20 21:31:27",
+    "type": "relationship_start",
+    "description": "Started messaging Michael Kenny",
+    "person": "Michael Kenny",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-11-20 21:31:27",
+    "type": "relationship_start",
+    "description": "First contact with Michael Kenny",
+    "person": "Michael Kenny",
+    "message_count": 3532
+  },
+  {
+    "date": "2020-11-23 12:09:02",
+    "type": "relationship_start",
+    "description": "Started messaging Andy Bybee",
+    "person": "Andy Bybee",
+    "significance": "medium"
+  },
+  {
+    "date": "2020-12-30 17:26:11",
+    "type": "relationship_start",
+    "description": "Started messaging Jake C",
+    "person": "Jake C",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-01-13 23:48:44",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Gabby",
+    "person": "Cole & Gabby",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-01-23 21:45:50",
+    "type": "relationship_start",
+    "description": "Started messaging Space Adventures 2: the Spaceaning",
+    "person": "Space Adventures 2: the Spaceaning",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-04-04 22:22:58",
+    "type": "relationship_start",
+    "description": "Started messaging Papa John",
+    "person": "Papa John",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-05-27 21:12:41",
+    "type": "relationship_start",
+    "description": "Started messaging Sarah L",
+    "person": "Sarah L",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-06-14 22:48:41",
+    "type": "relationship_start",
+    "description": "Started messaging Stag Spirit Shop Punta adults with 401ks",
+    "person": "Stag Spirit Shop Punta adults with 401ks",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-06-24 06:26:14",
+    "type": "relationship_start",
+    "description": "Started messaging Jess Wi",
+    "person": "Jess Wi",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-06-24 06:26:14",
+    "type": "relationship_start",
+    "description": "First contact with Jess Wi",
+    "person": "Jess Wi",
+    "message_count": 632
+  },
+  {
+    "date": "2021-06-28 08:12:39",
+    "type": "relationship_end",
+    "description": "Last message with An Hewit",
+    "person": "An Hewit",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-06-28 08:12:39",
+    "type": "relationship_end",
+    "description": "Last contact with An Hewit (1608 days ago)",
+    "person": "An Hewit",
+    "message_count": 2577
+  },
+  {
+    "date": "2021-06-28 08:21:22",
+    "type": "relationship_end",
+    "description": "Last message with Hamel Erika",
+    "person": "Hamel Erika",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-06-28 08:21:22",
+    "type": "relationship_end",
+    "description": "Last contact with Hamel Erika (1608 days ago)",
+    "person": "Hamel Erika",
+    "message_count": 4164
+  },
+  {
+    "date": "2021-07-01 00:00:00",
+    "type": "activity_valley",
+    "description": "Low social activity: 3,858 messages",
+    "significance": "low"
+  },
+  {
+    "date": "2021-07-06 17:53:44",
+    "type": "relationship_start",
+    "description": "Started messaging James & Michael Kenny & +12036507437 & +12036734400 & +12032783941 & Yd & +12034009352 & +16462619234 & +12036504216 & Rob & Wolfganf & +12039134416 & Greg & Renny & +12033334771 & +12035813254 & +12037070824 & Matthew D & +12035202207",
+    "person": "James & Michael Kenny & +12036507437 & +12036734400 & +12032783941 & Yd & +12034009352 & +16462619234 & +12036504216 & Rob & Wolfganf & +12039134416 & Greg & Renny & +12033334771 & +12035813254 & +12037070824 & Matthew D & +12035202207",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-08-26 20:09:47",
+    "type": "relationship_start",
+    "description": "Started messaging Mia Talamelli",
+    "person": "Mia Talamelli",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-08-26 20:09:47",
+    "type": "relationship_start",
+    "description": "First contact with Mia Talamelli",
+    "person": "Mia Talamelli",
+    "message_count": 4390
+  },
+  {
+    "date": "2021-08-28 16:06:29",
+    "type": "relationship_start",
+    "description": "Started messaging Lauren A",
+    "person": "Lauren A",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-09-11 18:20:38",
+    "type": "relationship_start",
+    "description": "Started messaging Seb",
+    "person": "Seb",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-09-11 18:20:38",
+    "type": "relationship_start",
+    "description": "First contact with Seb",
+    "person": "Seb",
+    "message_count": 678
+  },
+  {
+    "date": "2021-09-11 20:21:30",
+    "type": "relationship_start",
+    "description": "Started messaging K",
+    "person": "K",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-10-22 23:56:08",
+    "type": "relationship_start",
+    "description": "Started messaging Katia Tavarez",
+    "person": "Katia Tavarez",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-10-22 23:56:08",
+    "type": "relationship_start",
+    "description": "First contact with Katia Tavarez",
+    "person": "Katia Tavarez",
+    "message_count": 627
+  },
+  {
+    "date": "2021-11-07 12:24:05",
+    "type": "relationship_start",
+    "description": "Started messaging Cros",
+    "person": "Cros",
+    "significance": "medium"
+  },
+  {
+    "date": "2021-11-07 12:24:05",
+    "type": "relationship_start",
+    "description": "First contact with Cros",
+    "person": "Cros",
+    "message_count": 8338
+  },
+  {
+    "date": "2021-11-30 20:59:49",
+    "type": "relationship_start",
+    "description": "Started messaging 2 Perverts y una Tia",
+    "person": "2 Perverts y una Tia",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-01-21 21:56:06",
+    "type": "relationship_start",
+    "description": "Started messaging Rose",
+    "person": "Rose",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-01-21 21:56:06",
+    "type": "relationship_start",
+    "description": "First contact with Rose",
+    "person": "Rose",
+    "message_count": 2902
+  },
+  {
+    "date": "2022-01-22 09:44:46",
+    "type": "relationship_start",
+    "description": "Started messaging Seb & K",
+    "person": "Seb & K",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-02-14 17:17:20",
+    "type": "relationship_start",
+    "description": "Started messaging Seb & K & Max",
+    "person": "Seb & K & Max",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-03-12 19:01:08",
+    "type": "relationship_start",
+    "description": "Started messaging Caroline Dillon",
+    "person": "Caroline Dillon",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-03-19 13:08:23",
+    "type": "relationship_start",
+    "description": "Started messaging Grandma T Cell & Dad & Aunt Eric Cell & Mark Cell & Connie & Alisha & Mom & +12037107577",
+    "person": "Grandma T Cell & Dad & Aunt Eric Cell & Mark Cell & Connie & Alisha & Mom & +12037107577",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-03-19 14:28:02",
+    "type": "relationship_start",
+    "description": "Started messaging d",
+    "person": "d",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-03-19 18:21:57",
+    "type": "relationship_start",
+    "description": "Started messaging Marisa",
+    "person": "Marisa",
+    "significance": "high"
+  },
+  {
+    "date": "2022-03-19 18:21:57",
+    "type": "relationship_start",
+    "description": "First contact with Marisa",
+    "person": "Marisa",
+    "message_count": 89076
+  },
+  {
+    "date": "2022-03-20 17:50:29",
+    "type": "relationship_start",
+    "description": "Started messaging The Crew \ud83e\udd65\ud83c\udfb8\ud83c\udf99\ud83e\udd8b\ud83d\udcab\ud83c\udfb6",
+    "person": "The Crew \ud83e\udd65\ud83c\udfb8\ud83c\udf99\ud83e\udd8b\ud83d\udcab\ud83c\udfb6",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-03-20 22:14:27",
+    "type": "relationship_start",
+    "description": "Started messaging Max",
+    "person": "Max",
+    "significance": "high"
+  },
+  {
+    "date": "2022-03-20 22:14:27",
+    "type": "relationship_start",
+    "description": "First contact with Max",
+    "person": "Max",
+    "message_count": 46685
+  },
+  {
+    "date": "2022-04-01 00:00:00",
+    "type": "social_shift",
+    "description": "Major social circle change: +51% contacts",
+    "significance": "high"
+  },
+  {
+    "date": "2022-04-01 00:00:00",
+    "type": "activity_peak",
+    "description": "Peak activity: 15,065 messages",
+    "message_count": 15065
+  },
+  {
+    "date": "2022-04-05 09:26:08",
+    "type": "relationship_start",
+    "description": "Started messaging Seb & Max",
+    "person": "Seb & Max",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-04-25 20:20:44",
+    "type": "relationship_start",
+    "description": "Started messaging The mental deranged poets society",
+    "person": "The mental deranged poets society",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-04-25 20:20:44",
+    "type": "relationship_start",
+    "description": "First contact with The mental deranged poets society",
+    "person": "The mental deranged poets society",
+    "message_count": 6601
+  },
+  {
+    "date": "2022-05-06 09:51:14",
+    "type": "relationship_end",
+    "description": "Last message with One-Shot-Squad",
+    "person": "One-Shot-Squad",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-05-15 15:58:34",
+    "type": "relationship_start",
+    "description": "Started messaging Tom",
+    "person": "Tom",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-05-20 20:34:55",
+    "type": "relationship_start",
+    "description": "Started messaging Alexis",
+    "person": "Alexis",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-06-10 19:35:34",
+    "type": "relationship_end",
+    "description": "Last message with The Crew \ud83e\udd65\ud83c\udfb8\ud83c\udf99\ud83e\udd8b\ud83d\udcab\ud83c\udfb6",
+    "person": "The Crew \ud83e\udd65\ud83c\udfb8\ud83c\udf99\ud83e\udd8b\ud83d\udcab\ud83c\udfb6",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-06-27 18:13:35",
+    "type": "relationship_start",
+    "description": "Started messaging Alastair Bruce",
+    "person": "Alastair Bruce",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-07-03 12:30:30",
+    "type": "relationship_start",
+    "description": "Started messaging Katia Tavarez & Max",
+    "person": "Katia Tavarez & Max",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-07-17 15:41:16",
+    "type": "relationship_start",
+    "description": "Started messaging Max & Marisa & +19148307879 & +12039527873 & +12032490031 & +12032951931 & +12039044030 & +12039819355 & Gary",
+    "person": "Max & Marisa & +19148307879 & +12039527873 & +12032490031 & +12032951931 & +12039044030 & +12039819355 & Gary",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-07-28 00:21:15",
+    "type": "relationship_start",
+    "description": "Started messaging Jess H & Katia Tavarez & Max",
+    "person": "Jess H & Katia Tavarez & Max",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-08-02 22:02:49",
+    "type": "relationship_start",
+    "description": "Started messaging Philip",
+    "person": "Philip",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-09-11 11:08:02",
+    "type": "relationship_end",
+    "description": "Last contact with Jess Wi (1168 days ago)",
+    "person": "Jess Wi",
+    "message_count": 632
+  },
+  {
+    "date": "2022-09-11 18:34:49",
+    "type": "relationship_start",
+    "description": "Started messaging Stephanie J",
+    "person": "Stephanie J",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-09-14 20:48:22",
+    "type": "relationship_start",
+    "description": "Started messaging Jon 4d",
+    "person": "Jon 4d",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-09-29 17:55:55",
+    "type": "relationship_start",
+    "description": "Started messaging Max & +12039527873 & +12032490031 & +12039044030 & +12039819355 & Gary & +12036908901",
+    "person": "Max & +12039527873 & +12032490031 & +12039044030 & +12039819355 & Gary & +12036908901",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-10-08 01:17:42",
+    "type": "relationship_start",
+    "description": "Started messaging Bella",
+    "person": "Bella",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-11-03 20:37:58",
+    "type": "relationship_start",
+    "description": "Started messaging Julia Rain Grounds",
+    "person": "Julia Rain Grounds",
+    "significance": "high"
+  },
+  {
+    "date": "2022-11-03 20:37:58",
+    "type": "relationship_start",
+    "description": "First contact with Julia Rain Grounds",
+    "person": "Julia Rain Grounds",
+    "message_count": 32100
+  },
+  {
+    "date": "2022-11-10 21:57:03",
+    "type": "relationship_start",
+    "description": "Started messaging James L",
+    "person": "James L",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-11-10 22:13:58",
+    "type": "relationship_start",
+    "description": "Started messaging Dre",
+    "person": "Dre",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-11-10 22:13:58",
+    "type": "relationship_start",
+    "description": "First contact with Dre",
+    "person": "Dre",
+    "message_count": 1510
+  },
+  {
+    "date": "2022-11-14 20:15:44",
+    "type": "relationship_start",
+    "description": "Started messaging GABRIELLE WADE",
+    "person": "GABRIELLE WADE",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-11-14 20:15:44",
+    "type": "relationship_start",
+    "description": "First contact with GABRIELLE WADE",
+    "person": "GABRIELLE WADE",
+    "message_count": 1765
+  },
+  {
+    "date": "2022-11-16 11:32:52",
+    "type": "relationship_start",
+    "description": "Started messaging Sky Family",
+    "person": "Sky Family",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-11-16 11:32:52",
+    "type": "relationship_start",
+    "description": "First contact with Sky Family",
+    "person": "Sky Family",
+    "message_count": 588
+  },
+  {
+    "date": "2022-11-17 21:20:45",
+    "type": "relationship_start",
+    "description": "Started messaging Brooke",
+    "person": "Brooke",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-04 20:49:48",
+    "type": "relationship_start",
+    "description": "Started messaging Ean",
+    "person": "Ean",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-23 08:35:47",
+    "type": "relationship_start",
+    "description": "Started messaging MOOSE T",
+    "person": "MOOSE T",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-23 13:41:43",
+    "type": "relationship_end",
+    "description": "Last message with CJ \ud83d\udc9b & Ian L",
+    "person": "CJ \ud83d\udc9b & Ian L",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-23 15:41:17",
+    "type": "relationship_start",
+    "description": "Started messaging Mike Shes",
+    "person": "Mike Shes",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-24 12:32:05",
+    "type": "relationship_start",
+    "description": "Started messaging Phil Maxson",
+    "person": "Phil Maxson",
+    "significance": "medium"
+  },
+  {
+    "date": "2022-12-31 14:18:43",
+    "type": "relationship_start",
+    "description": "Started messaging Christan Tytr",
+    "person": "Christan Tytr",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-07 18:48:22",
+    "type": "relationship_start",
+    "description": "Started messaging Laura The Cool One",
+    "person": "Laura The Cool One",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-09 19:10:41",
+    "type": "relationship_start",
+    "description": "Started messaging Michael Kenny & +14134411938 & Max & Laura The Cool One & Renny & +12035200217 & +12033627203",
+    "person": "Michael Kenny & +14134411938 & Max & Laura The Cool One & Renny & +12035200217 & +12033627203",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-12 11:47:48",
+    "type": "relationship_start",
+    "description": "Started messaging Lori W",
+    "person": "Lori W",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-13 19:33:12",
+    "type": "relationship_start",
+    "description": "Started messaging Andrea",
+    "person": "Andrea",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-13 21:54:05",
+    "type": "relationship_start",
+    "description": "Started messaging Lindsey",
+    "person": "Lindsey",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-19 19:31:19",
+    "type": "relationship_start",
+    "description": "Started messaging BrookeG",
+    "person": "BrookeG",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-26 08:13:48",
+    "type": "relationship_start",
+    "description": "Started messaging Colette",
+    "person": "Colette",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-26 08:13:48",
+    "type": "relationship_start",
+    "description": "First contact with Colette",
+    "person": "Colette",
+    "message_count": 991
+  },
+  {
+    "date": "2023-01-26 22:11:38",
+    "type": "relationship_start",
+    "description": "Started messaging Dan M YATR",
+    "person": "Dan M YATR",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-01-28 12:19:11",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Brandon & Kathryn & +12035566030 & Dre",
+    "person": "Cole & Brandon & Kathryn & +12035566030 & Dre",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-02-15 09:23:46",
+    "type": "relationship_start",
+    "description": "Started messaging Cole & Brandon & +12035566030 & Dre & +12035450968",
+    "person": "Cole & Brandon & +12035566030 & Dre & +12035450968",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-02-17 12:16:33",
+    "type": "relationship_start",
+    "description": "Started messaging Pauly Boss",
+    "person": "Pauly Boss",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-02-17 12:16:33",
+    "type": "relationship_start",
+    "description": "First contact with Pauly Boss",
+    "person": "Pauly Boss",
+    "message_count": 1595
+  },
+  {
+    "date": "2023-03-09 20:42:52",
+    "type": "relationship_start",
+    "description": "Started messaging Veni The Sponsee",
+    "person": "Veni The Sponsee",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-03-09 20:42:52",
+    "type": "relationship_start",
+    "description": "First contact with Veni The Sponsee",
+    "person": "Veni The Sponsee",
+    "message_count": 1599
+  },
+  {
+    "date": "2023-03-11 11:30:58",
+    "type": "relationship_start",
+    "description": "Started messaging Stephen Work",
+    "person": "Stephen Work",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-03-11 11:30:58",
+    "type": "relationship_start",
+    "description": "First contact with Stephen Work",
+    "person": "Stephen Work",
+    "message_count": 587
+  },
+  {
+    "date": "2023-03-11 12:04:00",
+    "type": "relationship_start",
+    "description": "Started messaging Barrett",
+    "person": "Barrett",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-01 01:07:52",
+    "type": "relationship_end",
+    "description": "Last message with CJ \ud83d\udc9b",
+    "person": "CJ \ud83d\udc9b",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-01 01:07:52",
+    "type": "relationship_end",
+    "description": "Last contact with CJ \ud83d\udc9b (937 days ago)",
+    "person": "CJ \ud83d\udc9b",
+    "message_count": 1300
+  },
+  {
+    "date": "2023-05-11 17:40:39",
+    "type": "relationship_start",
+    "description": "Started messaging Max & Julia Rain Grounds & Dre",
+    "person": "Max & Julia Rain Grounds & Dre",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-11 20:33:55",
+    "type": "relationship_start",
+    "description": "Started messaging Potato",
+    "person": "Potato",
+    "significance": "high"
+  },
+  {
+    "date": "2023-05-11 20:33:55",
+    "type": "relationship_start",
+    "description": "First contact with Potato",
+    "person": "Potato",
+    "message_count": 41890
+  },
+  {
+    "date": "2023-05-14 13:36:19",
+    "type": "relationship_start",
+    "description": "Started messaging Max & Dre",
+    "person": "Max & Dre",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-18 22:09:57",
+    "type": "relationship_start",
+    "description": "Started messaging Fredrik Ytyr.",
+    "person": "Fredrik Ytyr.",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-23 22:50:05",
+    "type": "relationship_start",
+    "description": "Started messaging Max & Julia Rain Grounds & Dre & Laura The Cool One & Dan M YATR & Fredrik Ytyr.",
+    "person": "Max & Julia Rain Grounds & Dre & Laura The Cool One & Dan M YATR & Fredrik Ytyr.",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-05-25 19:48:05",
+    "type": "relationship_start",
+    "description": "Started messaging Parked Out By The Lake",
+    "person": "Parked Out By The Lake",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-06-22 20:49:23",
+    "type": "relationship_start",
+    "description": "Started messaging Thot Daughter",
+    "person": "Thot Daughter",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-06-22 20:49:23",
+    "type": "relationship_start",
+    "description": "First contact with Thot Daughter",
+    "person": "Thot Daughter",
+    "message_count": 4113
+  },
+  {
+    "date": "2023-07-20 21:55:56",
+    "type": "relationship_start",
+    "description": "Started messaging Sam H",
+    "person": "Sam H",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-08-17 23:07:46",
+    "type": "relationship_end",
+    "description": "Last contact with Sky Family (828 days ago)",
+    "person": "Sky Family",
+    "message_count": 588
+  },
+  {
+    "date": "2023-09-04 16:50:54",
+    "type": "relationship_start",
+    "description": "Started messaging Hannah Tattoo",
+    "person": "Hannah Tattoo",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-09-05 17:34:44",
+    "type": "relationship_end",
+    "description": "Last message with The mental deranged poets society",
+    "person": "The mental deranged poets society",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-09-05 17:34:44",
+    "type": "relationship_end",
+    "description": "Last contact with The mental deranged poets society (809 days ago)",
+    "person": "The mental deranged poets society",
+    "message_count": 6601
+  },
+  {
+    "date": "2023-09-07 19:22:08",
+    "type": "relationship_start",
+    "description": "Started messaging Ben E",
+    "person": "Ben E",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-10-12 20:46:43",
+    "type": "relationship_start",
+    "description": "Started messaging old toast",
+    "person": "old toast",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-10-12 20:46:43",
+    "type": "relationship_start",
+    "description": "First contact with old toast",
+    "person": "old toast",
+    "message_count": 2514
+  },
+  {
+    "date": "2023-10-14 15:20:21",
+    "type": "relationship_start",
+    "description": "Started messaging Julia Rain Grounds & Potato",
+    "person": "Julia Rain Grounds & Potato",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-10-17 18:19:11",
+    "type": "relationship_start",
+    "description": "Started messaging Julia-G Spinster",
+    "person": "Julia-G Spinster",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-11-23 11:18:55",
+    "type": "relationship_end",
+    "description": "Last message with Max & +12039527873 & +12032490031 & +12039044030 & +12039819355 & Gary & +12036908901",
+    "person": "Max & +12039527873 & +12032490031 & +12039044030 & +12039819355 & Gary & +12036908901",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-12-04 18:34:49",
+    "type": "relationship_start",
+    "description": "Started messaging Mitch",
+    "person": "Mitch",
+    "significance": "medium"
+  },
+  {
+    "date": "2023-12-24 22:28:48",
+    "type": "relationship_start",
+    "description": "Started messaging Guy From Train",
+    "person": "Guy From Train",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-01-25 20:46:34",
+    "type": "relationship_start",
+    "description": "Started messaging Erin",
+    "person": "Erin",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-04-06 12:53:44",
+    "type": "relationship_start",
+    "description": "Started messaging Steph \ud83d\udc95 & Potato",
+    "person": "Steph \ud83d\udc95 & Potato",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-04-13 10:47:50",
+    "type": "relationship_end",
+    "description": "Last contact with Patti Demilia (588 days ago)",
+    "person": "Patti Demilia",
+    "message_count": 701
+  },
+  {
+    "date": "2024-04-21 14:36:24",
+    "type": "relationship_start",
+    "description": "Started messaging Steph \ud83d\udc95 & Julia Rain Grounds & Potato",
+    "person": "Steph \ud83d\udc95 & Julia Rain Grounds & Potato",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-04-25 22:18:27",
+    "type": "relationship_start",
+    "description": "Started messaging Connor",
+    "person": "Connor",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-05-07 13:45:14",
+    "type": "relationship_start",
+    "description": "Started messaging Honorary white boiz",
+    "person": "Honorary white boiz",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-05-14 21:34:08",
+    "type": "relationship_start",
+    "description": "Started messaging Julia Rain Grounds & Potato & Connor",
+    "person": "Julia Rain Grounds & Potato & Connor",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-05-23 21:50:43",
+    "type": "relationship_start",
+    "description": "Started messaging Alex",
+    "person": "Alex",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-07-26 10:42:35",
+    "type": "relationship_start",
+    "description": "Started messaging d(real)",
+    "person": "d(real)",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-08-01 10:16:27",
+    "type": "relationship_start",
+    "description": "Started messaging Jackles Inc",
+    "person": "Jackles Inc",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-08-01 10:16:27",
+    "type": "relationship_start",
+    "description": "First contact with Jackles Inc",
+    "person": "Jackles Inc",
+    "message_count": 2135
+  },
+  {
+    "date": "2024-08-02 14:54:50",
+    "type": "relationship_start",
+    "description": "Started messaging Shannan\u2019s bday",
+    "person": "Shannan\u2019s bday",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-08-22 22:55:54",
+    "type": "relationship_start",
+    "description": "Started messaging daniel thee sponsee",
+    "person": "daniel thee sponsee",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-08-22 22:55:54",
+    "type": "relationship_start",
+    "description": "First contact with daniel thee sponsee",
+    "person": "daniel thee sponsee",
+    "message_count": 1183
+  },
+  {
+    "date": "2024-09-12 20:36:29",
+    "type": "relationship_start",
+    "description": "Started messaging Jane Lott",
+    "person": "Jane Lott",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-16 23:38:04",
+    "type": "relationship_start",
+    "description": "Started messaging Shane",
+    "person": "Shane",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-21 20:05:06",
+    "type": "relationship_start",
+    "description": "Started messaging Ori",
+    "person": "Ori",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-21 20:05:06",
+    "type": "relationship_start",
+    "description": "First contact with Ori",
+    "person": "Ori",
+    "message_count": 1895
+  },
+  {
+    "date": "2024-09-21 20:13:27",
+    "type": "relationship_start",
+    "description": "Started messaging Ellie Haney",
+    "person": "Ellie Haney",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-21 20:13:27",
+    "type": "relationship_start",
+    "description": "First contact with Ellie Haney",
+    "person": "Ellie Haney",
+    "message_count": 1010
+  },
+  {
+    "date": "2024-09-21 20:24:23",
+    "type": "relationship_start",
+    "description": "Started messaging PJ",
+    "person": "PJ",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-28 18:45:12",
+    "type": "relationship_start",
+    "description": "Started messaging richard- the cool one",
+    "person": "richard- the cool one",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-30 15:13:46",
+    "type": "relationship_start",
+    "description": "Started messaging johnny o",
+    "person": "johnny o",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-30 23:12:20",
+    "type": "relationship_start",
+    "description": "Started messaging UnHinged",
+    "person": "UnHinged",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-09-30 23:12:20",
+    "type": "relationship_start",
+    "description": "First contact with UnHinged",
+    "person": "UnHinged",
+    "message_count": 1179
+  },
+  {
+    "date": "2024-10-01 11:25:27",
+    "type": "relationship_end",
+    "description": "Last message with Michael Kenny",
+    "person": "Michael Kenny",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-10-01 11:25:27",
+    "type": "relationship_end",
+    "description": "Last contact with Michael Kenny (417 days ago)",
+    "person": "Michael Kenny",
+    "message_count": 3532
+  },
+  {
+    "date": "2024-10-02 00:05:27",
+    "type": "relationship_start",
+    "description": "Started messaging raccoon pounderer.",
+    "person": "raccoon pounderer.",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-10-02 00:05:27",
+    "type": "relationship_start",
+    "description": "First contact with raccoon pounderer.",
+    "person": "raccoon pounderer.",
+    "message_count": 2874
+  },
+  {
+    "date": "2024-10-05 09:31:04",
+    "type": "relationship_start",
+    "description": "Started messaging jimmi m",
+    "person": "jimmi m",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-10-05 09:31:04",
+    "type": "relationship_start",
+    "description": "First contact with jimmi m",
+    "person": "jimmi m",
+    "message_count": 702
+  },
+  {
+    "date": "2024-10-05 10:58:16",
+    "type": "relationship_start",
+    "description": "Started messaging +14754343999",
+    "person": "+14754343999",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-10-18 13:21:57",
+    "type": "relationship_end",
+    "description": "Last message with Lily",
+    "person": "Lily",
+    "significance": "high"
+  },
+  {
+    "date": "2024-10-18 13:21:57",
+    "type": "romantic_relationship_end",
+    "description": "Lily relationship ended",
+    "person": "Lily",
+    "significance": "critical"
+  },
+  {
+    "date": "2024-10-18 13:21:57",
+    "type": "relationship_end",
+    "description": "Last contact with Lily (400 days ago)",
+    "person": "Lily",
+    "message_count": 360346
+  },
+  {
+    "date": "2024-11-08 20:09:50",
+    "type": "relationship_end",
+    "description": "Last message with Steph \ud83d\udc95",
+    "person": "Steph \ud83d\udc95",
+    "significance": "high"
+  },
+  {
+    "date": "2024-11-08 20:09:50",
+    "type": "relationship_end",
+    "description": "Last contact with Steph \ud83d\udc95 (379 days ago)",
+    "person": "Steph \ud83d\udc95",
+    "message_count": 21647
+  },
+  {
+    "date": "2024-11-20 19:50:52",
+    "type": "relationship_start",
+    "description": "Started messaging Potato & Thot Daughter",
+    "person": "Potato & Thot Daughter",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-11-21 11:02:07",
+    "type": "relationship_start",
+    "description": "Started messaging Wicked \ud83e\udd18",
+    "person": "Wicked \ud83e\udd18",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-11-22 20:17:19",
+    "type": "relationship_end",
+    "description": "Last message with Veni The Sponsee",
+    "person": "Veni The Sponsee",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-11-22 20:17:19",
+    "type": "relationship_end",
+    "description": "Last contact with Veni The Sponsee (365 days ago)",
+    "person": "Veni The Sponsee",
+    "message_count": 1599
+  },
+  {
+    "date": "2024-11-23 18:56:46",
+    "type": "relationship_start",
+    "description": "Started messaging hoes and homos",
+    "person": "hoes and homos",
+    "significance": "high"
+  },
+  {
+    "date": "2024-12-06 20:42:24",
+    "type": "relationship_start",
+    "description": "Started messaging Hinge Jen",
+    "person": "Hinge Jen",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-12-07 21:02:43",
+    "type": "relationship_start",
+    "description": "Started messaging X",
+    "person": "X",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-12-13 18:27:12",
+    "type": "relationship_start",
+    "description": "Started messaging miles",
+    "person": "miles",
+    "significance": "medium"
+  },
+  {
+    "date": "2024-12-26 22:05:19",
+    "type": "relationship_start",
+    "description": "Started messaging christine",
+    "person": "christine",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-01-12 20:07:20",
+    "type": "relationship_end",
+    "description": "Last contact with Seb (314 days ago)",
+    "person": "Seb",
+    "message_count": 678
+  },
+  {
+    "date": "2025-02-02 00:17:58",
+    "type": "relationship_start",
+    "description": "Started messaging quinn",
+    "person": "quinn",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-02-02 00:17:58",
+    "type": "relationship_start",
+    "description": "First contact with quinn",
+    "person": "quinn",
+    "message_count": 747
+  },
+  {
+    "date": "2025-02-10 14:01:37",
+    "type": "relationship_start",
+    "description": "Started messaging Potato & johnny o",
+    "person": "Potato & johnny o",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-06 19:30:40",
+    "type": "relationship_start",
+    "description": "Started messaging Potato & Thot Daughter & Jane Lott & johnny o",
+    "person": "Potato & Thot Daughter & Jane Lott & johnny o",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-19 15:03:28",
+    "type": "relationship_end",
+    "description": "Last message with Mom & Dad",
+    "person": "Mom & Dad",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-20 21:28:33",
+    "type": "relationship_start",
+    "description": "Started messaging Just a Girl ~litteraly~",
+    "person": "Just a Girl ~litteraly~",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-20 21:28:33",
+    "type": "relationship_start",
+    "description": "First contact with Just a Girl ~litteraly~",
+    "person": "Just a Girl ~litteraly~",
+    "message_count": 688
+  },
+  {
+    "date": "2025-03-24 22:08:55",
+    "type": "relationship_start",
+    "description": "Started messaging mike b",
+    "person": "mike b",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-26 14:58:15",
+    "type": "relationship_start",
+    "description": "Started messaging Ori is the best ",
+    "person": "Ori is the best ",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-27 13:11:17",
+    "type": "relationship_end",
+    "description": "Last message with Pauly Boss",
+    "person": "Pauly Boss",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-03-27 13:11:17",
+    "type": "relationship_end",
+    "description": "Last contact with Pauly Boss (240 days ago)",
+    "person": "Pauly Boss",
+    "message_count": 1595
+  },
+  {
+    "date": "2025-03-28 20:34:02",
+    "type": "relationship_start",
+    "description": "Started messaging Attractive men pretending to be old man Logan",
+    "person": "Attractive men pretending to be old man Logan",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-04-01 21:21:01",
+    "type": "relationship_start",
+    "description": "Started messaging belladonna",
+    "person": "belladonna",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-04-01 21:21:01",
+    "type": "relationship_start",
+    "description": "First contact with belladonna",
+    "person": "belladonna",
+    "message_count": 3502
+  },
+  {
+    "date": "2025-04-07 20:09:30",
+    "type": "relationship_end",
+    "description": "Last message with Max",
+    "person": "Max",
+    "significance": "high"
+  },
+  {
+    "date": "2025-04-07 20:09:30",
+    "type": "relationship_end",
+    "description": "Last contact with Max (229 days ago)",
+    "person": "Max",
+    "message_count": 46685
+  },
+  {
+    "date": "2025-04-12 01:22:57",
+    "type": "relationship_start",
+    "description": "Started messaging autism party",
+    "person": "autism party",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-04-21 17:02:25",
+    "type": "relationship_start",
+    "description": "Started messaging Aunts, Uncs, and Cunts\ud83d\udc9c",
+    "person": "Aunts, Uncs, and Cunts\ud83d\udc9c",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-04-24 18:43:07",
+    "type": "relationship_start",
+    "description": "Started messaging miles & Potato & MOOSE T & raccoon pounderer. & Ori & d(real) & Dean Martel & Thot Daughter & mike b",
+    "person": "miles & Potato & MOOSE T & raccoon pounderer. & Ori & d(real) & Dean Martel & Thot Daughter & mike b",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-04-29 00:30:12",
+    "type": "relationship_start",
+    "description": "Started messaging Yacht Cock ",
+    "person": "Yacht Cock ",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-05-03 12:53:53",
+    "type": "relationship_end",
+    "description": "Last contact with Colette (203 days ago)",
+    "person": "Colette",
+    "message_count": 991
+  },
+  {
+    "date": "2025-05-05 21:07:21",
+    "type": "relationship_start",
+    "description": "Started messaging fuck around and find out",
+    "person": "fuck around and find out",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-05-15 03:35:29",
+    "type": "relationship_end",
+    "description": "Last message with Julia Rain Grounds",
+    "person": "Julia Rain Grounds",
+    "significance": "high"
+  },
+  {
+    "date": "2025-05-15 03:35:29",
+    "type": "relationship_end",
+    "description": "Last contact with Julia Rain Grounds (192 days ago)",
+    "person": "Julia Rain Grounds",
+    "message_count": 32100
+  },
+  {
+    "date": "2025-05-24 20:46:51",
+    "type": "relationship_end",
+    "description": "Last message with Cole",
+    "person": "Cole",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-05-24 20:46:51",
+    "type": "relationship_end",
+    "description": "Last contact with Cole (182 days ago)",
+    "person": "Cole",
+    "message_count": 1379
+  },
+  {
+    "date": "2025-06-06 22:21:55",
+    "type": "relationship_start",
+    "description": "Started messaging Natalia (young and restless)",
+    "person": "Natalia (young and restless)",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-07 21:05:31",
+    "type": "relationship_start",
+    "description": "Started messaging Terminally Burt",
+    "person": "Terminally Burt",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-09 15:27:48",
+    "type": "relationship_start",
+    "description": "Started messaging sean",
+    "person": "sean",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-15 15:56:17",
+    "type": "relationship_start",
+    "description": "Started messaging toast Oreta",
+    "person": "toast Oreta",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-15 15:56:17",
+    "type": "relationship_start",
+    "description": "First contact with toast Oreta",
+    "person": "toast Oreta",
+    "message_count": 1667
+  },
+  {
+    "date": "2025-06-21 11:03:27",
+    "type": "relationship_start",
+    "description": "Started messaging Oliver sponsee",
+    "person": "Oliver sponsee",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-21 11:03:27",
+    "type": "relationship_start",
+    "description": "First contact with Oliver sponsee",
+    "person": "Oliver sponsee",
+    "message_count": 838
+  },
+  {
+    "date": "2025-06-26 21:47:56",
+    "type": "relationship_start",
+    "description": "Started messaging Jessica",
+    "person": "Jessica",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-06-26 21:47:56",
+    "type": "romantic_relationship_start",
+    "description": "Jessica relationship began (romantic, confirmed)",
+    "person": "Jessica",
+    "significance": "high"
+  },
+  {
+    "date": "2025-06-26 21:47:56",
+    "type": "relationship_start",
+    "description": "First contact with Jessica",
+    "person": "Jessica",
+    "message_count": 4606
+  },
+  {
+    "date": "2025-07-10 00:41:10",
+    "type": "relationship_start",
+    "description": "Started messaging Ori & toast Oreta",
+    "person": "Ori & toast Oreta",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-07-19 21:47:05",
+    "type": "relationship_start",
+    "description": "Started messaging +12035546550",
+    "person": "+12035546550",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-07-30 23:44:04",
+    "type": "relationship_start",
+    "description": "Started messaging Potato & sean",
+    "person": "Potato & sean",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-08-04 07:38:22",
+    "type": "relationship_start",
+    "description": "Started messaging Grittytude",
+    "person": "Grittytude",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-08-09 18:43:38",
+    "type": "relationship_start",
+    "description": "Started messaging Phillip sponsee",
+    "person": "Phillip sponsee",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-08-10 22:23:05",
+    "type": "relationship_start",
+    "description": "Started messaging drew",
+    "person": "drew",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-08-31 22:16:11",
+    "type": "relationship_start",
+    "description": "Started messaging Gratitudeversity",
+    "person": "Gratitudeversity",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-08-31 22:16:11",
+    "type": "relationship_start",
+    "description": "First contact with Gratitudeversity",
+    "person": "Gratitudeversity",
+    "message_count": 5930
+  },
+  {
+    "date": "2025-09-04 16:31:41",
+    "type": "relationship_start",
+    "description": "Started messaging nick",
+    "person": "nick",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-09-12 10:11:10",
+    "type": "relationship_start",
+    "description": "Started messaging why didn\u2019t anyone add drew?",
+    "person": "why didn\u2019t anyone add drew?",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-09-17 21:16:44",
+    "type": "relationship_start",
+    "description": "Started messaging becca",
+    "person": "becca",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-10-04 19:51:29",
+    "type": "relationship_start",
+    "description": "Started messaging Jessica & becca",
+    "person": "Jessica & becca",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-10-21 13:04:09",
+    "type": "relationship_start",
+    "description": "Started messaging RJS Sing Along Adventure",
+    "person": "RJS Sing Along Adventure",
+    "significance": "medium"
+  },
+  {
+    "date": "2025-10-28 17:31:57",
+    "type": "relationship_start",
+    "description": "Started messaging The Unction\u2122\ufe0f",
+    "person": "The Unction\u2122\ufe0f",
+    "significance": "medium"
+  }
+]

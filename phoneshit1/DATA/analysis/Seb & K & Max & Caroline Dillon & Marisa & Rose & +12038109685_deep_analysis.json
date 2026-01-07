@@ -1,0 +1,41 @@
+{
+  "person": "Seb & K & Max & Caroline Dillon & Marisa & Rose & +12038109685",
+  "type": "group",
+  "total_messages": 48,
+  "first_message": "2022-03-27 15:43:06",
+  "last_message": "2022-03-30 12:35:27",
+  "duration_days": 2,
+  "days_since_last": 1330,
+  "your_messages": 1,
+  "their_messages": 47,
+  "balance": 2.083333333333333,
+  "emotional_keywords": {
+    "love": 7,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-03-27",
+      "end_date": "2022-03-29",
+      "duration_days": 1,
+      "message_count": 40,
+      "daily_avg": 40.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2022-03-29",
+      "end_date": "2022-03-30",
+      "duration_days": 1,
+      "message_count": 8,
+      "daily_avg": 8.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

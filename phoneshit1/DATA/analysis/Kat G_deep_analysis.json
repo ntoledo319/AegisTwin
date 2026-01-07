@@ -1,0 +1,49 @@
+{
+  "person": "Kat G",
+  "type": "individual",
+  "total_messages": 53,
+  "first_message": "2022-06-02 13:47:33",
+  "last_message": "2022-08-15 12:15:42",
+  "duration_days": 73,
+  "days_since_last": 1192,
+  "your_messages": 27,
+  "their_messages": 26,
+  "balance": 50.943396226415096,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2022-06-02",
+      "end_date": "2022-06-27",
+      "duration_days": 24,
+      "message_count": 2,
+      "daily_avg": 0.08333333333333333,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-06-27",
+      "end_date": "2022-07-21",
+      "duration_days": 24,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-21",
+      "end_date": "2022-08-15",
+      "duration_days": 24,
+      "message_count": 51,
+      "daily_avg": 2.125,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Shane",
+  "type": "individual",
+  "total_messages": 170,
+  "first_message": "2024-09-16 23:38:04",
+  "last_message": "2024-09-20 12:01:12",
+  "duration_days": 3,
+  "days_since_last": 425,
+  "your_messages": 80,
+  "their_messages": 90,
+  "balance": 47.05882352941176,
+  "emotional_keywords": {
+    "love": 7,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 4,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2024-09-16",
+      "end_date": "2024-09-18",
+      "duration_days": 1,
+      "message_count": 119,
+      "daily_avg": 119.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2024-09-18",
+      "end_date": "2024-09-20",
+      "duration_days": 1,
+      "message_count": 51,
+      "daily_avg": 51.0,
+      "characteristics": "High intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

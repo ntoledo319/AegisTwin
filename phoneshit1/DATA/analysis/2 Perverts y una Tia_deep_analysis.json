@@ -1,0 +1,57 @@
+{
+  "person": "2 Perverts y una Tia",
+  "type": "group",
+  "total_messages": 223,
+  "first_message": "2021-11-30 20:59:49",
+  "last_message": "2022-10-30 14:08:13",
+  "duration_days": 333,
+  "days_since_last": 1116,
+  "your_messages": 100,
+  "their_messages": 123,
+  "balance": 44.843049327354265,
+  "emotional_keywords": {
+    "love": 23,
+    "conflict": 3,
+    "breakup": 4,
+    "reconciliation": 0,
+    "intimacy": 9,
+    "support": 5,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2021-11-30",
+      "end_date": "2022-02-22",
+      "duration_days": 83,
+      "message_count": 69,
+      "daily_avg": 0.8313253012048193,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-02-22",
+      "end_date": "2022-05-16",
+      "duration_days": 83,
+      "message_count": 16,
+      "daily_avg": 0.1927710843373494,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-05-16",
+      "end_date": "2022-08-08",
+      "duration_days": 83,
+      "message_count": 17,
+      "daily_avg": 0.20481927710843373,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-08-08",
+      "end_date": "2022-10-30",
+      "duration_days": 83,
+      "message_count": 121,
+      "daily_avg": 1.4578313253012047,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

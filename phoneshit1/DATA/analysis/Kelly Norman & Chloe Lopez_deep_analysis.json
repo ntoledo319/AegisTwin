@@ -1,0 +1,41 @@
+{
+  "person": "Kelly Norman & Chloe Lopez",
+  "type": "group",
+  "total_messages": 23,
+  "first_message": "2021-09-26 15:50:11",
+  "last_message": "2021-10-02 17:23:18",
+  "duration_days": 6,
+  "days_since_last": 1509,
+  "your_messages": 5,
+  "their_messages": 18,
+  "balance": 21.73913043478261,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-09-26",
+      "end_date": "2021-09-29",
+      "duration_days": 3,
+      "message_count": 16,
+      "daily_avg": 5.333333333333333,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2021-09-29",
+      "end_date": "2021-10-02",
+      "duration_days": 3,
+      "message_count": 7,
+      "daily_avg": 2.3333333333333335,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

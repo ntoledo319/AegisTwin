@@ -1,0 +1,41 @@
+{
+  "person": "jack",
+  "type": "individual",
+  "total_messages": 57,
+  "first_message": "2021-06-18 00:18:15",
+  "last_message": "2021-06-24 21:22:57",
+  "duration_days": 6,
+  "days_since_last": 1609,
+  "your_messages": 30,
+  "their_messages": 27,
+  "balance": 52.63157894736842,
+  "emotional_keywords": {
+    "love": 1,
+    "conflict": 1,
+    "breakup": 6,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2021-06-18",
+      "end_date": "2021-06-21",
+      "duration_days": 3,
+      "message_count": 56,
+      "daily_avg": 18.666666666666668,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2021-06-21",
+      "end_date": "2021-06-24",
+      "duration_days": 3,
+      "message_count": 1,
+      "daily_avg": 0.3333333333333333,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

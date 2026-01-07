@@ -1,0 +1,41 @@
+{
+  "person": "Mom & Dad & Aunt Eric Cell & Mark Cell & Grandma T Cell & Connie & Alisha & +12037107577 & Tommy & +12033866608 & +14753313011",
+  "type": "group",
+  "total_messages": 8,
+  "first_message": "2023-05-28 12:01:43",
+  "last_message": "2023-05-28 12:07:49",
+  "duration_days": 0,
+  "days_since_last": 906,
+  "your_messages": 0,
+  "their_messages": 8,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-05-28",
+      "end_date": "2023-05-28",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-05-28",
+      "end_date": "2023-05-28",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

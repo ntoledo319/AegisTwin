@@ -1,0 +1,620 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+    .twin-interface {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 2rem;
+        height: calc(100vh - 180px);
+    }
+    
+    .twin-chat-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .twin-info-panel {
+        background: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-light);
+        border: 1px solid var(--border-color);
+        overflow: hidden;
+    }
+    
+    .twin-avatar-section {
+        background: linear-gradient(135deg, var(--primary-color), #4fc3f7);
+        color: white;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .twin-avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin: 0 auto 1rem;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .twin-name {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    
+    .twin-status {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .personality-traits {
+        padding: 1.5rem;
+    }
+    
+    .trait-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .trait-label {
+        font-size: 0.9rem;
+        color: var(--medium-gray);
+    }
+    
+    .trait-value {
+        font-weight: 500;
+        color: var(--secondary-color);
+    }
+    
+    .trait-bar {
+        width: 100%;
+        height: 4px;
+        background: var(--border-color);
+        border-radius: 2px;
+        margin-top: 0.5rem;
+        overflow: hidden;
+    }
+    
+    .trait-progress {
+        height: 100%;
+        background: linear-gradient(90deg, var(--primary-color), #4fc3f7);
+        border-radius: 2px;
+        transition: width 0.5s ease;
+    }
+    
+    .conversation-controls {
+        padding: 1.5rem;
+        border-top: 1px solid var(--border-color);
+    }
+    
+    .control-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 0.75rem;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius-small);
+        background: white;
+        color: var(--medium-gray);
+        cursor: pointer;
+        transition: var(--transition-fast);
+    }
+    
+    .control-btn:hover {
+        background: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+    }
+    
+    .typing-indicator {
+        display: none;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 1.5rem;
+        color: var(--medium-gray);
+        font-style: italic;
+    }
+    
+    .typing-dots {
+        display: flex;
+        gap: 2px;
+    }
+    
+    .typing-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--primary-color);
+        animation: typingDot 1.4s ease-in-out infinite both;
+    }
+    
+    .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+    .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+    
+    @keyframes typingDot {
+        0%, 80%, 100% { transform: scale(0); }
+        40% { transform: scale(1); }
+    }
+    
+    .session-info {
+        padding: 1rem 1.5rem;
+        background: var(--light-gray);
+        border-top: 1px solid var(--border-color);
+        font-size: 0.875rem;
+        color: var(--medium-gray);
+    }
+    
+    .message-timestamp {
+        font-size: 0.75rem;
+        color: var(--medium-gray);
+        margin-top: 0.25rem;
+        opacity: 0.7;
+    }
+    
+    .message-actions {
+        display: none;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .message:hover .message-actions {
+        display: flex;
+    }
+    
+    .message-action-btn {
+        background: none;
+        border: none;
+        color: var(--medium-gray);
+        cursor: pointer;
+        padding: 0.25rem;
+        border-radius: var(--border-radius-small);
+        transition: var(--transition-fast);
+    }
+    
+    .message-action-btn:hover {
+        background: var(--border-color);
+        color: var(--primary-color);
+    }
+    
+    .quick-suggestions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 1.5rem 0;
+    }
+    
+    .suggestion-chip {
+        background: var(--border-color);
+        color: var(--medium-gray);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition: var(--transition-fast);
+        border: none;
+    }
+    
+    .suggestion-chip:hover {
+        background: var(--primary-color);
+        color: white;
+    }
+    
+    @media (max-width: 992px) {
+        .twin-interface {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr;
+        }
+        
+        .twin-info-panel {
+            order: 2;
+        }
+        
+        .twin-chat-section {
+            order: 1;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block header_actions %}
+<div class="header-actions">
+    <span class="badge badge-success">
+        <i class="fas fa-circle"></i> 
+        Twin Active
+    </span>
+    <button class="btn btn-outline" onclick="clearConversation()">
+        <i class="fas fa-trash"></i> Clear Chat
+    </button>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="twin-interface">
+    <div class="twin-chat-section">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-avatar">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div>
+                    <div class="twin-name">Your Cognitive Twin</div>
+                    <div class="chat-status">
+                        <div class="status-indicator"></div>
+                        Learning and adapting
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <button class="control-btn" onclick="toggleVoiceMode()" title="Voice Mode">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                {% if conversation_history %}
+                    {% for message in conversation_history %}
+                    <div class="message message-{{ 'user' if message.sender == 'user' else 'twin' }}">
+                        {{ message.text }}
+                        <div class="message-timestamp">{{ message.timestamp }}</div>
+                        <div class="message-actions">
+                            <button class="message-action-btn" onclick="copyMessage(this)" title="Copy">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                            <button class="message-action-btn" onclick="likeMessage(this)" title="Like">
+                                <i class="fas fa-thumbs-up"></i>
+                            </button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="message message-twin">
+                        Hello! I'm your Cognitive Twin. I've been learning from your data and I'm ready to have a conversation with you. How can I help you today?
+                        <div class="message-timestamp">Just now</div>
+                    </div>
+                {% endif %}
+                
+                <div class="typing-indicator" id="typingIndicator">
+                    <div class="typing-dots">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                    Your twin is thinking...
+                </div>
+            </div>
+            
+            <div class="quick-suggestions">
+                <button class="suggestion-chip" onclick="sendSuggestion('Tell me about my communication patterns')">
+                    Communication patterns
+                </button>
+                <button class="suggestion-chip" onclick="sendSuggestion('What insights do you have about me?')">
+                    Personal insights
+                </button>
+                <button class="suggestion-chip" onclick="sendSuggestion('How has my behavior changed over time?')">
+                    Behavioral changes
+                </button>
+                <button class="suggestion-chip" onclick="sendSuggestion('What should I focus on improving?')">
+                    Improvement suggestions
+                </button>
+            </div>
+            
+            <form class="chat-input chat-form" onsubmit="sendMessage(event)">
+                <input type="text" placeholder="Type your message..." autocomplete="off" required>
+                <button type="submit" class="chat-send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="twin-info-panel">
+        <div class="twin-avatar-section">
+            <div class="twin-avatar">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="twin-name">{{ twin_state.name or 'Your Twin' }}</div>
+            <div class="twin-status">
+                <div class="status-indicator"></div>
+                {{ twin_state.status or 'Active and Learning' }}
+            </div>
+        </div>
+        
+        <div class="personality-traits">
+            <h4>Personality Traits</h4>
+            {% set traits = twin_state.personality_traits or {
+                'openness': 0.7,
+                'conscientiousness': 0.6,
+                'extraversion': 0.5,
+                'agreeableness': 0.8,
+                'neuroticism': 0.3
+            } %}
+            
+            <div class="trait-item">
+                <div>
+                    <div class="trait-label">Openness</div>
+                    <div class="trait-bar">
+                        <div class="trait-progress" style="width: {{ (traits.openness * 100)|round }}%"></div>
+                    </div>
+                </div>
+                <div class="trait-value">{{ (traits.openness * 100)|round }}%</div>
+            </div>
+            
+            <div class="trait-item">
+                <div>
+                    <div class="trait-label">Conscientiousness</div>
+                    <div class="trait-bar">
+                        <div class="trait-progress" style="width: {{ (traits.conscientiousness * 100)|round }}%"></div>
+                    </div>
+                </div>
+                <div class="trait-value">{{ (traits.conscientiousness * 100)|round }}%</div>
+            </div>
+            
+            <div class="trait-item">
+                <div>
+                    <div class="trait-label">Extraversion</div>
+                    <div class="trait-bar">
+                        <div class="trait-progress" style="width: {{ (traits.extraversion * 100)|round }}%"></div>
+                    </div>
+                </div>
+                <div class="trait-value">{{ (traits.extraversion * 100)|round }}%</div>
+            </div>
+            
+            <div class="trait-item">
+                <div>
+                    <div class="trait-label">Agreeableness</div>
+                    <div class="trait-bar">
+                        <div class="trait-progress" style="width: {{ (traits.agreeableness * 100)|round }}%"></div>
+                    </div>
+                </div>
+                <div class="trait-value">{{ (traits.agreeableness * 100)|round }}%</div>
+            </div>
+            
+            <div class="trait-item">
+                <div>
+                    <div class="trait-label">Neuroticism</div>
+                    <div class="trait-bar">
+                        <div class="trait-progress" style="width: {{ (traits.neuroticism * 100)|round }}%"></div>
+                    </div>
+                </div>
+                <div class="trait-value">{{ (traits.neuroticism * 100)|round }}%</div>
+            </div>
+        </div>
+        
+        <div class="conversation-controls">
+            <h4>Controls</h4>
+            <button class="control-btn" onclick="analyzePersonality()">
+                <i class="fas fa-brain"></i>
+                Analyze Personality
+            </button>
+            <button class="control-btn" onclick="exportConversation()">
+                <i class="fas fa-download"></i>
+                Export Chat
+            </button>
+            <button class="control-btn" onclick="viewMemories()">
+                <i class="fas fa-memory"></i>
+                View Memories
+            </button>
+        </div>
+        
+        <div class="session-info">
+            <strong>Session:</strong> {{ session_id }}<br>
+            <strong>Started:</strong> {{ session_start or 'Just now' }}<br>
+            <strong>Messages:</strong> <span id="messageCount">{{ conversation_history|length or 1 }}</span>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let sessionId = '{{ session_id }}';
+let messageCount = {{ conversation_history|length or 1 }};
+
+async function sendMessage(event) {
+    event.preventDefault();
+    
+    const input = event.target.querySelector('input');
+    const message = input.value.trim();
+    if (!message) return;
+    
+    // Clear input
+    input.value = '';
+    
+    // Add user message
+    addMessage(message, 'user');
+    
+    // Show typing indicator
+    showTypingIndicator();
+    
+    try {
+        // Send to API
+        const response = await fetch('/api/digital-twin/message', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                text: message,
+                user_id: 'current_user',
+                context: {
+                    session_id: sessionId
+                }
+            })
+        });
+        
+        const data = await response.json();
+        
+        // Hide typing indicator
+        hideTypingIndicator();
+        
+        // Add twin response
+        if (data.text) {
+            addMessage(data.text, 'twin');
+        } else if (data.error) {
+            addMessage(`Error: ${data.error}`, 'system');
+        }
+        
+    } catch (error) {
+        console.error('Error sending message:', error);
+        hideTypingIndicator();
+        addMessage('Sorry, I encountered an error. Please try again.', 'system');
+    }
+}
+
+function addMessage(text, sender) {
+    const messagesContainer = document.getElementById('chatMessages');
+    const messageEl = document.createElement('div');
+    messageEl.className = `message message-${sender}`;
+    
+    const timestamp = new Date().toLocaleTimeString();
+    messageEl.innerHTML = `
+        ${text}
+        <div class="message-timestamp">${timestamp}</div>
+        <div class="message-actions">
+            <button class="message-action-btn" onclick="copyMessage(this)" title="Copy">
+                <i class="fas fa-copy"></i>
+            </button>
+            <button class="message-action-btn" onclick="likeMessage(this)" title="Like">
+                <i class="fas fa-thumbs-up"></i>
+            </button>
+        </div>
+    `;
+    
+    // Insert before typing indicator
+    const typingIndicator = document.getElementById('typingIndicator');
+    messagesContainer.insertBefore(messageEl, typingIndicator);
+    
+    // Scroll to bottom
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    
+    // Update message count
+    messageCount++;
+    document.getElementById('messageCount').textContent = messageCount;
+    
+    // Animate message
+    messageEl.style.opacity = '0';
+    messageEl.style.transform = 'translateY(10px)';
+    setTimeout(() => {
+        messageEl.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        messageEl.style.opacity = '1';
+        messageEl.style.transform = 'translateY(0)';
+    }, 10);
+}
+
+function showTypingIndicator() {
+    document.getElementById('typingIndicator').style.display = 'flex';
+    const messagesContainer = document.getElementById('chatMessages');
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+function hideTypingIndicator() {
+    document.getElementById('typingIndicator').style.display = 'none';
+}
+
+function sendSuggestion(suggestion) {
+    const input = document.querySelector('.chat-input input');
+    input.value = suggestion;
+    input.focus();
+}
+
+function copyMessage(button) {
+    const messageText = button.closest('.message').firstChild.textContent.trim();
+    navigator.clipboard.writeText(messageText).then(() => {
+        showNotification('Message copied to clipboard', 'success');
+    });
+}
+
+function likeMessage(button) {
+    button.innerHTML = '<i class="fas fa-thumbs-up text-primary"></i>';
+    button.disabled = true;
+    showNotification('Feedback recorded', 'success');
+}
+
+function clearConversation() {
+    if (confirm('Are you sure you want to clear this conversation?')) {
+        const messagesContainer = document.getElementById('chatMessages');
+        const messages = messagesContainer.querySelectorAll('.message:not(.message-twin):first-child');
+        messages.forEach(msg => msg.remove());
+        
+        messageCount = 1;
+        document.getElementById('messageCount').textContent = messageCount;
+        
+        showNotification('Conversation cleared', 'info');
+    }
+}
+
+function analyzePersonality() {
+    showNotification('Analyzing personality...', 'info');
+    
+    // Simulate API call
+    setTimeout(() => {
+        showNotification('Personality analysis updated', 'success');
+        // Update trait bars with animation
+        document.querySelectorAll('.trait-progress').forEach(bar => {
+            const currentWidth = parseInt(bar.style.width);
+            const newWidth = Math.min(100, currentWidth + Math.random() * 10);
+            bar.style.width = newWidth + '%';
+            bar.closest('.trait-item').querySelector('.trait-value').textContent = Math.round(newWidth) + '%';
+        });
+    }, 2000);
+}
+
+function exportConversation() {
+    const messages = Array.from(document.querySelectorAll('.message')).map(msg => {
+        const text = msg.firstChild.textContent.trim();
+        const sender = msg.classList.contains('message-user') ? 'User' : 'Twin';
+        const timestamp = msg.querySelector('.message-timestamp')?.textContent || 'Unknown time';
+        return `[${timestamp}] ${sender}: ${text}`;
+    }).join('\n');
+    
+    const blob = new Blob([messages], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `conversation-${sessionId}-${new Date().toISOString().split('T')[0]}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+    
+    showNotification('Conversation exported', 'success');
+}
+
+function viewMemories() {
+    window.open(`/memories?session=${sessionId}`, '_blank');
+}
+
+function toggleVoiceMode() {
+    showNotification('Voice mode not yet implemented', 'info');
+}
+
+// Auto-scroll to bottom on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const messagesContainer = document.getElementById('chatMessages');
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    
+    // Focus input
+    document.querySelector('.chat-input input').focus();
+});
+
+// Handle Enter key in suggestions
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && e.target.classList.contains('suggestion-chip')) {
+        e.target.click();
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,49 @@
+{
+  "person": "MOOSE T & gabe cohen & adien max house",
+  "type": "group",
+  "total_messages": 3,
+  "first_message": "2025-04-04 15:31:17",
+  "last_message": "2025-06-20 21:10:39",
+  "duration_days": 77,
+  "days_since_last": 152,
+  "your_messages": 2,
+  "their_messages": 1,
+  "balance": 66.66666666666666,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2025-04-04",
+      "end_date": "2025-04-30",
+      "duration_days": 25,
+      "message_count": 2,
+      "daily_avg": 0.08,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-04-30",
+      "end_date": "2025-05-26",
+      "duration_days": 25,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-05-26",
+      "end_date": "2025-06-20",
+      "duration_days": 25,
+      "message_count": 1,
+      "daily_avg": 0.04,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

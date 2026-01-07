@@ -1,0 +1,41 @@
+{
+  "person": "Alana",
+  "type": "individual",
+  "total_messages": 18,
+  "first_message": "2021-12-05 08:50:56",
+  "last_message": "2022-02-03 17:53:43",
+  "duration_days": 60,
+  "days_since_last": 1385,
+  "your_messages": 5,
+  "their_messages": 13,
+  "balance": 27.77777777777778,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2021-12-05",
+      "end_date": "2022-01-04",
+      "duration_days": 30,
+      "message_count": 12,
+      "daily_avg": 0.4,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-01-04",
+      "end_date": "2022-02-03",
+      "duration_days": 30,
+      "message_count": 6,
+      "daily_avg": 0.2,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

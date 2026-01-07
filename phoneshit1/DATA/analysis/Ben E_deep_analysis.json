@@ -1,0 +1,57 @@
+{
+  "person": "Ben E",
+  "type": "individual",
+  "total_messages": 181,
+  "first_message": "2023-09-07 19:22:08",
+  "last_message": "2025-07-01 15:11:35",
+  "duration_days": 662,
+  "days_since_last": 141,
+  "your_messages": 89,
+  "their_messages": 92,
+  "balance": 49.171270718232044,
+  "emotional_keywords": {
+    "love": 25,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2023-09-07",
+      "end_date": "2024-02-20",
+      "duration_days": 165,
+      "message_count": 46,
+      "daily_avg": 0.2787878787878788,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-02-20",
+      "end_date": "2024-08-04",
+      "duration_days": 165,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-04",
+      "end_date": "2025-01-16",
+      "duration_days": 165,
+      "message_count": 9,
+      "daily_avg": 0.05454545454545454,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-01-16",
+      "end_date": "2025-07-01",
+      "duration_days": 165,
+      "message_count": 126,
+      "daily_avg": 0.7636363636363637,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

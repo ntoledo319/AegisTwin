@@ -1,0 +1,41 @@
+{
+  "person": "Marisa & Travis Bloom & +12039471507",
+  "type": "group",
+  "total_messages": 24,
+  "first_message": "2022-07-21 21:45:01",
+  "last_message": "2022-07-22 02:15:26",
+  "duration_days": 0,
+  "days_since_last": 1216,
+  "your_messages": 0,
+  "their_messages": 24,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-07-21",
+      "end_date": "2022-07-22",
+      "duration_days": 1,
+      "message_count": 21,
+      "daily_avg": 21.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2022-07-22",
+      "end_date": "2022-07-22",
+      "duration_days": 1,
+      "message_count": 3,
+      "daily_avg": 3.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

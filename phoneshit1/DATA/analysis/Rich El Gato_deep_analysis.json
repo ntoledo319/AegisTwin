@@ -1,0 +1,57 @@
+{
+  "person": "Rich El Gato",
+  "type": "individual",
+  "total_messages": 405,
+  "first_message": "2018-04-11 22:02:29",
+  "last_message": "2018-11-06 12:50:59",
+  "duration_days": 208,
+  "days_since_last": 2570,
+  "your_messages": 203,
+  "their_messages": 202,
+  "balance": 50.123456790123456,
+  "emotional_keywords": {
+    "love": 3,
+    "conflict": 9,
+    "breakup": 2,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 0,
+    "sadness": 10
+  },
+  "phases": [
+    {
+      "start_date": "2018-04-11",
+      "end_date": "2018-06-03",
+      "duration_days": 52,
+      "message_count": 270,
+      "daily_avg": 5.1923076923076925,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2018-06-03",
+      "end_date": "2018-07-25",
+      "duration_days": 52,
+      "message_count": 25,
+      "daily_avg": 0.4807692307692308,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2018-07-25",
+      "end_date": "2018-09-15",
+      "duration_days": 52,
+      "message_count": 99,
+      "daily_avg": 1.9038461538461537,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2018-09-15",
+      "end_date": "2018-11-06",
+      "duration_days": 52,
+      "message_count": 11,
+      "daily_avg": 0.21153846153846154,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

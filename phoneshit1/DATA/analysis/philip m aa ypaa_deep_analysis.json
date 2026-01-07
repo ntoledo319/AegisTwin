@@ -1,0 +1,49 @@
+{
+  "person": "philip m aa ypaa",
+  "type": "individual",
+  "total_messages": 42,
+  "first_message": "2025-06-21 20:26:55",
+  "last_message": "2025-10-26 13:58:37",
+  "duration_days": 126,
+  "days_since_last": 24,
+  "your_messages": 19,
+  "their_messages": 23,
+  "balance": 45.23809523809524,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 2,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-21",
+      "end_date": "2025-08-03",
+      "duration_days": 42,
+      "message_count": 28,
+      "daily_avg": 0.6666666666666666,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-08-03",
+      "end_date": "2025-09-14",
+      "duration_days": 42,
+      "message_count": 12,
+      "daily_avg": 0.2857142857142857,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-09-14",
+      "end_date": "2025-10-26",
+      "duration_days": 42,
+      "message_count": 2,
+      "daily_avg": 0.047619047619047616,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

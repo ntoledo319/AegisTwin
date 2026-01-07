@@ -1,0 +1,63 @@
+# CogniLink Interface Configuration
+
+# Logging configuration
+log_level: "INFO"
+log_file: "cognilink.log"
+
+# CLI configuration
+cli:
+  # Default output directory for generated files
+  output_dir: "output"
+  
+  # Default file format for exports
+  default_export_format: "json"
+  
+  # Show progress bars for long operations
+  show_progress: true
+  
+  # Verbosity level (0-3)
+  verbosity: 1
+
+# Report configuration
+reports:
+  # Templates directory (path relative to installation directory)
+  templates_dir: "templates"
+  
+  # Default templates
+  default_templates:
+    html: "report.html"
+    markdown: "report.md"
+    text: "report.txt"
+  
+  # Report styling
+  styling:
+    # Color scheme
+    colors:
+      primary: "#3498db"
+      secondary: "#2c3e50"
+      accent: "#e74c3c"
+      text: "#333333"
+      background: "#ffffff"
+    
+    # Font settings
+    fonts:
+      main: "Arial, sans-serif"
+      headings: "Helvetica, Arial, sans-serif"
+      code: "Consolas, monospace"
+  
+  # Chart settings
+  charts:
+    # Include interactive charts in HTML reports
+    interactive: true
+    
+    # Default chart type for frequency data
+    frequency_chart: "line"
+    
+    # Default chart type for distribution data
+    distribution_chart: "bar"
+    
+    # Default chart type for relationship data
+    relationship_chart: "network"
+    
+    # Default chart type for topic data
+    topic_chart: "bubble"

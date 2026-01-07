@@ -1,0 +1,41 @@
+{
+  "person": "Steph \ud83d\udc95 & Julia Rain Grounds & Potato",
+  "type": "group",
+  "total_messages": 100,
+  "first_message": "2024-04-21 14:36:24",
+  "last_message": "2024-05-18 10:45:27",
+  "duration_days": 26,
+  "days_since_last": 550,
+  "your_messages": 14,
+  "their_messages": 86,
+  "balance": 14.000000000000002,
+  "emotional_keywords": {
+    "love": 23,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-21",
+      "end_date": "2024-05-05",
+      "duration_days": 13,
+      "message_count": 59,
+      "daily_avg": 4.538461538461538,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-05-05",
+      "end_date": "2024-05-18",
+      "duration_days": 13,
+      "message_count": 41,
+      "daily_avg": 3.1538461538461537,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

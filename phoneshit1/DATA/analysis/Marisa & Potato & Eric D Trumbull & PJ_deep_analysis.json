@@ -1,0 +1,41 @@
+{
+  "person": "Marisa & Potato & Eric D Trumbull & PJ",
+  "type": "group",
+  "total_messages": 20,
+  "first_message": "2024-12-07 22:06:01",
+  "last_message": "2024-12-07 23:30:34",
+  "duration_days": 0,
+  "days_since_last": 347,
+  "your_messages": 3,
+  "their_messages": 17,
+  "balance": 15.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-12-07",
+      "end_date": "2024-12-07",
+      "duration_days": 1,
+      "message_count": 16,
+      "daily_avg": 16.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-12-07",
+      "end_date": "2024-12-07",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

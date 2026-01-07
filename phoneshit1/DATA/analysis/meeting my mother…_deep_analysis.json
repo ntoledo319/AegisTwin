@@ -1,0 +1,41 @@
+{
+  "person": "meeting my mother\u2026",
+  "type": "group",
+  "total_messages": 70,
+  "first_message": "2025-04-26 14:22:00",
+  "last_message": "2025-05-02 19:14:50",
+  "duration_days": 6,
+  "days_since_last": 201,
+  "your_messages": 15,
+  "their_messages": 55,
+  "balance": 21.428571428571427,
+  "emotional_keywords": {
+    "love": 27,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2025-04-26",
+      "end_date": "2025-04-29",
+      "duration_days": 3,
+      "message_count": 6,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-04-29",
+      "end_date": "2025-05-02",
+      "duration_days": 3,
+      "message_count": 64,
+      "daily_avg": 21.333333333333332,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

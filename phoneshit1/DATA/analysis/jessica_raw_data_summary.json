@@ -1,0 +1,31 @@
+{
+  "total_messages": 4606,
+  "date_range": {
+    "first": "2025-06-26 21:47:56",
+    "last": "2025-11-19 23:22:58"
+  },
+  "columns": [
+    "Chat Session",
+    "Message Date",
+    "Delivered Date",
+    "Read Date",
+    "Edited Date",
+    "Service",
+    "Type",
+    "Sender ID",
+    "Sender Name",
+    "Status",
+    "Replying to",
+    "Subject",
+    "Text",
+    "Attachment",
+    "Attachment type"
+  ],
+  "senders": {
+    "Jessica": 2482
+  },
+  "file_locations": {
+    "json": "data_files/jessica_complete_raw_data.json",
+    "csv": "data_files/jessica_complete_raw_data.csv"
+  }
+}

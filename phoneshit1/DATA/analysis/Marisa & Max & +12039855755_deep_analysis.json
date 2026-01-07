@@ -1,0 +1,41 @@
+{
+  "person": "Marisa & Max & +12039855755",
+  "type": "group",
+  "total_messages": 26,
+  "first_message": "2023-01-12 16:55:48",
+  "last_message": "2023-01-12 21:42:27",
+  "duration_days": 0,
+  "days_since_last": 1042,
+  "your_messages": 2,
+  "their_messages": 24,
+  "balance": 7.6923076923076925,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 1,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-12",
+      "end_date": "2023-01-12",
+      "duration_days": 1,
+      "message_count": 20,
+      "daily_avg": 20.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2023-01-12",
+      "end_date": "2023-01-12",
+      "duration_days": 1,
+      "message_count": 6,
+      "daily_avg": 6.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

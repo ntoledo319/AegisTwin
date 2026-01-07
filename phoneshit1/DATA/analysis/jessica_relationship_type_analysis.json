@@ -1,0 +1,15 @@
+{
+  "relationship_type": "LIKELY ROMANTIC",
+  "confidence": "HIGH",
+  "romantic_score": 7,
+  "friendship_score": 0,
+  "indicators": {
+    "romantic_keywords": 1573,
+    "friendship_keywords": 197,
+    "late_night_pct": 31.5,
+    "days_with_messages_pct": 42.2,
+    "avg_conversation_length": 44.7,
+    "longest_streak": 22,
+    "median_response_time": 0.5
+  }
+}

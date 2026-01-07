@@ -1,0 +1,57 @@
+{
+  "person": "An Hewit",
+  "type": "individual",
+  "total_messages": 2577,
+  "first_message": "2018-07-01 08:29:47",
+  "last_message": "2021-06-28 08:12:39",
+  "duration_days": 1092,
+  "days_since_last": 1605,
+  "your_messages": 1474,
+  "their_messages": 1103,
+  "balance": 57.19829258828095,
+  "emotional_keywords": {
+    "love": 71,
+    "conflict": 23,
+    "breakup": 3,
+    "reconciliation": 2,
+    "intimacy": 17,
+    "support": 11,
+    "excitement": 33,
+    "sadness": 57
+  },
+  "phases": [
+    {
+      "start_date": "2018-07-01",
+      "end_date": "2019-03-31",
+      "duration_days": 273,
+      "message_count": 2576,
+      "daily_avg": 9.435897435897436,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2019-03-31",
+      "end_date": "2019-12-29",
+      "duration_days": 273,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-12-29",
+      "end_date": "2020-09-28",
+      "duration_days": 273,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-09-28",
+      "end_date": "2021-06-28",
+      "duration_days": 273,
+      "message_count": 1,
+      "daily_avg": 0.003663003663003663,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Shalice Ansonia & Armando & Callie Black Rock & Genesis Bpt & George & Julie BRFFLD & Lameka Bpt & Shayla Bpt & Brian Shelton",
+  "type": "group",
+  "total_messages": 37,
+  "first_message": "2021-12-18 11:11:03",
+  "last_message": "2021-12-21 08:42:00",
+  "duration_days": 2,
+  "days_since_last": 1429,
+  "your_messages": 5,
+  "their_messages": 32,
+  "balance": 13.513513513513514,
+  "emotional_keywords": {
+    "love": 15,
+    "conflict": 1,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-12-18",
+      "end_date": "2021-12-19",
+      "duration_days": 1,
+      "message_count": 23,
+      "daily_avg": 23.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2021-12-19",
+      "end_date": "2021-12-21",
+      "duration_days": 1,
+      "message_count": 14,
+      "daily_avg": 14.0,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

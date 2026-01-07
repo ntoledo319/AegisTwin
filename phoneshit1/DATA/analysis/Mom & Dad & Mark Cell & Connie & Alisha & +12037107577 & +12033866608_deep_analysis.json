@@ -1,0 +1,41 @@
+{
+  "person": "Mom & Dad & Mark Cell & Connie & Alisha & +12037107577 & +12033866608",
+  "type": "group",
+  "total_messages": 7,
+  "first_message": "2019-06-29 06:08:00",
+  "last_message": "2019-06-29 11:10:51",
+  "duration_days": 0,
+  "days_since_last": 2335,
+  "your_messages": 1,
+  "their_messages": 6,
+  "balance": 14.285714285714285,
+  "emotional_keywords": {
+    "love": 5,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 2,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2019-06-29",
+      "end_date": "2019-06-29",
+      "duration_days": 1,
+      "message_count": 6,
+      "daily_avg": 6.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2019-06-29",
+      "end_date": "2019-06-29",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

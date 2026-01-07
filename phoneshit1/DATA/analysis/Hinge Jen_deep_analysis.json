@@ -1,0 +1,41 @@
+{
+  "person": "Hinge Jen",
+  "type": "individual",
+  "total_messages": 422,
+  "first_message": "2024-12-06 20:42:24",
+  "last_message": "2024-12-31 21:34:46",
+  "duration_days": 25,
+  "days_since_last": 323,
+  "your_messages": 254,
+  "their_messages": 168,
+  "balance": 60.18957345971564,
+  "emotional_keywords": {
+    "love": 40,
+    "conflict": 13,
+    "breakup": 0,
+    "reconciliation": 3,
+    "intimacy": 20,
+    "support": 0,
+    "excitement": 3,
+    "sadness": 11
+  },
+  "phases": [
+    {
+      "start_date": "2024-12-06",
+      "end_date": "2024-12-19",
+      "duration_days": 12,
+      "message_count": 287,
+      "daily_avg": 23.916666666666668,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-12-19",
+      "end_date": "2024-12-31",
+      "duration_days": 12,
+      "message_count": 135,
+      "daily_avg": 11.25,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

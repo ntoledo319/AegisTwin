@@ -1,0 +1,84 @@
+{
+  "contact": "Julia Rain Grounds",
+  "sentiment_progression": {
+    "contact": "Julia Rain Grounds",
+    "overall_sentiment": {
+      "mean": 0.094,
+      "current": 0.158,
+      "peak": 0.107,
+      "trend": "stable",
+      "current_vs_peak": 0.051
+    },
+    "sentiment_progression": [
+      {
+        "phase": 1,
+        "period": "2023-01 to 2023-11",
+        "avg_sentiment": 0.08,
+        "sentiment_std": 0.217,
+        "positive_messages_pct": 52.4,
+        "negative_messages_pct": 47.6
+      },
+      {
+        "phase": 2,
+        "period": "2023-11 to 2023-12",
+        "avg_sentiment": 0.107,
+        "sentiment_std": 0.228,
+        "positive_messages_pct": 57.5,
+        "negative_messages_pct": 42.5
+      },
+      {
+        "phase": 3,
+        "period": "2023-12 to 2024-04",
+        "avg_sentiment": 0.099,
+        "sentiment_std": 0.243,
+        "positive_messages_pct": 56.3,
+        "negative_messages_pct": 43.7
+      },
+      {
+        "phase": 4,
+        "period": "2024-04 to 2024-11",
+        "avg_sentiment": 0.089,
+        "sentiment_std": 0.248,
+        "positive_messages_pct": 50.7,
+        "negative_messages_pct": 49.3
+      }
+    ],
+    "analysis": "Stable sentiment around 0.09 - consistent emotional tone",
+    "generated_at": "2025-11-26T03:20:43.574615"
+  },
+  "emotional_volatility": {
+    "contact": "Julia Rain Grounds",
+    "volatility_score": 54.4,
+    "classification": "MODERATE-HIGH",
+    "assessment": "Noticeable emotional ups and downs",
+    "metrics": {
+      "sentiment_std": 0.234,
+      "sentiment_range": 2.0,
+      "swing_frequency": 0.619
+    },
+    "interpretation": "Moderate volatility is normal - relationships naturally have emotional ups and downs.",
+    "generated_at": "2025-11-26T03:20:44.056473"
+  },
+  "sentiment_shifts": {
+    "contact": "Julia Rain Grounds",
+    "shifts_detected": 0,
+    "major_shifts": [],
+    "pattern": "No major sentiment shifts detected - stable relationship",
+    "generated_at": "2025-11-26T03:20:45.553643"
+  },
+  "participant_comparison": {
+    "contact": "Julia Rain Grounds",
+    "your_avg_sentiment": 0.065,
+    "their_avg_sentiment": 0.121,
+    "sentiment_gap": -0.056,
+    "interpretation": "They're slightly more positive - minor disparity",
+    "details": {
+      "your_positive_pct": 48.8,
+      "their_positive_pct": 59.4,
+      "your_negative_pct": 51.2,
+      "their_negative_pct": 40.6
+    },
+    "generated_at": "2025-11-26T03:20:46.064231"
+  },
+  "generated_at": "2025-11-26T03:20:46.065632"
+}

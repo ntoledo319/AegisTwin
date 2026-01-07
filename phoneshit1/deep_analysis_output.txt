@@ -1,0 +1,209 @@
+/workspace/deep_message_analyzer.py:10: DtypeWarning: Columns (4,7,10,11) have mixed types. Specify dtype option on import or set low_memory=False.
+  self.df = pd.read_csv('DATA/raw/messages.csv')
+Loading messages...
+Loaded 900,983 messages
+
+================================================================================
+DEEP ANALYSIS: Julia Rain Grounds
+================================================================================
+
+Total messages: 32,100
+First message: 2022-11-03 20:37:58
+Last message: 2025-05-15 03:35:29
+Duration: 923 days (2.5 years)
+Days since last contact: 192
+
+Message balance:
+  Your messages: 16,813 (52.4%)
+  Their messages: 15,229 (47.4%)
+
+================================================================================
+CONTENT ANALYSIS
+================================================================================
+  Love: 1150 messages
+  Conflict: 319 messages
+  Breakup: 432 messages
+  Reconciliation: 672 messages
+  Intimacy: 480 messages
+  Support: 57 messages
+  Excitement: 169 messages
+  Sadness: 251 messages
+
+================================================================================
+RELATIONSHIP PHASES
+================================================================================
+
+Phase 1: 2022-11-03 to 2023-06-22
+  Duration: 230 days
+  Messages: 3,979
+  Daily avg: 17.2
+  Characteristics: Moderate intensity
+
+Phase 2: 2023-06-22 to 2024-02-08
+  Duration: 230 days
+  Messages: 15,981
+  Daily avg: 69.3
+  Characteristics: Very high intensity
+
+Phase 3: 2024-02-08 to 2024-09-26
+  Duration: 230 days
+  Messages: 12,073
+  Daily avg: 52.3
+  Characteristics: Very high intensity
+
+Phase 4: 2024-09-26 to 2025-05-14
+  Duration: 230 days
+  Messages: 66
+  Daily avg: 0.3
+  Characteristics: Low intensity
+
+================================================================================
+MAJOR EVENTS DETECTED
+================================================================================
+
+2023-01-07: Communication Gap
+  64 day gap in communication - potential conflict or distance
+
+2023-02-11: Potential Breakup
+  Message contains "done"
+  Sample messages:
+    - Done. 
+
+2023-02-18: Potential Breakup
+  Message contains "over"
+  Sample messages:
+    - I’m covered in sunscreen 
+
+2023-02-18: Potential Breakup
+  Message contains "over"
+  Sample messages:
+    - Loved “I’m covered in sunscreen ”
+
+2023-03-09: Potential Breakup
+  Message contains "over"
+  Sample messages:
+    - UGH I WANT THIS FUCKING MIDTERM TO BE OVER ALREADY SO I CAN DO WHAT I HAVE TO 
+
+2023-03-09: Potential Breakup
+  Message contains "done"
+  Sample messages:
+    - It’s done 
+
+2023-03-13: Potential Breakup
+  Message contains "done"
+  Sample messages:
+    - Text me when you’re done with your meeting later 
+
+2023-05-03: Potential Breakup
+  Message contains "goodbye"
+  Sample messages:
+    - Mind if i say goodbye
+
+2023-06-01: Potential Breakup
+  Message contains "break up"
+  Sample messages:
+    - My father, could not stop driving with the e break up 
+
+2023-07-15: Potential Breakup
+  Message contains "goodbye"
+  Sample messages:
+    - I said goodbye to my mother this morning woundering, if I had od’d any of those times how would she look at the “friend” that pushed me on. That gave me that pill,
+
+2023-10-02: Potential Breakup
+  Message contains "breaking up"
+  Sample messages:
+    - Is it considered breaking up over text if I just fucking block her on everything. 
+
+2023-11-19: High Activity Day
+  266 messages - 3x normal activity
+  Sample messages:
+    - Good morning sunshine
+    - Hey you
+    - Suhhhhh
+
+2023-11-20: Potential Breakup
+  Message contains "break up"
+  Sample messages:
+    - Woke up this morning distraught about a upcoming break up and then -that-
+
+2023-11-23: High Activity Day
+  244 messages - 3x normal activity
+  Sample messages:
+    - gotta run 
+    - I smell like your fucking white dimond 
+    - It's taken over my hair 
+
+2023-11-27: High Activity Day
+  259 messages - 3x normal activity
+  Sample messages:
+    - Text me when you get home safe 
+    - Love you 
+    - I smell only like pussy
+
+2023-11-28: High Activity Day
+  450 messages - 5x normal activity
+  Sample messages:
+    - Perfect timing 
+    - I need like 5 more of these hoodies
+    - Send ittttt
+
+2023-11-28: Potential Breakup
+  Message contains "break up"
+  Sample messages:
+    - Because the one after this wed have to break up the fight
+
+2023-11-29: High Activity Day
+  363 messages - 4x normal activity
+  Sample messages:
+    - Beautiful 
+    - Hi love 
+    - How’d you sleep
+
+2024-11-07: Communication Gap
+  104 day gap in communication - potential conflict or distance
+
+2025-01-18: Communication Gap
+  36 day gap in communication - potential conflict or distance
+
+2025-02-17: Communication Gap
+  30 day gap in communication - potential conflict or distance
+
+2025-05-15: Communication Gap
+  76 day gap in communication - potential conflict or distance
+
+================================================================================
+CONVERSATION TOPICS
+================================================================================
+  location: 1874 mentions
+  time: 1744 mentions
+  feelings: 937 mentions
+  work: 738 mentions
+  plans: 695 mentions
+  friends: 417 mentions
+  family: 207 mentions
+
+================================================================================
+RELATIONSHIP STATUS
+================================================================================
+  Current status: ENDED - Breakup detected
+  Confidence: HIGH
+  Evidence: 432 breakup-related messages found
+Traceback (most recent call last):
+  File "/workspace/deep_message_analyzer.py", line 351, in <module>
+    main()
+  File "/workspace/deep_message_analyzer.py", line 338, in main
+    json.dump(analysis, f, indent=2)
+  File "/usr/local/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/local/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

@@ -1,0 +1,950 @@
+{
+  "contact": "Lily",
+  "anomaly_detection": {
+    "contact": "Lily",
+    "anomalies_detected": 122,
+    "communication_gaps": [
+      {
+        "type": "communication_gap",
+        "start_date": "2018-01-10",
+        "end_date": "2018-01-22",
+        "duration_days": 13,
+        "severity": "minor"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2018-01-24",
+        "end_date": "2018-01-30",
+        "duration_days": 7,
+        "severity": "minor"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2022-05-12",
+        "end_date": "2022-09-07",
+        "duration_days": 119,
+        "severity": "critical"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2022-09-09",
+        "end_date": "2022-09-24",
+        "duration_days": 16,
+        "severity": "moderate"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2022-09-26",
+        "end_date": "2023-01-18",
+        "duration_days": 115,
+        "severity": "critical"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2023-01-20",
+        "end_date": "2023-02-07",
+        "duration_days": 19,
+        "severity": "moderate"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2023-02-09",
+        "end_date": "2023-03-24",
+        "duration_days": 44,
+        "severity": "critical"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2023-03-26",
+        "end_date": "2023-05-11",
+        "duration_days": 47,
+        "severity": "critical"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2023-05-13",
+        "end_date": "2023-08-13",
+        "duration_days": 93,
+        "severity": "critical"
+      },
+      {
+        "type": "communication_gap",
+        "start_date": "2023-08-15",
+        "end_date": "2023-10-07",
+        "duration_days": 54,
+        "severity": "critical"
+      }
+    ],
+    "message_spikes": [
+      {
+        "type": "message_spike",
+        "date": "2018-03-27",
+        "message_count": 569,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-05-17",
+        "message_count": 555,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-05-31",
+        "message_count": 584,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-06-21",
+        "message_count": 556,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-06-23",
+        "message_count": 685,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-06-24",
+        "message_count": 556,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2018-08-24",
+        "message_count": 584,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-02",
+        "message_count": 863,
+        "vs_median": "4.4x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-05",
+        "message_count": 603,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-06",
+        "message_count": 970,
+        "vs_median": "5.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-07",
+        "message_count": 595,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-12",
+        "message_count": 719,
+        "vs_median": "3.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-14",
+        "message_count": 569,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-15",
+        "message_count": 632,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-17",
+        "message_count": 553,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-18",
+        "message_count": 716,
+        "vs_median": "3.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-01-20",
+        "message_count": 506,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-02-24",
+        "message_count": 637,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-02-25",
+        "message_count": 819,
+        "vs_median": "4.2x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-02",
+        "message_count": 643,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-04",
+        "message_count": 857,
+        "vs_median": "4.4x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-05",
+        "message_count": 722,
+        "vs_median": "3.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-08",
+        "message_count": 557,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-09",
+        "message_count": 524,
+        "vs_median": "2.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-10",
+        "message_count": 682,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-13",
+        "message_count": 876,
+        "vs_median": "4.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-21",
+        "message_count": 490,
+        "vs_median": "2.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-25",
+        "message_count": 1107,
+        "vs_median": "5.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-26",
+        "message_count": 1127,
+        "vs_median": "5.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-27",
+        "message_count": 989,
+        "vs_median": "5.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-28",
+        "message_count": 1166,
+        "vs_median": "6.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-30",
+        "message_count": 541,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-03-31",
+        "message_count": 742,
+        "vs_median": "3.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-03",
+        "message_count": 639,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-04",
+        "message_count": 984,
+        "vs_median": "5.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-05",
+        "message_count": 515,
+        "vs_median": "2.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-08",
+        "message_count": 664,
+        "vs_median": "3.4x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-10",
+        "message_count": 705,
+        "vs_median": "3.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-12",
+        "message_count": 567,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-14",
+        "message_count": 591,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-19",
+        "message_count": 563,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-21",
+        "message_count": 526,
+        "vs_median": "2.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-24",
+        "message_count": 607,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-25",
+        "message_count": 592,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-04-26",
+        "message_count": 555,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-05-17",
+        "message_count": 500,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-05-28",
+        "message_count": 687,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-06-10",
+        "message_count": 636,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-06-11",
+        "message_count": 740,
+        "vs_median": "3.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-06-15",
+        "message_count": 572,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-10",
+        "message_count": 583,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-12",
+        "message_count": 811,
+        "vs_median": "4.2x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-15",
+        "message_count": 734,
+        "vs_median": "3.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-16",
+        "message_count": 556,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-19",
+        "message_count": 542,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-23",
+        "message_count": 578,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-24",
+        "message_count": 603,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-25",
+        "message_count": 525,
+        "vs_median": "2.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-07-30",
+        "message_count": 610,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-01",
+        "message_count": 825,
+        "vs_median": "4.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-02",
+        "message_count": 554,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-03",
+        "message_count": 680,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-04",
+        "message_count": 598,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-05",
+        "message_count": 603,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-06",
+        "message_count": 789,
+        "vs_median": "4.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-07",
+        "message_count": 525,
+        "vs_median": "2.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-15",
+        "message_count": 675,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-19",
+        "message_count": 558,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-21",
+        "message_count": 550,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-22",
+        "message_count": 554,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-24",
+        "message_count": 539,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-08-27",
+        "message_count": 497,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-09-08",
+        "message_count": 494,
+        "vs_median": "2.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-09-15",
+        "message_count": 499,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-09-21",
+        "message_count": 873,
+        "vs_median": "4.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-09-22",
+        "message_count": 567,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-10-19",
+        "message_count": 827,
+        "vs_median": "4.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-10-20",
+        "message_count": 596,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-11-03",
+        "message_count": 589,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2019-12-02",
+        "message_count": 556,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-01-25",
+        "message_count": 629,
+        "vs_median": "3.2x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-01-27",
+        "message_count": 593,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-02-16",
+        "message_count": 647,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-03-25",
+        "message_count": 504,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-03-31",
+        "message_count": 490,
+        "vs_median": "2.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-04-01",
+        "message_count": 623,
+        "vs_median": "3.2x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-04-12",
+        "message_count": 562,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-04-27",
+        "message_count": 578,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-05-03",
+        "message_count": 895,
+        "vs_median": "4.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-05-06",
+        "message_count": 562,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-05-25",
+        "message_count": 606,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-05-30",
+        "message_count": 947,
+        "vs_median": "4.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-07-27",
+        "message_count": 911,
+        "vs_median": "4.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-07-30",
+        "message_count": 782,
+        "vs_median": "4.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-02",
+        "message_count": 1252,
+        "vs_median": "6.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-09",
+        "message_count": 934,
+        "vs_median": "4.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-11",
+        "message_count": 496,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-13",
+        "message_count": 580,
+        "vs_median": "3.0x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-22",
+        "message_count": 592,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-08-23",
+        "message_count": 727,
+        "vs_median": "3.7x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-09-11",
+        "message_count": 599,
+        "vs_median": "3.1x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-09-27",
+        "message_count": 657,
+        "vs_median": "3.4x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-10-10",
+        "message_count": 692,
+        "vs_median": "3.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-10-16",
+        "message_count": 549,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-10-19",
+        "message_count": 704,
+        "vs_median": "3.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-11-03",
+        "message_count": 566,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2020-12-09",
+        "message_count": 560,
+        "vs_median": "2.9x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2021-05-09",
+        "message_count": 681,
+        "vs_median": "3.5x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2021-05-20",
+        "message_count": 542,
+        "vs_median": "2.8x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2021-09-07",
+        "message_count": 500,
+        "vs_median": "2.6x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2022-04-22",
+        "message_count": 631,
+        "vs_median": "3.3x normal"
+      },
+      {
+        "type": "message_spike",
+        "date": "2022-05-02",
+        "message_count": 611,
+        "vs_median": "3.1x normal"
+      }
+    ],
+    "analysis_period": {
+      "start": "2017-12-23",
+      "end": "2024-10-18",
+      "total_days": 2490
+    },
+    "generated_at": "2025-11-26T02:38:40.887462"
+  },
+  "turning_points": {
+    "contact": "Lily",
+    "turning_points_detected": 9,
+    "turning_points": [
+      {
+        "date": "2018-03-04",
+        "type": "intensification",
+        "change_percentage": 266.6,
+        "before_avg": 34.5,
+        "after_avg": 126.5,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2018-05-04",
+        "type": "intensification",
+        "change_percentage": 66.0,
+        "before_avg": 139.2,
+        "after_avg": 231.0,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2018-11-29",
+        "type": "intensification",
+        "change_percentage": 55.7,
+        "before_avg": 135.2,
+        "after_avg": 210.5,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2019-02-20",
+        "type": "intensification",
+        "change_percentage": 51.6,
+        "before_avg": 299.3,
+        "after_avg": 453.8,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2019-07-06",
+        "type": "intensification",
+        "change_percentage": 55.2,
+        "before_avg": 261.1,
+        "after_avg": 405.1,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2020-07-14",
+        "type": "intensification",
+        "change_percentage": 53.1,
+        "before_avg": 227.0,
+        "after_avg": 347.4,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2021-04-23",
+        "type": "intensification",
+        "change_percentage": 50.5,
+        "before_avg": 144.8,
+        "after_avg": 218.0,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2021-06-23",
+        "type": "decline",
+        "change_percentage": -55.2,
+        "before_avg": 213.9,
+        "after_avg": 95.7,
+        "impact": "Relationship communication decreased significantly",
+        "context": "Increased emotional expression during this period"
+      },
+      {
+        "date": "2021-08-23",
+        "type": "intensification",
+        "change_percentage": 204.3,
+        "before_avg": 58.1,
+        "after_avg": 176.8,
+        "impact": "Relationship communication increased significantly",
+        "context": "Increased emotional expression during this period"
+      }
+    ],
+    "relationship_trajectory": "Overall growth trajectory with 8 intensification periods",
+    "generated_at": "2025-11-26T02:39:27.121986"
+  },
+  "communication_cycles": {
+    "contact": "Lily",
+    "weekly_pattern": {
+      "description": [
+        "Monday: 53660 messages",
+        "Tuesday: 50410 messages",
+        "Wednesday: 50602 messages",
+        "Thursday: 50566 messages",
+        "Friday: 47752 messages",
+        "Saturday: 52820 messages",
+        "Sunday: 54536 messages"
+      ],
+      "peak_days": [
+        "Sunday",
+        "Monday"
+      ],
+      "pattern": "Weekend-focused"
+    },
+    "daily_pattern": {
+      "peak_hours": [
+        "0:00-1:00",
+        "23:00-24:00",
+        "1:00-2:00"
+      ],
+      "pattern": "Evening-focused"
+    },
+    "recurring_cycles": {
+      "detected": true,
+      "cycle_periods_days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "interpretation": "Weekly communication cycle detected"
+    },
+    "generated_at": "2025-11-26T02:39:27.722687"
+  },
+  "response_time_analysis": {
+    "contact": "Lily",
+    "response_time_analysis": [
+      {
+        "quarter": 1,
+        "median_response_minutes": 0.3,
+        "period": "2017-12 to 2019-03"
+      },
+      {
+        "quarter": 2,
+        "median_response_minutes": 0.2,
+        "period": "2019-03 to 2019-12"
+      },
+      {
+        "quarter": 3,
+        "median_response_minutes": 0.2,
+        "period": "2019-12 to 2020-10"
+      },
+      {
+        "quarter": 4,
+        "median_response_minutes": 0.2,
+        "period": "2020-10 to 2024-10"
+      }
+    ],
+    "overall_trend": "Speeding up - responses getting faster",
+    "current_median_minutes": 0.2,
+    "interpretation": "Very fast responses - high engagement",
+    "generated_at": "2025-11-26T02:39:28.175202"
+  },
+  "initiation_patterns": {
+    "contact": "Lily",
+    "total_conversations": 3403,
+    "you_initiated": 1690,
+    "they_initiated": 1713,
+    "you_initiate_percentage": 49.7,
+    "pattern": "Balanced initiation",
+    "your_typical_initiation_times": {
+      "hours": [
+        "12:00",
+        "10:00",
+        "11:00"
+      ],
+      "days": [
+        "Wednesday",
+        "Tuesday"
+      ]
+    },
+    "assessment": "Healthy balanced initiation pattern",
+    "generated_at": "2025-11-26T02:39:28.639437"
+  },
+  "generated_at": "2025-11-26T02:39:28.660932"
+}

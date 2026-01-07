@@ -1,0 +1,57 @@
+{
+  "person": "Cait",
+  "type": "individual",
+  "total_messages": 17,
+  "first_message": "2021-06-30 20:44:47",
+  "last_message": "2022-11-05 23:27:56",
+  "duration_days": 493,
+  "days_since_last": 1110,
+  "your_messages": 12,
+  "their_messages": 5,
+  "balance": 70.58823529411765,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-06-30",
+      "end_date": "2021-11-01",
+      "duration_days": 123,
+      "message_count": 6,
+      "daily_avg": 0.04878048780487805,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-11-01",
+      "end_date": "2022-03-04",
+      "duration_days": 123,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-03-04",
+      "end_date": "2022-07-05",
+      "duration_days": 123,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-07-05",
+      "end_date": "2022-11-05",
+      "duration_days": 123,
+      "message_count": 11,
+      "daily_avg": 0.08943089430894309,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

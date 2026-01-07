@@ -1,0 +1,106 @@
+{
+  "contact": "Gabby",
+  "breakup_risk_assessment": {
+    "contact": "Gabby",
+    "risk_score": 15,
+    "risk_level": "LOW",
+    "assessment": "Minor concerns, generally healthy",
+    "warning_signs": [
+      "high_conflict_level"
+    ],
+    "positive_indicators": [
+      "stable_frequency",
+      "increasing_communication",
+      "recent_active_contact"
+    ],
+    "features_analyzed": {
+      "freq_trend": 7.896090534979424,
+      "current_freq": 26.847736625514404,
+      "peak_freq": 26.847736625514404,
+      "freq_decline_pct": 0.0,
+      "balance": 48.86006150365841,
+      "balance_shift": 8.35690045248868,
+      "love_ratio": 31.105298504824855,
+      "conflict_ratio": 13.078364144074087,
+      "breakup_ratio": 1.0604079035735747,
+      "reconciliation_ratio": 2.297550457742745,
+      "days_since_last": 0,
+      "freq_volatility": 0.610284183378568,
+      "breakup_recon_ratio": 0.44228804451186887
+    },
+    "generated_at": "2025-11-26T03:21:50.750691"
+  },
+  "trajectory_forecast": {
+    "contact": "Gabby",
+    "current_frequency": 26.85,
+    "trajectory_forecast": [
+      {
+        "1_months": {
+          "projected_daily_frequency": 243.95,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "3_months": {
+          "projected_daily_frequency": 682.18,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "moderate"
+        }
+      },
+      {
+        "6_months": {
+          "projected_daily_frequency": 1339.53,
+          "probability_stable": 0.91,
+          "trend": "growing",
+          "confidence": "low"
+        }
+      }
+    ],
+    "risk_score": 15,
+    "trend_direction": "increasing",
+    "generated_at": "2025-11-26T03:21:50.917513"
+  },
+  "historical_comparison": {
+    "contact": "Gabby",
+    "current_risk_score": 15,
+    "most_similar_relationships": [
+      {
+        "historical_relationship": "old toast",
+        "similarity_score": 0.71,
+        "ended_after_days": 611,
+        "final_breakup_count": 2,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "Steph \ud83d\udc95",
+        "similarity_score": 0.63,
+        "ended_after_days": 2086,
+        "final_breakup_count": 25,
+        "key_differences": [
+          "Current has better communication trend"
+        ]
+      },
+      {
+        "historical_relationship": "Thot Daughter & raccoon pounderer.",
+        "similarity_score": 0.59,
+        "ended_after_days": 0,
+        "final_breakup_count": 0,
+        "key_differences": [
+          "Much more breakup discussion",
+          "Higher conflict level"
+        ]
+      }
+    ],
+    "pattern_analysis": "MODERATE similarity to old toast - some similar patterns",
+    "generated_at": "2025-11-26T03:22:24.095424"
+  },
+  "recommendations": [
+    "Relationship appears healthy - maintain current engagement"
+  ],
+  "generated_at": "2025-11-26T03:22:24.095592"
+}

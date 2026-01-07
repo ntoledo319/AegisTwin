@@ -1,0 +1,57 @@
+{
+  "person": "Dre",
+  "type": "individual",
+  "total_messages": 1510,
+  "first_message": "2022-11-10 22:13:58",
+  "last_message": "2025-06-02 16:24:27",
+  "duration_days": 934,
+  "days_since_last": 170,
+  "your_messages": 824,
+  "their_messages": 686,
+  "balance": 54.56953642384106,
+  "emotional_keywords": {
+    "love": 48,
+    "conflict": 19,
+    "breakup": 3,
+    "reconciliation": 3,
+    "intimacy": 0,
+    "support": 6,
+    "excitement": 1,
+    "sadness": 29
+  },
+  "phases": [
+    {
+      "start_date": "2022-11-10",
+      "end_date": "2023-07-02",
+      "duration_days": 233,
+      "message_count": 580,
+      "daily_avg": 2.4892703862660945,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-07-02",
+      "end_date": "2024-02-21",
+      "duration_days": 233,
+      "message_count": 672,
+      "daily_avg": 2.88412017167382,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-02-21",
+      "end_date": "2024-10-11",
+      "duration_days": 233,
+      "message_count": 253,
+      "daily_avg": 1.0858369098712446,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-10-11",
+      "end_date": "2025-06-02",
+      "duration_days": 233,
+      "message_count": 5,
+      "daily_avg": 0.02145922746781116,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

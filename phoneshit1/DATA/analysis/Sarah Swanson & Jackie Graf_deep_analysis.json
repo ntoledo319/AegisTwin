@@ -1,0 +1,49 @@
+{
+  "person": "Sarah Swanson & Jackie Graf",
+  "type": "group",
+  "total_messages": 111,
+  "first_message": "2019-09-25 08:14:32",
+  "last_message": "2019-12-23 10:44:18",
+  "duration_days": 89,
+  "days_since_last": 2158,
+  "your_messages": 27,
+  "their_messages": 84,
+  "balance": 24.324324324324326,
+  "emotional_keywords": {
+    "love": 8,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2019-09-25",
+      "end_date": "2019-10-25",
+      "duration_days": 29,
+      "message_count": 26,
+      "daily_avg": 0.896551724137931,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-10-25",
+      "end_date": "2019-11-23",
+      "duration_days": 29,
+      "message_count": 22,
+      "daily_avg": 0.7586206896551724,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2019-11-23",
+      "end_date": "2019-12-23",
+      "duration_days": 29,
+      "message_count": 63,
+      "daily_avg": 2.1724137931034484,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

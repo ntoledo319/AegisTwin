@@ -1,0 +1,57 @@
+{
+  "person": "Ava Grounds",
+  "type": "individual",
+  "total_messages": 76,
+  "first_message": "2023-12-10 11:45:07",
+  "last_message": "2024-06-13 18:54:57",
+  "duration_days": 186,
+  "days_since_last": 524,
+  "your_messages": 39,
+  "their_messages": 37,
+  "balance": 51.31578947368421,
+  "emotional_keywords": {
+    "love": 22,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 3
+  },
+  "phases": [
+    {
+      "start_date": "2023-12-10",
+      "end_date": "2024-01-26",
+      "duration_days": 46,
+      "message_count": 49,
+      "daily_avg": 1.065217391304348,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-26",
+      "end_date": "2024-03-12",
+      "duration_days": 46,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-03-12",
+      "end_date": "2024-04-28",
+      "duration_days": 46,
+      "message_count": 17,
+      "daily_avg": 0.3695652173913043,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-28",
+      "end_date": "2024-06-13",
+      "duration_days": 46,
+      "message_count": 10,
+      "daily_avg": 0.21739130434782608,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

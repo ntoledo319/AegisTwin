@@ -1,0 +1,57 @@
+{
+  "person": "Dr L",
+  "type": "individual",
+  "total_messages": 3324,
+  "first_message": "2018-01-31 14:35:05",
+  "last_message": "2025-11-13 16:12:07",
+  "duration_days": 2843,
+  "days_since_last": 6,
+  "your_messages": 1665,
+  "their_messages": 1659,
+  "balance": 50.09025270758123,
+  "emotional_keywords": {
+    "love": 86,
+    "conflict": 88,
+    "breakup": 19,
+    "reconciliation": 21,
+    "intimacy": 20,
+    "support": 1,
+    "excitement": 8,
+    "sadness": 83
+  },
+  "phases": [
+    {
+      "start_date": "2018-01-31",
+      "end_date": "2020-01-12",
+      "duration_days": 710,
+      "message_count": 426,
+      "daily_avg": 0.6,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2020-01-12",
+      "end_date": "2021-12-23",
+      "duration_days": 710,
+      "message_count": 971,
+      "daily_avg": 1.3676056338028169,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-12-23",
+      "end_date": "2023-12-03",
+      "duration_days": 710,
+      "message_count": 931,
+      "daily_avg": 1.3112676056338028,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-12-03",
+      "end_date": "2025-11-13",
+      "duration_days": 710,
+      "message_count": 996,
+      "daily_avg": 1.4028169014084506,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

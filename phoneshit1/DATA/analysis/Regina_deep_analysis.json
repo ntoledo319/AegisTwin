@@ -1,0 +1,41 @@
+{
+  "person": "Regina",
+  "type": "individual",
+  "total_messages": 6,
+  "first_message": "2019-06-30 15:47:00",
+  "last_message": "2019-06-30 15:55:32",
+  "duration_days": 0,
+  "days_since_last": 2334,
+  "your_messages": 4,
+  "their_messages": 2,
+  "balance": 66.66666666666666,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2019-06-30",
+      "end_date": "2019-06-30",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2019-06-30",
+      "end_date": "2019-06-30",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

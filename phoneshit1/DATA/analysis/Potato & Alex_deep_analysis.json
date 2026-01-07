@@ -1,0 +1,41 @@
+{
+  "person": "Potato & Alex",
+  "type": "group",
+  "total_messages": 14,
+  "first_message": "2025-06-28 13:55:58",
+  "last_message": "2025-06-28 17:34:11",
+  "duration_days": 0,
+  "days_since_last": 144,
+  "your_messages": 4,
+  "their_messages": 10,
+  "balance": 28.57142857142857,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-28",
+      "end_date": "2025-06-28",
+      "duration_days": 1,
+      "message_count": 11,
+      "daily_avg": 11.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-06-28",
+      "end_date": "2025-06-28",
+      "duration_days": 1,
+      "message_count": 3,
+      "daily_avg": 3.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

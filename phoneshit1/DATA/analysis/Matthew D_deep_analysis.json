@@ -1,0 +1,57 @@
+{
+  "person": "Matthew D",
+  "type": "individual",
+  "total_messages": 49,
+  "first_message": "2020-11-20 20:47:46",
+  "last_message": "2022-11-04 11:10:17",
+  "duration_days": 713,
+  "days_since_last": 1111,
+  "your_messages": 22,
+  "their_messages": 27,
+  "balance": 44.89795918367347,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2020-11-20",
+      "end_date": "2021-05-18",
+      "duration_days": 178,
+      "message_count": 20,
+      "daily_avg": 0.11235955056179775,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-05-18",
+      "end_date": "2021-11-12",
+      "duration_days": 178,
+      "message_count": 5,
+      "daily_avg": 0.028089887640449437,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-11-12",
+      "end_date": "2022-05-10",
+      "duration_days": 178,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-05-10",
+      "end_date": "2022-11-04",
+      "duration_days": 178,
+      "message_count": 24,
+      "daily_avg": 0.1348314606741573,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

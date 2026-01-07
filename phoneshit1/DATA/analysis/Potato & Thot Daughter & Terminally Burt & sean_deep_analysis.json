@@ -1,0 +1,41 @@
+{
+  "person": "Potato & Thot Daughter & Terminally Burt & sean",
+  "type": "group",
+  "total_messages": 17,
+  "first_message": "2025-07-31 14:23:21",
+  "last_message": "2025-08-03 22:33:35",
+  "duration_days": 3,
+  "days_since_last": 108,
+  "your_messages": 1,
+  "their_messages": 16,
+  "balance": 5.88235294117647,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-07-31",
+      "end_date": "2025-08-02",
+      "duration_days": 1,
+      "message_count": 16,
+      "daily_avg": 16.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-08-02",
+      "end_date": "2025-08-03",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

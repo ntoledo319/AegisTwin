@@ -1,0 +1,259 @@
+{
+  "contact": "hoes and homos",
+  "topic_extraction": {
+    "contact": "hoes and homos",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 2,
+        "label": "Work & Career",
+        "keywords": [
+          "if",
+          "there",
+          "don",
+          "know",
+          "as",
+          "meeting",
+          "go"
+        ],
+        "relevance_score": 10649.16,
+        "prevalence": 0.152
+      },
+      {
+        "topic_id": 8,
+        "label": "Work & Career",
+        "keywords": [
+          "get",
+          "out",
+          "rj",
+          "going",
+          "work",
+          "gonna",
+          "ll"
+        ],
+        "relevance_score": 8313.45,
+        "prevalence": 0.15
+      },
+      {
+        "topic_id": 1,
+        "label": "Friends & Social",
+        "keywords": [
+          "day",
+          "yall",
+          "chris",
+          "ve",
+          "people",
+          "also",
+          "time"
+        ],
+        "relevance_score": 7933.57,
+        "prevalence": 0.134
+      },
+      {
+        "topic_id": 3,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "toast",
+          "nikki",
+          "da",
+          "disliked",
+          "got",
+          "ori",
+          "love"
+        ],
+        "relevance_score": 5871.8,
+        "prevalence": 0.125
+      },
+      {
+        "topic_id": 5,
+        "label": "Topic: one",
+        "keywords": [
+          "one",
+          "guys",
+          "chat",
+          "now",
+          "right",
+          "new",
+          "year"
+        ],
+        "relevance_score": 6501.9,
+        "prevalence": 0.123
+      },
+      {
+        "topic_id": 9,
+        "label": "Travel",
+        "keywords": [
+          "loved",
+          "image",
+          "loved image",
+          "use",
+          "believe",
+          "listening",
+          "bella"
+        ],
+        "relevance_score": 3931.53,
+        "prevalence": 0.103
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: le",
+        "keywords": [
+          "le",
+          "le encanta",
+          "encanta",
+          "conversation",
+          "daniel",
+          "see",
+          "imagen"
+        ],
+        "relevance_score": 4302.37,
+        "prevalence": 0.09
+      },
+      {
+        "topic_id": 6,
+        "label": "Entertainment",
+        "keywords": [
+          "good",
+          "faggot",
+          "faggot faggot",
+          "morning",
+          "good morning",
+          "great",
+          "hate"
+        ],
+        "relevance_score": 1890.2,
+        "prevalence": 0.053
+      },
+      {
+        "topic_id": 10,
+        "label": "Health & Wellness",
+        "keywords": [
+          "miss",
+          "rage",
+          "toast toast",
+          "stick",
+          "reacted",
+          "reacted image",
+          "beating"
+        ],
+        "relevance_score": 4264.01,
+        "prevalence": 0.036
+      },
+      {
+        "topic_id": 4,
+        "label": "Topic: fent",
+        "keywords": [
+          "fent",
+          "fent fent",
+          "disliked",
+          "emphasized",
+          "vibes",
+          "bringing",
+          "rn"
+        ],
+        "relevance_score": 9584.0,
+        "prevalence": 0.034
+      }
+    ],
+    "analysis_summary": "Primary themes: Work & Career, Work & Career, Friends & Social",
+    "generated_at": "2025-11-26T03:28:40.510373"
+  },
+  "topic_evolution": {
+    "contact": "hoes and homos",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2024-11 to 2025-02",
+        "top_keywords": [
+          "loved",
+          "disliked",
+          "toast",
+          "image",
+          "good",
+          "nikki",
+          "meeting",
+          "there",
+          "yall",
+          "need"
+        ],
+        "theme": "Work & Career"
+      },
+      {
+        "phase": 2,
+        "period": "2025-02 to 2025-04",
+        "top_keywords": [
+          "fent",
+          "loved",
+          "toast",
+          "nikki",
+          "disliked",
+          "good",
+          "going",
+          "meeting",
+          "chris",
+          "image"
+        ],
+        "theme": "Work & Career"
+      },
+      {
+        "phase": 3,
+        "period": "2025-04 to 2025-04",
+        "top_keywords": [
+          "fent",
+          "loved",
+          "faggot",
+          "image",
+          "toast",
+          "good",
+          "love",
+          "nikki",
+          "going",
+          "there"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 4,
+        "period": "2025-04 to 2025-10",
+        "top_keywords": [
+          "miss",
+          "rage",
+          "loved",
+          "image",
+          "toast",
+          "love",
+          "good",
+          "need",
+          "nikki",
+          "meeting"
+        ],
+        "theme": "Work & Career"
+      }
+    ],
+    "evolution_summary": "Consistent focus on Work & Career throughout relationship",
+    "generated_at": "2025-11-26T03:28:40.869098"
+  },
+  "conflict_topics": {
+    "contact": "hoes and homos",
+    "conflict_detected": true,
+    "conflict_message_count": 117,
+    "conflict_message_percentage": 0.63,
+    "common_conflict_topics": [
+      "made",
+      "loved",
+      "everyone",
+      "anger",
+      "nikki",
+      "others",
+      "good",
+      "decision",
+      "yall",
+      "myself"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Conflicts often center around: made",
+    "generated_at": "2025-11-26T03:28:40.964480"
+  },
+  "generated_at": "2025-11-26T03:28:40.965309"
+}

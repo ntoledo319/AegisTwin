@@ -1,0 +1,64 @@
+# Development environment configuration for the Integrated Data Analysis & Digital Twin System
+
+# Application settings
+app:
+  environment: development
+  debug: true
+  log_level: debug
+
+# Server settings
+server:
+  workers: 1
+  reload: true
+
+# Database settings
+database:
+  postgres:
+    echo: true
+  mongodb:
+    host: localhost
+  redis:
+    host: localhost
+  neo4j:
+    uri: bolt://localhost:7687
+
+# API settings
+api:
+  cors_origins:
+    - http://localhost:3000
+    - http://localhost:8000
+    - http://localhost:8050
+  rate_limit:
+    enabled: false
+
+# Data processing settings
+data_processing:
+  batch_size: 100
+  max_workers: 2
+
+# Analysis settings
+analysis:
+  communication:
+    max_messages: 1000
+  advanced:
+    nlp:
+      batch_size: 50
+  cognitive:
+    enabled: true
+
+# Digital twin settings
+digital_twin:
+  personality:
+    update_frequency: hourly
+  memory:
+    importance_threshold: 0.1
+
+# Knowledge graph settings
+knowledge_graph:
+  max_entities: 1000
+  update_frequency: hourly
+
+# Visualization settings
+visualization:
+  dashboards:
+    refresh_interval: 60

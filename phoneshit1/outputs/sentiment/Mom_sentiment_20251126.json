@@ -1,0 +1,84 @@
+{
+  "contact": "Mom",
+  "sentiment_progression": {
+    "contact": "Mom",
+    "overall_sentiment": {
+      "mean": 0.057,
+      "current": 0.028,
+      "peak": 0.063,
+      "trend": "stable",
+      "current_vs_peak": -0.035
+    },
+    "sentiment_progression": [
+      {
+        "phase": 1,
+        "period": "2018-11 to 2020-11",
+        "avg_sentiment": 0.057,
+        "sentiment_std": 0.184,
+        "positive_messages_pct": 47.2,
+        "negative_messages_pct": 52.8
+      },
+      {
+        "phase": 2,
+        "period": "2020-11 to 2022-07",
+        "avg_sentiment": 0.058,
+        "sentiment_std": 0.193,
+        "positive_messages_pct": 49.7,
+        "negative_messages_pct": 50.3
+      },
+      {
+        "phase": 3,
+        "period": "2022-08 to 2023-12",
+        "avg_sentiment": 0.063,
+        "sentiment_std": 0.178,
+        "positive_messages_pct": 49.1,
+        "negative_messages_pct": 50.9
+      },
+      {
+        "phase": 4,
+        "period": "2023-12 to 2025-11",
+        "avg_sentiment": 0.05,
+        "sentiment_std": 0.161,
+        "positive_messages_pct": 46.9,
+        "negative_messages_pct": 53.1
+      }
+    ],
+    "analysis": "Stable sentiment around 0.05 - consistent emotional tone",
+    "generated_at": "2025-11-26T03:31:10.647097"
+  },
+  "emotional_volatility": {
+    "contact": "Mom",
+    "volatility_score": 48.7,
+    "classification": "MODERATE",
+    "assessment": "Some emotional variation - normal range",
+    "metrics": {
+      "sentiment_std": 0.179,
+      "sentiment_range": 1.9,
+      "swing_frequency": 0.617
+    },
+    "interpretation": "Moderate volatility is normal - relationships naturally have emotional ups and downs.",
+    "generated_at": "2025-11-26T03:31:10.930062"
+  },
+  "sentiment_shifts": {
+    "contact": "Mom",
+    "shifts_detected": 0,
+    "major_shifts": [],
+    "pattern": "No major sentiment shifts detected - stable relationship",
+    "generated_at": "2025-11-26T03:31:11.616552"
+  },
+  "participant_comparison": {
+    "contact": "Mom",
+    "your_avg_sentiment": 0.059,
+    "their_avg_sentiment": 0.054,
+    "sentiment_gap": 0.006,
+    "interpretation": "Similar emotional expression - well matched",
+    "details": {
+      "your_positive_pct": 45.1,
+      "their_positive_pct": 51.8,
+      "your_negative_pct": 54.9,
+      "their_negative_pct": 48.2
+    },
+    "generated_at": "2025-11-26T03:31:11.908156"
+  },
+  "generated_at": "2025-11-26T03:31:11.908360"
+}

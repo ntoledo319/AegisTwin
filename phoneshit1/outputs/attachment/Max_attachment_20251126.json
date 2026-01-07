@@ -1,0 +1,70 @@
+{
+  "overall_attachment_profile": {
+    "primary_attachment_style": "Disorganized-Fearful",
+    "confidence": 0.58,
+    "mixed_style": true,
+    "secondary_style": "Anxious-Preoccupied",
+    "scores": {
+      "Anxious-Preoccupied": 53.8,
+      "Avoidant-Dismissive": 21.1,
+      "Secure": 46.4,
+      "Disorganized-Fearful": 57.6
+    },
+    "relationships_analyzed": 194,
+    "indicators": [
+      "Mixed feelings about closeness",
+      "Inconsistent communication patterns",
+      "May desire intimacy but fear vulnerability",
+      "Unpredictable emotional responses",
+      "Difficulty regulating emotions in relationships"
+    ],
+    "recommendations": [
+      "Professional therapy strongly recommended for attachment work",
+      "Practice emotional regulation techniques",
+      "Work on identifying and communicating your needs",
+      "Build awareness of inconsistent patterns",
+      "Focus on creating safe, predictable relationship dynamics"
+    ],
+    "generated_at": "2025-11-26T03:14:12.648727"
+  },
+  "relationship_specific": {
+    "contact": "Max",
+    "your_style_with_them": "Secure",
+    "their_inferred_style": "Likely Secure (balanced engagement)",
+    "style_scores": {
+      "Anxious": 59.0,
+      "Avoidant": 16.9,
+      "Secure": 70.3,
+      "Disorganized": 55.4
+    },
+    "compatibility": {
+      "score": 95,
+      "assessment": "Excellent",
+      "description": "Ideal pairing - mutual security and trust"
+    },
+    "indicators": {
+      "anxious_score": 59.0,
+      "avoidant_score": 16.9,
+      "secure_score": 70.3,
+      "disorganized_score": 55.4,
+      "metrics": {
+        "initiation_rate": 0.521,
+        "avg_response_minutes": 0.4,
+        "reassurance_seeking_per_1000": 5.42,
+        "avg_message_length": 32.6,
+        "emotional_expression_per_1000": 50.68,
+        "daily_message_frequency": 41.9
+      }
+    },
+    "relationship_dynamics": "You bring stability to the relationship. Your secure attachment can help your partner feel safe and develop healthier patterns.",
+    "recommendations": [
+      "Use your secure base to help partner feel safe",
+      "Model healthy communication and emotional expression",
+      "Be patient with their attachment patterns",
+      "Encourage gradual emotional growth",
+      "Maintain your own healthy boundaries"
+    ],
+    "generated_at": "2025-11-26T03:12:54.388985"
+  },
+  "generated_at": "2025-11-26T03:14:12.648807"
+}

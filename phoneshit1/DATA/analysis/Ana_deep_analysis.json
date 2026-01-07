@@ -1,0 +1,57 @@
+{
+  "person": "Ana",
+  "type": "individual",
+  "total_messages": 28,
+  "first_message": "2022-12-29 14:57:09",
+  "last_message": "2024-05-10 17:17:03",
+  "duration_days": 498,
+  "days_since_last": 558,
+  "your_messages": 14,
+  "their_messages": 14,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2022-12-29",
+      "end_date": "2023-05-03",
+      "duration_days": 124,
+      "message_count": 4,
+      "daily_avg": 0.03225806451612903,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-05-03",
+      "end_date": "2023-09-04",
+      "duration_days": 124,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-09-04",
+      "end_date": "2024-01-07",
+      "duration_days": 124,
+      "message_count": 6,
+      "daily_avg": 0.04838709677419355,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-01-07",
+      "end_date": "2024-05-10",
+      "duration_days": 124,
+      "message_count": 18,
+      "daily_avg": 0.14516129032258066,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

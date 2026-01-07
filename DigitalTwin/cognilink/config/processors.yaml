@@ -1,0 +1,50 @@
+# CogniLink Processors Configuration
+
+# Text processor configuration
+text:
+  # NLP model to use for text processing
+  spacy_model: "en_core_web_sm"
+  
+  # Maximum text length to process (in characters, 0 for unlimited)
+  max_text_length: 10000
+  
+  # Entity extraction settings
+  entity_extraction:
+    # Types of entities to extract
+    entity_types:
+      - "PERSON"
+      - "ORG"
+      - "GPE"
+      - "DATE"
+      - "TIME"
+      - "MONEY"
+      - "PRODUCT"
+      - "EVENT"
+      - "EMAIL"
+      - "URL"
+      - "PHONE"
+    
+    # Minimum confidence score for entity extraction (0.0 to 1.0)
+    min_confidence: 0.7
+  
+  # Sentiment analysis settings
+  sentiment_analysis:
+    # Sentiment analyzer to use ("vader" or "textblob")
+    analyzer: "vader"
+    
+    # Threshold for positive sentiment
+    positive_threshold: 0.2
+    
+    # Threshold for negative sentiment
+    negative_threshold: -0.2
+  
+  # Topic extraction settings
+  topic_extraction:
+    # Number of topics to extract
+    num_topics: 5
+    
+    # Number of words per topic
+    words_per_topic: 10
+    
+    # Minimum word frequency to include in topics
+    min_word_frequency: 2

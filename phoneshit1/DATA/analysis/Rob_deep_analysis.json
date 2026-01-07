@@ -1,0 +1,57 @@
+{
+  "person": "Rob",
+  "type": "individual",
+  "total_messages": 19,
+  "first_message": "2021-04-19 14:30:58",
+  "last_message": "2024-01-10 17:08:48",
+  "duration_days": 996,
+  "days_since_last": 679,
+  "your_messages": 8,
+  "their_messages": 11,
+  "balance": 42.10526315789473,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-04-19",
+      "end_date": "2021-12-24",
+      "duration_days": 249,
+      "message_count": 8,
+      "daily_avg": 0.0321285140562249,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-12-24",
+      "end_date": "2022-08-30",
+      "duration_days": 249,
+      "message_count": 2,
+      "daily_avg": 0.008032128514056224,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-08-30",
+      "end_date": "2023-05-06",
+      "duration_days": 249,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-05-06",
+      "end_date": "2024-01-10",
+      "duration_days": 249,
+      "message_count": 9,
+      "daily_avg": 0.03614457831325301,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

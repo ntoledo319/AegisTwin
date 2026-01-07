@@ -1,0 +1,25 @@
+{
+  "ei_score_errors": [
+    "REPORTS/MASTER_INDEX.md",
+    "REPORTS/README.md",
+    "REPORTS/02_PERSONAL_PROFILE/COMPLETE_PERSONAL_ANALYSIS.md",
+    "REPORTS/02_PERSONAL_PROFILE/COMPREHENSIVE_PROFILE.md",
+    "REPORTS/01_EXECUTIVE_SUMMARY/EXECUTIVE_SUMMARY.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/groups/Marisa & Bradley Bloom.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Ellie Haney.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Sam H.md"
+  ],
+  "relationship_type_errors": [
+    "REPORTS/04_INDIVIDUAL_PROFILES/romantic/Jessica.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/romantic/Julia Rain Grounds.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/romantic/Marisa.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Jessica.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Julia Rain Grounds.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Lily.md",
+    "REPORTS/04_INDIVIDUAL_PROFILES/individuals/Marisa.md"
+  ],
+  "data_inconsistencies": [
+    "REPORTS/04_INDIVIDUAL_PROFILES/romantic/Marisa.md"
+  ],
+  "formatting_errors": []
+}

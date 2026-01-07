@@ -1,0 +1,41 @@
+{
+  "person": "BrookeG & Ryan B",
+  "type": "group",
+  "total_messages": 3,
+  "first_message": "2023-02-16 22:29:47",
+  "last_message": "2023-02-16 22:58:04",
+  "duration_days": 0,
+  "days_since_last": 1007,
+  "your_messages": 2,
+  "their_messages": 1,
+  "balance": 66.66666666666666,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-02-16",
+      "end_date": "2023-02-16",
+      "duration_days": 1,
+      "message_count": 2,
+      "daily_avg": 2.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-02-16",
+      "end_date": "2023-02-16",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,41 @@
+{
+  "person": "Julia Rain Grounds & Jerrr",
+  "type": "group",
+  "total_messages": 10,
+  "first_message": "2023-05-20 01:17:47",
+  "last_message": "2023-05-20 02:03:31",
+  "duration_days": 0,
+  "days_since_last": 914,
+  "your_messages": 4,
+  "their_messages": 6,
+  "balance": 40.0,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-05-20",
+      "end_date": "2023-05-20",
+      "duration_days": 1,
+      "message_count": 7,
+      "daily_avg": 7.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-05-20",
+      "end_date": "2023-05-20",
+      "duration_days": 1,
+      "message_count": 3,
+      "daily_avg": 3.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,259 @@
+{
+  "contact": "Julia Rain Grounds",
+  "topic_extraction": {
+    "contact": "Julia Rain Grounds",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 7,
+        "label": "Topic: think",
+        "keywords": [
+          "think",
+          "thing",
+          "time",
+          "doing",
+          "today",
+          "getting",
+          "didn"
+        ],
+        "relevance_score": 6478.94,
+        "prevalence": 0.112
+      },
+      {
+        "topic_id": 8,
+        "label": "Work & Career",
+        "keywords": [
+          "good",
+          "here",
+          "sorry",
+          "oh",
+          "fuck",
+          "well",
+          "ve"
+        ],
+        "relevance_score": 5764.59,
+        "prevalence": 0.108
+      },
+      {
+        "topic_id": 1,
+        "label": "Topic: now",
+        "keywords": [
+          "now",
+          "shit",
+          "right",
+          "back",
+          "come",
+          "ur",
+          "down"
+        ],
+        "relevance_score": 6244.66,
+        "prevalence": 0.105
+      },
+      {
+        "topic_id": 3,
+        "label": "Topic: get",
+        "keywords": [
+          "get",
+          "ll",
+          "going",
+          "something",
+          "make",
+          "way",
+          "before"
+        ],
+        "relevance_score": 6258.95,
+        "prevalence": 0.105
+      },
+      {
+        "topic_id": 2,
+        "label": "Topic: don",
+        "keywords": [
+          "don",
+          "know",
+          "want",
+          "wanna",
+          "if",
+          "let",
+          "there"
+        ],
+        "relevance_score": 6620.8,
+        "prevalence": 0.101
+      },
+      {
+        "topic_id": 10,
+        "label": "Social Plans",
+        "keywords": [
+          "go",
+          "fucking",
+          "still",
+          "meeting",
+          "tonight",
+          "after",
+          "tomorrow"
+        ],
+        "relevance_score": 5470.66,
+        "prevalence": 0.1
+      },
+      {
+        "topic_id": 6,
+        "label": "Food & Dining",
+        "keywords": [
+          "if",
+          "need",
+          "call",
+          "then",
+          "said",
+          "morning",
+          "off"
+        ],
+        "relevance_score": 5864.11,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 5,
+        "label": "Friends & Social",
+        "keywords": [
+          "one",
+          "got",
+          "out",
+          "mean",
+          "things",
+          "people",
+          "text"
+        ],
+        "relevance_score": 5424.72,
+        "prevalence": 0.098
+      },
+      {
+        "topic_id": 4,
+        "label": "Food & Dining",
+        "keywords": [
+          "idk",
+          "feel",
+          "thank",
+          "maybe",
+          "bad",
+          "free",
+          "whatever"
+        ],
+        "relevance_score": 4697.57,
+        "prevalence": 0.093
+      },
+      {
+        "topic_id": 9,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "re",
+          "love",
+          "as",
+          "fine",
+          "see",
+          "may",
+          "message"
+        ],
+        "relevance_score": 4605.0,
+        "prevalence": 0.081
+      }
+    ],
+    "analysis_summary": "Primary themes: Topic: think, Work & Career, Topic: now",
+    "generated_at": "2025-11-26T03:20:42.371830"
+  },
+  "topic_evolution": {
+    "contact": "Julia Rain Grounds",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2022-11 to 2023-11",
+        "top_keywords": [
+          "good",
+          "know",
+          "shit",
+          "here",
+          "fucking",
+          "fuck",
+          "sorry",
+          "going",
+          "there",
+          "need"
+        ],
+        "theme": "Topic: good"
+      },
+      {
+        "phase": 2,
+        "period": "2023-11 to 2023-12",
+        "top_keywords": [
+          "love",
+          "good",
+          "shit",
+          "sorry",
+          "know",
+          "baby",
+          "fuck",
+          "want",
+          "fucking",
+          "here"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 3,
+        "period": "2023-12 to 2024-04",
+        "top_keywords": [
+          "good",
+          "love",
+          "sorry",
+          "want",
+          "wanna",
+          "need",
+          "loved",
+          "know",
+          "here",
+          "shit"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 4,
+        "period": "2024-04 to 2025-05",
+        "top_keywords": [
+          "good",
+          "sorry",
+          "know",
+          "love",
+          "need",
+          "want",
+          "call",
+          "shit",
+          "wanna",
+          "back"
+        ],
+        "theme": "Relationships & Dating"
+      }
+    ],
+    "evolution_summary": "Evolved from Topic: good to Relationships & Dating",
+    "generated_at": "2025-11-26T03:20:42.896066"
+  },
+  "conflict_topics": {
+    "contact": "Julia Rain Grounds",
+    "conflict_detected": true,
+    "conflict_message_count": 307,
+    "conflict_message_percentage": 0.96,
+    "common_conflict_topics": [
+      "made",
+      "want",
+      "shit",
+      "fucking",
+      "know",
+      "right",
+      "fighting",
+      "things",
+      "still",
+      "there"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Conflicts often center around: made",
+    "generated_at": "2025-11-26T03:20:43.049614"
+  },
+  "generated_at": "2025-11-26T03:20:43.051714"
+}

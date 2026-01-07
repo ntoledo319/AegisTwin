@@ -1,0 +1,17 @@
+{
+  "op_id": "op_1765863321797",
+  "workspace_root": "/Users/nicholastoledo/CascadeProjects/phoneshit1",
+  "scope": null,
+  "counts": {
+    "baseline_files": 1814,
+    "temp_files": 1817,
+    "created": 3,
+    "deleted": 0
+  },
+  "created": [
+    "best_practices.md",
+    "deployment_script.py",
+    "test_best_practices.py"
+  ],
+  "deleted": []
+}

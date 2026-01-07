@@ -1,0 +1,57 @@
+{
+  "person": "Caroline Dillon",
+  "type": "individual",
+  "total_messages": 575,
+  "first_message": "2022-03-12 19:01:08",
+  "last_message": "2025-06-20 14:53:45",
+  "duration_days": 1195,
+  "days_since_last": 152,
+  "your_messages": 313,
+  "their_messages": 262,
+  "balance": 54.434782608695656,
+  "emotional_keywords": {
+    "love": 28,
+    "conflict": 11,
+    "breakup": 1,
+    "reconciliation": 1,
+    "intimacy": 3,
+    "support": 2,
+    "excitement": 3,
+    "sadness": 10
+  },
+  "phases": [
+    {
+      "start_date": "2022-03-12",
+      "end_date": "2023-01-05",
+      "duration_days": 298,
+      "message_count": 441,
+      "daily_avg": 1.4798657718120805,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-01-05",
+      "end_date": "2023-10-31",
+      "duration_days": 298,
+      "message_count": 113,
+      "daily_avg": 0.37919463087248323,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-10-31",
+      "end_date": "2024-08-25",
+      "duration_days": 298,
+      "message_count": 10,
+      "daily_avg": 0.03355704697986577,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-25",
+      "end_date": "2025-06-20",
+      "duration_days": 298,
+      "message_count": 11,
+      "daily_avg": 0.03691275167785235,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

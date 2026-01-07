@@ -1,0 +1,57 @@
+{
+  "person": "The mental deranged poets society",
+  "type": "group",
+  "total_messages": 6601,
+  "first_message": "2022-04-25 20:20:44",
+  "last_message": "2023-09-05 17:34:44",
+  "duration_days": 497,
+  "days_since_last": 806,
+  "your_messages": 1821,
+  "their_messages": 4780,
+  "balance": 27.5867292834419,
+  "emotional_keywords": {
+    "love": 662,
+    "conflict": 83,
+    "breakup": 5,
+    "reconciliation": 5,
+    "intimacy": 37,
+    "support": 8,
+    "excitement": 55,
+    "sadness": 80
+  },
+  "phases": [
+    {
+      "start_date": "2022-04-25",
+      "end_date": "2022-08-28",
+      "duration_days": 124,
+      "message_count": 6486,
+      "daily_avg": 52.306451612903224,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2022-08-28",
+      "end_date": "2022-12-30",
+      "duration_days": 124,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-30",
+      "end_date": "2023-05-04",
+      "duration_days": 124,
+      "message_count": 92,
+      "daily_avg": 0.7419354838709677,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-05-04",
+      "end_date": "2023-09-05",
+      "duration_days": 124,
+      "message_count": 23,
+      "daily_avg": 0.18548387096774194,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

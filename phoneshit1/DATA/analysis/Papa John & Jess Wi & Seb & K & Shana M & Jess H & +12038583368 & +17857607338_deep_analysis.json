@@ -1,0 +1,41 @@
+{
+  "person": "Papa John & Jess Wi & Seb & K & Shana M & Jess H & +12038583368 & +17857607338",
+  "type": "group",
+  "total_messages": 49,
+  "first_message": "2021-11-24 15:55:45",
+  "last_message": "2021-11-26 17:36:59",
+  "duration_days": 2,
+  "days_since_last": 1454,
+  "your_messages": 2,
+  "their_messages": 47,
+  "balance": 4.081632653061225,
+  "emotional_keywords": {
+    "love": 28,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2021-11-24",
+      "end_date": "2021-11-25",
+      "duration_days": 1,
+      "message_count": 17,
+      "daily_avg": 17.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2021-11-25",
+      "end_date": "2021-11-26",
+      "duration_days": 1,
+      "message_count": 32,
+      "daily_avg": 32.0,
+      "characteristics": "High intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

@@ -1,0 +1,26 @@
+{
+  "linguistic_patterns": {
+    "affection_words": {
+      "pre_june_rate": 2.305542617605962,
+      "post_june_rate": 2.1505376344086025
+    },
+    "concern_words": {
+      "pre_june_rate": 0.6831237385499146,
+      "post_june_rate": 0.6957621758380772
+    }
+  },
+  "initiation_patterns": {
+    "pre_june_count": 684,
+    "post_june_count": 171,
+    "time_distribution_change": {
+      "morning": 3.0701754385964897,
+      "afternoon": -0.5847953216374293,
+      "evening": 0.14619883040935377,
+      "night": -2.6315789473684212
+    }
+  },
+  "response_patterns": {
+    "pre_june_avg_length": 29.43593018305662,
+    "post_june_avg_length": 32.14586070959264
+  }
+}

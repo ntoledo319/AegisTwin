@@ -1,0 +1,259 @@
+{
+  "contact": "Marisa",
+  "topic_extraction": {
+    "contact": "Marisa",
+    "topics_extracted": 10,
+    "topics": [
+      {
+        "topic_id": 6,
+        "label": "Work & Career",
+        "keywords": [
+          "get",
+          "one",
+          "ll",
+          "see",
+          "if",
+          "oh",
+          "something"
+        ],
+        "relevance_score": 17886.24,
+        "prevalence": 0.106
+      },
+      {
+        "topic_id": 5,
+        "label": "Topic: know",
+        "keywords": [
+          "know",
+          "got",
+          "go",
+          "here",
+          "let",
+          "still",
+          "better"
+        ],
+        "relevance_score": 17002.52,
+        "prevalence": 0.103
+      },
+      {
+        "topic_id": 2,
+        "label": "Work & Career",
+        "keywords": [
+          "out",
+          "want",
+          "work",
+          "way",
+          "shit",
+          "bad",
+          "make"
+        ],
+        "relevance_score": 17707.18,
+        "prevalence": 0.102
+      },
+      {
+        "topic_id": 3,
+        "label": "Friends & Social",
+        "keywords": [
+          "also",
+          "people",
+          "think",
+          "well",
+          "day",
+          "because",
+          "night"
+        ],
+        "relevance_score": 17003.9,
+        "prevalence": 0.102
+      },
+      {
+        "topic_id": 10,
+        "label": "Topic: re",
+        "keywords": [
+          "re",
+          "don",
+          "now",
+          "need",
+          "right",
+          "going",
+          "know"
+        ],
+        "relevance_score": 17501.47,
+        "prevalence": 0.102
+      },
+      {
+        "topic_id": 4,
+        "label": "Topic: there",
+        "keywords": [
+          "there",
+          "things",
+          "sorry",
+          "never",
+          "nikki",
+          "cool",
+          "again"
+        ],
+        "relevance_score": 15719.23,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 9,
+        "label": "Topic: loved",
+        "keywords": [
+          "loved",
+          "good",
+          "as",
+          "then",
+          "fuck",
+          "time",
+          "tho"
+        ],
+        "relevance_score": 15147.9,
+        "prevalence": 0.099
+      },
+      {
+        "topic_id": 8,
+        "label": "Emotions & Feelings",
+        "keywords": [
+          "ve",
+          "feel",
+          "say",
+          "understand",
+          "than",
+          "before",
+          "big"
+        ],
+        "relevance_score": 17373.72,
+        "prevalence": 0.098
+      },
+      {
+        "topic_id": 1,
+        "label": "Relationships & Dating",
+        "keywords": [
+          "love",
+          "loved",
+          "mean",
+          "thing",
+          "image",
+          "take",
+          "man"
+        ],
+        "relevance_score": 14509.6,
+        "prevalence": 0.095
+      },
+      {
+        "topic_id": 7,
+        "label": "Topic: fucking",
+        "keywords": [
+          "fucking",
+          "max",
+          "didn",
+          "doing",
+          "look",
+          "life",
+          "idk"
+        ],
+        "relevance_score": 15162.24,
+        "prevalence": 0.095
+      }
+    ],
+    "analysis_summary": "Primary themes: Work & Career, Topic: know, Work & Career",
+    "generated_at": "2025-11-26T03:02:10.054102"
+  },
+  "topic_evolution": {
+    "contact": "Marisa",
+    "phases_analyzed": 4,
+    "phase_topics": [
+      {
+        "phase": 1,
+        "period": "2022-03 to 2022-11",
+        "top_keywords": [
+          "loved",
+          "love",
+          "good",
+          "know",
+          "want",
+          "sorry",
+          "need",
+          "fuck",
+          "thank",
+          "also"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 2,
+        "period": "2022-11 to 2023-04",
+        "top_keywords": [
+          "loved",
+          "good",
+          "know",
+          "love",
+          "hello",
+          "there",
+          "also",
+          "because",
+          "need",
+          "people"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 3,
+        "period": "2023-04 to 2023-09",
+        "top_keywords": [
+          "loved",
+          "good",
+          "also",
+          "love",
+          "know",
+          "there",
+          "because",
+          "then",
+          "think",
+          "well"
+        ],
+        "theme": "Relationships & Dating"
+      },
+      {
+        "phase": 4,
+        "period": "2023-09 to 2025-07",
+        "top_keywords": [
+          "good",
+          "know",
+          "loved",
+          "there",
+          "think",
+          "also",
+          "because",
+          "love",
+          "people",
+          "then"
+        ],
+        "theme": "Relationships & Dating"
+      }
+    ],
+    "evolution_summary": "Consistent focus on Relationships & Dating throughout relationship",
+    "generated_at": "2025-11-26T03:02:11.806426"
+  },
+  "conflict_topics": {
+    "contact": "Marisa",
+    "conflict_detected": true,
+    "conflict_message_count": 970,
+    "conflict_message_percentage": 1.09,
+    "common_conflict_topics": [
+      "made",
+      "because",
+      "loved",
+      "feel",
+      "love",
+      "then",
+      "want",
+      "marisa",
+      "think",
+      "also"
+    ],
+    "primary_trigger": "made",
+    "assessment": "Conflicts often center around: made",
+    "generated_at": "2025-11-26T03:02:12.187668"
+  },
+  "generated_at": "2025-11-26T03:02:12.195588"
+}

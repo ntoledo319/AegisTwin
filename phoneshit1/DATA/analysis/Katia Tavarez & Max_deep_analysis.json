@@ -1,0 +1,41 @@
+{
+  "person": "Katia Tavarez & Max",
+  "type": "group",
+  "total_messages": 149,
+  "first_message": "2022-07-03 12:30:30",
+  "last_message": "2022-07-26 11:21:37",
+  "duration_days": 22,
+  "days_since_last": 1212,
+  "your_messages": 15,
+  "their_messages": 134,
+  "balance": 10.06711409395973,
+  "emotional_keywords": {
+    "love": 22,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2022-07-03",
+      "end_date": "2022-07-14",
+      "duration_days": 11,
+      "message_count": 113,
+      "daily_avg": 10.272727272727273,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2022-07-14",
+      "end_date": "2022-07-26",
+      "duration_days": 11,
+      "message_count": 36,
+      "daily_avg": 3.272727272727273,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

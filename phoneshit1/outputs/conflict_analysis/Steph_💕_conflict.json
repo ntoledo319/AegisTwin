@@ -1,0 +1,156 @@
+{
+  "contact": "Steph \ud83d\udc95",
+  "analysis_date": "2025-11-26T03:27:18.106817",
+  "total_messages": 21647,
+  "time_span_days": 2086,
+  "conflict_profile": "MODERATE-HIGH CONFLICT",
+  "statistics": {
+    "total_conflicts": 239,
+    "avg_duration_days": 0.7,
+    "max_duration_days": 17,
+    "avg_severity": 0.44,
+    "max_severity": 1.29,
+    "conflict_frequency_days": 8.7,
+    "total_conflict_days": 177
+  },
+  "top_conflicts": [
+    {
+      "start": "2021-04-21 21:33:08",
+      "end": "2021-04-23 21:54:45",
+      "duration_days": 2,
+      "severity": 1.2916666666666667,
+      "message_count": 24
+    },
+    {
+      "start": "2020-01-02 22:27:57",
+      "end": "2020-01-02 23:14:18",
+      "duration_days": 0,
+      "severity": 1.0,
+      "message_count": 19
+    },
+    {
+      "start": "2023-12-29 17:45:43",
+      "end": "2023-12-29 18:29:12",
+      "duration_days": 0,
+      "severity": 0.9333333333333333,
+      "message_count": 15
+    },
+    {
+      "start": "2023-12-02 19:53:15",
+      "end": "2023-12-13 18:52:22",
+      "duration_days": 10,
+      "severity": 0.9047619047619048,
+      "message_count": 21
+    },
+    {
+      "start": "2024-04-04 13:22:33",
+      "end": "2024-04-04 15:05:50",
+      "duration_days": 0,
+      "severity": 0.8928571428571429,
+      "message_count": 28
+    },
+    {
+      "start": "2021-10-20 13:54:05",
+      "end": "2021-10-20 18:12:09",
+      "duration_days": 0,
+      "severity": 0.85,
+      "message_count": 20
+    },
+    {
+      "start": "2023-10-28 14:22:01",
+      "end": "2023-10-28 17:32:37",
+      "duration_days": 0,
+      "severity": 0.84375,
+      "message_count": 32
+    },
+    {
+      "start": "2024-06-01 19:59:03",
+      "end": "2024-06-01 23:57:08",
+      "duration_days": 0,
+      "severity": 0.8333333333333334,
+      "message_count": 30
+    },
+    {
+      "start": "2024-05-06 22:19:40",
+      "end": "2024-05-07 11:53:41",
+      "duration_days": 0,
+      "severity": 0.8,
+      "message_count": 15
+    },
+    {
+      "start": "2023-01-07 00:54:58",
+      "end": "2023-01-09 14:53:18",
+      "duration_days": 2,
+      "severity": 0.75,
+      "message_count": 16
+    }
+  ],
+  "triggers": [
+    {
+      "topic": "jealousy",
+      "frequency": 47,
+      "severity": "high"
+    },
+    {
+      "topic": "respect",
+      "frequency": 24,
+      "severity": "high"
+    },
+    {
+      "topic": "trust",
+      "frequency": 15,
+      "severity": "high"
+    },
+    {
+      "topic": "boundaries",
+      "frequency": 10,
+      "severity": "high"
+    },
+    {
+      "topic": "commitment",
+      "frequency": 9,
+      "severity": "high"
+    },
+    {
+      "topic": "communication",
+      "frequency": 6,
+      "severity": "high"
+    },
+    {
+      "topic": "plans",
+      "frequency": 4,
+      "severity": "moderate"
+    },
+    {
+      "topic": "time",
+      "frequency": 3,
+      "severity": "moderate"
+    },
+    {
+      "topic": "family",
+      "frequency": 3,
+      "severity": "moderate"
+    }
+  ],
+  "resolution_patterns": {
+    "primary_strategy": "apology",
+    "resolution_breakdown": {
+      "apology": 13,
+      "reconciliation": 6,
+      "compromise": 10,
+      "understanding": 4
+    },
+    "effectiveness": "moderate"
+  },
+  "conflict_maturity": {
+    "early_avg_severity": 0.31,
+    "late_avg_severity": 0.56,
+    "trend": "WORSENING",
+    "assessment": "Conflict patterns are worsening"
+  },
+  "recommendations": [
+    "High conflict frequency suggests fundamental compatibility issues",
+    "Primary conflict trigger is jealousy - address this proactively",
+    "CRITICAL: Conflicts are escalating - consider relationship evaluation"
+  ]
+}

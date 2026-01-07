@@ -1,0 +1,49 @@
+{
+  "person": "Alfredo",
+  "type": "individual",
+  "total_messages": 37,
+  "first_message": "2022-10-13 20:33:17",
+  "last_message": "2023-01-10 14:06:31",
+  "duration_days": 88,
+  "days_since_last": 1044,
+  "your_messages": 15,
+  "their_messages": 22,
+  "balance": 40.54054054054054,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-10-13",
+      "end_date": "2022-11-12",
+      "duration_days": 29,
+      "message_count": 15,
+      "daily_avg": 0.5172413793103449,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-11-12",
+      "end_date": "2022-12-12",
+      "duration_days": 29,
+      "message_count": 19,
+      "daily_avg": 0.6551724137931034,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-12",
+      "end_date": "2023-01-10",
+      "duration_days": 29,
+      "message_count": 3,
+      "daily_avg": 0.10344827586206896,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

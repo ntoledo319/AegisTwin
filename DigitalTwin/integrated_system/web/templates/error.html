@@ -1,0 +1,340 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+    .error-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    .error-icon {
+        font-size: 4rem;
+        color: var(--accent-color);
+        margin-bottom: 2rem;
+        animation: errorPulse 2s infinite;
+    }
+    
+    @keyframes errorPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+    }
+    
+    .error-title {
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-bottom: 1rem;
+    }
+    
+    .error-message {
+        font-size: 1.1rem;
+        color: var(--medium-gray);
+        margin-bottom: 2rem;
+        max-width: 600px;
+        line-height: 1.6;
+    }
+    
+    .error-details {
+        background: var(--light-gray);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        max-width: 800px;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .error-details pre {
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        font-size: 0.875rem;
+        color: var(--dark-gray);
+        white-space: pre-wrap;
+        word-break: break-word;
+        margin: 0;
+    }
+    
+    .error-actions {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .error-code {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--accent-color);
+        margin-bottom: 0.5rem;
+    }
+    
+    .retry-btn {
+        background: linear-gradient(135deg, var(--primary-color), #4fc3f7);
+        color: white;
+        border: none;
+        padding: 0.875rem 2rem;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        transition: var(--transition-medium);
+        font-size: 1rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .retry-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-medium);
+    }
+    
+    .help-section {
+        background: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-light);
+        padding: 2rem;
+        margin-top: 3rem;
+        max-width: 800px;
+        width: 100%;
+        border: 1px solid var(--border-color);
+    }
+    
+    .help-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .help-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .help-list li {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .help-list li:last-child {
+        border-bottom: none;
+    }
+    
+    .help-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: var(--primary-color);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.875rem;
+    }
+    
+    .help-text {
+        flex: 1;
+        color: var(--medium-gray);
+    }
+    
+    .error-id {
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        font-size: 0.75rem;
+        color: var(--medium-gray);
+        background: var(--light-gray);
+        padding: 0.25rem 0.5rem;
+        border-radius: var(--border-radius-small);
+        margin-top: 1rem;
+    }
+    
+    @media (max-width: 768px) {
+        .error-title {
+            font-size: 1.5rem;
+        }
+        
+        .error-actions {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .retry-btn {
+            width: 100%;
+            max-width: 300px;
+            justify-content: center;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="error-container">
+    <div class="error-icon">
+        <i class="fas fa-exclamation-triangle"></i>
+    </div>
+    
+    <div class="error-code">Error</div>
+    <h1 class="error-title">Something went wrong</h1>
+    
+    <div class="error-message">
+        {% if error %}
+            {{ error }}
+        {% else %}
+            An unexpected error occurred while processing your request. Please try again or contact support if the problem persists.
+        {% endif %}
+    </div>
+    
+    {% if error_details %}
+    <div class="error-details">
+        <strong>Technical Details:</strong>
+        <pre>{{ error_details }}</pre>
+    </div>
+    {% endif %}
+    
+    <div class="error-actions">
+        <button class="retry-btn" onclick="window.history.back()">
+            <i class="fas fa-arrow-left"></i>
+            Go Back
+        </button>
+        
+        <button class="retry-btn" onclick="window.location.reload()">
+            <i class="fas fa-redo"></i>
+            Try Again
+        </button>
+        
+        <a href="/" class="btn btn-outline">
+            <i class="fas fa-home"></i>
+            Home
+        </a>
+    </div>
+    
+    <div class="help-section">
+        <h3 class="help-title">
+            <i class="fas fa-question-circle"></i>
+            Need Help?
+        </h3>
+        
+        <ul class="help-list">
+            <li>
+                <div class="help-icon">
+                    <i class="fas fa-sync"></i>
+                </div>
+                <div class="help-text">
+                    <strong>Try refreshing the page</strong> - This might be a temporary issue that resolves itself.
+                </div>
+            </li>
+            
+            <li>
+                <div class="help-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="help-text">
+                    <strong>Check your connection</strong> - Ensure you have a stable internet connection.
+                </div>
+            </li>
+            
+            <li>
+                <div class="help-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="help-text">
+                    <strong>Check system status</strong> - Visit the dashboard to see if there are any known issues.
+                </div>
+            </li>
+            
+            <li>
+                <div class="help-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="help-text">
+                    <strong>Contact support</strong> - If the problem persists, please reach out to our support team.
+                </div>
+            </li>
+        </ul>
+        
+        <div class="error-id">
+            Error ID: {{ error_id or (timestamp or 'unknown')|string + '-' + (error|hash|abs) }}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Auto-report error (optional)
+document.addEventListener('DOMContentLoaded', function() {
+    // Log error details for debugging
+    console.group('Cognitive-Twin Error');
+    console.error('Error:', '{{ error|escape }}');
+    {% if error_details %}
+    console.error('Details:', '{{ error_details|escape }}');
+    {% endif %}
+    console.error('URL:', window.location.href);
+    console.error('User Agent:', navigator.userAgent);
+    console.error('Timestamp:', new Date().toISOString());
+    console.groupEnd();
+    
+    // Optional: Send error report to analytics
+    if (window.gtag) {
+        gtag('event', 'exception', {
+            'description': '{{ error|escape }}',
+            'fatal': false
+        });
+    }
+});
+
+// Add retry with backoff
+let retryCount = 0;
+const maxRetries = 3;
+
+function retryWithBackoff() {
+    if (retryCount >= maxRetries) {
+        showNotification('Maximum retry attempts reached. Please contact support.', 'error');
+        return;
+    }
+    
+    retryCount++;
+    showNotification(`Retrying... (${retryCount}/${maxRetries})`, 'info');
+    
+    setTimeout(() => {
+        window.location.reload();
+    }, retryCount * 1000); // Progressive delay
+}
+
+// Add keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+    // R key to retry
+    if (e.key === 'r' || e.key === 'R') {
+        e.preventDefault();
+        window.location.reload();
+    }
+    
+    // H key to go home
+    if (e.key === 'h' || e.key === 'H') {
+        e.preventDefault();
+        window.location.href = '/';
+    }
+    
+    // B key to go back
+    if (e.key === 'b' || e.key === 'B') {
+        e.preventDefault();
+        window.history.back();
+    }
+});
+
+// Show helpful keyboard shortcuts
+setTimeout(() => {
+    showNotification('Keyboard shortcuts: R (retry), H (home), B (back)', 'info', 8000);
+}, 2000);
+</script>
+{% endblock %}

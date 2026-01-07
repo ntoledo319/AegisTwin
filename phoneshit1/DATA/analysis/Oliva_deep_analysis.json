@@ -1,0 +1,49 @@
+{
+  "person": "Oliva",
+  "type": "individual",
+  "total_messages": 82,
+  "first_message": "2023-01-01 00:50:47",
+  "last_message": "2023-03-29 16:45:07",
+  "duration_days": 87,
+  "days_since_last": 966,
+  "your_messages": 43,
+  "their_messages": 39,
+  "balance": 52.4390243902439,
+  "emotional_keywords": {
+    "love": 12,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-01",
+      "end_date": "2023-01-30",
+      "duration_days": 29,
+      "message_count": 30,
+      "daily_avg": 1.0344827586206897,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-01-30",
+      "end_date": "2023-02-28",
+      "duration_days": 29,
+      "message_count": 11,
+      "daily_avg": 0.3793103448275862,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-02-28",
+      "end_date": "2023-03-29",
+      "duration_days": 29,
+      "message_count": 41,
+      "daily_avg": 1.4137931034482758,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

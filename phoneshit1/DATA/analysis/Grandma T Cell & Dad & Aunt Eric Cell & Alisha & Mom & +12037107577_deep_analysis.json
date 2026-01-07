@@ -1,0 +1,41 @@
+{
+  "person": "Grandma T Cell & Dad & Aunt Eric Cell & Alisha & Mom & +12037107577",
+  "type": "group",
+  "total_messages": 11,
+  "first_message": "2022-09-10 17:05:35",
+  "last_message": "2022-09-20 20:19:45",
+  "duration_days": 10,
+  "days_since_last": 1156,
+  "your_messages": 0,
+  "their_messages": 11,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 1
+  },
+  "phases": [
+    {
+      "start_date": "2022-09-10",
+      "end_date": "2022-09-15",
+      "duration_days": 5,
+      "message_count": 7,
+      "daily_avg": 1.4,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-09-15",
+      "end_date": "2022-09-20",
+      "duration_days": 5,
+      "message_count": 4,
+      "daily_avg": 0.8,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

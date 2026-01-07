@@ -1,0 +1,41 @@
+{
+  "person": "Mikey",
+  "type": "individual",
+  "total_messages": 3,
+  "first_message": "2022-10-08 00:39:32",
+  "last_message": "2022-10-20 11:23:04",
+  "duration_days": 12,
+  "days_since_last": 1126,
+  "your_messages": 1,
+  "their_messages": 2,
+  "balance": 33.33333333333333,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-10-08",
+      "end_date": "2022-10-14",
+      "duration_days": 6,
+      "message_count": 1,
+      "daily_avg": 0.16666666666666666,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-10-14",
+      "end_date": "2022-10-20",
+      "duration_days": 6,
+      "message_count": 2,
+      "daily_avg": 0.3333333333333333,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

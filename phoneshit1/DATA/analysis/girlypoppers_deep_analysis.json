@@ -1,0 +1,41 @@
+{
+  "person": "girlypoppers",
+  "type": "group",
+  "total_messages": 32,
+  "first_message": "2024-11-03 10:38:43",
+  "last_message": "2024-11-06 20:16:50",
+  "duration_days": 3,
+  "days_since_last": 378,
+  "your_messages": 10,
+  "their_messages": 22,
+  "balance": 31.25,
+  "emotional_keywords": {
+    "love": 9,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-11-03",
+      "end_date": "2024-11-05",
+      "duration_days": 1,
+      "message_count": 28,
+      "daily_avg": 28.0,
+      "characteristics": "High intensity"
+    },
+    {
+      "start_date": "2024-11-05",
+      "end_date": "2024-11-06",
+      "duration_days": 1,
+      "message_count": 4,
+      "daily_avg": 4.0,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

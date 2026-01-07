@@ -1,0 +1,57 @@
+{
+  "person": "Alex Work",
+  "type": "individual",
+  "total_messages": 30,
+  "first_message": "2023-03-21 11:09:40",
+  "last_message": "2023-10-15 14:50:31",
+  "duration_days": 208,
+  "days_since_last": 766,
+  "your_messages": 15,
+  "their_messages": 15,
+  "balance": 50.0,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 1,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-03-21",
+      "end_date": "2023-05-12",
+      "duration_days": 52,
+      "message_count": 3,
+      "daily_avg": 0.057692307692307696,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-05-12",
+      "end_date": "2023-07-03",
+      "duration_days": 52,
+      "message_count": 14,
+      "daily_avg": 0.2692307692307692,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-07-03",
+      "end_date": "2023-08-24",
+      "duration_days": 52,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-24",
+      "end_date": "2023-10-15",
+      "duration_days": 52,
+      "message_count": 13,
+      "daily_avg": 0.25,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

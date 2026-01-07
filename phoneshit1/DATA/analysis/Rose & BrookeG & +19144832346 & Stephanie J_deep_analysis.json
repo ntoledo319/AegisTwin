@@ -1,0 +1,41 @@
+{
+  "person": "Rose & BrookeG & +19144832346 & Stephanie J",
+  "type": "group",
+  "total_messages": 42,
+  "first_message": "2023-01-19 17:43:39",
+  "last_message": "2023-01-22 17:10:13",
+  "duration_days": 2,
+  "days_since_last": 1032,
+  "your_messages": 2,
+  "their_messages": 40,
+  "balance": 4.761904761904762,
+  "emotional_keywords": {
+    "love": 11,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2023-01-19",
+      "end_date": "2023-01-21",
+      "duration_days": 1,
+      "message_count": 21,
+      "daily_avg": 21.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2023-01-21",
+      "end_date": "2023-01-22",
+      "duration_days": 1,
+      "message_count": 21,
+      "daily_avg": 21.0,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

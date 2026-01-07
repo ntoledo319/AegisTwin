@@ -1,0 +1,57 @@
+{
+  "person": "Michael Kenny",
+  "type": "individual",
+  "total_messages": 3532,
+  "first_message": "2020-11-20 21:31:27",
+  "last_message": "2024-10-01 11:25:27",
+  "duration_days": 1410,
+  "days_since_last": 414,
+  "your_messages": 1693,
+  "their_messages": 1839,
+  "balance": 47.93318233295583,
+  "emotional_keywords": {
+    "love": 106,
+    "conflict": 67,
+    "breakup": 2,
+    "reconciliation": 6,
+    "intimacy": 12,
+    "support": 2,
+    "excitement": 13,
+    "sadness": 54
+  },
+  "phases": [
+    {
+      "start_date": "2020-11-20",
+      "end_date": "2021-11-08",
+      "duration_days": 352,
+      "message_count": 3041,
+      "daily_avg": 8.639204545454545,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2021-11-08",
+      "end_date": "2022-10-27",
+      "duration_days": 352,
+      "message_count": 457,
+      "daily_avg": 1.2982954545454546,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-10-27",
+      "end_date": "2023-10-14",
+      "duration_days": 352,
+      "message_count": 21,
+      "daily_avg": 0.05965909090909091,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-10-14",
+      "end_date": "2024-10-01",
+      "duration_days": 352,
+      "message_count": 13,
+      "daily_avg": 0.036931818181818184,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

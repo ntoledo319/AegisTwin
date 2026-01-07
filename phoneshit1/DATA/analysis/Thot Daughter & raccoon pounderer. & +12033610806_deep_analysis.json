@@ -1,0 +1,41 @@
+{
+  "person": "Thot Daughter & raccoon pounderer. & +12033610806",
+  "type": "group",
+  "total_messages": 16,
+  "first_message": "2025-04-26 21:18:21",
+  "last_message": "2025-04-30 18:23:37",
+  "duration_days": 3,
+  "days_since_last": 203,
+  "your_messages": 0,
+  "their_messages": 16,
+  "balance": 0.0,
+  "emotional_keywords": {
+    "love": 4,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2025-04-26",
+      "end_date": "2025-04-28",
+      "duration_days": 1,
+      "message_count": 15,
+      "daily_avg": 15.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-04-28",
+      "end_date": "2025-04-30",
+      "duration_days": 1,
+      "message_count": 1,
+      "daily_avg": 1.0,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

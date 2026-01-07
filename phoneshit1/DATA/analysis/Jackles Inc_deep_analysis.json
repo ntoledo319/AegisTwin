@@ -1,0 +1,57 @@
+{
+  "person": "Jackles Inc",
+  "type": "group",
+  "total_messages": 2135,
+  "first_message": "2024-08-01 10:16:27",
+  "last_message": "2025-06-25 16:46:10",
+  "duration_days": 328,
+  "days_since_last": 147,
+  "your_messages": 345,
+  "their_messages": 1790,
+  "balance": 16.159250585480095,
+  "emotional_keywords": {
+    "love": 517,
+    "conflict": 37,
+    "breakup": 4,
+    "reconciliation": 4,
+    "intimacy": 9,
+    "support": 2,
+    "excitement": 7,
+    "sadness": 22
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-01",
+      "end_date": "2024-10-22",
+      "duration_days": 82,
+      "message_count": 1242,
+      "daily_avg": 15.146341463414634,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2024-10-22",
+      "end_date": "2025-01-12",
+      "duration_days": 82,
+      "message_count": 830,
+      "daily_avg": 10.121951219512194,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2025-01-12",
+      "end_date": "2025-04-04",
+      "duration_days": 82,
+      "message_count": 23,
+      "daily_avg": 0.2804878048780488,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-04-04",
+      "end_date": "2025-06-25",
+      "duration_days": 82,
+      "message_count": 40,
+      "daily_avg": 0.4878048780487805,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

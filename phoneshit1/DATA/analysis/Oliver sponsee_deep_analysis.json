@@ -1,0 +1,49 @@
+{
+  "person": "Oliver sponsee",
+  "type": "individual",
+  "total_messages": 838,
+  "first_message": "2025-06-21 11:03:27",
+  "last_message": "2025-11-17 21:11:31",
+  "duration_days": 149,
+  "days_since_last": 2,
+  "your_messages": 372,
+  "their_messages": 466,
+  "balance": 44.39140811455847,
+  "emotional_keywords": {
+    "love": 133,
+    "conflict": 28,
+    "breakup": 0,
+    "reconciliation": 4,
+    "intimacy": 14,
+    "support": 2,
+    "excitement": 3,
+    "sadness": 15
+  },
+  "phases": [
+    {
+      "start_date": "2025-06-21",
+      "end_date": "2025-08-10",
+      "duration_days": 49,
+      "message_count": 245,
+      "daily_avg": 5.0,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-08-10",
+      "end_date": "2025-09-29",
+      "duration_days": 49,
+      "message_count": 275,
+      "daily_avg": 5.612244897959184,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2025-09-29",
+      "end_date": "2025-11-17",
+      "duration_days": 49,
+      "message_count": 318,
+      "daily_avg": 6.489795918367347,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "ACTIVE"
+}

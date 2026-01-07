@@ -1,0 +1,188 @@
+{
+  "emails": [
+    {
+      "id": "email1",
+      "sender": "alice@example.com",
+      "sender_name": "Alice Smith",
+      "recipients": ["bob@example.com"],
+      "to": ["bob@example.com"],
+      "cc": [],
+      "subject": "Project Update",
+      "content": "Hi Bob,\n\nJust wanted to give you a quick update on the project. We've completed the first phase and are ready to move on to the second phase. Let me know if you have any questions.\n\nBest,\nAlice",
+      "timestamp": "2023-01-15T10:30:00",
+      "headers": {
+        "message-id": "<email1@example.com>",
+        "date": "Sun, 15 Jan 2023 10:30:00 -0000",
+        "from": "Alice Smith <alice@example.com>",
+        "to": "Bob Johnson <bob@example.com>",
+        "subject": "Project Update"
+      }
+    },
+    {
+      "id": "email2",
+      "sender": "bob@example.com",
+      "sender_name": "Bob Johnson",
+      "recipients": ["alice@example.com"],
+      "to": ["alice@example.com"],
+      "cc": [],
+      "subject": "Re: Project Update",
+      "content": "Hi Alice,\n\nThanks for the update. I'm glad to hear that the first phase is complete. Let's schedule a meeting to discuss the second phase.\n\nRegards,\nBob",
+      "timestamp": "2023-01-15T11:45:00",
+      "headers": {
+        "message-id": "<email2@example.com>",
+        "date": "Sun, 15 Jan 2023 11:45:00 -0000",
+        "from": "Bob Johnson <bob@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "subject": "Re: Project Update"
+      }
+    },
+    {
+      "id": "email3",
+      "sender": "alice@example.com",
+      "sender_name": "Alice Smith",
+      "recipients": ["bob@example.com", "charlie@example.com"],
+      "to": ["bob@example.com"],
+      "cc": ["charlie@example.com"],
+      "subject": "Meeting Schedule",
+      "content": "Hi Bob and Charlie,\n\nI'd like to schedule a meeting to discuss the project. How about tomorrow at 2 PM?\n\nBest,\nAlice",
+      "timestamp": "2023-01-16T09:15:00",
+      "headers": {
+        "message-id": "<email3@example.com>",
+        "date": "Mon, 16 Jan 2023 09:15:00 -0000",
+        "from": "Alice Smith <alice@example.com>",
+        "to": "Bob Johnson <bob@example.com>",
+        "cc": "Charlie Brown <charlie@example.com>",
+        "subject": "Meeting Schedule"
+      }
+    },
+    {
+      "id": "email4",
+      "sender": "charlie@example.com",
+      "sender_name": "Charlie Brown",
+      "recipients": ["alice@example.com", "bob@example.com"],
+      "to": ["alice@example.com"],
+      "cc": ["bob@example.com"],
+      "subject": "Re: Meeting Schedule",
+      "content": "Hi Alice,\n\nTomorrow at 2 PM works for me. Looking forward to discussing the project.\n\nBest,\nCharlie",
+      "timestamp": "2023-01-16T10:20:00",
+      "headers": {
+        "message-id": "<email4@example.com>",
+        "date": "Mon, 16 Jan 2023 10:20:00 -0000",
+        "from": "Charlie Brown <charlie@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "cc": "Bob Johnson <bob@example.com>",
+        "subject": "Re: Meeting Schedule"
+      }
+    },
+    {
+      "id": "email5",
+      "sender": "bob@example.com",
+      "sender_name": "Bob Johnson",
+      "recipients": ["alice@example.com", "charlie@example.com"],
+      "to": ["alice@example.com"],
+      "cc": ["charlie@example.com"],
+      "subject": "Re: Meeting Schedule",
+      "content": "Hi Alice and Charlie,\n\n2 PM works for me as well. I'll prepare some slides for the meeting.\n\nRegards,\nBob",
+      "timestamp": "2023-01-16T11:05:00",
+      "headers": {
+        "message-id": "<email5@example.com>",
+        "date": "Mon, 16 Jan 2023 11:05:00 -0000",
+        "from": "Bob Johnson <bob@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "cc": "Charlie Brown <charlie@example.com>",
+        "subject": "Re: Meeting Schedule"
+      }
+    },
+    {
+      "id": "email6",
+      "sender": "david@example.com",
+      "sender_name": "David Wilson",
+      "recipients": ["alice@example.com"],
+      "to": ["alice@example.com"],
+      "cc": [],
+      "subject": "New Project Opportunity",
+      "content": "Hi Alice,\n\nI heard about your expertise in project management and wanted to discuss a new opportunity with you. Are you available for a call this week?\n\nBest regards,\nDavid",
+      "timestamp": "2023-01-17T14:30:00",
+      "headers": {
+        "message-id": "<email6@example.com>",
+        "date": "Tue, 17 Jan 2023 14:30:00 -0000",
+        "from": "David Wilson <david@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "subject": "New Project Opportunity"
+      }
+    },
+    {
+      "id": "email7",
+      "sender": "alice@example.com",
+      "sender_name": "Alice Smith",
+      "recipients": ["david@example.com"],
+      "to": ["david@example.com"],
+      "cc": [],
+      "subject": "Re: New Project Opportunity",
+      "content": "Hi David,\n\nThank you for reaching out. I'd be happy to discuss the new opportunity. How about a call on Thursday at 11 AM?\n\nBest,\nAlice",
+      "timestamp": "2023-01-17T15:45:00",
+      "headers": {
+        "message-id": "<email7@example.com>",
+        "date": "Tue, 17 Jan 2023 15:45:00 -0000",
+        "from": "Alice Smith <alice@example.com>",
+        "to": "David Wilson <david@example.com>",
+        "subject": "Re: New Project Opportunity"
+      }
+    },
+    {
+      "id": "email8",
+      "sender": "alice@example.com",
+      "sender_name": "Alice Smith",
+      "recipients": ["bob@example.com", "charlie@example.com"],
+      "to": ["bob@example.com", "charlie@example.com"],
+      "cc": [],
+      "subject": "Meeting Notes",
+      "content": "Hi Bob and Charlie,\n\nThank you for attending the meeting today. Here are the key points we discussed:\n\n1. Project timeline update\n2. Resource allocation\n3. Next steps\n\nPlease let me know if you have any questions or comments.\n\nBest,\nAlice",
+      "timestamp": "2023-01-17T16:30:00",
+      "headers": {
+        "message-id": "<email8@example.com>",
+        "date": "Tue, 17 Jan 2023 16:30:00 -0000",
+        "from": "Alice Smith <alice@example.com>",
+        "to": "Bob Johnson <bob@example.com>, Charlie Brown <charlie@example.com>",
+        "subject": "Meeting Notes"
+      }
+    },
+    {
+      "id": "email9",
+      "sender": "charlie@example.com",
+      "sender_name": "Charlie Brown",
+      "recipients": ["alice@example.com", "bob@example.com"],
+      "to": ["alice@example.com"],
+      "cc": ["bob@example.com"],
+      "subject": "Re: Meeting Notes",
+      "content": "Hi Alice,\n\nThanks for the notes. I have a question about the resource allocation. Can we discuss this further?\n\nBest,\nCharlie",
+      "timestamp": "2023-01-17T17:15:00",
+      "headers": {
+        "message-id": "<email9@example.com>",
+        "date": "Tue, 17 Jan 2023 17:15:00 -0000",
+        "from": "Charlie Brown <charlie@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "cc": "Bob Johnson <bob@example.com>",
+        "subject": "Re: Meeting Notes"
+      }
+    },
+    {
+      "id": "email10",
+      "sender": "david@example.com",
+      "sender_name": "David Wilson",
+      "recipients": ["alice@example.com"],
+      "to": ["alice@example.com"],
+      "cc": [],
+      "subject": "Re: New Project Opportunity",
+      "content": "Hi Alice,\n\nThursday at 11 AM works perfectly. I'll send you a calendar invite with the call details.\n\nLooking forward to our conversation.\n\nBest regards,\nDavid",
+      "timestamp": "2023-01-18T09:10:00",
+      "headers": {
+        "message-id": "<email10@example.com>",
+        "date": "Wed, 18 Jan 2023 09:10:00 -0000",
+        "from": "David Wilson <david@example.com>",
+        "to": "Alice Smith <alice@example.com>",
+        "subject": "Re: New Project Opportunity"
+      }
+    }
+  ]
+}

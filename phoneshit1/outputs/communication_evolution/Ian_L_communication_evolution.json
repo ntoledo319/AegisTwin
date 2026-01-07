@@ -1,0 +1,264 @@
+{
+  "contact": "Ian L",
+  "analysis_date": "2025-11-26T03:09:08.343031",
+  "total_messages": 58930,
+  "time_span_days": 2885,
+  "phases_analyzed": 4,
+  "formality_evolution": {
+    "progression": [
+      {
+        "phase": 1,
+        "formality_score": 27.26,
+        "style": "Very casual/intimate",
+        "formal_words": 103,
+        "casual_markers": 530,
+        "avg_message_length": 34.5
+      },
+      {
+        "phase": 2,
+        "formality_score": 32.6,
+        "style": "Casual",
+        "formal_words": 161,
+        "casual_markers": 503,
+        "avg_message_length": 37.2
+      },
+      {
+        "phase": 3,
+        "formality_score": 31.78,
+        "style": "Casual",
+        "formal_words": 241,
+        "casual_markers": 565,
+        "avg_message_length": 33.5
+      },
+      {
+        "phase": 4,
+        "formality_score": 27.62,
+        "style": "Very casual/intimate",
+        "formal_words": 244,
+        "casual_markers": 609,
+        "avg_message_length": 29.9
+      }
+    ],
+    "trend": "Becoming more formal",
+    "total_change": 0.36,
+    "interpretation": "Stable communication style maintained throughout relationship"
+  },
+  "emotional_expressiveness": {
+    "progression": [
+      {
+        "phase": 1,
+        "unique_emotion_words": 24,
+        "emotion_word_density": 1.61,
+        "total_emotion_expressions": 151,
+        "top_emotions": [
+          "hurt",
+          "excited",
+          "depressed",
+          "annoyed",
+          "grateful",
+          "guilty",
+          "satisfied",
+          "sad",
+          "disappointed",
+          "confused"
+        ]
+      },
+      {
+        "phase": 2,
+        "unique_emotion_words": 23,
+        "emotion_word_density": 1.85,
+        "total_emotion_expressions": 182,
+        "top_emotions": [
+          "hurt",
+          "excited",
+          "ashamed",
+          "depressed",
+          "annoyed",
+          "satisfied",
+          "sad",
+          "confused",
+          "upset",
+          "afraid"
+        ]
+      },
+      {
+        "phase": 3,
+        "unique_emotion_words": 27,
+        "emotion_word_density": 2.34,
+        "total_emotion_expressions": 208,
+        "top_emotions": [
+          "hurt",
+          "excited",
+          "optimistic",
+          "depressed",
+          "ashamed",
+          "frustrated",
+          "irritated",
+          "annoyed",
+          "grateful",
+          "guilty"
+        ]
+      },
+      {
+        "phase": 4,
+        "unique_emotion_words": 25,
+        "emotion_word_density": 2.55,
+        "total_emotion_expressions": 208,
+        "top_emotions": [
+          "hurt",
+          "excited",
+          "ashamed",
+          "depressed",
+          "annoyed",
+          "guilty",
+          "grateful",
+          "sad",
+          "confused",
+          "upset"
+        ]
+      }
+    ],
+    "vocabulary_growth_percent": 4.2,
+    "overall_expressiveness_level": "Very high",
+    "assessment": "Gradual emotional opening - steady trust building"
+  },
+  "question_patterns": {
+    "progression": [
+      {
+        "phase": 1,
+        "your_questions": {
+          "open": 123,
+          "yes_no": 304,
+          "checking_in": 13,
+          "deep": 19,
+          "total": 449
+        },
+        "their_questions": {
+          "open": 285,
+          "yes_no": 314,
+          "checking_in": 9,
+          "deep": 16,
+          "total": 614
+        },
+        "question_balance": 0.73
+      },
+      {
+        "phase": 2,
+        "your_questions": {
+          "open": 184,
+          "yes_no": 362,
+          "checking_in": 12,
+          "deep": 13,
+          "total": 568
+        },
+        "their_questions": {
+          "open": 228,
+          "yes_no": 324,
+          "checking_in": 12,
+          "deep": 7,
+          "total": 571
+        },
+        "question_balance": 0.99
+      },
+      {
+        "phase": 3,
+        "your_questions": {
+          "open": 113,
+          "yes_no": 304,
+          "checking_in": 10,
+          "deep": 19,
+          "total": 428
+        },
+        "their_questions": {
+          "open": 110,
+          "yes_no": 337,
+          "checking_in": 12,
+          "deep": 15,
+          "total": 457
+        },
+        "question_balance": 0.94
+      },
+      {
+        "phase": 4,
+        "your_questions": {
+          "open": 160,
+          "yes_no": 336,
+          "checking_in": 26,
+          "deep": 9,
+          "total": 506
+        },
+        "their_questions": {
+          "open": 179,
+          "yes_no": 414,
+          "checking_in": 23,
+          "deep": 19,
+          "total": 602
+        },
+        "question_balance": 0.84
+      }
+    ],
+    "interpretation": "They ask more questions - they're more curious about you"
+  },
+  "listening_indicators": {
+    "your_listening_score": 2.29,
+    "their_listening_score": 2.49,
+    "comparison": "They listen better",
+    "assessment": "Limited listening indicators - communication may be more transactional"
+  },
+  "style_synchronization": {
+    "synchronization_score": 0.781,
+    "style_similarities": {
+      "avg_message_length": 0.536,
+      "avg_words_per_message": 0.537,
+      "punctuation_density": 0.89,
+      "emoji_usage": 1.0,
+      "capitalization_rate": 0.94
+    },
+    "your_style_profile": {
+      "avg_message_length": 43.37,
+      "avg_words_per_message": 8.27,
+      "punctuation_density": 0.35,
+      "emoji_usage": 0.01,
+      "capitalization_rate": 0.02
+    },
+    "their_style_profile": {
+      "avg_message_length": 23.26,
+      "avg_words_per_message": 4.44,
+      "punctuation_density": 0.24,
+      "emoji_usage": 0.01,
+      "capitalization_rate": 0.08
+    },
+    "interpretation": "High synchronization - good style matching and connection"
+  },
+  "vulnerability_progression": {
+    "progression": [
+      {
+        "phase": 1,
+        "vulnerability_expressions": 242,
+        "vulnerability_rate_percent": 2.99
+      },
+      {
+        "phase": 2,
+        "vulnerability_expressions": 289,
+        "vulnerability_rate_percent": 3.77
+      },
+      {
+        "phase": 3,
+        "vulnerability_expressions": 231,
+        "vulnerability_rate_percent": 2.81
+      },
+      {
+        "phase": 4,
+        "vulnerability_expressions": 181,
+        "vulnerability_rate_percent": 2.51
+      }
+    ],
+    "trend": "Stable vulnerability level - consistent emotional openness"
+  },
+  "key_transitions": [
+    {
+      "note": "No major style transitions detected"
+    }
+  ],
+  "overall_assessment": "Stable communication style maintained throughout relationship | Gradual emotional opening - steady trust building | High synchronization - good style matching and connection"
+}

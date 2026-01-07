@@ -1,0 +1,41 @@
+{
+  "person": "I own the place",
+  "type": "group",
+  "total_messages": 79,
+  "first_message": "2024-08-08 21:10:58",
+  "last_message": "2024-08-29 22:22:15",
+  "duration_days": 21,
+  "days_since_last": 447,
+  "your_messages": 2,
+  "their_messages": 77,
+  "balance": 2.5316455696202533,
+  "emotional_keywords": {
+    "love": 12,
+    "conflict": 2,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-08",
+      "end_date": "2024-08-19",
+      "duration_days": 10,
+      "message_count": 58,
+      "daily_avg": 5.8,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-08-19",
+      "end_date": "2024-08-29",
+      "duration_days": 10,
+      "message_count": 21,
+      "daily_avg": 2.1,
+      "characteristics": "Low-moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

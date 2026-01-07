@@ -1,0 +1,57 @@
+{
+  "person": "Connor",
+  "type": "individual",
+  "total_messages": 222,
+  "first_message": "2024-04-25 22:18:27",
+  "last_message": "2025-06-04 14:18:21",
+  "duration_days": 404,
+  "days_since_last": 168,
+  "your_messages": 99,
+  "their_messages": 123,
+  "balance": 44.5945945945946,
+  "emotional_keywords": {
+    "love": 49,
+    "conflict": 4,
+    "breakup": 1,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 1,
+    "excitement": 1,
+    "sadness": 5
+  },
+  "phases": [
+    {
+      "start_date": "2024-04-25",
+      "end_date": "2024-08-05",
+      "duration_days": 101,
+      "message_count": 184,
+      "daily_avg": 1.8217821782178218,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-08-05",
+      "end_date": "2024-11-14",
+      "duration_days": 101,
+      "message_count": 24,
+      "daily_avg": 0.2376237623762376,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-11-14",
+      "end_date": "2025-02-23",
+      "duration_days": 101,
+      "message_count": 2,
+      "daily_avg": 0.019801980198019802,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2025-02-23",
+      "end_date": "2025-06-04",
+      "duration_days": 101,
+      "message_count": 12,
+      "daily_avg": 0.1188118811881188,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

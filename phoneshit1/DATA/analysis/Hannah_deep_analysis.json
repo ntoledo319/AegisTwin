@@ -1,0 +1,57 @@
+{
+  "person": "Hannah",
+  "type": "individual",
+  "total_messages": 40,
+  "first_message": "2022-11-22 09:58:53",
+  "last_message": "2024-05-10 17:17:18",
+  "duration_days": 535,
+  "days_since_last": 558,
+  "your_messages": 18,
+  "their_messages": 22,
+  "balance": 45.0,
+  "emotional_keywords": {
+    "love": 8,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2022-11-22",
+      "end_date": "2023-04-05",
+      "duration_days": 133,
+      "message_count": 26,
+      "daily_avg": 0.19548872180451127,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-04-05",
+      "end_date": "2023-08-17",
+      "duration_days": 133,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-08-17",
+      "end_date": "2023-12-28",
+      "duration_days": 133,
+      "message_count": 4,
+      "daily_avg": 0.03007518796992481,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-12-28",
+      "end_date": "2024-05-10",
+      "duration_days": 133,
+      "message_count": 10,
+      "daily_avg": 0.07518796992481203,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

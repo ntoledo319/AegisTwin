@@ -1,0 +1,57 @@
+{
+  "person": "Parked Out By The Lake",
+  "type": "group",
+  "total_messages": 754,
+  "first_message": "2023-05-25 19:48:05",
+  "last_message": "2025-03-23 09:56:36",
+  "duration_days": 667,
+  "days_since_last": 241,
+  "your_messages": 163,
+  "their_messages": 591,
+  "balance": 21.618037135278513,
+  "emotional_keywords": {
+    "love": 54,
+    "conflict": 6,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 6,
+    "sadness": 5
+  },
+  "phases": [
+    {
+      "start_date": "2023-05-25",
+      "end_date": "2023-11-08",
+      "duration_days": 166,
+      "message_count": 459,
+      "daily_avg": 2.7650602409638556,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2023-11-08",
+      "end_date": "2024-04-23",
+      "duration_days": 166,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-04-23",
+      "end_date": "2024-10-07",
+      "duration_days": 166,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2024-10-07",
+      "end_date": "2025-03-23",
+      "duration_days": 166,
+      "message_count": 295,
+      "daily_avg": 1.7771084337349397,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

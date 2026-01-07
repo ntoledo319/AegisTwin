@@ -1,0 +1,57 @@
+{
+  "person": "Politics Aaron",
+  "type": "individual",
+  "total_messages": 369,
+  "first_message": "2020-08-05 15:43:58",
+  "last_message": "2021-07-26 19:45:08",
+  "duration_days": 355,
+  "days_since_last": 1577,
+  "your_messages": 162,
+  "their_messages": 207,
+  "balance": 43.90243902439025,
+  "emotional_keywords": {
+    "love": 2,
+    "conflict": 3,
+    "breakup": 0,
+    "reconciliation": 8,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 1,
+    "sadness": 6
+  },
+  "phases": [
+    {
+      "start_date": "2020-08-05",
+      "end_date": "2020-11-02",
+      "duration_days": 88,
+      "message_count": 316,
+      "daily_avg": 3.590909090909091,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2020-11-02",
+      "end_date": "2021-01-30",
+      "duration_days": 88,
+      "message_count": 33,
+      "daily_avg": 0.375,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-01-30",
+      "end_date": "2021-04-29",
+      "duration_days": 88,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-04-29",
+      "end_date": "2021-07-26",
+      "duration_days": 88,
+      "message_count": 20,
+      "daily_avg": 0.22727272727272727,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

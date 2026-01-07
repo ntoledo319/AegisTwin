@@ -1,0 +1,57 @@
+{
+  "person": "Barbara T",
+  "type": "individual",
+  "total_messages": 26,
+  "first_message": "2022-10-18 20:52:28",
+  "last_message": "2023-05-16 17:42:45",
+  "duration_days": 209,
+  "days_since_last": 918,
+  "your_messages": 10,
+  "their_messages": 16,
+  "balance": 38.46153846153847,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 2
+  },
+  "phases": [
+    {
+      "start_date": "2022-10-18",
+      "end_date": "2022-12-10",
+      "duration_days": 52,
+      "message_count": 11,
+      "daily_avg": 0.21153846153846154,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2022-12-10",
+      "end_date": "2023-01-31",
+      "duration_days": 52,
+      "message_count": 10,
+      "daily_avg": 0.19230769230769232,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-01-31",
+      "end_date": "2023-03-25",
+      "duration_days": 52,
+      "message_count": 0,
+      "daily_avg": 0.0,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2023-03-25",
+      "end_date": "2023-05-16",
+      "duration_days": 52,
+      "message_count": 5,
+      "daily_avg": 0.09615384615384616,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

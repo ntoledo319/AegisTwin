@@ -1,0 +1,41 @@
+{
+  "person": "Katie S",
+  "type": "individual",
+  "total_messages": 7,
+  "first_message": "2021-05-12 21:40:45",
+  "last_message": "2021-05-22 15:10:09",
+  "duration_days": 9,
+  "days_since_last": 1642,
+  "your_messages": 4,
+  "their_messages": 3,
+  "balance": 57.14285714285714,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2021-05-12",
+      "end_date": "2021-05-17",
+      "duration_days": 4,
+      "message_count": 5,
+      "daily_avg": 1.25,
+      "characteristics": "Low intensity"
+    },
+    {
+      "start_date": "2021-05-17",
+      "end_date": "2021-05-22",
+      "duration_days": 4,
+      "message_count": 2,
+      "daily_avg": 0.5,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

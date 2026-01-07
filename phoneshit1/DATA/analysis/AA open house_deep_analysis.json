@@ -1,0 +1,41 @@
+{
+  "person": "AA open house",
+  "type": "group",
+  "total_messages": 15,
+  "first_message": "2024-08-28 20:00:19",
+  "last_message": "2024-09-11 19:33:09",
+  "duration_days": 13,
+  "days_since_last": 434,
+  "your_messages": 8,
+  "their_messages": 7,
+  "balance": 53.333333333333336,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 4
+  },
+  "phases": [
+    {
+      "start_date": "2024-08-28",
+      "end_date": "2024-09-04",
+      "duration_days": 6,
+      "message_count": 13,
+      "daily_avg": 2.1666666666666665,
+      "characteristics": "Low-moderate intensity"
+    },
+    {
+      "start_date": "2024-09-04",
+      "end_date": "2024-09-11",
+      "duration_days": 6,
+      "message_count": 2,
+      "daily_avg": 0.3333333333333333,
+      "characteristics": "Low intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}

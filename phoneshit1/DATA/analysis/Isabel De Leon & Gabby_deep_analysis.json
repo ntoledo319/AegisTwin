@@ -1,0 +1,41 @@
+{
+  "person": "Isabel De Leon & Gabby",
+  "type": "group",
+  "total_messages": 24,
+  "first_message": "2020-08-20 20:22:37",
+  "last_message": "2020-08-23 22:32:50",
+  "duration_days": 3,
+  "days_since_last": 1914,
+  "your_messages": 9,
+  "their_messages": 15,
+  "balance": 37.5,
+  "emotional_keywords": {
+    "love": 0,
+    "conflict": 0,
+    "breakup": 0,
+    "reconciliation": 0,
+    "intimacy": 0,
+    "support": 0,
+    "excitement": 0,
+    "sadness": 0
+  },
+  "phases": [
+    {
+      "start_date": "2020-08-20",
+      "end_date": "2020-08-22",
+      "duration_days": 1,
+      "message_count": 10,
+      "daily_avg": 10.0,
+      "characteristics": "Moderate intensity"
+    },
+    {
+      "start_date": "2020-08-22",
+      "end_date": "2020-08-23",
+      "duration_days": 1,
+      "message_count": 14,
+      "daily_avg": 14.0,
+      "characteristics": "Moderate intensity"
+    }
+  ],
+  "status": "INACTIVE"
+}
