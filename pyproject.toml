@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegistwin"
+version = "0.1.0"
+description = "Event-driven agent runtime + governance + deterministic replay + local memory graph"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "AegisTwin Team"}
+]
+keywords = [
+    "agent",
+    "runtime",
+    "governance",
+    "replay",
+    "memory",
+    "knowledge-graph",
+    "event-driven",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "pydantic>=2.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.21.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "httpx>=0.24.0",
+]
+full = [
+    "networkx>=3.0",
+    "numpy>=1.24.0",
+    "sentence-transformers>=2.2.0",
+]
+
+[project.scripts]
+aegistwin = "aegistwin.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/aegistwin/aegistwin"
+Documentation = "https://github.com/aegistwin/aegistwin#readme"
+Repository = "https://github.com/aegistwin/aegistwin"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aegistwin*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
