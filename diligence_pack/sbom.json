@@ -1,0 +1,137 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-01-06T00:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "aegistwin",
+      "version": "0.1.0",
+      "description": "Event-driven agent runtime + governance + deterministic replay + local memory graph",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/aegistwin@0.1.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "2.0.0",
+      "description": "Data validation using Python type hints",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pydantic@2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": "0.100.0",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fastapi@0.100.0"
+    },
+    {
+      "type": "library",
+      "name": "uvicorn",
+      "version": "0.22.0",
+      "description": "The lightning-fast ASGI server",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/uvicorn@0.22.0"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "6.0",
+      "description": "YAML parser and emitter for Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "7.0.0",
+      "description": "pytest: simple powerful testing with Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pytest@7.0.0",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "name": "ruff",
+      "version": "0.1.0",
+      "description": "An extremely fast Python linter, written in Rust",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/ruff@0.1.0",
+      "scope": "optional"
+    },
+    {
+      "type": "library",
+      "name": "mypy",
+      "version": "1.0.0",
+      "description": "Optional static typing for Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/mypy@1.0.0",
+      "scope": "optional"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/aegistwin@0.1.0",
+      "dependsOn": [
+        "pkg:pypi/pydantic@2.0.0",
+        "pkg:pypi/fastapi@0.100.0",
+        "pkg:pypi/uvicorn@0.22.0",
+        "pkg:pypi/pyyaml@6.0"
+      ]
+    }
+  ]
+}
