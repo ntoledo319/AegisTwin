@@ -31,6 +31,13 @@ __license__ = "MIT"
 
 from aegistwin.runtime.core import AegisTwinRuntime
 from aegistwin.governance.policy import PolicyEngine
+from aegistwin.config import Config
+from aegistwin.exceptions import (
+    AegisTwinError,
+    PolicyDeniedError,
+    ReplayError,
+    ConfigurationError,
+)
 from aegistwin.events.schema import (
     IngestRequested,
     IngestCompleted,

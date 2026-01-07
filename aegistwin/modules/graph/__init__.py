@@ -9,4 +9,11 @@ Knowledge graph management from integrated_system/knowledge_graph.
 # ORIGINAL_INTENT: Wrap integrated_system/knowledge_graph
 """
 
-__all__ = []
+from aegistwin.modules.graph.manager import (
+    GraphManager,
+    Node,
+    Edge,
+    GraphStats,
+)
+
+__all__ = ["GraphManager", "Node", "Edge", "GraphStats"]

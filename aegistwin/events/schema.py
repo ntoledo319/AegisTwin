@@ -21,7 +21,7 @@ QueryResponded <- QueryRequested <- MemoryUpdated <- GraphUpdated
 # HUMAN-VALIDATED [pending]
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 from enum import Enum
 import hashlib

@@ -7,4 +7,11 @@ Minimal analyzer for entity extraction and relationship detection.
 @context_boundary: aegistwin/modules/analysis
 """
 
-__all__ = []
+from aegistwin.modules.analysis.analyzer import (
+    Analyzer,
+    AnalysisResult,
+    Entity,
+    Relationship,
+)
+
+__all__ = ["Analyzer", "AnalysisResult", "Entity", "Relationship"]

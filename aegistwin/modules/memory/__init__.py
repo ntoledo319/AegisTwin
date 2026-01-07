@@ -11,4 +11,11 @@ Provides episodic, semantic, and procedural memory capabilities.
 # ORIGINAL_INTENT: Wrap advanced-data-analysis-twin/digital_twin/memory
 """
 
-__all__ = []
+from aegistwin.modules.memory.store import (
+    MemoryStore,
+    MemoryEntry,
+    MemoryType,
+    MemoryStats,
+)
+
+__all__ = ["MemoryStore", "MemoryEntry", "MemoryType", "MemoryStats"]
