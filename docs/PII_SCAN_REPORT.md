@@ -1,16 +1,16 @@
 # PII Scan Report
 
-**Scan Time:** 2026-01-06T19:07:15.751245
-**Files Scanned:** 1351
-**Total Findings:** 508
+**Scan Time:** 2026-01-06T19:22:23.147729
+**Files Scanned:** 519
+**Total Findings:** 279
 
 ## Summary
 
 | Severity | Count |
 |----------|-------|
 | 🔴 CRITICAL | 3 |
-| 🟠 HIGH | 363 |
-| 🟡 MEDIUM | 142 |
+| 🟠 HIGH | 196 |
+| 🟡 MEDIUM | 80 |
 | 🟢 LOW | 0 |
 
 ## Quarantined Paths (Excluded from scan)
@@ -20,20 +20,13 @@
 - `graveyard/PII/dt_summarized_conversations`
 - `graveyard/PII/phoneshit1`
 - `graveyard/PII/phoneshit1/reporting`
-- `graveyard/PII/phoneshit1/reporting/__pycache__`
 - `graveyard/PII/phoneshit1/summarized_conversations`
-- `graveyard/PII/phoneshit1/.ruff_cache`
-- `graveyard/PII/phoneshit1/.ruff_cache/0.9.10`
 - `graveyard/PII/phoneshit1/psychology`
-- `graveyard/PII/phoneshit1/psychology/__pycache__`
-- `graveyard/PII/phoneshit1/__pycache__`
 - `graveyard/PII/phoneshit1/.enodios`
 - `graveyard/PII/phoneshit1/.enodios/runs`
 - `graveyard/PII/phoneshit1/.enodios/runs/op_1765863321797`
 - `graveyard/PII/phoneshit1/orchestration`
-- `graveyard/PII/phoneshit1/orchestration/__pycache__`
 - `graveyard/PII/phoneshit1/monitoring`
-- `graveyard/PII/phoneshit1/monitoring/__pycache__`
 - `graveyard/PII/phoneshit1/DATA`
 - `graveyard/PII/phoneshit1/DATA/analysis`
 - `graveyard/PII/phoneshit1/DATA/raw`
@@ -46,7 +39,6 @@
 - `graveyard/PII/phoneshit1/outputs/predictions`
 - `graveyard/PII/phoneshit1/outputs/topics`
 - `graveyard/PII/phoneshit1/analytics`
-- `graveyard/PII/phoneshit1/analytics/__pycache__`
 - `graveyard/PII/phoneshit1/REPORTS`
 - `graveyard/PII/phoneshit1/REPORTS/05_ENHANCED`
 - `graveyard/PII/hm_snapshots`
@@ -56,6 +48,75 @@
 - `graveyard/PII/dt_data/__MACOSX`
 - `graveyard/PII/cognilink_sample`
 - `graveyard/RETIRED_CODE`
+- `graveyard/RETIRED_CODE/ct_omega`
+- `graveyard/RETIRED_CODE/ct_omega/demo_data`
+- `graveyard/RETIRED_CODE/ct_omega/demo_data/profiles`
+- `graveyard/RETIRED_CODE/ct_omega/core`
+- `graveyard/RETIRED_CODE/ct_omega/test_data`
+- `graveyard/RETIRED_CODE/ct_omega/test_data/profiles`
+- `graveyard/RETIRED_CODE/ct_omega/docs`
+- `graveyard/RETIRED_CODE/cognilink`
+- `graveyard/RETIRED_CODE/cognilink/pipeline`
+- `graveyard/RETIRED_CODE/cognilink/pipeline/connectors`
+- `graveyard/RETIRED_CODE/cognilink/pipeline/processors`
+- `graveyard/RETIRED_CODE/cognilink/interface`
+- `graveyard/RETIRED_CODE/cognilink/interface/web`
+- `graveyard/RETIRED_CODE/cognilink/interface/templates`
+- `graveyard/RETIRED_CODE/cognilink/core`
+- `graveyard/RETIRED_CODE/cognilink/analysis`
+- `graveyard/RETIRED_CODE/cognilink/config`
+- `graveyard/RETIRED_CODE/cognilink/tests`
+- `graveyard/RETIRED_CODE/cognilink/tests/unit`
+- `graveyard/RETIRED_CODE/cognilink/tests/integration`
+- `graveyard/RETIRED_CODE/cognilink/examples`
+- `graveyard/RETIRED_CODE/cognilink/templates`
+- `graveyard/RETIRED_CODE/cognilink/data`
+- `graveyard/RETIRED_CODE/mindmirror`
+- `graveyard/RETIRED_CODE/mindmirror/interface`
+- `graveyard/RETIRED_CODE/mindmirror/interface/cli`
+- `graveyard/RETIRED_CODE/mindmirror/interface/api`
+- `graveyard/RETIRED_CODE/mindmirror/core`
+- `graveyard/RETIRED_CODE/mindmirror/analysis`
+- `graveyard/RETIRED_CODE/mindmirror/models`
+- `graveyard/RETIRED_CODE/mindmirror/models/cognitive`
+- `graveyard/RETIRED_CODE/mindmirror/models/memory`
+- `graveyard/RETIRED_CODE/mindmirror/models/language`
+- `graveyard/RETIRED_CODE/mindmirror/models/decision`
+- `graveyard/RETIRED_CODE/ct_modules`
+- `graveyard/RETIRED_CODE/ct_modules/shared`
+- `graveyard/RETIRED_CODE/ct_modules/shared/core`
+- `graveyard/RETIRED_CODE/ct_modules/shared/models`
+- `graveyard/RETIRED_CODE/ct_modules/SONAR`
+- `graveyard/RETIRED_CODE/ct_modules/SONAR/tests`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/memory`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/personality`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/tests`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/tests/integration`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/tests/adapters`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/adapters`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/examples`
+- `graveyard/RETIRED_CODE/ct_modules/digital_twin/conversation`
+- `graveyard/RETIRED_CODE/ct_modules/GRANULAR_BOOST`
+- `graveyard/RETIRED_CODE/ct_modules/GRANULAR_BOOST/app`
+- `graveyard/RETIRED_CODE/ct_modules/GRANULAR_BOOST/tests`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app/core`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app/models`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app/db`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app/db/models`
+- `graveyard/RETIRED_CODE/ct_modules/LUMOS/app/api`
+- `graveyard/RETIRED_CODE/ct_modules/ATLAS`
+- `graveyard/RETIRED_CODE/ct_modules/ATLAS/tests`
+- `graveyard/RETIRED_CODE/ct_modules/VERVE`
+- `graveyard/RETIRED_CODE/ct_modules/VERVE/app`
+- `graveyard/RETIRED_CODE/ct_modules/VERVE/app/routers`
+- `graveyard/RETIRED_CODE/ct_modules/VERVE/tests`
+- `graveyard/RETIRED_CODE/ct_modules/INFINITY`
+- `graveyard/RETIRED_CODE/ct_modules/INFINITY/app`
+- `graveyard/RETIRED_CODE/ct_modules/INFINITY/app/routers`
+- `graveyard/RETIRED_CODE/ct_modules/INFINITY/tests`
 
 ## Findings
 
@@ -76,7 +137,7 @@
   - Found ssn_pattern pattern
   - Line: 166
 
-### HIGH (363)
+### HIGH (196)
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/tools/synth_data_gen.py**
   - Type: `name_field`
@@ -179,37 +240,16 @@
   - Contains personal names: max
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 215
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 215
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 215
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 215
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 215
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
   - Type: `personal_name`
   - Contains personal names: jessica, becca, gabby, lily, marisa, max, mom, potato, steph, ian, julia, oliver, phillip, sean, natalia, quinn
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/01_PRIVACY_AND_PURGE.md**
   - Type: `personal_name`
   - Contains personal names: jessica
+
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/diligence_pack/PII_PURGE_REPORT.md**
+  - Type: `personal_name`
+  - Contains personal names: jessica, max
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/fixtures/demo_medium.json**
   - Type: `phone_number`
@@ -393,6 +433,26 @@
   - Type: `personal_name`
   - Contains personal names: quinn
 
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `name_field`
+  - Found name_field pattern
+  - Line: 48
+
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `name_field`
+  - Found name_field pattern
+  - Line: 48
+
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `name_field`
+  - Found name_field pattern
+  - Line: 49
+
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `name_field`
+  - Found name_field pattern
+  - Line: 49
+
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_data_connector_example.py**
   - Type: `personal_name`
   - Contains personal names: max
@@ -400,388 +460,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/UPDATED_COMPLETION_PLAN.md**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/consciousness_mapper.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/predictive_engine.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/entanglement_matrix.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/future_predictor.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/echo_detector.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/coherence_validator.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/trauma_archaeologist.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/future_echo.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/reality_coherence.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/quantum_consciousness_engine.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/void_analyzer.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/quantum_profile_structures.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/entanglement_detector.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/core/void_detector.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/tiktok_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 191
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/tiktok_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 192
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/tiktok_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 198
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/tiktok_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 199
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/tiktok_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 205
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/facebook_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 155
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/facebook_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 156
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/facebook_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 277
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/instagram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 164
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/instagram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 321
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/instagram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 489
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/instagram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 537
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/grindr_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 177
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/grindr_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 184
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/grindr_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 191
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/grindr_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 265
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/grindr_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 407
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/telegram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 134
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/telegram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 135
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/telegram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 136
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/telegram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 176
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/telegram_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 177
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/slack_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 225
-
-- **DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/twitter_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 142
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/twitter_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 143
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/twitter_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 204
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/twitter_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 346
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/twitter_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 347
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/google_connector.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/spotify_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 192
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/spotify_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 193
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/discord_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 154
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/discord_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 451
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/discord_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 478
-
-- **DigitalTwin/cognilink/pipeline/connectors/ios_backup_connector.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: backup
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/ios_backup_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 237
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/ios_backup_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 238
-
-- **DigitalTwin/cognilink/pipeline/connectors/android_backup_connector.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: backup
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/linkedin_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 184
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/linkedin_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 185
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/linkedin_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 236
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/linkedin_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 237
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/linkedin_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 285
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/reddit_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 179
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/reddit_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 186
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/reddit_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 198
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/reddit_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 488
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/reddit_connector.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 565
-
-- **DigitalTwin/cognilink/pipeline/connectors/__pycache__/message_connector.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
-
-- **DigitalTwin/cognilink/pipeline/connectors/__pycache__/android_backup_connector.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: backup
-
-- **DigitalTwin/cognilink/pipeline/connectors/__pycache__/ios_backup_connector.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: backup
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/interface/web.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/interface/query.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/interface/visualize.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/cognilink/interface/export.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: export
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/interface/reports.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/cognilink/interface/__pycache__/export.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: export
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/analysis/patterns.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/analysis/topics.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/cognilink/analysis/relationships.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
-
-- **DigitalTwin/cognilink/analysis/__pycache__/relationships.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 126
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 126
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 127
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 127
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `phone_number`
-  - Found phone_number pattern
-  - Line: 128
-
-- **DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
-
-- **DigitalTwin/cognilink/tests/unit/__pycache__/test_relationships.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/advanced-data-analysis-twin/core/utils.py**
   - Type: `personal_name`
@@ -799,19 +477,7 @@
   - Type: `suspicious_filename`
   - Filename matches suspicious pattern: personal
 
-- **DigitalTwin/advanced-data-analysis-twin/tests/digital_twin/personality/__pycache__**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
-
-- **DigitalTwin/advanced-data-analysis-twin/tests/digital_twin/personality/__pycache__/test_personality_engine.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
 - **DigitalTwin/advanced-data-analysis-twin/tests/digital_twin/conversation/test_conversation_engine.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: conversation
-
-- **DigitalTwin/advanced-data-analysis-twin/tests/digital_twin/conversation/__pycache__/test_conversation_engine.cpython-312.pyc**
   - Type: `suspicious_filename`
   - Filename matches suspicious pattern: conversation
 
@@ -890,10 +556,6 @@
   - Type: `suspicious_directory`
   - Directory matches suspicious pattern: personal
 
-- **DigitalTwin/advanced-data-analysis-twin/digital_twin/personality/__pycache__**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
-
 - **DigitalTwin/advanced-data-analysis-twin/digital_twin/personality/extractors**
   - Type: `suspicious_directory`
   - Directory matches suspicious pattern: personal
@@ -917,10 +579,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/advanced-data-analysis-twin/digital_twin/personality/extractors/consumption.py**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **DigitalTwin/advanced-data-analysis-twin/digital_twin/personality/extractors/__pycache__**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/advanced-data-analysis-twin/digital_twin/adapters/consciousness_mapper.py**
   - Type: `personal_name`
@@ -1116,14 +774,6 @@
   - Type: `personal_name`
   - Contains personal names: max
 
-- **DigitalTwin/integrated_system/analysis/cognitive/__pycache__/personality.cpython-311.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
-- **DigitalTwin/integrated_system/analysis/cognitive/__pycache__/personality.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/analysis/communication/patterns.py**
   - Type: `personal_name`
   - Contains personal names: max
@@ -1139,14 +789,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/analysis/communication/relationships.py**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **DigitalTwin/integrated_system/analysis/communication/__pycache__/relationships.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
-
-- **DigitalTwin/integrated_system/analysis/communication/__pycache__/relationships.cpython-311.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: relationships?
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/web/fastapi_integration.py**
   - Type: `name_field`
@@ -1177,14 +819,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/data_processing/connectors/messages.py**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **DigitalTwin/integrated_system/data_processing/connectors/__pycache__/messages.cpython-311.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
-
-- **DigitalTwin/integrated_system/data_processing/connectors/__pycache__/messages.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/docs/api_documentation.md**
   - Type: `name_field`
@@ -1235,10 +869,6 @@
   - Type: `personal_name`
   - Contains personal names: max
 
-- **DigitalTwin/integrated_system/digital_twin/personality/__pycache__**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
-
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_system/examples/data_import_example.py**
   - Type: `name_field`
   - Found name_field pattern
@@ -1269,311 +899,6 @@
   - Found name_field pattern
   - Line: 75
 
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/core/utils.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/mindmirror/core/message_loader.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/core/message_loader.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/mindmirror/core/__pycache__/message_loader.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: messages?(?:_complete)?
-
-- **DigitalTwin/mindmirror/models/cognitive/personality.py**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/personality.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 84
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/personality.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 89
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/personality.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 94
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/personality.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/values.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 281
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/values.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 286
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/values.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 291
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/values.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/cognitive_model.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 57
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/cognitive_model.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 62
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/cognitive_model.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/memory.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 56
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/memory.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 61
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/memory.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/decision.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 162
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/decision.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 167
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/decision.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 172
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/cognitive/decision.py**
-  - Type: `personal_name`
-  - Contains personal names: max, mom
-
-- **DigitalTwin/mindmirror/models/cognitive/__pycache__/personality.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/language/style_model.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 82
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/language/style_model.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 87
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/language/style_model.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 92
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/mindmirror/models/language/style_model.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/shared/core/base_service.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 111
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/memory/system_enhanced.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **DigitalTwin/ct_modules/digital_twin/personality**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
-
-- **DigitalTwin/ct_modules/digital_twin/personality/__pycache__**
-  - Type: `suspicious_directory`
-  - Directory matches suspicious pattern: personal
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/adapters/consciousness_mapper.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/adapters/predictive_engine.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/adapters/entanglement_matrix.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/examples/cognitive_twin_integration_example.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 17
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 18
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 36
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 37
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 66
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/db/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 19
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/LUMOS/app/db/models/user.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 21
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/VERVE/service.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/VERVE/app/services.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/service.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/services.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 208
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 216
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 224
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 237
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 245
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/improvement.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evolution.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 280
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evolution.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 287
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evolution.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 294
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evolution.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 301
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evolution.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 308
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/evaluation.py**
-  - Type: `personal_name`
-  - Contains personal names: max
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/insights.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 355
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/insights.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 369
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/insights.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 384
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/insights.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 398
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/training.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 369
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/training.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 379
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/app/routers/training.py**
-  - Type: `name_field`
-  - Found name_field pattern
-  - Line: 389
-
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/src/cognitive_twin/pipeline/ingest.py**
   - Type: `personal_name`
   - Contains personal names: max
@@ -1593,10 +918,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/src/cognitive_twin/pipeline/analyze.py**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **DigitalTwin/src/cognitive_twin/pipeline/__pycache__/export.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: export
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/src/cognitive_twin/core/utils.py**
   - Type: `personal_name`
@@ -1621,14 +942,6 @@
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/src/cognitive_twin/memory/conversation_memory.py**
   - Type: `personal_name`
   - Contains personal names: max
-
-- **DigitalTwin/src/cognitive_twin/memory/__pycache__/conversation_memory.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: conversation
-
-- **DigitalTwin/src/cognitive_twin/memory/__pycache__/personality_memory.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/src/cognitive_twin/config/ai_config.py**
   - Type: `personal_name`
@@ -1658,10 +971,6 @@
   - Type: `suspicious_filename`
   - Filename matches suspicious pattern: conversation
 
-- **DigitalTwin/src/cognitive_twin/realtime/__pycache__/live_conversation.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: conversation
-
 - **DigitalTwin/src/cognitive_twin/ai/conversation_ai.py**
   - Type: `suspicious_filename`
   - Filename matches suspicious pattern: conversation
@@ -1682,15 +991,7 @@
   - Type: `personal_name`
   - Contains personal names: max
 
-- **DigitalTwin/src/cognitive_twin/ai/__pycache__/conversation_ai.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: conversation
-
-- **DigitalTwin/src/cognitive_twin/ai/__pycache__/personality_ai.cpython-312.pyc**
-  - Type: `suspicious_filename`
-  - Filename matches suspicious pattern: personal
-
-### MEDIUM (142)
+### MEDIUM (80)
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/tools/pii_scan.py**
   - Type: `apple_service`
@@ -1746,31 +1047,6 @@
   - Type: `email`
   - Found email pattern
   - Line: 333
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 3583
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 3587
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 3592
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 3597
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/docs/PII_SCAN_REPORT.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 3602
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/fixtures/demo_medium.json**
   - Type: `email`
@@ -1897,6 +1173,16 @@
   - Found email pattern
   - Line: 39
 
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `email`
+  - Found email pattern
+  - Line: 48
+
+- **/Users/nicholastoledo/CascadeProjects/AegisTwin/aegistwin/demos/runner.py**
+  - Type: `email`
+  - Found email pattern
+  - Line: 49
+
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/integrated_data_connector_example.py**
   - Type: `email`
   - Found email pattern
@@ -1916,276 +1202,6 @@
   - Type: `apple_service`
   - Found apple_service pattern
   - Line: 336
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_omega/README.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 443
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/setup.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 12
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 42
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 42
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 443
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 445
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/message_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 448
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/ios_backup_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 153
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/pipeline/connectors/ios_backup_connector.py**
-  - Type: `apple_service`
-  - Found apple_service pattern
-  - Line: 153
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/conftest.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 71
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/conftest.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 72
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/conftest.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 79
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/conftest.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 80
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 40
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 41
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 48
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 49
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/test_core.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 56
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_processors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 54
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_processors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 57
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_processors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 135
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_processors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 136
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_topics.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 139
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_topics.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 140
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_topics.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 147
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_topics.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 148
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_topics.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 193
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_patterns.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 55
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_patterns.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 56
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_patterns.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 62
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_patterns.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 63
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_patterns.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 92
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 55
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 56
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 63
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 64
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_relationships.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 82
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_connectors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 101
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_connectors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 101
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_connectors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 111
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_connectors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 112
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/unit/test_connectors.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 118
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_pipeline_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 64
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_pipeline_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 65
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_analysis_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 21
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_analysis_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 22
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_analysis_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 28
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_analysis_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 29
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_analysis_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 119
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_interface_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 66
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_interface_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 66
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_interface_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 72
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_interface_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 72
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/cognilink/tests/integration/test_interface_integration.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 76
 
 - **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/advanced-data-analysis-twin/data_processing/README.md**
   - Type: `email`
@@ -2376,31 +1392,6 @@
   - Type: `email`
   - Found email pattern
   - Line: 115
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/README.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 461
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/digital_twin/setup.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 13
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/VERVE/tests/test_service.py**
-  - Type: `email`
-  - Found email pattern
-  - Line: 54
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/CONTRIBUTING.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 20
-
-- **/Users/nicholastoledo/CascadeProjects/AegisTwin/DigitalTwin/ct_modules/INFINITY/CONTRIBUTING.md**
-  - Type: `email`
-  - Found email pattern
-  - Line: 20
 
 
 ---
