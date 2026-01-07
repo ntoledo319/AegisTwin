@@ -4,7 +4,7 @@
 # ============================================
 # PII QUARANTINE - NEVER COMMIT THESE
 # ============================================
-graveyard/PII/
+graveyard/
 *.sqlite
 *.db
 *.sqlite3
@@ -12,7 +12,6 @@ graveyard/PII/
 *messages*.json
 *conversation*.txt
 *contact*.json
-*jessica*
 *raw_data*
 summarized_conversations/
 chat_sessions/
@@ -98,3 +97,8 @@ cache/
 # Reports and results (regenerated)
 reports/
 results/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.coverage

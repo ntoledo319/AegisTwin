@@ -1,0 +1,64 @@
+# AegisTwin Docker Ignore
+# Files and directories to exclude from Docker builds
+#
+# AI-GENERATED 2026-01-07
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.eggs
+*.egg-info
+*.egg
+
+# Virtual environments
+venv
+.venv
+env
+.env
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build
+dist
+*.whl
+
+# Test artifacts
+.pytest_cache
+.coverage
+htmlcov
+.tox
+.nox
+
+# Documentation
+docs/_build
+
+# Runtime artifacts
+runs/
+logs/
+*.log
+
+# Benchmark results
+benchmarks/results/
+
+# Local config
+*.local.yaml
+*.local.yml
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

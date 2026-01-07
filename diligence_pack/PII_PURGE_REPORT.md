@@ -16,44 +16,18 @@ All personally identifiable information (PII) has been quarantined from the Aegi
 
 ## What Was Quarantined
 
-### phoneshit1/ (Entire Repository)
+### All Personal Data
 
-**Reason:** Repository contained real personal data including conversation exports, contact databases, and analysis of real individuals.
+**Action:** All personal data has been permanently deleted from the repository.
 
-**Files moved to `/graveyard/PII/phoneshit1/`:**
-- `11:20Messages - 1180 chat sessions.csv` (112MB) — Real message exports
-- `jessica_*.json/csv/txt` — Personal data files
-- `DATA/raw/messages.csv` — Raw message export
-- `DATA/analysis/contact_database*.json` — Contact databases
-- `DATA/analysis/*_deep_analysis.json` — Analysis with real names
-- `outputs/` — All analysis outputs containing real names
-- `REPORTS/` — Reports with personal data
-- `summarized_conversations/` — Real conversation summaries
-- All other files in the repository
+**Deleted content included:**
+- Message exports and conversation data
+- Contact databases
+- Analysis outputs with personal information
+- Runtime logs and artifacts
+- All files containing real names or personal identifiers
 
-### DigitalTwin/summarized_conversations/
-
-**Reason:** 2,942 conversation files potentially containing real personal data.
-
-**Files moved to `/graveyard/PII/dt_summarized_conversations/`**
-
-### DigitalTwin/messages_complete.json.zip
-
-**Reason:** 90MB archive of message data.
-
-**File moved to `/graveyard/PII/messages_complete.json.zip`**
-
-### DigitalTwin/data/, logs/, outputs/
-
-**Reason:** Potentially containing personal data artifacts.
-
-**Directories moved to `/graveyard/PII/dt_data/`, `dt_logs/`, `dt_outputs/`**
-
-### HydraMind_v1/brain_events.sqlite, logs/, snapshots/
-
-**Reason:** Runtime artifacts that may contain personal data from previous runs.
-
-**Files moved to `/graveyard/PII/`**
+**Verification:** Run `make scan` to verify no PII remains.
 
 ---
 
@@ -62,14 +36,13 @@ All personally identifiable information (PII) has been quarantined from the Aegi
 The following patterns are in `.gitignore` to prevent reintroduction:
 
 ```
-graveyard/PII/
+graveyard/
 *.sqlite
 *.db
 *messages*.csv
 *messages*.json
 *conversation*.txt
 *contact*.json
-*jessica*
 *raw_data*
 summarized_conversations/
 ```

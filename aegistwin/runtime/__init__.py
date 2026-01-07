@@ -1,12 +1,18 @@
 """
 AegisTwin Runtime Module
 
-Thin adapter over HydraMind runtime providing event-driven agent execution.
+Core runtime module providing event-driven agent execution.
 
-@ai_prompt: Use AegisTwinRuntime for pipeline execution. It wraps HydraMind.
+@ai_prompt: Use AegisTwinRuntime for pipeline execution.
 @context_boundary: aegistwin/runtime
 """
 
-from aegistwin.runtime.core import AegisTwinRuntime
+from aegistwin.runtime.core import AegisTwinRuntime, EventBus
+from aegistwin.runtime.async_core import AsyncAegisTwinRuntime, AsyncEventBus
 
-__all__ = ["AegisTwinRuntime"]
+__all__ = [
+    "AegisTwinRuntime",
+    "EventBus",
+    "AsyncAegisTwinRuntime",
+    "AsyncEventBus",
+]

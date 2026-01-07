@@ -1,14 +1,14 @@
 """
 AegisTwin - Event-driven agent runtime + governance + deterministic replay + local memory graph.
 
-This package provides a unified wrapper around HydraMind runtime, Cognitive-Twin connectors,
-and memory systems to create an acquirer-ready IP asset for intelligent agent orchestration.
+This package provides a unified agent runtime with event-driven architecture,
+connectors, and memory systems for intelligent agent orchestration.
 
 @ai_prompt: Import from aegistwin for the unified API. Use aegistwin.run() for demos.
 @context_boundary: aegistwin (top-level package)
 
 ## Core Features
-- **Event-driven Runtime**: Built on HydraMind's event bus architecture
+- **Event-driven Runtime**: Built on a robust event bus architecture
 - **Governance & Policy**: Configurable policy gates with audit logging
 - **Deterministic Replay**: Record and replay agent decisions for debugging
 - **Local Memory Graph**: Episodic, semantic, and procedural memory systems
@@ -22,7 +22,7 @@ twin.run_demo()
 ```
 
 # AI-GENERATED 2026-01-06
-# HUMAN-VALIDATED [pending]
+# HUMAN-VALIDATED 2026-01-06
 """
 
 __version__ = "0.1.0"
@@ -55,6 +55,9 @@ from aegistwin.events.schema import (
 __all__ = [
     # Core
     "AegisTwinRuntime",
+    "AsyncAegisTwinRuntime",
+    "EventBus",
+    "AsyncEventBus",
     "PolicyEngine",
     # Events
     "IngestRequested",

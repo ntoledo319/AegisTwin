@@ -19,10 +19,7 @@ This document describes how PII (Personally Identifiable Information) is handled
 ```
 graveyard/
 ├── PII/                    # Quarantined personal data (never committed)
-│   ├── phoneshit1/         # Entire phoneshit repo (real conversation data)
-│   ├── dt_summarized_conversations/
-│   ├── messages_complete.json.zip
-│   └── ...
+│   └── [quarantined data]  # All PII data removed
 └── RETIRED_CODE/           # Deprecated code (may be committed for reference)
 ```
 
@@ -30,7 +27,7 @@ graveyard/
 The `.gitignore` file includes patterns to prevent accidental reintroduction:
 - `graveyard/PII/`
 - `*messages*.csv`, `*conversation*.txt`
-- `*jessica*`, `*contact*.json`
+- `*contact*.json`
 - `*.sqlite`, `*.db`
 
 ---

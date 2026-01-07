@@ -1,0 +1,28 @@
+# AegisTwin Helm Chart
+# Kubernetes deployment configuration
+#
+# AI-GENERATED 2026-01-07
+
+apiVersion: v2
+name: aegistwin
+description: Event-driven agent runtime with governance and deterministic replay
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+
+keywords:
+  - agent
+  - runtime
+  - governance
+  - replay
+  - ai
+
+home: https://github.com/aegistwin/aegistwin
+sources:
+  - https://github.com/aegistwin/aegistwin
+
+maintainers:
+  - name: AegisTwin Team
+    email: team@aegistwin.io
+
+dependencies: []

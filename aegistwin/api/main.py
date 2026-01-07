@@ -9,12 +9,20 @@ REST API for AegisTwin operations including health checks, demos, queries, and r
 # AI-GENERATED 2026-01-06
 """
 
-from typing import Any, Dict, Optional
-from fastapi import FastAPI, HTTPException
+from typing import Any, Dict, List, Optional
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect, Query
+from fastapi.responses import PlainTextResponse
 from pydantic import BaseModel
 
 from aegistwin.runtime.core import AegisTwinRuntime
+from aegistwin.runtime.async_core import AsyncAegisTwinRuntime
 from aegistwin.demos import run_demo, run_all_demos
+from aegistwin.api.websocket import (
+    manager as ws_manager,
+    handle_websocket_connection,
+    websocket_event_handler,
+)
+from aegistwin.observability.metrics import generate_prometheus_metrics
 
 
 class IngestRequest(BaseModel):
@@ -113,6 +121,38 @@ def create_app() -> FastAPI:
     async def list_policies() -> Dict[str, Any]:
         """List all policies."""
         return {"policies": runtime.policy_engine.list_policies()}
+    
+    @app.get("/metrics", response_class=PlainTextResponse)
+    async def metrics() -> str:
+        """Prometheus metrics endpoint."""
+        return generate_prometheus_metrics()
+    
+    @app.websocket("/ws/events")
+    async def websocket_events(
+        websocket: WebSocket,
+        event_types: Optional[str] = Query(None, description="Comma-separated event types"),
+    ):
+        """
+        WebSocket endpoint for real-time event streaming.
+        
+        Query params:
+            event_types: Comma-separated list of event types to filter
+        """
+        types_list = event_types.split(",") if event_types else None
+        await handle_websocket_connection(websocket, types_list)
+    
+    @app.websocket("/ws/events/{run_id}")
+    async def websocket_events_for_run(
+        websocket: WebSocket,
+        run_id: str,
+    ):
+        """WebSocket endpoint for events from a specific run."""
+        await handle_websocket_connection(websocket, run_id=run_id)
+    
+    @app.get("/ws/info")
+    async def websocket_info() -> Dict[str, Any]:
+        """Get information about active WebSocket connections."""
+        return ws_manager.get_connection_info()
     
     return app
 

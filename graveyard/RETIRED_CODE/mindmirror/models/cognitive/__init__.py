@@ -1,1 +1,0 @@
-"""Cognitive models for MindMirror."""

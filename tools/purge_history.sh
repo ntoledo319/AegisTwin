@@ -41,16 +41,9 @@ echo ""
 echo "⚠️  WARNING: This will permanently rewrite git history!"
 echo ""
 echo "The following paths will be REMOVED from all commits:"
-echo "  - phoneshit1/"
-echo "  - DigitalTwin/summarized_conversations/"
-echo "  - DigitalTwin/messages_complete.json.zip"
-echo "  - DigitalTwin/data/"
-echo "  - DigitalTwin/logs/"
-echo "  - DigitalTwin/outputs/"
-echo "  - HydraMind_v1/brain_events.sqlite"
-echo "  - HydraMind_v1/logs/"
-echo "  - HydraMind_v1/snapshots/"
-echo "  - Any file matching: *jessica*, *contact*, *messages*.csv"
+echo "  - legacy/ (all legacy directories)"
+echo "  - graveyard/ (quarantined data)"
+echo "  - Any file matching: *contact*, *messages*.csv"
 echo ""
 echo "This operation CANNOT be undone."
 echo ""
@@ -70,22 +63,14 @@ echo "Running git-filter-repo..."
 
 # Paths to remove completely
 git filter-repo --force \
-    --path phoneshit1/ \
-    --path DigitalTwin/summarized_conversations/ \
-    --path DigitalTwin/messages_complete.json.zip \
-    --path DigitalTwin/data/ \
-    --path DigitalTwin/logs/ \
-    --path DigitalTwin/outputs/ \
-    --path HydraMind_v1/brain_events.sqlite \
-    --path HydraMind_v1/logs/ \
-    --path HydraMind_v1/snapshots/ \
+    --path legacy/ \
+    --path graveyard/ \
     --invert-paths
 
 # Remove files by pattern
 echo ""
 echo "Removing files matching PII patterns..."
 git filter-repo --force \
-    --path-glob '*jessica*' \
     --path-glob '*contact_database*' \
     --path-glob '*messages*.csv' \
     --path-glob '*conversation*.txt' \

@@ -1,0 +1,18 @@
+# Grafana Dashboard Provisioning
+# Auto-provision dashboards on startup
+#
+# AI-GENERATED 2026-01-07
+
+apiVersion: 1
+
+providers:
+  - name: 'AegisTwin'
+    orgId: 1
+    folder: 'AegisTwin'
+    folderUid: ''
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards

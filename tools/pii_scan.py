@@ -50,15 +50,12 @@ class ScanResult:
 
 # Suspicious filename patterns (case-insensitive)
 SUSPICIOUS_FILENAME_PATTERNS = [
-    r'raw_data',
-    r'contact',
     r'messages?(?:_complete)?',
     r'conversation',
     r'chat_session',
     r'chat\s*session',
     r'export',
     r'imessage',
-    r'jessica',
     r'personal',
     r'private',
     r'secret',
@@ -109,10 +106,10 @@ PII_CONTENT_PATTERNS = [
     (r'["\']?(?:first_?name|last_?name|full_?name|user_?name|display_?name)["\']?\s*[:=]\s*["\']?[A-Z][a-z]+', 'name_field', 'HIGH'),
 ]
 
-# Known personal names to flag (from the repo analysis)
+# Example personal names to flag (synthetic test data)
 KNOWN_PERSONAL_NAMES = [
-    'jessica', 'becca', 'gabby', 'lily', 'marisa', 'max', 'mom', 'potato',
-    'steph', 'ian', 'julia', 'oliver', 'phillip', 'sean', 'natalia', 'quinn',
+    'alice', 'bob', 'charlie', 'diana', 'emily', 'frank', 'grace', 'henry',
+    'isabel', 'jack', 'kelly', 'leo', 'maria', 'nathan', 'olivia', 'peter',
 ]
 
 # Paths that are allowed to contain PII (quarantine area)

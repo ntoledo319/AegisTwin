@@ -1,0 +1,154 @@
+# AegisTwin Helm Values
+# Default configuration values
+#
+# AI-GENERATED 2026-01-07
+
+# ============================================
+# Replica Configuration
+# ============================================
+replicaCount: 1
+
+# ============================================
+# Image Configuration
+# ============================================
+image:
+  repository: aegistwin
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+# ============================================
+# Service Account
+# ============================================
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+# ============================================
+# Pod Configuration
+# ============================================
+podAnnotations: {}
+
+podSecurityContext:
+  fsGroup: 1000
+
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  capabilities:
+    drop:
+      - ALL
+  readOnlyRootFilesystem: false
+
+# ============================================
+# Service Configuration
+# ============================================
+service:
+  type: ClusterIP
+  port: 8000
+
+# ============================================
+# Ingress Configuration
+# ============================================
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: aegistwin.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+  #  - secretName: aegistwin-tls
+  #    hosts:
+  #      - aegistwin.local
+
+# ============================================
+# Resource Limits
+# ============================================
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# ============================================
+# Autoscaling
+# ============================================
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+# ============================================
+# Node Selector & Tolerations
+# ============================================
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+# ============================================
+# AegisTwin Configuration
+# ============================================
+config:
+  runsDir: /app/runs
+  logLevel: INFO
+  enableReplay: true
+  enableAudit: true
+  policyMode: enforce
+  maxEventsPerRun: 10000
+
+# ============================================
+# Observability
+# ============================================
+observability:
+  tracing:
+    enabled: false
+    otlpEndpoint: ""
+  metrics:
+    enabled: true
+    path: /metrics
+
+# ============================================
+# Persistence
+# ============================================
+persistence:
+  enabled: false
+  storageClass: ""
+  accessMode: ReadWriteOnce
+  size: 1Gi
+  annotations: {}
+
+# ============================================
+# Health Probes
+# ============================================
+livenessProbe:
+  httpGet:
+    path: /health
+    port: http
+  initialDelaySeconds: 10
+  periodSeconds: 30
+  timeoutSeconds: 10
+  failureThreshold: 3
+
+readinessProbe:
+  httpGet:
+    path: /health
+    port: http
+  initialDelaySeconds: 5
+  periodSeconds: 10
+  timeoutSeconds: 5
+  failureThreshold: 3

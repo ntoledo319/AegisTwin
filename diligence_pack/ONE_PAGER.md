@@ -114,7 +114,11 @@ diligence_pack/      # This document, SBOM, PII report
 
 ## Contact
 
-For acquisition inquiries, technical due diligence, or demo walkthrough.
+**For acquisition inquiries, technical due diligence, or demo walkthrough:**
+
+- **Email:** contact@aegistwin.com
+- **Repository:** https://github.com/aegistwin/aegistwin
+- **Documentation:** https://github.com/aegistwin/aegistwin#readme
 
 ---
 

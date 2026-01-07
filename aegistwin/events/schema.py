@@ -44,6 +44,8 @@ class EventType(str, Enum):
     REPLAY_STARTED = "replay.started"
     REPLAY_COMPLETED = "replay.completed"
     POLICY_DENIED = "policy.denied"
+    LLM_REQUEST = "llm.request"
+    LLM_RESPONSE = "llm.response"
 
 
 class BaseEvent(BaseModel):
@@ -302,3 +304,45 @@ class PolicyDenied(BaseEvent):
     policy_id: str
     reason: str
     suggested_action: Optional[str] = None
+
+
+class LLMRequestEvent(BaseEvent):
+    """
+    Event emitted when an LLM request is made.
+    
+    Attributes:
+        provider: LLM provider name (openai, anthropic, mock)
+        model: Model identifier
+        prompt_preview: First 200 chars of prompt (for audit, no PII)
+        max_tokens: Maximum tokens requested
+        temperature: Sampling temperature
+    """
+    event_type: EventType = EventType.LLM_REQUEST
+    provider: str
+    model: str
+    prompt_preview: str = ""
+    max_tokens: int = 1000
+    temperature: float = 0.7
+
+
+class LLMResponseEvent(BaseEvent):
+    """
+    Event emitted when an LLM response is received.
+    
+    Attributes:
+        provider: LLM provider name
+        model: Model used
+        input_tokens: Number of input tokens
+        output_tokens: Number of output tokens
+        latency_ms: Response latency in milliseconds
+        finish_reason: Why generation stopped
+        request_event_id: ID of the corresponding request event
+    """
+    event_type: EventType = EventType.LLM_RESPONSE
+    provider: str
+    model: str
+    input_tokens: int = 0
+    output_tokens: int = 0
+    latency_ms: float = 0.0
+    finish_reason: str = "stop"
+    request_event_id: Optional[str] = None

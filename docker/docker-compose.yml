@@ -1,0 +1,109 @@
+# AegisTwin Docker Compose Configuration
+# Full stack with observability services
+#
+# @ai_prompt: Run with `docker-compose up --build`
+# @context_boundary: docker/docker-compose.yml
+#
+# AI-GENERATED 2026-01-07
+
+version: '3.8'
+
+services:
+  # ============================================
+  # AegisTwin Application
+  # ============================================
+  aegistwin:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: aegistwin
+    ports:
+      - "8000:8000"
+    environment:
+      - AEGISTWIN_RUNS_DIR=/app/runs
+      - AEGISTWIN_LOG_LEVEL=INFO
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+      - OTEL_SERVICE_NAME=aegistwin
+    volumes:
+      - aegistwin-runs:/app/runs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - aegistwin-net
+    restart: unless-stopped
+
+  # ============================================
+  # Jaeger (Tracing)
+  # ============================================
+  jaeger:
+    image: jaegertracing/all-in-one:1.51
+    container_name: aegistwin-jaeger
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "4317:4317"    # OTLP gRPC
+      - "4318:4318"    # OTLP HTTP
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    networks:
+      - aegistwin-net
+    restart: unless-stopped
+
+  # ============================================
+  # Prometheus (Metrics)
+  # ============================================
+  prometheus:
+    image: prom/prometheus:v2.47.0
+    container_name: aegistwin-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ../observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.enable-lifecycle'
+    networks:
+      - aegistwin-net
+    restart: unless-stopped
+
+  # ============================================
+  # Grafana (Dashboards)
+  # ============================================
+  grafana:
+    image: grafana/grafana:10.1.0
+    container_name: aegistwin-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ../observability/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ../observability/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    networks:
+      - aegistwin-net
+    restart: unless-stopped
+    depends_on:
+      - prometheus
+
+# ============================================
+# Networks
+# ============================================
+networks:
+  aegistwin-net:
+    driver: bridge
+
+# ============================================
+# Volumes
+# ============================================
+volumes:
+  aegistwin-runs:
+  prometheus-data:
+  grafana-data:

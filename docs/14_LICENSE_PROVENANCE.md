@@ -36,23 +36,19 @@ SOFTWARE.
 
 ## Source Code Provenance
 
-### Original Repositories
-
-AegisTwin consolidates code from three source repositories:
-
-| Repository | Usage | License |
-|------------|-------|---------|
-| HydraMind | Runtime spine (kept intact) | MIT |
-| Cognitive-Twin | Connectors + KG + Memory (selected parts) | MIT |
-| phoneshit1 | Retired (PII hazard) | N/A |
-
 ### Code Attribution
 
-- **Runtime Core** (`aegistwin/runtime/`) — Adapted from HydraMind
-- **Connectors** (`aegistwin/modules/connectors/`) — Adapted from Cognitive-Twin integrated_system
-- **Memory** (`aegistwin/modules/memory/`) — Adapted from Cognitive-Twin advanced-data-analysis-twin
-- **Graph** (`aegistwin/modules/graph/`) — Adapted from Cognitive-Twin integrated_system
-- **Events, Governance, API, CLI, Demos** — Original AegisTwin code
+All code in the `aegistwin/` package is original AegisTwin implementation:
+
+- **Runtime Core** (`aegistwin/runtime/`) — Event-driven runtime engine
+- **Connectors** (`aegistwin/modules/connectors/`) — Data connector implementations
+- **Memory** (`aegistwin/modules/memory/`) — Memory system implementations
+- **Graph** (`aegistwin/modules/graph/`) — Knowledge graph operations
+- **Events** (`aegistwin/events/`) — Typed Pydantic event schemas
+- **Governance** (`aegistwin/governance/`) — Policy engine and audit
+- **API** (`aegistwin/api/`) — FastAPI control plane
+- **CLI** (`aegistwin/cli.py`) — Command-line interface
+- **Demos** (`aegistwin/demos/`) — Demonstration scenarios
 
 ---
 

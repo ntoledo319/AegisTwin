@@ -1,0 +1,14 @@
+# AegisTwin ConfigMap
+# AI-GENERATED 2026-01-07
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "aegistwin.fullname" . }}-config
+  labels:
+    {{- include "aegistwin.labels" . | nindent 4 }}
+data:
+  AEGISTWIN_ENABLE_REPLAY: {{ .Values.config.enableReplay | quote }}
+  AEGISTWIN_ENABLE_AUDIT: {{ .Values.config.enableAudit | quote }}
+  AEGISTWIN_POLICY_MODE: {{ .Values.config.policyMode | quote }}
+  AEGISTWIN_MAX_EVENTS_PER_RUN: {{ .Values.config.maxEventsPerRun | quote }}

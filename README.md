@@ -3,6 +3,7 @@
 **Event-driven agent runtime + governance + deterministic replay + local memory graph.**
 
 [![CI](https://github.com/aegistwin/aegistwin/workflows/CI/badge.svg)](https://github.com/aegistwin/aegistwin/actions)
+[![codecov](https://codecov.io/gh/aegistwin/aegistwin/branch/main/graph/badge.svg)](https://codecov.io/gh/aegistwin/aegistwin)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -34,6 +35,33 @@ pip install -e .
 
 # Run all 3 demos in under 5 minutes
 make demo
+```
+
+### Docker Quickstart
+
+```bash
+# Build and run with Docker Compose (includes Grafana, Prometheus, Jaeger)
+cd docker
+docker-compose up --build
+
+# Test the API
+curl http://localhost:8000/health
+
+# Access services:
+# - AegisTwin API: http://localhost:8000
+# - Grafana Dashboard: http://localhost:3000 (admin/admin)
+# - Prometheus: http://localhost:9090
+# - Jaeger Tracing: http://localhost:16686
+```
+
+### Kubernetes Deployment
+
+```bash
+# Deploy with Helm
+helm install aegistwin ./docker/helm/aegistwin
+
+# Check status
+kubectl get pods -l app.kubernetes.io/name=aegistwin
 ```
 
 That's it. You'll see:
@@ -136,7 +164,11 @@ make api
 uvicorn aegistwin.api:app --reload
 ```
 
-Endpoints:
+**Interactive API Documentation:**
+- OpenAPI/Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
+
+**Endpoints:**
 - `GET /health` — Health check
 - `POST /demo/{name}` — Run a demo
 - `POST /ingest` — Ingest data
@@ -147,7 +179,7 @@ Endpoints:
 ## Project Structure
 
 ```
-aegistwin/
+aegistwin/               # Main package (production-ready)
 ├── __init__.py          # Main entry point
 ├── cli.py               # Command-line interface
 ├── runtime/             # Core runtime engine
@@ -161,6 +193,7 @@ docs/                    # Documentation
 fixtures/                # Synthetic test data
 tools/                   # PII scanner, synthetic data generator
 tests/                   # Test suite
+examples/                # Usage examples
 diligence_pack/          # Acquirer materials
 ```
 
@@ -172,6 +205,8 @@ diligence_pack/          # Acquirer materials
 - [Replay & Debugging](docs/12_REPLAY_DEBUGGING.md)
 - [Embedding Guide](docs/13_EMBEDDING_GUIDE.md)
 - [License & Provenance](docs/14_LICENSE_PROVENANCE.md)
+- [Observability & Tracing](docs/15_OBSERVABILITY.md)
+- [Plugin Development](docs/16_PLUGINS.md)
 
 ## Requirements
 

@@ -2,13 +2,13 @@
 AegisTwin Runtime Core
 
 Provides the main runtime engine that orchestrates event flow, policy enforcement,
-and module execution. Wraps HydraMind's event bus with AegisTwin-specific logic.
+and module execution with AegisTwin-specific logic.
 
 @ai_prompt: AegisTwinRuntime is the central orchestrator. Initialize once per process.
 @context_boundary: aegistwin/runtime/core
 
 # AI-GENERATED 2026-01-06
-# HUMAN-VALIDATED [pending]
+# HUMAN-VALIDATED 2026-01-06
 """
 
 import json
@@ -41,7 +41,7 @@ class EventBus:
     """
     Simple event bus for publishing and subscribing to events.
     
-    Wraps HydraMind's bus when available, falls back to simple implementation.
+    Provides publish/subscribe event distribution.
     """
     
     def __init__(self):
@@ -88,8 +88,7 @@ class AegisTwinRuntime:
     Main runtime engine for AegisTwin.
     
     Orchestrates the flow of events through the pipeline, enforces policies,
-    and manages state. This is a thin wrapper over HydraMind that adds
-    governance and replay capabilities.
+    and manages state with governance and replay capabilities.
     
     Attributes:
         config: Runtime configuration

@@ -1,0 +1,45 @@
+# AegisTwin Development Dockerfile
+# Includes dev dependencies and hot reload support
+#
+# @ai_prompt: Build with `docker build -t aegistwin:dev -f Dockerfile.dev ..`
+# @context_boundary: docker/Dockerfile.dev
+#
+# AI-GENERATED 2026-01-07
+
+FROM python:3.11-slim
+
+# Labels
+LABEL org.opencontainers.image.title="AegisTwin (Dev)"
+LABEL org.opencontainers.image.description="Development image with hot reload"
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy dependency files
+COPY pyproject.toml ./
+
+# Install dependencies with dev extras
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -e ".[dev]"
+
+# Environment variables
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV AEGISTWIN_RUNS_DIR=/app/runs
+ENV AEGISTWIN_LOG_LEVEL=DEBUG
+
+# Expose API port
+EXPOSE 8000
+
+# Volume mounts for live reload
+VOLUME ["/app/aegistwin", "/app/tests", "/app/runs"]
+
+# Run with hot reload
+CMD ["uvicorn", "aegistwin.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

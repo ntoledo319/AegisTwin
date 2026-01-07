@@ -71,6 +71,8 @@ class PolicyEngine:
     Policies are evaluated in priority order. The first matching policy
     determines the outcome. If no policy matches, the default is to allow.
     
+    Supports optional OPA evaluator for enterprise policy-as-code.
+    
     ## Non-Negotiables
     - All policy denials are logged
     - Forbidden modules are never allowed regardless of policy
@@ -88,7 +90,20 @@ class PolicyEngine:
     
     def __init__(self):
         self._policies: List[Policy] = []
+        self._opa_evaluator: Optional[Any] = None
         self._load_default_policies()
+    
+    def set_opa_evaluator(self, evaluator: Any) -> None:
+        """
+        Set an OPA evaluator for policy-as-code support.
+        
+        When set, OPA is used as the primary policy engine,
+        with built-in policies as fallback.
+        
+        Args:
+            evaluator: OPAEvaluator instance
+        """
+        self._opa_evaluator = evaluator
     
     def _load_default_policies(self) -> None:
         """Load default security policies."""
@@ -179,6 +194,15 @@ class PolicyEngine:
         # Check hardcoded forbidden list first
         if resource in self.FORBIDDEN_MODULES:
             return False, f"Module '{resource}' is forbidden"
+        
+        # Try OPA evaluator if available
+        if self._opa_evaluator is not None:
+            try:
+                allowed, reason = self._opa_evaluator.check(action, resource, actor)
+                return allowed, reason
+            except Exception as e:
+                # Fall back to built-in policies on OPA error
+                pass
         
         # Evaluate policies in priority order
         for policy in self._policies:

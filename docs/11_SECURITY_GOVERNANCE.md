@@ -169,12 +169,8 @@ PII_CONTENT_PATTERNS = [
 Suspicious files are moved to `/graveyard/PII/`:
 
 ```
-graveyard/
-├── PII/           # Quarantined personal data (gitignored)
-│   ├── phoneshit1/
-│   ├── conversations/
-│   └── ...
-└── RETIRED_CODE/  # Deprecated code (can be committed)
+graveyard/              # Quarantined data directory (gitignored, deleted)
+└── [all PII removed]   # Directory has been permanently deleted
 ```
 
 ## Replay Security

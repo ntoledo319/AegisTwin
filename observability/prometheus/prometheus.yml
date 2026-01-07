@@ -1,0 +1,41 @@
+# Prometheus Configuration for AegisTwin
+# Scrapes metrics from AegisTwin API
+#
+# AI-GENERATED 2026-01-07
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+# Alertmanager configuration (optional)
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: []
+
+# Rule files (optional)
+rule_files: []
+
+# Scrape configurations
+scrape_configs:
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # AegisTwin application
+  - job_name: 'aegistwin'
+    static_configs:
+      - targets: ['aegistwin:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Optional: Additional targets for scaling
+  # - job_name: 'aegistwin-cluster'
+  #   kubernetes_sd_configs:
+  #     - role: pod
+  #   relabel_configs:
+  #     - source_labels: [__meta_kubernetes_pod_label_app]
+  #       regex: aegistwin
+  #       action: keep

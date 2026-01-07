@@ -1,7 +1,7 @@
 # AegisTwin Makefile
 # Event-driven agent runtime + governance + deterministic replay + local memory graph
 
-.PHONY: help install dev demo test lint clean scan api
+.PHONY: help install dev demo test lint clean scan api benchmark test-integration docker-build docker-run
 
 # Default target
 help:
@@ -49,6 +49,16 @@ test:
 # Quick test (no coverage)
 test-quick:
 	pytest tests/ -v
+
+# Generate coverage report
+coverage:
+	pytest tests/ -v --cov=aegistwin --cov-report=html --cov-report=term-missing
+	@echo "Coverage report generated in htmlcov/index.html"
+
+# Coverage badge
+coverage-badge:
+	pytest tests/ -v --cov=aegistwin --cov-report=xml
+	@echo "Coverage XML generated for badge generation"
 
 # Run linter
 lint:
@@ -103,3 +113,34 @@ docs:
 	@echo "Generating documentation..."
 	@mkdir -p docs
 	@echo "Documentation generation would go here"
+
+# Run benchmarks
+benchmark:
+	python -m benchmarks.run_benchmarks
+
+# Run integration tests
+test-integration:
+	pytest tests/integration -v
+
+# Docker targets
+docker-build:
+	cd docker && docker build -t aegistwin:latest -f Dockerfile ..
+
+docker-run:
+	docker run -p 8000:8000 aegistwin:latest
+
+docker-compose-up:
+	cd docker && docker-compose up --build
+
+docker-compose-down:
+	cd docker && docker-compose down
+
+# Helm targets
+helm-install:
+	helm install aegistwin ./docker/helm/aegistwin
+
+helm-upgrade:
+	helm upgrade aegistwin ./docker/helm/aegistwin
+
+helm-uninstall:
+	helm uninstall aegistwin
