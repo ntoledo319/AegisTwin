@@ -2,10 +2,22 @@
 
 **Event-driven agent runtime + governance + deterministic replay + local memory graph.**
 
-[![CI](https://github.com/aegistwin/aegistwin/workflows/CI/badge.svg)](https://github.com/aegistwin/aegistwin/actions)
-[![codecov](https://codecov.io/gh/aegistwin/aegistwin/branch/main/graph/badge.svg)](https://codecov.io/gh/aegistwin/aegistwin)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tests: 94 passing](https://img.shields.io/badge/tests-94%20passing-brightgreen)](./tests)
+[![Benchmarks: published](https://img.shields.io/badge/benchmarks-published-orange)](./BENCHMARKS.md)
+
+> 📦 **The full production package** (brand assets, sales materials, IP transfer, exclusive license) is available at **[toledotechnologies.com/codebases/aegistwin](https://toledotechnologies.com/codebases/aegistwin)**.
+>
+> This public repo is the source for evaluation and community contributions. The paid package is for buyers who want to ship AegisTwin commercially under their own brand with a clean IP transfer.
+
+---
+
+## Why this exists in public
+
+We're publishing the source so technical buyers can verify what they're getting — read the code, run the [benchmarks](./BENCHMARKS.md), check the [comparison](./COMPARISON.md) vs LangChain/AutoGen/CrewAI — before they commit to the production package.
+
+If you're a developer who finds this useful for personal or research use, take it (MIT). If you're a company shipping it commercially and want IP transfer + exclusive rights, that's the paid path.
 
 ---
 
@@ -182,18 +194,28 @@ uvicorn aegistwin.api:app --reload
 aegistwin/               # Main package (production-ready)
 ├── __init__.py          # Main entry point
 ├── cli.py               # Command-line interface
-├── runtime/             # Core runtime engine
-├── governance/          # Policy engine + audit
-├── events/              # Pydantic event schemas
-├── modules/             # Connectors, pipeline, analysis, graph, memory
 ├── api/                 # FastAPI control plane
-└── demos/               # Buyer demos
+├── connectors/          # Data source connectors
+├── demos/               # Buyer demos
+├── evaluation/          # Agent evaluation framework
+├── events/              # Pydantic event schemas
+├── governance/          # Policy engine + audit
+├── integrations/        # LangChain, CrewAI, AutoGen integrations
+├── modules/             # Pipeline, analysis, graph, memory, LLM
+├── observability/       # OpenTelemetry tracing + metrics
+├── plugins/             # Plugin architecture
+├── runtime/             # Core runtime engine
+├── security/            # Auth, RBAC, encryption
+└── storage/             # PostgreSQL, Redis backends
 
 docs/                    # Documentation
 fixtures/                # Synthetic test data
 tools/                   # PII scanner, synthetic data generator
 tests/                   # Test suite
 examples/                # Usage examples
+benchmarks/              # Performance benchmarks
+observability/           # Grafana + Prometheus configs
+docker/                  # Docker + Helm deployment
 diligence_pack/          # Acquirer materials
 ```
 
